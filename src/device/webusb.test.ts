@@ -10,7 +10,7 @@
  * with a tweak to Buffer.
  */
 import { ConnectionStatus, EVENT_STATUS } from "./device";
-import { USB } from "webusb";
+import { usb } from 'usb';
 import { NullLogging } from "../deployment/default/logging";
 import { MicrobitWebUSBConnection } from "./webusb";
 
@@ -32,7 +32,7 @@ describeDeviceOnly("MicrobitWebUSBConnection (WebUSB supported)", () => {
   beforeAll(() => {
     // Maybe we can move this to a custom jest environment?
     (global as any).navigator = {
-      usb: new USB({}),
+      usb: usb,
     };
   });
 
