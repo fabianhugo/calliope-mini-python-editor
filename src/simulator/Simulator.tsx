@@ -121,7 +121,7 @@ const Simulator = ({
         </Flex>
         <VStack spacing={5} bg="gray.25" ref={simControlsRef}>
           <Box width="100%" pb={1} px={5} maxW="md" minW={minWidth}>
-            <AspectRatio ratio={191.27 / 155.77} width="100%">
+            <AspectRatio ratio={1} width="100%">
               <Box
                 ref={ref}
                 as="iframe"
