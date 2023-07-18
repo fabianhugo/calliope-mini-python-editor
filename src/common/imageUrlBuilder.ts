@@ -10,8 +10,8 @@ export const defaultQuality = 80;
 
 export const imageUrlBuilder = unconfiguredImageUrlBuilder()
   // Hardcoded for now as there's no practical alternative.
-  .projectId("ajwvhvgo")
-  .dataset("apps")
+  .projectId("hmru2910")
+  .dataset("production")
   .auto("format")
   .dpr(window.devicePixelRatio ?? 1)
   .quality(defaultQuality);
