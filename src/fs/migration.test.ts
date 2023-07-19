@@ -21,7 +21,7 @@ describe("parseMigrationFromUrl", () => {
           editor: "python",
           name: "Hearts",
         },
-        source: `from microbit import *\r\ndisplay.show(Image.HEART)`,
+        source: `from calliope_mini import *\r\ndisplay.show(Image.HEART)`,
       },
       postMigrationUrl: "http://localhost/",
     });

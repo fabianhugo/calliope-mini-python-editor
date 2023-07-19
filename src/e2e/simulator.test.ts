@@ -5,16 +5,16 @@
  */
 import { App } from "./app";
 
-const basicTest = "from microbit import *\ndisplay.show(Image.NO)";
+const basicTest = "from calliope_mini import *\ndisplay.show(Image.NO)";
 
 const buttonTest =
-  "from microbit import *\nwhile True:\nif button_a.was_pressed():\ndisplay.show(Image.NO)";
+  "from calliope_mini import *\nwhile True:\nif button_a.was_pressed():\ndisplay.show(Image.NO)";
 
 const gestureTest =
-  "from microbit import *\nwhile True:\nif accelerometer.was_gesture('freefall'):\ndisplay.show(Image.NO)";
+  "from calliope_mini import *\nwhile True:\nif accelerometer.was_gesture('freefall'):\ndisplay.show(Image.NO)";
 
 const sliderTest =
-  "from microbit import *\nwhile True:\nif temperature() == -5:\ndisplay.show(Image.NO)";
+  "from calliope_mini import *\nwhile True:\nif temperature() == -5:\ndisplay.show(Image.NO)";
 
 describe("simulator", () => {
   const app = new App();

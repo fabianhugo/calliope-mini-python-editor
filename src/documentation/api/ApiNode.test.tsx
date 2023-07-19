@@ -64,7 +64,7 @@ describe("getDragContext", () => {
   it("creates the correct dragContext with a micro:bit function", () => {
     const context = getDragContext("microbit.display.clear", "function");
     expect(context.type).toEqual("call");
-    expect(context.code).toEqual("from microbit import *\ndisplay.clear()");
+    expect(context.code).toEqual("from calliope_mini import *\ndisplay.clear()");
   });
 
   it("creates the correct dragContext with an alternative function", () => {
@@ -76,11 +76,11 @@ describe("getDragContext", () => {
   it("creates the correct dragContext with a micro:bit variable", () => {
     const context = getDragContext("microbit.Sound.GIGGLE", "variable");
     expect(context.type).toEqual("example");
-    expect(context.code).toEqual("from microbit import *\nSound.GIGGLE");
+    expect(context.code).toEqual("from calliope_mini import *\nSound.GIGGLE");
 
     const altContext = getDragContext("microbit.Image.HEART", "variable");
     expect(altContext.type).toEqual("example");
-    expect(altContext.code).toEqual("from microbit import *\nImage.HEART");
+    expect(altContext.code).toEqual("from calliope_mini import *\nImage.HEART");
   });
 
   it("creates the correct dragContext with an alternative variable", () => {
@@ -92,7 +92,7 @@ describe("getDragContext", () => {
   it("creates the correct dragContext with a micro:bit class", () => {
     const context = getDragContext("microbit.MicroBitTouchPin", "class");
     expect(context.type).toEqual("example");
-    expect(context.code).toEqual(`from microbit import *\npin0`);
+    expect(context.code).toEqual(`from calliope_mini import *\npin0`);
   });
 
   it("creates the correct dragContext for os.uname", () => {

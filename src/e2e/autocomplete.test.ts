@@ -17,7 +17,7 @@ describe("autocomplete", () => {
 
   it("shows autocomplete as you type", async () => {
     await app.selectAllInEditor();
-    await app.typeInEditor("from microbit import *\ndisplay.s");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.s");
 
     // Initial completions
     await app.findCompletionOptions(["scroll", "set_pixel", "show"]);
@@ -37,14 +37,14 @@ describe("autocomplete", () => {
     // See the boost code in autocompletion.ts
 
     await app.selectAllInEditor();
-    await app.typeInEditor("from microbit import *\ndisplay.show(image");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.show(image");
 
     await app.findCompletionOptions(["Image", "image="]);
   });
 
   it("autocomplete can navigate to API toolkit content", async () => {
     await app.selectAllInEditor();
-    await app.typeInEditor("from microbit import *\ndisplay.sho");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.sho");
 
     await app.findCompletionActiveOption("show(image)");
 
@@ -55,7 +55,7 @@ describe("autocomplete", () => {
 
   it("autocomplete can navigate to Reference toolkit content", async () => {
     await app.selectAllInEditor();
-    await app.typeInEditor("from microbit import *\ndisplay.sho");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.sho");
     await app.findCompletionActiveOption("show(image)");
     await app.followCompletionOrSignatureDocumentionLink("Help");
     await app.findActiveApiEntry("Show", "h3");
@@ -63,7 +63,7 @@ describe("autocomplete", () => {
 
   it("shows signature help after autocomplete", async () => {
     await app.selectAllInEditor();
-    await app.typeInEditor("from microbit import *\ndisplay.sho");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.sho");
     await app.acceptCompletion("show");
 
     await app.findSignatureHelp(showFullSignature);
@@ -81,7 +81,7 @@ describe("autocomplete", () => {
   it("signature can navigate to API toolkit content", async () => {
     await app.selectAllInEditor();
     // The closing bracket is autoinserted.
-    await app.typeInEditor("from microbit import *\ndisplay.show(");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.show(");
 
     await app.findSignatureHelp(showFullSignature);
 
@@ -93,7 +93,7 @@ describe("autocomplete", () => {
   it("signature can navigate to Reference toolkit content", async () => {
     await app.selectAllInEditor();
     // The closing bracket is autoinserted.
-    await app.typeInEditor("from microbit import *\ndisplay.show(");
+    await app.typeInEditor("from calliope_mini import *\ndisplay.show(");
     await app.findSignatureHelp(showFullSignature);
     await app.followCompletionOrSignatureDocumentionLink("Help");
     await app.findActiveApiEntry("Show", "h3");

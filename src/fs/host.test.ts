@@ -132,7 +132,7 @@ describe("DefaultHost", () => {
       files: {
         [MAIN_FILE]: fromByteArray(
           new TextEncoder().encode(
-            "from microbit import *\r\ndisplay.show(Image.HEART)"
+            "from calliope_mini import *\r\ndisplay.show(Image.HEART)"
           )
         ),
       },

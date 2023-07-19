@@ -33,7 +33,7 @@ export const projectFilesToBase64 = (
 };
 
 export const defaultMainFileContent = `# Imports go at the top
-from microbit import *
+from calliope_mini import *
 
 
 # Code in a 'while True:' loop repeats forever

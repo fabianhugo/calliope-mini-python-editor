@@ -55,8 +55,8 @@ describe("edits", () => {
   it("first import from case - wildcard", () => {
     check({
       initial: "",
-      additional: "from microbit import *",
-      expected: "from microbit import *\n\n\n",
+      additional: "from calliope_mini import *",
+      expected: "from calliope_mini import *\n\n\n",
     });
   });
 
@@ -94,9 +94,9 @@ describe("edits", () => {
 
   it("existing import from case - wildcard", () => {
     check({
-      initial: "from microbit import *",
-      additional: "from microbit import *",
-      expected: "from microbit import *",
+      initial: "from calliope_mini import *",
+      additional: "from calliope_mini import *",
+      expected: "from calliope_mini import *",
     });
   });
 
@@ -135,39 +135,39 @@ describe("edits", () => {
   it("combo imports", () => {
     check({
       initial:
-        "from microbit import *\nfrom random import randrange\nimport radio\n",
+        "from calliope_mini import *\nfrom random import randrange\nimport radio\n",
       additional:
-        "from microbit import *\nfrom random import rantint\nimport micropython\n",
+        "from calliope_mini import *\nfrom random import rantint\nimport micropython\n",
       expected:
-        "from microbit import *\nfrom random import randrange, rantint\nimport radio\nimport micropython\n",
+        "from calliope_mini import *\nfrom random import randrange, rantint\nimport radio\nimport micropython\n",
     });
   });
 
   it("non-import content separated and appended", () => {
     check({
-      initial: "from microbit import *",
+      initial: "from calliope_mini import *",
       additional:
-        "from microbit import *\nwhile True:\n    display.scroll('Hello, World')\n",
+        "from calliope_mini import *\nwhile True:\n    display.scroll('Hello, World')\n",
       expected:
-        "from microbit import *\nwhile True:\n    display.scroll('Hello, World')\n",
+        "from calliope_mini import *\nwhile True:\n    display.scroll('Hello, World')\n",
     });
   });
 
   it("non-import content separated and existing content", () => {
     check({
       initial:
-        "from microbit import *\n\nwhile True:\n    display.scroll('Hello, World')\n",
+        "from calliope_mini import *\n\nwhile True:\n    display.scroll('Hello, World')\n",
       additional: "import radio\n\nradio.off()",
       expected:
-        "from microbit import *\nimport radio\n\nradio.off()\nwhile True:\n    display.scroll('Hello, World')\n",
+        "from calliope_mini import *\nimport radio\n\nradio.off()\nwhile True:\n    display.scroll('Hello, World')\n",
     });
   });
 
   it("non-import content before code rather than after imports", () => {
     check({
-      initial: "from microbit import *\n\n\n\nprint('foo')",
+      initial: "from calliope_mini import *\n\n\n\nprint('foo')",
       additional: "print('bar')",
-      expected: "from microbit import *\n\n\n\nprint('bar')\nprint('foo')",
+      expected: "from calliope_mini import *\n\n\n\nprint('bar')\nprint('foo')",
     });
   });
 
@@ -175,42 +175,42 @@ describe("edits", () => {
     check({
       initial: "",
       additional:
-        "from microbit import *\nimport music\n\n\ndisplay.scroll('score', delay=100, loop=True, wait=False)\nmusic.play(music.ODE)\n",
+        "from calliope_mini import *\nimport music\n\n\ndisplay.scroll('score', delay=100, loop=True, wait=False)\nmusic.play(music.ODE)\n",
       expected:
-        "from microbit import *\nimport music\n\n\ndisplay.scroll('score', delay=100, loop=True, wait=False)\nmusic.play(music.ODE)\n",
+        "from calliope_mini import *\nimport music\n\n\ndisplay.scroll('score', delay=100, loop=True, wait=False)\nmusic.play(music.ODE)\n",
     });
   });
 
   it("can insert at first line", () => {
     check({
       line: 1,
-      initial: "from microbit import *\npass",
+      initial: "from calliope_mini import *\npass",
       additional: "print('Hi')",
-      expected: "print('Hi')\nfrom microbit import *\npass",
+      expected: "print('Hi')\nfrom calliope_mini import *\npass",
     });
   });
   it("can insert at last line", () => {
     check({
       line: 3,
-      initial: "from microbit import *\npass",
+      initial: "from calliope_mini import *\npass",
       additional: "print('Hi')",
-      expected: "from microbit import *\npass\nprint('Hi')\n",
+      expected: "from calliope_mini import *\npass\nprint('Hi')\n",
     });
   });
   it("can insert in the middle", () => {
     check({
       line: 2,
-      initial: "from microbit import *\npass",
+      initial: "from calliope_mini import *\npass",
       additional: "print('Hi')",
-      expected: "from microbit import *\nprint('Hi')\npass",
+      expected: "from calliope_mini import *\nprint('Hi')\npass",
     });
   });
   it("can insert beyond the end of the document by adding blank lines", () => {
     check({
       line: 5,
-      initial: "from microbit import *\npass",
+      initial: "from calliope_mini import *\npass",
       additional: "print('Hi')",
-      expected: "from microbit import *\npass\n\n\nprint('Hi')\n",
+      expected: "from calliope_mini import *\npass\n\n\nprint('Hi')\n",
     });
   });
   it("can insert into empty document", () => {
@@ -287,10 +287,10 @@ describe("edits", () => {
     check({
       line: 7,
       initial:
-        "from microbit import *\n\n\n\nwhile True:\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\n\n\n\nwhile True:\n\tdisplay.scroll('micro:bit')\n",
       additional: "import math\nmath.asin()",
       expected:
-        "from microbit import *\nimport math\n\n\n\nwhile True:\n\tmath.asin(█)\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\nimport math\n\n\n\nwhile True:\n\tmath.asin(█)\n\tdisplay.scroll('micro:bit')\n",
       type: "call",
     });
   });
@@ -298,10 +298,10 @@ describe("edits", () => {
     check({
       line: 7,
       initial:
-        "from microbit import *\nimport math\n\n\n\nwhile True:\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\nimport math\n\n\n\nwhile True:\n\tdisplay.scroll('micro:bit')\n",
       additional: "import math\nmath.asin()",
       expected:
-        "from microbit import *\nimport math\n\n\n\nwhile True:\n\tmath.asin(█)\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\nimport math\n\n\n\nwhile True:\n\tmath.asin(█)\n\tdisplay.scroll('micro:bit')\n",
       type: "call",
     });
   });
@@ -311,9 +311,9 @@ describe("edits", () => {
       line: 0,
       initial: "",
       additional:
-        "from microbit import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
+        "from calliope_mini import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
       expected:
-        "from microbit import *\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
       type: "example",
     });
   });
@@ -322,20 +322,20 @@ describe("edits", () => {
       line: 7,
       initial: "",
       additional:
-        "from microbit import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
+        "from calliope_mini import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
       expected:
-        "from microbit import *\n\n\n\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\n\n\n\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
       type: "example",
     });
   });
   it("moves selection to start of multiline code example with existing import", () => {
     check({
       line: 7,
-      initial: "from microbit import *",
+      initial: "from calliope_mini import *",
       additional:
-        "from microbit import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
+        "from calliope_mini import *\nwhile True:\n\tdisplay.scroll('micro:bit')",
       expected:
-        "from microbit import *\n\n\n\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
+        "from calliope_mini import *\n\n\n\n\n\n█while True:\n\tdisplay.scroll('micro:bit')\n",
       type: "example",
     });
   });
@@ -344,20 +344,20 @@ describe("edits", () => {
       line: 5,
       initial: "while True:\n\tprint('')",
       additional:
-        "from microbit import *\ndisplay.scroll('score')\ndisplay.scroll(23)",
+        "from calliope_mini import *\ndisplay.scroll('score')\ndisplay.scroll(23)",
       expected:
-        "from microbit import *\n\n\nwhile True:\n\t█display.scroll('score')\n\tdisplay.scroll(23)\n\tprint('')",
+        "from calliope_mini import *\n\n\nwhile True:\n\t█display.scroll('score')\n\tdisplay.scroll(23)\n\tprint('')",
       type: "example",
     });
   });
   it("moves selection to start of multiline code example when inserted into indented block with existing import", () => {
     check({
       line: 4,
-      initial: "from microbit import *\n\nwhile True:\n\tprint('')",
+      initial: "from calliope_mini import *\n\nwhile True:\n\tprint('')",
       additional:
-        "from microbit import *\ndisplay.scroll('score')\ndisplay.scroll(23)",
+        "from calliope_mini import *\ndisplay.scroll('score')\ndisplay.scroll(23)",
       expected:
-        "from microbit import *\n\nwhile True:\n\t█display.scroll('score')\n\tdisplay.scroll(23)\n\tprint('')",
+        "from calliope_mini import *\n\nwhile True:\n\t█display.scroll('score')\n\tdisplay.scroll(23)\n\tprint('')",
       type: "example",
     });
   });
@@ -366,8 +366,8 @@ describe("edits", () => {
     check({
       line: 0,
       initial: "",
-      additional: "from microbit import *\ndisplay.scroll('score')",
-      expected: "from microbit import *\n\n\ndisplay.scroll('score')█\n",
+      additional: "from calliope_mini import *\ndisplay.scroll('score')",
+      expected: "from calliope_mini import *\n\n\ndisplay.scroll('score')█\n",
       type: "example",
     });
   });
@@ -375,17 +375,17 @@ describe("edits", () => {
     check({
       line: 7,
       initial: "",
-      additional: "from microbit import *\ndisplay.scroll('score')",
-      expected: "from microbit import *\n\n\n\n\n\ndisplay.scroll('score')█\n",
+      additional: "from calliope_mini import *\ndisplay.scroll('score')",
+      expected: "from calliope_mini import *\n\n\n\n\n\ndisplay.scroll('score')█\n",
       type: "example",
     });
   });
   it("moves selection to end of single line code example with existing import", () => {
     check({
       line: 7,
-      initial: "from microbit import *",
-      additional: "from microbit import *\ndisplay.scroll('score')",
-      expected: "from microbit import *\n\n\n\n\n\ndisplay.scroll('score')█\n",
+      initial: "from calliope_mini import *",
+      additional: "from calliope_mini import *\ndisplay.scroll('score')",
+      expected: "from calliope_mini import *\n\n\n\n\n\ndisplay.scroll('score')█\n",
       type: "example",
     });
   });
@@ -393,19 +393,19 @@ describe("edits", () => {
     check({
       line: 5,
       initial: "while True:\n\tprint('')",
-      additional: "from microbit import *\ndisplay.scroll('score')",
+      additional: "from calliope_mini import *\ndisplay.scroll('score')",
       expected:
-        "from microbit import *\n\n\nwhile True:\n\tdisplay.scroll('score')█\n\tprint('')",
+        "from calliope_mini import *\n\n\nwhile True:\n\tdisplay.scroll('score')█\n\tprint('')",
       type: "example",
     });
   });
   it("moves selection to end of single line code example when inserted into indented block with existing import", () => {
     check({
       line: 4,
-      initial: "from microbit import *\n\nwhile True:\n\tprint('')",
-      additional: "from microbit import *\ndisplay.scroll('score')",
+      initial: "from calliope_mini import *\n\nwhile True:\n\tprint('')",
+      additional: "from calliope_mini import *\ndisplay.scroll('score')",
       expected:
-        "from microbit import *\n\nwhile True:\n\tdisplay.scroll('score')█\n\tprint('')",
+        "from calliope_mini import *\n\nwhile True:\n\tdisplay.scroll('score')█\n\tprint('')",
       type: "example",
     });
   });

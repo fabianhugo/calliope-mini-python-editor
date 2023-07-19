@@ -20,9 +20,12 @@ export const getTopicAndEntry = (
   if (topic) {
     return [topic, undefined];
   }
-  const entry = toolkit.contents
-    ?.flatMap((topic) => topic.contents ?? [])
-    .find((entry) => entry.slug.current === topicOrEntryId);
+
+  let entry: ToolkitTopicEntry | undefined = toolkit.contents?.flatMap((topic) => {
+    return topic.contents ?? [];
+  }).find((entry) => {
+    return entry.slug.current === topicOrEntryId;
+  });
   if (!entry) {
     return [undefined, undefined];
   }

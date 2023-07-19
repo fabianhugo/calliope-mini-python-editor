@@ -1,5 +1,5 @@
 # Add your Python code here. E.g.
-from microbit import *
+from calliope_mini import *
 
 
 while True:

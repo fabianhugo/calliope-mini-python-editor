@@ -102,7 +102,7 @@ const CodeEmbed = ({
     () =>
       codeWithImports
         .split("\n")
-        .filter((line) => line !== "from microbit import *")
+        .filter((line) => line !== "from calliope_mini import *")
         // Collapse repeated blank lines to save space. Two blank lines after imports
         // is conventional but a big waste of space here.
         .filter(

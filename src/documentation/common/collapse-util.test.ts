@@ -131,5 +131,5 @@ const blockB = {
 
 const python = {
   _type: "python",
-  main: "from microbit import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
+  main: "from calliope_mini import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
 };

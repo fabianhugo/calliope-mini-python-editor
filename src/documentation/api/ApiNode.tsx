@@ -352,7 +352,7 @@ const getDragPasteData = (fullName: string, kind: string): PasteContext => {
   const nameAsWeImportIt = isMicrobit ? parts.slice(1) : parts;
   const code = nameAsWeImportIt.join(".") + (kind === "function" ? "()" : "");
   const requiredImport = isMicrobit
-    ? `from microbit import *`
+    ? `from calliope_mini import *`
     : `import ${parts[0]}`;
   const full = `${requiredImport}\n${code}`;
   return {
