@@ -27,7 +27,9 @@ export interface DeploymentConfig {
   supportLink?: string;
   guideLink?: string;
   termsOfUseLink?: string;
+  dataProtectionLink?: string;
   translationLink?: string;
+  imprintLink?: string;
 
   logging: Logging;
 }

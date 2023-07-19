@@ -2219,6 +2219,18 @@
       "value": "Terms of use"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "third-party-module-explanation": [
     {
       "type": 0,

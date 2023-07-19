@@ -106,6 +106,28 @@ const HelpMenu = ({ size, ...props }: HelpMenuProps) => {
                 <FormattedMessage id="terms-of-use" />
               </MenuItem>
             )}
+            {deployment.dataProtectionLink && (
+              <MenuItem
+                as="a"
+                href={deployment.dataProtectionLink}
+                target="_blank"
+                rel="noopener"
+                icon={<RiExternalLinkLine />}
+              >
+                <FormattedMessage id="data-protection" />
+              </MenuItem>
+            )}
+            {deployment.imprintLink && (
+              <MenuItem
+                as="a"
+                href={deployment.imprintLink}
+                target="_blank"
+                rel="noopener"
+                icon={<RiExternalLinkLine />}
+              >
+                <FormattedMessage id="imprint" />
+              </MenuItem>
+            )}
             <MenuDivider />
             <MenuItem
               icon={<RiInformationLine />}
