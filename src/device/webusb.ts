@@ -396,7 +396,10 @@ export class MicrobitWebUSBConnection
     }
     this.emit(EVENT_START_USB_SELECT);
     this.device = await navigator.usb.requestDevice({
-      filters: [{ vendorId: 0x1366, productId: 0x1025 }],
+      filters: [
+        { vendorId: 0x1366, productId: 0x1025 }, // calliope mini v2
+        { vendorId: 0x0d28, productId: 0x0204 }, // calliope mini v3
+      ],
     });
     this.emit(EVENT_END_USB_SELECT);
     return this.device;
