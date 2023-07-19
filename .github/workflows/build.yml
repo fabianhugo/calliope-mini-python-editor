@@ -5,7 +5,7 @@ on:
     types: [created]
   push:
     branches:
-      - "**"
+      - "feature/calliope-rework"
 
 concurrency:
   group: ${{ github.workflow }}-${{ startsWith(github.ref, 'refs/tags/v') && 'release' || github.ref }}
@@ -35,14 +35,14 @@ jobs:
       - run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: npm install --no-save @microbit-foundation/python-editor-v3-microbit@0.1.0-dev.198 @microbit-foundation/website-deploy-aws@0.3.0 @microbit-foundation/website-deploy-aws-config@0.7.1 @microbit-foundation/circleci-npm-package-versioner@1
-        if: github.repository_owner == 'microbit-foundation'
+      - run: npm install --no-save @calliop-edu/calliope-theme # @microbit-foundation/website-deploy-aws@0.3.0 @microbit-foundation/website-deploy-aws-config@0.7.1 @microbit-foundation/circleci-npm-package-versioner@1
+        if: github.repository_owner == 'calliope-edu'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: node ./bin/print-ci-env-stage.js >> $GITHUB_ENV
       - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
       - run: npm run ci:update-version
-        if: github.repository_owner == 'microbit-foundation'
+        if: github.repository_owner == 'calliope-edu'
       - run: npm run ci
         env:
           REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
@@ -60,12 +60,12 @@ jobs:
           name: reports
           path: reports/
       - run: npm run deploy
-        if: github.repository_owner == 'microbit-foundation' && (env.STAGE == 'REVIEW' || success())
+        if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.WEB_DEPLOY_AWS_SECRET_ACCESS_KEY }}
       - run: npm run invalidate
-        if: github.repository_owner == 'microbit-foundation' && (env.STAGE == 'REVIEW' || success())
+        if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.WEB_DEPLOY_AWS_SECRET_ACCESS_KEY }}

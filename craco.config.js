@@ -7,7 +7,7 @@ const path = require("path");
 const fs = require("fs");
 
 // Support optionally pulling in external branding if the module is installed.
-const theme = "calliope-theme";
+const theme = "@calliope-edu/calliope-theme";
 const external = `node_modules/${theme}`;
 const internal = "src/deployment/default";
 
