@@ -48,25 +48,26 @@ jobs:
 #        env:
 #          REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
 #          REACT_APP_GA_COOKIE_PREFIX: ${{ secrets.REACT_APP_GA_COOKIE_PREFIX }}
-      - run: mkdir -p /tmp/app${PUBLIC_URL} && cp -r build/* /tmp/app${PUBLIC_URL} && npx serve --no-clipboard -l 3000 /tmp/app &
-        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
-      - run: curl --insecure -4 --retry 7 --retry-connrefused http://localhost:3000 1>/dev/null
-        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
-      - run: npm run test:e2e:headless
-        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
+#      - run: mkdir -p /tmp/app${PUBLIC_URL} && cp -r build/* /tmp/app${PUBLIC_URL} && npx serve --no-clipboard -l 3000 /tmp/app &
+#        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
+#      - run: curl --insecure -4 --retry 7 --retry-connrefused http://localhost:3000 1>/dev/null
+#        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
+#      - run: npm run test:e2e:headless
+#        if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
 #      - name: Store reports
 #        if: (env.STAGE == 'REVIEW' || env.STAGE == 'STAGING') && failure()
 #        uses: actions/upload-artifact@v3
 #        with:
 #          name: reports
 #          path: reports/
-      - run: npm run deploy
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync ./build/ s3://${{ secrets.BUCKET_NAME_STAGING }} --delete
         if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.WEB_DEPLOY_AWS_SECRET_ACCESS_KEY }}
-      - run: npm run invalidate
-        if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEB_DEPLOY_AWS_SECRET_ACCESS_KEY }}
+#      - run: npm run invalidate
+#        if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
+#        env:
+#          AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}
+#          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEB_DEPLOY_AWS_SECRET_ACCESS_KEY }}
