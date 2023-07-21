@@ -75,6 +75,15 @@ const PinsModule = ({
         />
         <SensorInput
           type="pin"
+          sensorId="pin3"
+          label="3"
+          state={state}
+          onValueChange={onValueChange}
+          running={simState}
+          minimised={minimised}
+        />
+        <SensorInput
+          type="pin"
           sensorId="pinLogo"
           label={touchLogoLabel}
           logo={brand.squareLogo}

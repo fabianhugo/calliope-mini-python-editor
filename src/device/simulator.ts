@@ -79,6 +79,7 @@ export interface SimulatorState {
   pin0: RangeSensor;
   pin1: RangeSensor;
   pin2: RangeSensor;
+  pin3: RangeSensor;
   pinLogo: RangeSensor;
 
   temperature: RangeSensor;
@@ -104,6 +105,7 @@ export type SensorStateKey = Extract<
   | "pin0"
   | "pin1"
   | "pin2"
+  | "pin3"
   | "pinLogo"
   | "temperature"
   | "lightLevel"
