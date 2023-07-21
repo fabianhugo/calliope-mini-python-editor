@@ -40,26 +40,26 @@ jobs:
         if: github.repository_owner == 'calliope-edu'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: node ./bin/print-ci-env-stage.js >> $GITHUB_ENV
-      - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
-      - run: npm run ci:update-version
-        if: github.repository_owner == 'calliope-edu'
+#      - run: node ./bin/print-ci-env-stage.js >> $GITHUB_ENV
+#      - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
+#      - run: npm run ci:update-version
+#        if: github.repository_owner == 'calliope-edu'
       - run: npm run ci
-        env:
-          REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
-          REACT_APP_GA_COOKIE_PREFIX: ${{ secrets.REACT_APP_GA_COOKIE_PREFIX }}
+#        env:
+#          REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
+#          REACT_APP_GA_COOKIE_PREFIX: ${{ secrets.REACT_APP_GA_COOKIE_PREFIX }}
       - run: mkdir -p /tmp/app${PUBLIC_URL} && cp -r build/* /tmp/app${PUBLIC_URL} && npx serve --no-clipboard -l 3000 /tmp/app &
         if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
       - run: curl --insecure -4 --retry 7 --retry-connrefused http://localhost:3000 1>/dev/null
         if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
       - run: npm run test:e2e:headless
         if: env.STAGE == 'REVIEW' || env.STAGE == 'STAGING'
-      - name: Store reports
-        if: (env.STAGE == 'REVIEW' || env.STAGE == 'STAGING') && failure()
-        uses: actions/upload-artifact@v3
-        with:
-          name: reports
-          path: reports/
+#      - name: Store reports
+#        if: (env.STAGE == 'REVIEW' || env.STAGE == 'STAGING') && failure()
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: reports
+#          path: reports/
       - run: npm run deploy
         if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
         env:
