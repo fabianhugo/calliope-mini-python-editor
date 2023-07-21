@@ -44,6 +44,8 @@ jobs:
 #      - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
 #      - run: npm run ci:update-version
 #        if: github.repository_owner == 'calliope-edu'
+      - run: ls -lah node_modules
+      - run: ls -lah node_modules/@calliope-edu/calliope-theme
       - run: npm run build
 #        env:
 #          REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
