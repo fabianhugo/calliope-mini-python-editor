@@ -47,7 +47,7 @@ const Simulator = ({
   const production =
     "https://python-simulator.usermbit.org/v/0.1/simulator.html";
   const staging =
-    "https://python-simulator.usermbit.org/staging/simulator.html";
+    "http://staging.calliope.simulator.s3-website.eu-central-1.amazonaws.com/simulator.html";
   let url = stage === "PRODUCTION" ? production : staging;
   // For testing with sim branches:
   //const branch = "upgrade-mpy";

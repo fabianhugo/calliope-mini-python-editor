@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 const ref = process.env.GITHUB_REF;
 let stage;
-if (ref === "refs/heads/main") {
+let bucketName = "staging.calliope.editor";
+
+if (ref === "refs/heads/feature/calliope-rework") {
   stage = "STAGING";
 } else if (ref.startsWith("refs/tags/v")) {
   stage = "PRODUCTION";
@@ -9,5 +11,6 @@ if (ref === "refs/heads/main") {
   stage = "REVIEW";
 }
 
+console.log(`BUCKET_NAME=${bucketName}`);
 console.log(`STAGE=${stage}`);
 console.log(`REACT_APP_STAGE=${stage}`);
