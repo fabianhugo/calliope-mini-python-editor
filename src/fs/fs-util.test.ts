@@ -31,7 +31,7 @@ describe("getFileExtension", () => {
 });
 
 describe("isPythonMicrobitModule", () => {
-  const example = "from calliope_mini import *\ndisplay.scroll('Hi')\n";
+  const example = "from calliopemini import *\ndisplay.scroll('Hi')\n";
 
   it("identifies our modules but not other Python", () => {
     expect(isPythonMicrobitModule("# microbit-module:")).toEqual(true);

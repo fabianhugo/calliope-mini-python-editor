@@ -1,5 +1,5 @@
 # Add your Python code here. E.g.
-from calliope_mini import *
+from calliopemini import *
 
 
 while True:

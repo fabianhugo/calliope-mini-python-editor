@@ -54,11 +54,11 @@ const content: PortableText[] = [
     },
     {
       _type: "python",
-      main: "from calliope_mini import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
+      main: "from calliopemini import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
     },
     {
       _type: "python",
-      main: "from calliope_mini import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
+      main: "from calliopemini import *\n\n\nfor y in range(5):\n    for x in range(5):\n        display.set_pixel(x, y, 9)\n        sleep(50)",
     },
   ],
 ];

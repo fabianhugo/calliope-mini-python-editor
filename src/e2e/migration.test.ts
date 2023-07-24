@@ -22,7 +22,7 @@ describe("migration", () => {
   it("Loads the project from the URL", async () => {
     await app.findProjectName("Hearts");
     await app.findVisibleEditorContents(
-      "from calliope_mini import *\ndisplay.show(Image.HEART)"
+      "from calliopemini import *\ndisplay.show(Image.HEART)"
     );
 
     // Regression test: Check that we can switch to a different migration in the same session.
