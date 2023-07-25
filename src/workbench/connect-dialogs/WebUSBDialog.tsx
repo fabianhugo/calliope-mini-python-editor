@@ -75,7 +75,7 @@ const Chrome105ErrorBody = () => {
       <HStack spacing={5}>
         <Stack>
           <Text>
-            Unfortunately “Send to micro:bit” does not work in this particular
+            Unfortunately “Send to Calliope mini” does not work in this particular
             Chrome OS version due to a bug in the operating system. The next
             version of Chrome OS, version 106, expected October 2022, should
             contain a fix for this.

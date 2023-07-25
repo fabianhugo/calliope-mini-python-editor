@@ -4,7 +4,7 @@
     "description": "About action"
   },
   "about-comic": {
-    "defaultMessage": "Drie panel comics getiteld \"MicroPython Rocks\" door Mike Rowbit. Een cartoon slang introduceert Damien en zegt: \"Maak kennis met Damien... Hij creëerde MicroPython.” Twee slangen bespreken MicroPython. De gele slang zegt: \"MicroPython is ontworpen om te werken op zeer kleine computers.\" “Zoals jouw BBC micro:bit” antwoordt de paarse slang. De gele slang gaat verder: \"Maar Python kan overal draaien.\" De paarse slang is het ermee eens en zegt: \"Zoals op dit rack van servers die enorme websites runnen\". De achtergrond achter de slangen toont een server rack.",
+    "defaultMessage": "Drie panel comics getiteld \"MicroPython Rocks\" door Mike Rowbit. Een cartoon slang introduceert Damien en zegt: \"Maak kennis met Damien... Hij creëerde MicroPython.” Twee slangen bespreken MicroPython. De gele slang zegt: \"MicroPython is ontworpen om te werken op zeer kleine computers.\" “Zoals jouw BBC Calliope mini” antwoordt de paarse slang. De gele slang gaat verder: \"Maar Python kan overal draaien.\" De paarse slang is het ermee eens en zegt: \"Zoals op dit rack van servers die enorme websites runnen\". De achtergrond achter de slangen toont een server rack.",
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
@@ -160,7 +160,7 @@
     "description": "Title for the connect cable dialog"
   },
   "connect-help-alt": {
-    "defaultMessage": "WebUSB verbinding dialoogvenster met BBC micro:bit item gelabeld 1 en Connect knop gelabeld 2",
+    "defaultMessage": "WebUSB verbinding dialoogvenster met BBC Calliope mini item gelabeld 1 en Connect knop gelabeld 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-help-message": {
@@ -168,11 +168,11 @@
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "Kies je micro:bit",
+    "defaultMessage": "Kies je Calliope mini",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "Selecteer een micro:bit",
+    "defaultMessage": "Selecteer een Calliope mini",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
@@ -180,16 +180,16 @@
     "description": "Legend text for the connect help dialog image"
   },
   "connect-hover": {
-    "defaultMessage": "Verbind met je micro:bit via WebUSB",
+    "defaultMessage": "Verbind met je Calliope mini via WebUSB",
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "Verbind met je micro:bit om de seriële uitvoer hier te zien",
+    "defaultMessage": "Verbind met je Calliope mini om de seriële uitvoer hier te zien",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Problemen met het verbinden met je micro:bit",
-    "description": "Text in no the micro:bit found and firmware update dialogs"
+    "defaultMessage": "Problemen met het verbinden met je Calliope mini",
+    "description": "Text in no the Calliope mini found and firmware update dialogs"
   },
   "content-load-error": {
     "defaultMessage": "Er is iets fout gegaan. Download je hexadecimale bestand voor een veilige bewaring, ververs daarna de pagina om te herladen.",
@@ -240,7 +240,7 @@
     "description": "Disconnect button text"
   },
   "disconnect-hover": {
-    "defaultMessage": "Ontkoppel de micro:bit",
+    "defaultMessage": "Ontkoppel de Calliope mini",
     "description": "Disconnect button hover text"
   },
   "dont-show-again": {
@@ -304,11 +304,11 @@
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "Je moet <link>firmware updaten</link> voordat je verbinding kan maken met deze micro:bit.",
+    "defaultMessage": "Je moet <link>firmware updaten</link> voordat je verbinding kan maken met deze Calliope mini.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
-    "defaultMessage": "Het verbinden met de micro:bit is mislukt omdat de firmware op je micro:bit te oud is.",
+    "defaultMessage": "Het verbinden met de Calliope mini is mislukt omdat de firmware op je Calliope mini te oud is.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-title": {
@@ -328,7 +328,7 @@
     "description": "Progress dialog text for partial flashes (quick)"
   },
   "flashing-full-flash-detail": {
-    "defaultMessage": "Je code wordt verzonden (flashen) naar je micro:bit. Dit kan een tijdje duren, maar daarna zal het sneller gaan.",
+    "defaultMessage": "Je code wordt verzonden (flashen) naar je Calliope mini. Dit kan een tijdje duren, maar daarna zal het sneller gaan.",
     "description": "Message shown after the title in the progress dialog for a full flash"
   },
   "flashing-micropython": {
@@ -419,19 +419,19 @@
     "description": "Shown on loading indicators"
   },
   "microbit-hearts-alt": {
-    "defaultMessage": "micro:bit bord met het 5 bij 5 LED raster dat een hart toont",
-    "description": "Alt text for micro:bit image in About dialog"
+    "defaultMessage": "Calliope mini bord met het 5 bij 5 LED raster dat een hart toont",
+    "description": "Alt text for Calliope mini image in About dialog"
   },
   "micropython-documentation": {
     "defaultMessage": "MicroPython documentatie",
     "description": "MicroPython documentation menu option text"
   },
   "micropython-history": {
-    "defaultMessage": "Leer hoe MicroPython op de micro:bit kwam",
+    "defaultMessage": "Leer hoe MicroPython op de Calliope mini kwam",
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
-    "defaultMessage": "MicroPython <linkV1>broncode voor de micro:bit V1</linkV1> en <linkV2>micro:bit V2</linkV2>",
+    "defaultMessage": "MicroPython <linkV1>broncode voor de Calliope mini V1</linkV1> en <linkV2>Calliope mini V2</linkV2>",
     "description": "Links to the MicroPython source code in the about dialog"
   },
   "more-action": {
@@ -440,7 +440,7 @@
   },
   "more-connect-options": {
     "defaultMessage": "Meer verbindings opties",
-    "description": "Aria label for the additional actions menu to the right of the Send to micro:bit button"
+    "description": "Aria label for the additional actions menu to the right of the Send to Calliope mini button"
   },
   "more-ideas": {
     "defaultMessage": "<link>Meer ideeën</link>",
@@ -483,28 +483,28 @@
     "description": "Next button text"
   },
   "not-found-checklist-one": {
-    "defaultMessage": "Is je <strong>micro:bit aangesloten</strong>? Heb je <link>deze stappen gevolgd</link>?",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "defaultMessage": "Is je <strong>Calliope mini aangesloten</strong>? Heb je <link>deze stappen gevolgd</link>?",
+    "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-checklist-two": {
-    "defaultMessage": "Als je een <strong>micro:bit V1</strong> hebt, moet je mogelijk <link>firmware updaten</link>",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "defaultMessage": "Als je een <strong>Calliope mini V1</strong> hebt, moet je mogelijk <link>firmware updaten</link>",
+    "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-message": {
-    "defaultMessage": "Je hebt geen micro:bit geselecteerd, of er was een probleem met de verbinding.",
-    "description": "Text in the no micro:bit found dialog"
+    "defaultMessage": "Je hebt geen Calliope mini geselecteerd, of er was een probleem met de verbinding.",
+    "description": "Text in the no Calliope mini found dialog"
   },
   "not-found-save-message": {
     "defaultMessage": "Alternatieve methode: kies Opslaan en volg dan stappen om over te dragen",
-    "description": "Save prompt in the no micro:bit found dialog"
+    "description": "Save prompt in the no Calliope mini found dialog"
   },
   "not-found-title": {
-    "defaultMessage": "Geen micro:bit gevonden",
-    "description": "Title for the micro:bit found dialog"
+    "defaultMessage": "Geen Calliope mini gevonden",
+    "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "Je moet <link>firmware updaten voordat</link> je verbinding kan maken met deze micro:bit.",
-    "description": "Text in the no micro:bit found dialog"
+    "defaultMessage": "Je moet <link>firmware updaten voordat</link> je verbinding kan maken met deze Calliope mini.",
+    "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
     "defaultMessage": "Open",
@@ -559,7 +559,7 @@
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "Om dit hexadecimale bestand uit te voeren op je micro:bit <link>volg deze stappen</link>.",
+    "defaultMessage": "Om dit hexadecimale bestand uit te voeren op je Calliope mini <link>volg deze stappen</link>.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "project-actions": {
@@ -659,11 +659,11 @@
     "description": "Aria label for searching documentation"
   },
   "send-action": {
-    "defaultMessage": "Stuur naar micro:bit",
-    "description": "Send to micro:bit button text"
+    "defaultMessage": "Stuur naar Calliope mini",
+    "description": "Send to Calliope mini button text"
   },
   "send-hover": {
-    "defaultMessage": "Maak verbinding via WebUSB en schrijf code vervolgens naar micro:bit",
+    "defaultMessage": "Maak verbinding via WebUSB en schrijf code vervolgens naar Calliope mini",
     "description": "Send button hover text"
   },
   "serial-collapse": {
@@ -676,7 +676,7 @@
   },
   "serial-ctrl-d-action": {
     "defaultMessage": "Verstuur Ctrl+D om te resetten",
-    "description": "Button to reset the micro:bit from the serial area"
+    "description": "Button to reset the Calliope mini from the serial area"
   },
   "serial-expand": {
     "defaultMessage": "Serieel weergeven",
@@ -684,7 +684,7 @@
   },
   "serial-flashed": {
     "defaultMessage": "Micro:bit geflasht",
-    "description": "Shown when your program is in sync with the micro:bit"
+    "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
     "defaultMessage": "Gebruik de sneltoets <kbd>Ctrl</kbd> + <kbd>C</kbd> om je programma te onderbreken. Vervolgens kun je Python commando's typen om MicroPython te laten werken. Het is een geweldige manier om met iets nieuws te experimenteren.",
@@ -695,11 +695,11 @@
     "description": "Text from the serial hints and tips dialog.  kbd tag shows a keyboard key style."
   },
   "serial-help-intro": {
-    "defaultMessage": "De seriële terminal toont fouten en andere uitvoer van het programma dat wordt uitgevoerd op je micro:bit. Standaard toont het de meest recente fout van het programma. Klap het uit om alle uitvoer te zien.",
+    "defaultMessage": "De seriële terminal toont fouten en andere uitvoer van het programma dat wordt uitgevoerd op je Calliope mini. Standaard toont het de meest recente fout van het programma. Klap het uit om alle uitvoer te zien.",
     "description": "Text from the serial hints and tips dialog"
   },
   "serial-help-print": {
-    "defaultMessage": "Je programma kan berichten printen met de <code>print</code> functie. Probeer <code>print('micro:bit is awesome')</code> toe te voegen aan je programma.",
+    "defaultMessage": "Je programma kan berichten printen met de <code>print</code> functie. Probeer <code>print('Calliope mini is awesome')</code> toe te voegen aan je programma.",
     "description": "Text from the serial hints and tips dialog. code tag shows monospaced font."
   },
   "serial-help-title": {
@@ -716,11 +716,11 @@
   },
   "serial-ready-to-flash": {
     "defaultMessage": "Micro:bit klaar om te flashen",
-    "description": "Shown when your program is out of sync with the micro:bit"
+    "description": "Shown when your program is out of sync with the Calliope mini"
   },
   "serial-running": {
     "defaultMessage": "Uitvoeren…",
-    "description": "Indicator text when the micro:bit is running a program"
+    "description": "Indicator text when the Calliope mini is running a program"
   },
   "serial-terminal": {
     "defaultMessage": "Seriële terminal",
@@ -947,8 +947,8 @@
     "description": "Radio simulator panel title"
   },
   "simulator-radio-code": {
-    "defaultMessage": "micro:bit verzend:",
-    "description": "Visually hidden text for a radio message sent from the simulated micro:bit. Text of the message follows."
+    "defaultMessage": "Calliope mini verzend:",
+    "description": "Visually hidden text for a radio message sent from the simulated Calliope mini. Text of the message follows."
   },
   "simulator-radio-group-notice": {
     "defaultMessage": "Radiogroep ingesteld op {groupNumber}",
@@ -976,7 +976,7 @@
   },
   "simulator-radio-user": {
     "defaultMessage": "Je verzendt",
-    "description": "Visually hidden text for a radio message sent from the user to the simulated micro:bit. Text of the message follows."
+    "description": "Visually hidden text for a radio message sent from the user to the simulated Calliope mini. Text of the message follows."
   },
   "simulator-reference-link": {
     "defaultMessage": "Link naar Referentie sectie",
@@ -1012,7 +1012,7 @@
   },
   "simulator-touch-logo": {
     "defaultMessage": "Aanraak logo",
-    "description": "Name for the touch logo pin on the V2 micro:bit board. Used in the simulator."
+    "description": "Name for the touch logo pin on the V2 Calliope mini board. Used in the simulator."
   },
   "simulator-unmute": {
     "defaultMessage": "Niet meer dempen",
@@ -1043,7 +1043,7 @@
     "description": "Explanation of how to allow editing for third-party modules."
   },
   "timeout-error-description": {
-    "defaultMessage": "Kan geen verbinding maken met de micro:bit",
+    "defaultMessage": "Kan geen verbinding maken met de Calliope mini",
     "description": "Description for error messages relating to WebUSB timeout"
   },
   "timeout-error-title": {
@@ -1067,7 +1067,7 @@
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-title": {
-    "defaultMessage": "Zet het opgeslagen hex-bestand over naar micro:bit",
+    "defaultMessage": "Zet het opgeslagen hex-bestand over naar Calliope mini",
     "description": "Title for the transfer hex dialog"
   },
   "try-again-action": {
@@ -1107,7 +1107,7 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-description-2": {
-    "defaultMessage": "Sluit alle andere tabbladen die mogelijk gebruikmaken van WebUSB (bijv. MakeCode, Python Editor), of koppel de micro:bit los en sluit deze opnieuw aan voordat u het opnieuw probeert.",
+    "defaultMessage": "Sluit alle andere tabbladen die mogelijk gebruikmaken van WebUSB (bijv. MakeCode, Python Editor), of koppel de Calliope mini los en sluit deze opnieuw aan voordat u het opnieuw probeert.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-title": {
@@ -1119,19 +1119,19 @@
     "description": "Default title for error messages relating to WebUSB"
   },
   "webusb-error-reconnect-microbit-description": {
-    "defaultMessage": "Verbind je micro:bit opnieuw en probeer het nog eens.",
+    "defaultMessage": "Verbind je Calliope mini opnieuw en probeer het nog eens.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-update-req-description": {
-    "defaultMessage": "Je moet <link>je micro:bit firmware</link> updaten om deze functie te gebruiken.",
+    "defaultMessage": "Je moet <link>je Calliope mini firmware</link> updaten om deze functie te gebruiken.",
     "description": "WebUSB error telling user to update firmware"
   },
   "webusb-error-update-req-title": {
-    "defaultMessage": "Werk de firmware van de micro:bit bij",
+    "defaultMessage": "Werk de firmware van de Calliope mini bij",
     "description": "Error text telling user to update firmware"
   },
   "webusb-not-supported": {
-    "defaultMessage": "Helaas wordt WebUSB niet ondersteund in deze browser en zal je programma worden opgeslagen op je computer. Volg de stappen op het volgende scherm om het naar de micro:bit te verplaatsen. We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je micro:bit.",
+    "defaultMessage": "Helaas wordt WebUSB niet ondersteund in deze browser en zal je programma worden opgeslagen op je computer. Volg de stappen op het volgende scherm om het naar de Calliope mini te verplaatsen. We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je Calliope mini.",
     "description": "Explantion shown when user's browser doesn't support WebUSB"
   },
   "webusb-not-supported-title": {
@@ -1139,7 +1139,7 @@
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "Met WebUSB kun je de micro:bit programmeren en verbinding maken met de seriële console rechtstreeks vanuit de online editor.",
+    "defaultMessage": "Met WebUSB kun je de Calliope mini programmeren en verbinding maken met de seriële console rechtstreeks vanuit de online editor.",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {
@@ -1147,7 +1147,7 @@
     "description": "Text in the welcome dialogn"
   },
   "welcome-title": {
-    "defaultMessage": "Welkom bij de micro:bit Python Editor",
+    "defaultMessage": "Welkom bij de Calliope mini Python Editor",
     "description": "Title for the welcome dialog"
   },
   "zoom-in-action": {

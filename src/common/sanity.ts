@@ -41,7 +41,7 @@ export interface Slug {
  * @param adaptContent Validates and converts the result.
  * @returns The content.
  */
-export const fetchContent = async <T>(
+export const fetchContent = async <T> (
   languageId: string,
   query: (languageId: string) => string,
   adaptContent: (result: any) => T | undefined

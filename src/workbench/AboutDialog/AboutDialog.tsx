@@ -43,7 +43,7 @@ import ModalCloseButton from "../../common/ModalCloseButton";
 import { useDeployment } from "../../deployment";
 import { microPythonConfig } from "../../micropython/micropython";
 import comicImage from "./comic.png";
-import microbitHeartImage from "./microbit-heart.png";
+import boardImage from "./CM_V3_Platine_plain.svg";
 import micropythonLogo from "./micropython.jpeg";
 import pythonPoweredLogo from "./python-powered.png";
 
@@ -141,7 +141,7 @@ const AboutDialog = ({ isOpen, onClose, finalFocusRef }: AboutDialogProps) => {
                     maxWidth={[388, 388, null, null]}
                   >
                     <Image
-                      src={microbitHeartImage}
+                      src={boardImage}
                       alt={intl.formatMessage({ id: "microbit-hearts-alt" })}
                     />
                   </AspectRatio>

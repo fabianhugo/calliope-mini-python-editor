@@ -8,7 +8,7 @@
   "about-comic": [
     {
       "type": 0,
-      "value": "Drie panel comics getiteld \"MicroPython Rocks\" door Mike Rowbit. Een cartoon slang introduceert Damien en zegt: \"Maak kennis met Damien... Hij creëerde MicroPython.” Twee slangen bespreken MicroPython. De gele slang zegt: \"MicroPython is ontworpen om te werken op zeer kleine computers.\" “Zoals jouw BBC micro:bit” antwoordt de paarse slang. De gele slang gaat verder: \"Maar Python kan overal draaien.\" De paarse slang is het ermee eens en zegt: \"Zoals op dit rack van servers die enorme websites runnen\". De achtergrond achter de slangen toont een server rack."
+      "value": "Drie panel comics getiteld \"MicroPython Rocks\" door Mike Rowbit. Een cartoon slang introduceert Damien en zegt: \"Maak kennis met Damien... Hij creëerde MicroPython.” Twee slangen bespreken MicroPython. De gele slang zegt: \"MicroPython is ontworpen om te werken op zeer kleine computers.\" “Zoals jouw BBC Calliope mini” antwoordt de paarse slang. De gele slang gaat verder: \"Maar Python kan overal draaien.\" De paarse slang is het ermee eens en zegt: \"Zoals op dit rack van servers die enorme websites runnen\". De achtergrond achter de slangen toont een server rack."
     }
   ],
   "about-microbit": [
@@ -368,7 +368,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "WebUSB verbinding dialoogvenster met BBC micro:bit item gelabeld 1 en Connect knop gelabeld 2"
+      "value": "WebUSB verbinding dialoogvenster met BBC Calliope mini item gelabeld 1 en Connect knop gelabeld 2"
     }
   ],
   "connect-help-message": [
@@ -380,13 +380,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Kies je micro:bit"
+      "value": "Kies je Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Selecteer een micro:bit"
+      "value": "Selecteer een Calliope mini"
     }
   ],
   "connect-help-two": [
@@ -398,19 +398,19 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "Verbind met je micro:bit via WebUSB"
+      "value": "Verbind met je Calliope mini via WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Verbind met je micro:bit om de seriële uitvoer hier te zien"
+      "value": "Verbind met je Calliope mini om de seriële uitvoer hier te zien"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Problemen met het verbinden met je micro:bit"
+      "value": "Problemen met het verbinden met je Calliope mini"
     }
   ],
   "content-load-error": [
@@ -500,7 +500,7 @@
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Ontkoppel de micro:bit"
+      "value": "Ontkoppel de Calliope mini"
     }
   ],
   "dont-show-again": [
@@ -622,13 +622,13 @@
     },
     {
       "type": 0,
-      "value": " voordat je verbinding kan maken met deze micro:bit."
+      "value": " voordat je verbinding kan maken met deze Calliope mini."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "Het verbinden met de micro:bit is mislukt omdat de firmware op je micro:bit te oud is."
+      "value": "Het verbinden met de Calliope mini is mislukt omdat de firmware op je Calliope mini te oud is."
     }
   ],
   "firmware-update-title": [
@@ -658,7 +658,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "Je code wordt verzonden (flashen) naar je micro:bit. Dit kan een tijdje duren, maar daarna zal het sneller gaan."
+      "value": "Je code wordt verzonden (flashen) naar je Calliope mini. Dit kan een tijdje duren, maar daarna zal het sneller gaan."
     }
   ],
   "flashing-micropython": [
@@ -852,7 +852,7 @@
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "micro:bit bord met het 5 bij 5 LED raster dat een hart toont"
+      "value": "Calliope mini bord met het 5 bij 5 LED raster dat een hart toont"
     }
   ],
   "micropython-documentation": [
@@ -864,7 +864,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "Leer hoe MicroPython op de micro:bit kwam"
+      "value": "Leer hoe MicroPython op de Calliope mini kwam"
     }
   ],
   "micropython-source-code": [
@@ -876,7 +876,7 @@
       "children": [
         {
           "type": 0,
-          "value": "broncode voor de micro:bit V1"
+          "value": "broncode voor de Calliope mini V1"
         }
       ],
       "type": 8,
@@ -890,7 +890,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V2"
+          "value": "Calliope mini V2"
         }
       ],
       "type": 8,
@@ -1082,7 +1082,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit aangesloten"
+          "value": "Calliope mini aangesloten"
         }
       ],
       "type": 8,
@@ -1116,7 +1116,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -1140,7 +1140,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "Je hebt geen micro:bit geselecteerd, of er was een probleem met de verbinding."
+      "value": "Je hebt geen Calliope mini geselecteerd, of er was een probleem met de verbinding."
     }
   ],
   "not-found-save-message": [
@@ -1152,7 +1152,7 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "Geen micro:bit gevonden"
+      "value": "Geen Calliope mini gevonden"
     }
   ],
   "not-found-update-link": [
@@ -1172,7 +1172,7 @@
     },
     {
       "type": 0,
-      "value": " je verbinding kan maken met deze micro:bit."
+      "value": " je verbinding kan maken met deze Calliope mini."
     }
   ],
   "open-action": [
@@ -1314,7 +1314,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "Om dit hexadecimale bestand uit te voeren op je micro:bit "
+      "value": "Om dit hexadecimale bestand uit te voeren op je Calliope mini "
     },
     {
       "children": [
@@ -1519,13 +1519,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "Stuur naar micro:bit"
+      "value": "Stuur naar Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "Maak verbinding via WebUSB en schrijf code vervolgens naar micro:bit"
+      "value": "Maak verbinding via WebUSB en schrijf code vervolgens naar Calliope mini"
     }
   ],
   "serial-collapse": [
@@ -1629,7 +1629,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "De seriële terminal toont fouten en andere uitvoer van het programma dat wordt uitgevoerd op je micro:bit. Standaard toont het de meest recente fout van het programma. Klap het uit om alle uitvoer te zien."
+      "value": "De seriële terminal toont fouten en andere uitvoer van het programma dat wordt uitgevoerd op je Calliope mini. Standaard toont het de meest recente fout van het programma. Klap het uit om alle uitvoer te zien."
     }
   ],
   "serial-help-print": [
@@ -1655,7 +1655,7 @@
       "children": [
         {
           "type": 0,
-          "value": "print('micro:bit is awesome')"
+          "value": "print('Calliope mini is awesome')"
         }
       ],
       "type": 8,
@@ -2117,7 +2117,7 @@
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "micro:bit verzend:"
+      "value": "Calliope mini verzend:"
     }
   ],
   "simulator-radio-group-notice": [
@@ -2279,7 +2279,7 @@
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "Kan geen verbinding maken met de micro:bit"
+      "value": "Kan geen verbinding maken met de Calliope mini"
     }
   ],
   "timeout-error-title": [
@@ -2365,7 +2365,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "Zet het opgeslagen hex-bestand over naar micro:bit"
+      "value": "Zet het opgeslagen hex-bestand over naar Calliope mini"
     }
   ],
   "try-again-action": [
@@ -2453,7 +2453,7 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "Sluit alle andere tabbladen die mogelijk gebruikmaken van WebUSB (bijv. MakeCode, Python Editor), of koppel de micro:bit los en sluit deze opnieuw aan voordat u het opnieuw probeert."
+      "value": "Sluit alle andere tabbladen die mogelijk gebruikmaken van WebUSB (bijv. MakeCode, Python Editor), of koppel de Calliope mini los en sluit deze opnieuw aan voordat u het opnieuw probeert."
     }
   ],
   "webusb-error-clear-connect-title": [
@@ -2471,7 +2471,7 @@
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "Verbind je micro:bit opnieuw en probeer het nog eens."
+      "value": "Verbind je Calliope mini opnieuw en probeer het nog eens."
     }
   ],
   "webusb-error-update-req-description": [
@@ -2483,7 +2483,7 @@
       "children": [
         {
           "type": 0,
-          "value": "je micro:bit firmware"
+          "value": "je Calliope mini firmware"
         }
       ],
       "type": 8,
@@ -2497,13 +2497,13 @@
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "Werk de firmware van de micro:bit bij"
+      "value": "Werk de firmware van de Calliope mini bij"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "Helaas wordt WebUSB niet ondersteund in deze browser en zal je programma worden opgeslagen op je computer. Volg de stappen op het volgende scherm om het naar de micro:bit te verplaatsen. We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je micro:bit."
+      "value": "Helaas wordt WebUSB niet ondersteund in deze browser en zal je programma worden opgeslagen op je computer. Volg de stappen op het volgende scherm om het naar de Calliope mini te verplaatsen. We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
@@ -2515,7 +2515,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "Met WebUSB kun je de micro:bit programmeren en verbinding maken met de seriële console rechtstreeks vanuit de online editor."
+      "value": "Met WebUSB kun je de Calliope mini programmeren en verbinding maken met de seriële console rechtstreeks vanuit de online editor."
     }
   ],
   "welcome-message": [
@@ -2527,7 +2527,7 @@
   "welcome-title": [
     {
       "type": 0,
-      "value": "Welkom bij de micro:bit Python Editor"
+      "value": "Welkom bij de Calliope mini Python Editor"
     }
   ],
   "zoom-in-action": [

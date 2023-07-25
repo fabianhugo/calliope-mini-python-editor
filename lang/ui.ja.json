@@ -189,7 +189,7 @@
   },
   "connect-troubleshoot": {
     "defaultMessage": "micro:bit接続時に発生する問題のトラブルシューティング",
-    "description": "Text in no the micro:bit found and firmware update dialogs"
+    "description": "Text in no the Calliope mini found and firmware update dialogs"
   },
   "content-load-error": {
     "defaultMessage": "問題が発生しました。hex ファイルをダウンロードして、ページをリロードしてください。",
@@ -420,7 +420,7 @@
   },
   "microbit-hearts-alt": {
     "defaultMessage": "5×5のLEDグリッドにハートを表示するmicro:bitボード",
-    "description": "Alt text for micro:bit image in About dialog"
+    "description": "Alt text for Calliope mini image in About dialog"
   },
   "micropython-documentation": {
     "defaultMessage": "MicroPythonドキュメント",
@@ -431,7 +431,7 @@
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
-    "defaultMessage": "MicroPython <linkV1>micro:bit V1</linkV1>と<linkV2>micro:bit V2のソースコード</linkV2>",
+    "defaultMessage": "MicroPython <linkV1>Calliope mini V1</linkV1>と<linkV2>Calliope mini V2のソースコード</linkV2>",
     "description": "Links to the MicroPython source code in the about dialog"
   },
   "more-action": {
@@ -440,7 +440,7 @@
   },
   "more-connect-options": {
     "defaultMessage": "その他の接続オプション",
-    "description": "Aria label for the additional actions menu to the right of the Send to micro:bit button"
+    "description": "Aria label for the additional actions menu to the right of the Send to Calliope mini button"
   },
   "more-ideas": {
     "defaultMessage": "<link>他のアイデア</link>",
@@ -484,27 +484,27 @@
   },
   "not-found-checklist-one": {
     "defaultMessage": "<strong>micro:bitは接続</strong>されていますか？<link>以下の手順</link>に従いましたか？",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-checklist-two": {
-    "defaultMessage": "<strong>micro:bit V1</strong>をお持ちの場合は、<link>ファームウェアを更新</link>する必要があります。",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "defaultMessage": "<strong>Calliope mini V1</strong>をお持ちの場合は、<link>ファームウェアを更新</link>する必要があります。",
+    "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-message": {
     "defaultMessage": "micro:bitを選択していないか、接続中に問題が発生しました。",
-    "description": "Text in the no micro:bit found dialog"
+    "description": "Text in the no Calliope mini found dialog"
   },
   "not-found-save-message": {
     "defaultMessage": "代替方法: 保存を選択し、転送する手順に従ってください",
-    "description": "Save prompt in the no micro:bit found dialog"
+    "description": "Save prompt in the no Calliope mini found dialog"
   },
   "not-found-title": {
     "defaultMessage": "micro:bitが見つかりません",
-    "description": "Title for the micro:bit found dialog"
+    "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
     "defaultMessage": "このmicro:bitに接続するには、<link>ファームウェアを更新</link>する必要があります。",
-    "description": "Text in the no micro:bit found dialog"
+    "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
     "defaultMessage": "開く",
@@ -660,7 +660,7 @@
   },
   "send-action": {
     "defaultMessage": "micro:bitに送る",
-    "description": "Send to micro:bit button text"
+    "description": "Send to Calliope mini button text"
   },
   "send-hover": {
     "defaultMessage": "WebUSBで接続してプログラムをmicro:bitに書き込む",
@@ -676,7 +676,7 @@
   },
   "serial-ctrl-d-action": {
     "defaultMessage": "Ctrl+D を送信してリセット",
-    "description": "Button to reset the micro:bit from the serial area"
+    "description": "Button to reset the Calliope mini from the serial area"
   },
   "serial-expand": {
     "defaultMessage": "シリアルを表示",
@@ -684,7 +684,7 @@
   },
   "serial-flashed": {
     "defaultMessage": "micro:bitに書き込みました",
-    "description": "Shown when your program is in sync with the micro:bit"
+    "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
     "defaultMessage": "キーボードショートカット <kbd>Ctrl</kbd> + <kbd>C</kbd> を使用してプログラムを中断します。すると、MicroPythonが実行するPythonコマンドを入力することができます。これは何か新しいことを試してみるのに最適な方法です。",
@@ -716,11 +716,11 @@
   },
   "serial-ready-to-flash": {
     "defaultMessage": "micro:bitの書き込み準備ができました",
-    "description": "Shown when your program is out of sync with the micro:bit"
+    "description": "Shown when your program is out of sync with the Calliope mini"
   },
   "serial-running": {
     "defaultMessage": "実行中…",
-    "description": "Indicator text when the micro:bit is running a program"
+    "description": "Indicator text when the Calliope mini is running a program"
   },
   "serial-terminal": {
     "defaultMessage": "シリアルターミナル",
@@ -948,7 +948,7 @@
   },
   "simulator-radio-code": {
     "defaultMessage": "micro:bitの送信:",
-    "description": "Visually hidden text for a radio message sent from the simulated micro:bit. Text of the message follows."
+    "description": "Visually hidden text for a radio message sent from the simulated Calliope mini. Text of the message follows."
   },
   "simulator-radio-group-notice": {
     "defaultMessage": "無線グループを {groupNumber} に設定",
@@ -976,7 +976,7 @@
   },
   "simulator-radio-user": {
     "defaultMessage": "あなたの送信:",
-    "description": "Visually hidden text for a radio message sent from the user to the simulated micro:bit. Text of the message follows."
+    "description": "Visually hidden text for a radio message sent from the user to the simulated Calliope mini. Text of the message follows."
   },
   "simulator-reference-link": {
     "defaultMessage": "参照セクションへのリンク",
@@ -1012,7 +1012,7 @@
   },
   "simulator-touch-logo": {
     "defaultMessage": "タッチロゴ",
-    "description": "Name for the touch logo pin on the V2 micro:bit board. Used in the simulator."
+    "description": "Name for the touch logo pin on the V2 Calliope mini board. Used in the simulator."
   },
   "simulator-unmute": {
     "defaultMessage": "ミュート解除",
@@ -1127,7 +1127,7 @@
     "description": "WebUSB error telling user to update firmware"
   },
   "webusb-error-update-req-title": {
-    "defaultMessage": "micro:bit のファームウェアを更新してください。",
+    "defaultMessage": "Calliope mini のファームウェアを更新してください。",
     "description": "Error text telling user to update firmware"
   },
   "webusb-not-supported": {
@@ -1147,7 +1147,7 @@
     "description": "Text in the welcome dialogn"
   },
   "welcome-title": {
-    "defaultMessage": "micro:bit Pythonエディターへようこそ",
+    "defaultMessage": "Calliope mini Pythonエディターへようこそ",
     "description": "Title for the welcome dialog"
   },
   "zoom-in-action": {

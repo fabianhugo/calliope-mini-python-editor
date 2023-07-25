@@ -8,7 +8,7 @@
   "about-comic": [
     {
       "type": 0,
-      "value": "Tira cómica de tres viñetas titulada \"MicroPython es genial\" por Mike Rowbit. Una serpiente dibujada presenta a Damien diciendo \"Este es Damien... ha creado MicroPython\". Dos serpientes hablan sobre MicroPython: la serpiente amarilla dice \"MicroPython está diseñado para ordenadores muy pequeños\". \"Como el BBC micro:bit\", responde la serpiente morada. Continúa la serpiente amarilla: \"Pero Python se puede ejecutar en cualquier sitio\". La serpiente morada asiente diciendo \"Como en este 'rack' de servidores que ejecutan enormes paginas web\". Detrás de las serpientes se muestra un \"rack\" de servidores."
+      "value": "Tira cómica de tres viñetas titulada \"MicroPython es genial\" por Mike Rowbit. Una serpiente dibujada presenta a Damien diciendo \"Este es Damien... ha creado MicroPython\". Dos serpientes hablan sobre MicroPython: la serpiente amarilla dice \"MicroPython está diseñado para ordenadores muy pequeños\". \"Como el BBC Calliope mini\", responde la serpiente morada. Continúa la serpiente amarilla: \"Pero Python se puede ejecutar en cualquier sitio\". La serpiente morada asiente diciendo \"Como en este 'rack' de servidores que ejecutan enormes paginas web\". Detrás de las serpientes se muestra un \"rack\" de servidores."
     }
   ],
   "about-microbit": [
@@ -360,7 +360,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Diálogo de conexión WebUSB con entrada BBC micro:bit con la etiqueta 1 y botón Conectar con la etiqueta 2"
+      "value": "Diálogo de conexión WebUSB con entrada BBC Calliope mini con la etiqueta 1 y botón Conectar con la etiqueta 2"
     }
   ],
   "connect-help-message": [
@@ -372,13 +372,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Elige tu micro:bit"
+      "value": "Elige tu Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Selecciona micro:bit"
+      "value": "Selecciona Calliope mini"
     }
   ],
   "connect-help-two": [
@@ -390,19 +390,19 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "Conectar al micro:bit a través de WebUSB"
+      "value": "Conectar al Calliope mini a través de WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Conéctate al micro:bit para ver la salida serie aquí"
+      "value": "Conéctate al Calliope mini para ver la salida serie aquí"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Solucionar problemas de conexión al micro:bit"
+      "value": "Solucionar problemas de conexión al Calliope mini"
     }
   ],
   "content-load-error": [
@@ -492,7 +492,7 @@
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Desconectarse del micro:bit"
+      "value": "Desconectarse del Calliope mini"
     }
   ],
   "dont-show-again": [
@@ -614,13 +614,13 @@
     },
     {
       "type": 0,
-      "value": " para poder conectar a este micro:bit."
+      "value": " para poder conectar a este Calliope mini."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "La conexión al micro:bit ha fallado porque el firmware del micro:bit es demasiado antiguo."
+      "value": "La conexión al Calliope mini ha fallado porque el firmware del Calliope mini es demasiado antiguo."
     }
   ],
   "firmware-update-title": [
@@ -638,7 +638,7 @@
   "flash-hover": [
     {
       "type": 0,
-      "value": "Flash el proyecto directamente al micro:bit"
+      "value": "Flash el proyecto directamente al Calliope mini"
     }
   ],
   "flashing-code": [
@@ -650,7 +650,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "El código se está enviando (flasheando) al micro:bit. Esto puede llevar un tiempo la primera vez, pero después será más rápido."
+      "value": "El código se está enviando (flasheando) al Calliope mini. Esto puede llevar un tiempo la primera vez, pero después será más rápido."
     }
   ],
   "flashing-micropython": [
@@ -840,7 +840,7 @@
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "Placa micro:bit con la cuadrícula LED de 5 por 5 que muestra un corazón"
+      "value": "Placa Calliope mini con la cuadrícula LED de 5 por 5 que muestra un corazón"
     }
   ],
   "micropython-documentation": [
@@ -852,7 +852,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "Descubre cómo llegó MicroPython al micro:bit"
+      "value": "Descubre cómo llegó MicroPython al Calliope mini"
     }
   ],
   "micropython-source-code": [
@@ -860,7 +860,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Código fuente de MicroPython para el micro:bit V1"
+          "value": "Código fuente de MicroPython para el Calliope mini V1"
         }
       ],
       "type": 8,
@@ -874,7 +874,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V2"
+          "value": "Calliope mini V2"
         }
       ],
       "type": 8,
@@ -1062,7 +1062,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit conectado"
+          "value": "Calliope mini conectado"
         }
       ],
       "type": 8,
@@ -1096,7 +1096,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -1120,7 +1120,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "No has seleccionado un micro:bit o ha habido un problema al conectar."
+      "value": "No has seleccionado un Calliope mini o ha habido un problema al conectar."
     }
   ],
   "not-found-save-message": [
@@ -1132,7 +1132,7 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "No se ha encontrado ningún micro:bit"
+      "value": "No se ha encontrado ningún Calliope mini"
     }
   ],
   "not-found-update-link": [
@@ -1152,7 +1152,7 @@
     },
     {
       "type": 0,
-      "value": " para poder conectar a este micro:bit."
+      "value": " para poder conectar a este Calliope mini."
     }
   ],
   "open-action": [
@@ -1294,7 +1294,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "Para ejecutar este archivo HEX en tu micro:bit "
+      "value": "Para ejecutar este archivo HEX en tu Calliope mini "
     },
     {
       "children": [
@@ -1496,13 +1496,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "Enviar a micro:bit"
+      "value": "Enviar a Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "Conectar a través de WebUSB y flashear código al micro:bit"
+      "value": "Conectar a través de WebUSB y flashear código al Calliope mini"
     }
   ],
   "serial-collapse": [
@@ -1532,7 +1532,7 @@
   "serial-flashed": [
     {
       "type": 0,
-      "value": "micro:bit flasheado"
+      "value": "Calliope mini flasheado"
     }
   ],
   "serial-help-ctrl-c": [
@@ -1606,7 +1606,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "La terminal serie muestra errores y otros resultados del programa que se ejecuta en el micro:bit. Por defecto, muestra el error más reciente del programa; expándelo para ver todos los resultados."
+      "value": "La terminal serie muestra errores y otros resultados del programa que se ejecuta en el Calliope mini. Por defecto, muestra el error más reciente del programa; expándelo para ver todos los resultados."
     }
   ],
   "serial-help-print": [
@@ -1632,7 +1632,7 @@
       "children": [
         {
           "type": 0,
-          "value": "print('micro:bit es increíble')"
+          "value": "print('Calliope mini es increíble')"
         }
       ],
       "type": 8,
@@ -1664,7 +1664,7 @@
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "micro:bit listo para flashear"
+      "value": "Calliope mini listo para flashear"
     }
   ],
   "serial-running": [
@@ -2078,7 +2078,7 @@
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "micro:bit sent:"
+      "value": "Calliope mini sent:"
     }
   ],
   "simulator-radio-group-notice": [
@@ -2240,7 +2240,7 @@
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "No se puede conectar al micro:bit"
+      "value": "No se puede conectar al Calliope mini"
     }
   ],
   "timeout-error-title": [
@@ -2322,7 +2322,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "Transferir archivo HEX guardado a micro:bit"
+      "value": "Transferir archivo HEX guardado a Calliope mini"
     }
   ],
   "try-again-action": [
@@ -2410,7 +2410,7 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "Cierra cualquier otra pestaña que pueda estar usando WebUSB (por ejemplo, MakeCode or Editor de Python), o desconecta y vuelve a conectar el micro:bit antes de volver a intentarlo."
+      "value": "Cierra cualquier otra pestaña que pueda estar usando WebUSB (por ejemplo, MakeCode or Editor de Python), o desconecta y vuelve a conectar el Calliope mini antes de volver a intentarlo."
     }
   ],
   "webusb-error-clear-connect-title": [
@@ -2428,7 +2428,7 @@
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "Por favor reconecta el micro:bit e intentalo de nuevo."
+      "value": "Por favor reconecta el Calliope mini e intentalo de nuevo."
     }
   ],
   "webusb-error-update-req-description": [
@@ -2440,7 +2440,7 @@
       "children": [
         {
           "type": 0,
-          "value": "actualizar el firmware del micro:bit"
+          "value": "actualizar el firmware del Calliope mini"
         }
       ],
       "type": 8,
@@ -2454,13 +2454,13 @@
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "Actualiza el firmware micro:bit"
+      "value": "Actualiza el firmware Calliope mini"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "Desafortunadamente, este navegador no admite WebUSB, por lo que el programa se guardará en el ordenador. Sigue los pasos indicados en la siguiente pantalla para transferirlo al micro:bit. Recomendamos Google Chrome o Microsoft Edge para poder conectarte directamente al micro:bit."
+      "value": "Desafortunadamente, este navegador no admite WebUSB, por lo que el programa se guardará en el ordenador. Sigue los pasos indicados en la siguiente pantalla para transferirlo al Calliope mini. Recomendamos Google Chrome o Microsoft Edge para poder conectarte directamente al Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
@@ -2472,7 +2472,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "Con WebUSB puedes programar el micro:bit y conectarte a la consola serie directamente desde el editor en línea."
+      "value": "Con WebUSB puedes programar el Calliope mini y conectarte a la consola serie directamente desde el editor en línea."
     }
   ],
   "welcome-message": [
@@ -2484,7 +2484,7 @@
   "welcome-title": [
     {
       "type": 0,
-      "value": "Bienvenido al Editor de Python de micro:bit"
+      "value": "Bienvenido al Editor de Python de Calliope mini"
     }
   ],
   "zoom-in-action": [

@@ -858,7 +858,7 @@ export class App {
   async flash() {
     const document = await this.document();
     const flash = await document.findByRole("button", {
-      name: "Send to micro:bit",
+      name: "Send to Calliope mini",
     });
     return flash.click();
   }
@@ -1300,7 +1300,7 @@ export class App {
     const document = await this.document();
     return this.assertActiveElement(() =>
       document.findByRole("button", {
-        name: "Send to micro:bit",
+        name: "Send to Calliope mini",
       })
     );
   }

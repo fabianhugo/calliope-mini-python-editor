@@ -8,7 +8,7 @@
   "about-comic": [
     {
       "type": 0,
-      "value": "由 Mike Rowbit 所製作且標題為「MicroPython Rocks」的三幅漫畫。一條卡通蛇介紹了 Damien，並說「認識 Damien…他創造了 MicroPython。」。兩條蛇討論 MicroPython。黃蛇說：「MicroPython 是設計為運用在非常小型的電腦上工作。」「就像你的 BBC micro:bit 一樣」，紫蛇回覆。黃蛇繼續說，「但是 Python 可以在任何地方運行。」紫蛇表示同意，並且說「就如同在這個運行大型網站的伺服器機架上」。在蛇背後的背景顯示了一個伺服器機架。"
+      "value": "由 Mike Rowbit 所製作且標題為「MicroPython Rocks」的三幅漫畫。一條卡通蛇介紹了 Damien，並說「認識 Damien…他創造了 MicroPython。」。兩條蛇討論 MicroPython。黃蛇說：「MicroPython 是設計為運用在非常小型的電腦上工作。」「就像你的 BBC Calliope mini 一樣」，紫蛇回覆。黃蛇繼續說，「但是 Python 可以在任何地方運行。」紫蛇表示同意，並且說「就如同在這個運行大型網站的伺服器機架上」。在蛇背後的背景顯示了一個伺服器機架。"
     }
   ],
   "about-microbit": [
@@ -352,7 +352,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "WebUSB 連線對話框，帶有標記為 1 的 BBC micro:bit 項目和標記為 2 的「連線」按鈕"
+      "value": "WebUSB 連線對話框，帶有標記為 1 的 BBC Calliope mini 項目和標記為 2 的「連線」按鈕"
     }
   ],
   "connect-help-message": [
@@ -364,13 +364,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "選擇您的 micro:bit"
+      "value": "選擇您的 Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "選擇 micro:bit"
+      "value": "選擇 Calliope mini"
     }
   ],
   "connect-help-two": [
@@ -382,19 +382,19 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "透過 WebUSB 連線至您的 micro:bit"
+      "value": "透過 WebUSB 連線至您的 Calliope mini"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "連線至您的 micro:bit，在這裡查看序列輸出"
+      "value": "連線至您的 Calliope mini，在這裡查看序列輸出"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "疑難排解連線至 micro:bit 的問題"
+      "value": "疑難排解連線至 Calliope mini 的問題"
     }
   ],
   "content-load-error": [
@@ -484,7 +484,7 @@
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "斷開 micro:bit 連線"
+      "value": "斷開 Calliope mini 連線"
     }
   ],
   "dont-show-again": [
@@ -592,7 +592,7 @@
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "在連線至 micro:bit 前，您必須"
+      "value": "在連線至 Calliope mini 前，您必須"
     },
     {
       "children": [
@@ -612,7 +612,7 @@
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "您 micro:bit 上的韌體過舊，無法連線至 micro:bit。"
+      "value": "您 Calliope mini 上的韌體過舊，無法連線至 Calliope mini。"
     }
   ],
   "firmware-update-title": [
@@ -630,7 +630,7 @@
   "flash-hover": [
     {
       "type": 0,
-      "value": "直接將專案燒錄到 micro:bit"
+      "value": "直接將專案燒錄到 Calliope mini"
     }
   ],
   "flashing-code": [
@@ -642,7 +642,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "您的程式碼正被傳送 (刷新) 到您的 micro:bit。第一次可能需要一段時間，但之後會更快。"
+      "value": "您的程式碼正被傳送 (刷新) 到您的 Calliope mini。第一次可能需要一段時間，但之後會更快。"
     }
   ],
   "flashing-micropython": [
@@ -832,7 +832,7 @@
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "用 5 x 5 LED 網格的 micro:bit 開發板顯示一個心形"
+      "value": "用 5 x 5 LED 網格的 Calliope mini 開發板顯示一個心形"
     }
   ],
   "micropython-documentation": [
@@ -844,7 +844,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "瞭解 micro:bit 上的 MicroPython 如何誕生"
+      "value": "瞭解 Calliope mini 上的 MicroPython 如何誕生"
     }
   ],
   "micropython-source-code": [
@@ -856,7 +856,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -870,7 +870,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V2"
+          "value": "Calliope mini V2"
         }
       ],
       "type": 8,
@@ -1062,7 +1062,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit 是否已插入"
+          "value": "Calliope mini 是否已插入"
         }
       ],
       "type": 8,
@@ -1096,7 +1096,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -1120,7 +1120,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "您並未選擇 micro:bit，或是連線有問題。"
+      "value": "您並未選擇 Calliope mini，或是連線有問題。"
     }
   ],
   "not-found-save-message": [
@@ -1132,7 +1132,7 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "找不到 micro:bit"
+      "value": "找不到 Calliope mini"
     }
   ],
   "not-found-update-link": [
@@ -1152,7 +1152,7 @@
     },
     {
       "type": 0,
-      "value": "，然後才能連線至此 micro:bit。"
+      "value": "，然後才能連線至此 Calliope mini。"
     }
   ],
   "open-action": [
@@ -1294,7 +1294,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "若要在您的 micro:bit 執行這個 HEX 檔案，請"
+      "value": "若要在您的 Calliope mini 執行這個 HEX 檔案，請"
     },
     {
       "children": [
@@ -1496,13 +1496,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "傳送至 micro:bit"
+      "value": "傳送至 Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "透過 WebUSB 連線，然後將程式碼刷新到 micro:bit"
+      "value": "透過 WebUSB 連線，然後將程式碼刷新到 Calliope mini"
     }
   ],
   "serial-collapse": [
@@ -1532,7 +1532,7 @@
   "serial-flashed": [
     {
       "type": 0,
-      "value": "micro:bit 已刷新"
+      "value": "Calliope mini 已刷新"
     }
   ],
   "serial-help-ctrl-c": [
@@ -1606,7 +1606,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "序列終端會顯示 micro:bit 上執行的程式錯誤和其他輸出。預設情況下，它會顯示程式的最新錯誤。展開它以查看所有輸出。"
+      "value": "序列終端會顯示 Calliope mini 上執行的程式錯誤和其他輸出。預設情況下，它會顯示程式的最新錯誤。展開它以查看所有輸出。"
     }
   ],
   "serial-help-print": [
@@ -1632,7 +1632,7 @@
       "children": [
         {
           "type": 0,
-          "value": "輸出 ('micro:bit is awesome')"
+          "value": "輸出 ('Calliope mini is awesome')"
         }
       ],
       "type": 8,
@@ -1664,7 +1664,7 @@
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "micro:bit 準備刷新"
+      "value": "Calliope mini 準備刷新"
     }
   ],
   "serial-running": [
@@ -2086,7 +2086,7 @@
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "micro:bit sent:"
+      "value": "Calliope mini sent:"
     }
   ],
   "simulator-radio-group-notice": [
@@ -2248,7 +2248,7 @@
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "無法連接到 micro:bit"
+      "value": "無法連接到 Calliope mini"
     }
   ],
   "timeout-error-title": [
@@ -2334,7 +2334,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "將儲存的 HEX 檔案傳輸至 micro:bit"
+      "value": "將儲存的 HEX 檔案傳輸至 Calliope mini"
     }
   ],
   "try-again-action": [
@@ -2418,7 +2418,7 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "關閉任何其他可能正在使用 WebUSB 的索引標籤 (例如 MakeCode、Python 編輯器)，或者在重試之前拔下並重新插入 micro:bit。"
+      "value": "關閉任何其他可能正在使用 WebUSB 的索引標籤 (例如 MakeCode、Python 編輯器)，或者在重試之前拔下並重新插入 Calliope mini。"
     }
   ],
   "webusb-error-clear-connect-title": [
@@ -2436,7 +2436,7 @@
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "請重新連接你的 micro:bit 後再試一次。"
+      "value": "請重新連接你的 Calliope mini 後再試一次。"
     }
   ],
   "webusb-error-update-req-description": [
@@ -2448,7 +2448,7 @@
       "children": [
         {
           "type": 0,
-          "value": "更新您的 micro:bit 韌體"
+          "value": "更新您的 Calliope mini 韌體"
         }
       ],
       "type": 8,
@@ -2462,13 +2462,13 @@
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "請更新 micro:bit 韌體"
+      "value": "請更新 Calliope mini 韌體"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "很抱歉，此瀏覽器不支援 WebUSB，您的程式將儲存至您的電腦。請依照下一個畫面上的步驟，將其傳輸至您的 micro:bit。我們建議您使用 Google Chrome 或 Microsoft Edge，以便能直接連線至您的 micro:bit。"
+      "value": "很抱歉，此瀏覽器不支援 WebUSB，您的程式將儲存至您的電腦。請依照下一個畫面上的步驟，將其傳輸至您的 Calliope mini。我們建議您使用 Google Chrome 或 Microsoft Edge，以便能直接連線至您的 Calliope mini。"
     }
   ],
   "webusb-not-supported-title": [
@@ -2480,7 +2480,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "使用 WebUSB，您可以對 micro:bit 進行編程，並直接從線上編輯器連線至序列主控台。"
+      "value": "使用 WebUSB，您可以對 Calliope mini 進行編程，並直接從線上編輯器連線至序列主控台。"
     }
   ],
   "welcome-message": [
@@ -2492,7 +2492,7 @@
   "welcome-title": [
     {
       "type": 0,
-      "value": "歡迎使用 micro:bit Python 編輯器"
+      "value": "歡迎使用 Calliope mini Python 編輯器"
     }
   ],
   "zoom-in-action": [
