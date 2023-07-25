@@ -86,15 +86,8 @@ export const sanityLanguageId = (locale: string): string => {
 };
 
 const queryUrl = (query: string): string => {
-  if (query.includes("type == \"toolkit\"")) {
-    return (
-      "https://hmru2910.apicdn.sanity.io/v1/data/query/production?query=" +
-      encodeURIComponent(query)
-    );
-  }
-
   return (
-    "https://ajwvhvgo.apicdn.sanity.io/v1/data/query/apps?query=" +
+    "https://hmru2910.apicdn.sanity.io/v1/data/query/production?query=" +
     encodeURIComponent(query)
   );
 };
