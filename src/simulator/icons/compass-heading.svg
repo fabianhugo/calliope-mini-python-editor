@@ -1,31 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 140 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlnsserif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-51.6663,-3700.09)">
-        <g transform="matrix(0.794927,0,0,0.794927,33.4097,768.072)">
-            <circle cx="112.855" cy="3776.47" r="63.094" style="fill:none;stroke:currentColor;stroke-width:8.81px;"/>
-        </g>
-        <g id="Needle" style="transform-box: fill-box; transform-origin: center;">
-            <g transform="matrix(1,0,0,1,3.22958,-2.84217e-14)">
-                <path d="M118.596,3726.91L123.121,3770.09L114.071,3770.09L118.596,3726.91Z" style="fill:var(--chakra-colors-brand-200);"/>
-            </g>
-            <g transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,240.422,7540.44)">
-                <path d="M118.596,3726.91L123.121,3770.09L114.071,3770.09L118.596,3726.91Z" style="fill:rgb(215,216,214);"/>
-            </g>
-        </g>
-        <g id="Ordinals">
-            <g id="Tooltip-Top" serifid="Tooltip Top" transform="matrix(1.27689,0,0,1.2442,122.198,3712.47)">
-                <text x="-5.055px" y="0px" style="font-family:'Helvetica';font-size:14px;">N</text>
-            </g>
-            <g id="Tooltip-Top1" serifid="Tooltip Top" transform="matrix(1.27689,0,0,1.2442,186.495,3776.77)">
-                <text x="-4.669px" y="0px" style="font-family:'Helvetica';font-size:14px;">E</text>
-            </g>
-            <g id="Tooltip-Top2" serifid="Tooltip Top" transform="matrix(1.27689,0,0,1.2442,122.198,3843.7)">
-                <text x="-4.669px" y="0px" style="font-family:'Helvetica';font-size:14px;">S</text>
-            </g>
-            <g id="Tooltip-Top3" serifid="Tooltip Top" transform="matrix(1.27689,0,0,1.2442,59.1774,3776.29)">
-                <text x="-6.607px" y="0px" style="font-family:'Helvetica';font-size:14px;">W</text>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 109.8 112.5" style="enable-background:new 0 0 109.8 112.5;" xml:space="preserve">
+<path fill="currentColor" id="compass_00000035505240606323636040000001454710560604993458_" d="M54.6,109.3C24.5,109.3,0.2,85,0.2,55
+	c0-30.2,24.3-54.6,54.4-54.6s54.4,24.3,54.4,54.4C109.1,85,84.6,109.3,54.6,109.3z M54.6,101.6c25.6,0,46.6-21,46.6-46.6
+	S80.2,8.4,54.6,8.4S8,29.3,8,55S29.1,101.6,54.6,101.6z M54.6,60.3c3,0,5.5-2.5,5.5-5.5s-2.5-5.5-5.5-5.5c-3,0-5.5,2.5-5.5,5.5
+	C49.2,57.8,51.7,60.3,54.6,60.3z"/>
+<path fill="currentColor" d="M53.1,96.2c-0.6,0.4-1.4,0.7-2.2,0.5c-1.5-0.2-2.6-1.2-3-2.6l-9.5-39.7c-0.2-0.6-0.1-1.3,0.1-1.9l12.8-37.3
+	c0.4-1.4,1.7-2.3,3.1-2.2c1.4,0,2.7,1,3.1,2.3l13.1,39.4c0.3,0.7,0.2,1.7-0.1,2.3L54.3,94.5C54,95.4,53.6,95.9,53.1,96.2z
+	 M45.1,53.9l7,29L64,55.6l-9.6-28.7L45.1,53.9z"/>
 </svg>

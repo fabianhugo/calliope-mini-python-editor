@@ -18,7 +18,7 @@ import {
 import { ReactNode, useCallback, useState } from "react";
 import { RiSendPlane2Line } from "react-icons/ri";
 import { FormattedMessage, useIntl } from "react-intl";
-import { ReactComponent as MessageIcon } from "./icons/microbit-face-icon.svg";
+import { ReactComponent as MessageIcon } from "./icons/Calliope-face-icon.svg";
 import { RadioChatItem, useRadioChatItems } from "./radio-hooks";
 import { useAutoScrollToBottom } from "./scroll-hooks";
 
