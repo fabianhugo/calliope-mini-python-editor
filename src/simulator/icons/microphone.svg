@@ -1,1 +1,13 @@
-<svg width="100%" height="100%" viewBox="0 0 30 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlnsserif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="microphone" d="M11.84,35.624l-0,3.393l-7.249,0l0,3.988l21.159,0l0,-3.988l-7.248,0l-0,-3.391c6.366,-1.402 11.306,-6.749 11.306,-13.517l-4.785,0c-0,5.256 -4.606,9.092 -9.848,9.092c-5.245,0 -9.857,-3.835 -9.857,-9.092l-4.785,0c0,6.765 4.94,12.111 11.307,13.515Zm9.807,-28.232c0,-3.646 -2.96,-6.606 -6.603,-6.606c-3.648,0 -6.608,2.96 -6.608,6.606l0,12.517c0,3.65 2.96,6.606 6.608,6.606c3.643,-0 6.603,-2.956 6.603,-6.606l0,-12.517Z" style="fill:currentColor;"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 30 44" style="enable-background:new 0 0 30 44;" xml:space="preserve">
+<g>
+	<path fill="currentColor" d="M28.1,13.4c-1,0-1.8,0.8-1.8,1.8v4.9c0,6.2-5.1,11.3-11.3,11.3c-6.2,0-11.3-5.1-11.3-11.3v-4.9c0-1-0.8-1.8-1.8-1.8
+		S0,14.3,0,15.3v4.9c0,7.4,5.4,13.7,12.7,14.8v6.1c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8v-6c7.6-0.7,13.5-7.2,13.5-14.8v-4.9
+		C29.9,14.3,29.1,13.4,28.1,13.4z"/>
+	<path fill="currentColor" d="M15,28.9c4.9,0,8.9-4,8.9-8.9v-8.7c0-4.9-4-8.9-8.9-8.9s-8.9,4-8.9,8.9V20C6.1,24.9,10.1,28.9,15,28.9z M15,5.6
+		c3.1,0,5.7,2.6,5.7,5.7v2.8H9.3v-2.8C9.3,8.1,11.9,5.6,15,5.6z M15,25.7c-3.1,0-5.7-2.6-5.7-5.7v-2.7h11.4V20
+		C20.7,23.1,18.2,25.7,15,25.7z"/>
+</g>
+</svg>
