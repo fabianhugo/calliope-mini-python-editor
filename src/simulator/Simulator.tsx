@@ -23,6 +23,7 @@ import { useLogging } from "../logging/logging-hooks";
 import SimulatorActionBar from "./SimulatorActionBar";
 import SimulatorSplitView from "./SimulatorSplitView";
 import SimSerialTabControlProvider from "./tab-control-hooks";
+import SimulatorBackground from "../simulator/images/Simulator_BG.png";
 
 export enum RunningStatus {
   RUNNING,
@@ -119,7 +120,7 @@ const Simulator = ({
             direction="expandLeft"
           />
         </Flex>
-        <VStack spacing={5} bg="gray.25" ref={simControlsRef}>
+        <VStack spacing={5} bg={`url(${SimulatorBackground})`} ref={simControlsRef}>
           <Box width="100%" pb={1} px={5} maxW="md" minW={minWidth}>
             <AspectRatio ratio={1} width="100%">
               <Box
