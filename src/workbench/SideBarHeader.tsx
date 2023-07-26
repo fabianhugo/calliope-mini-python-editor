@@ -220,7 +220,7 @@ const SideBarHeader = ({
           {searchAvailable && !query && sidebarShown && (
             <CollapsibleButton
               onClick={handleModalOpened}
-              backgroundColor="brand.700"
+              backgroundColor="gray.700"
               fontWeight="normal"
               color="#fffc"
               icon={<Box as={RiSearch2Line} fontSize="lg" color="fff" />}
