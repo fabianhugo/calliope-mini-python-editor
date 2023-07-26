@@ -3,6 +3,8 @@ name: build
 on:
   release:
     types: [created]
+  repository_dispatch:
+    types: [new_theme_released]
   push:
     branches:
       - "feature/calliope-rework"
