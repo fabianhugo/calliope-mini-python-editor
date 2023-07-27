@@ -8,7 +8,7 @@ import { isMigration, parseMigrationFromUrl } from "./migration";
 // The heart project.
 export const testMigrationUrl =
   // origin needs to match jest's testUrl
-  "http://localhost/#import:#project:XQAAgACRAAAAAAAAAAA9iImmlGSt1R++5LD+ZJ36cRz46B+lhYtNRoWF0nijpaVyZlK7ACfSpeoQpgfk21st4ty06R4PEOM4sSAXBT95G3en+tghrYmE+YJp6EiYgzA9ThKkyShWq2UdvmCzqxoNfYc1wlmTqlNv/Piaz3WoSe3flvr/ItyLl0aolQlEpv4LA8A=";
+  "http://localhost/#import:#project:XQAAQAC5AAAAAAAAAAA9goAXHC4MqgeNHgoIMpsTCWf7Uey9qBfvYDRDhV58HgPWnVk17lpHQ7c4ONTtuHEl1qEq2ZMWi8WcCqCLtyiRuaSVeT8JYXrNwU0FGB/FzyKsCUHFukWNfqjhGUtC6tr40TXTrMxbZMa4uHAk3g2yAPoEUBVOzWOtbBPU7/MGN57oFvJCdjbgvwc3MX7/+EP0AA==";
 
 describe("parseMigrationFromUrl", () => {
   it("parses valid URL", () => {
@@ -16,7 +16,7 @@ describe("parseMigrationFromUrl", () => {
     expect(migration).toEqual({
       migration: {
         meta: {
-          cloudId: "microbit.org",
+          cloudId: "calliope.cc",
           comment: "",
           editor: "python",
           name: "Hearts",
