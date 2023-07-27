@@ -36,7 +36,7 @@
     "description": "API-Tab-Schaltflächentext"
   },
   "apidocs-baseclass": {
-    "defaultMessage": "{baseClassCount, Plural, eine {Basisklasse} andere {Basisklassen: }}",
+    "defaultMessage": "{baseClassCount, plural, one {base class} other {base classes: }}",
     "description": "Präfix für eine einzelne Basisklasse oder eine Liste von Basisklassen. Verwendet die ICU-Syntax für die Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "apidocs-classes": {
@@ -408,7 +408,7 @@
     "description": "Fehlermeldung beim Laden"
   },
   "load-error-title": {
-    "defaultMessage": "Kann {fileCount, Plural, eine {file} andere {files}} nicht laden",
+    "defaultMessage": "Kann {fileCount, plural, one {file} other {files}} nicht laden",
     "description": "Titel des Fehlerdialogs, wenn wir keine Dateien laden können. Verwendet ICU-Syntax für Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "loaded-file-feedback": {
@@ -632,7 +632,7 @@
     "description": "Aktion Hover-Text zurücksetzen"
   },
   "results-count": {
-    "defaultMessage": "{count, plural, =0 {Keine Ergebnisse} ein {# Ergebnis} andere {# Ergebnisse}}",
+    "defaultMessage": "{count, plural, =0 {Keine Ergebnisse} one {# Ergebnis} other {# Ergebnisse}}",
     "description": "Anzahl der Ergebnisse einer Suche. Verwendet ICU-Syntax für Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "save-action": {
@@ -828,7 +828,7 @@
     "description": "Unterhalb der Datenprotokollierungstabelle des Simulators wird angezeigt, dass das Protokoll voll ist."
   },
   "simulator-data-logging-rows": {
-    "defaultMessage": "{count, plural, =0 {No rows logged} eine {# row logged} andere {# rows logged}}",
+    "defaultMessage": "{count, plural, =0 {No rows logged} one {# row logged} other {# rows logged}}",
     "description": "Indikator für die Anzahl der in der Datenprotokollierungstabelle des Simulators protokollierten Zeilen. Verwendet die ICU-Syntax für die Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "simulator-data-logging-save-log": {
