@@ -46,7 +46,7 @@ const Simulator = ({
   simFocus,
 }: SimulatorProps) => {
   const production =
-    "https://python-simulator.usermbit.org/v/0.1/simulator.html";
+    "http://production.calliope.simulator.s3-website.eu-central-1.amazonaws.com/simulator.html";
   const staging =
     "http://staging.calliope.simulator.s3-website.eu-central-1.amazonaws.com/simulator.html";
   let url = stage === "PRODUCTION" ? production : staging;
