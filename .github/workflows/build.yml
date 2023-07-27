@@ -7,7 +7,8 @@ on:
     types: [new_theme_released]
   push:
     branches:
-      - "feature/calliope-rework"
+      - "feature/*"
+      - "main"
 
 concurrency:
   group: ${{ github.workflow }}-${{ startsWith(github.ref, 'refs/tags/v') && 'release' || github.ref }}
@@ -40,7 +41,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: node ./bin/print-ci-env-stage.js >> $GITHUB_ENV
-#      - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
+      - run: node ./bin/print-ci-env-public-url.js >> $GITHUB_ENV
 #      - run: npm run ci:update-version
 #        if: github.repository_owner == 'calliope-edu'
       - run: npm run build
@@ -61,7 +62,7 @@ jobs:
 #          name: reports
 #          path: reports/
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync ./build/ s3://${{ env.BUCKET_NAME }} --delete
+        run: aws s3 sync ./build/ s3://${{ env.DEPLOY_PATH }} --delete
         if: github.repository_owner == 'calliope-edu' && (env.STAGE == 'REVIEW' || success())
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.WEB_DEPLOY_AWS_ACCESS_KEY_ID }}

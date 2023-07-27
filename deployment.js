@@ -3,28 +3,48 @@
  *
  * SPDX-License-Identifier: MIT
  */
-const {
-  createDeploymentDetailsFromOptions,
-} = require("@microbit-foundation/website-deploy-aws-config");
+const createDeploymentDetailsFromOptions = (options) => {
+  const STAGE = process.env.STAGE;
+
+  if (!STAGE) {
+    throw new Error("STAGE must be defined");
+  }
+
+  const environment = options[STAGE.toLocaleLowerCase()];
+
+  if (!environment) {
+    throw new Error(`No environment defined for stage ${STAGE}`);
+  }
+
+  if (!environment.bucket) {
+    throw new Error(`No bucket defined for stage ${STAGE}`);
+  }
+
+  return {
+    s3Config: {
+      bucketPrefix: environment.prefix || "",
+      bucket: environment.bucket,
+    }
+  };
+};
 
 const { s3Config } = createDeploymentDetailsFromOptions({
   production: {
-    bucket: "python-editor-v3.microbit.org",
+    bucket: "production.calliope.editor",
     mode: "major",
     allowPrerelease: true,
   },
   staging: {
-    bucket: "stage-python-editor-v3.microbit.org",
-    prefix: "v/beta",
+    bucket: "staging.calliope.editor",
   },
   review: {
-    bucket: "review-python-editor-v3.microbit.org",
+    bucket: "review.calliope.editor",
     mode: "branch-prefix",
   },
 });
 module.exports = {
   ...s3Config,
-  region: "eu-west-1",
+  region: "eu-central-1",
   removeNonexistentObjects: true,
   enableS3StaticWebsiteHosting: true,
   errorDocumentKey: "index.html",
