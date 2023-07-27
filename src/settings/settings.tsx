@@ -22,6 +22,11 @@ export interface Language {
 // Tag new languages with `preview: true` to enable for beta only.
 const allLanguages: Language[] = [
   {
+    id: "de",
+    name: "Deutsch",
+    enName: "German",
+  },
+  {
     id: "en",
     name: "English",
     enName: "English",
@@ -30,41 +35,49 @@ const allLanguages: Language[] = [
     id: "ca",
     name: "Català",
     enName: "Catalan",
+    preview: true
   },
   {
     id: "zh-cn",
     name: "简体中文",
     enName: "Chinese (Simplified)",
+    preview: true
   },
   {
     id: "zh-tw",
     name: "繁體中文",
     enName: "Chinese (Traditional)",
+    preview: true
   },
   {
     id: "nl",
     name: "Nederlands",
     enName: "Dutch",
+    preview: true
   },
   {
     id: "fr",
     name: "Français",
     enName: "French",
+    preview: true
   },
   {
     id: "ja",
     name: "日本語",
     enName: "Japanese",
+    preview: true
   },
   {
     id: "ko",
     name: "한국어",
     enName: "Korean",
+    preview: true
   },
   {
     id: "es-es",
     name: "Español",
     enName: "Spanish",
+    preview: true
   },
 ];
 export const supportedLanguages: Language[] = allLanguages.filter(
@@ -141,6 +154,7 @@ export const codeStructureOptions: CodeStructureOption[] = [
   "full",
   "simple",
 ];
+
 export interface Settings {
   languageId: string;
   fontSize: number;

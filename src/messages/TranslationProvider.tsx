@@ -8,12 +8,14 @@ import { IntlProvider, MessageFormatElement } from "react-intl";
 import { ReactNode, useEffect, useState } from "react";
 import { retryAsyncLoad } from "../common/chunk-util";
 
-async function loadLocaleData(locale: string) {
+async function loadLocaleData (locale: string) {
   switch (locale) {
     // Add further cases explicitly for code splitting.
     // The need for this might be worth revisiting.
     case "ca":
       return (await import("./ui.ca.json")).default;
+    case "de":
+      return (await import("./ui.de.json")).default;
     case "fr":
       return (await import("./ui.fr.json")).default;
     case "es-es":

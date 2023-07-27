@@ -1,0 +1,1162 @@
+{
+  "about": {
+    "defaultMessage": "Über",
+    "description": "Über die Aktion"
+  },
+  "about-comic": {
+    "defaultMessage": "Drei-Panel-Comic mit dem Titel \"MicroPython Rocks\" von Mike Rowbit. Eine Zeichentrickschlange stellt Damien vor und sagt: \"Meet Damien... Er hat MicroPython entwickelt.\". Zwei Schlangen diskutieren über MicroPython. Die gelbe Schlange sagt: \"MicroPython wurde entwickelt, um auf sehr kleinen Computern zu funktionieren.\" \"Wie deinen Calliope mini oder den BBC micro:bit\", antwortet die lila Schlange. \" Die gelbe Schlange fährt fort: \"Aber Python kann überall laufen.\". Die violette Schlange stimmt zu und sagt: \"Zum Beispiel auf diesem Serverregal, auf dem riesige Websites laufen. Der Hintergrund hinter den Schlangen zeigt ein Server-Rack.",
+    "description": "Alt-Text für den Comic im Info-Dialog"
+  },
+  "about-microbit": {
+    "defaultMessage": "Ursprünglich erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
+    "description": "Text im about-Dialog"
+  },
+  "about-micropython": {
+    "defaultMessage": "Der Editor hängt von <link>MicroPython</link> ab, das von Damien George und einer Gemeinschaft von Entwicklern auf der ganzen Welt entwickelt wird.",
+    "description": "Text im Info-Dialog"
+  },
+  "about-read-less-micropython": {
+    "defaultMessage": "Weniger über MicroPython lesen",
+    "description": "Aria-Label zum Einklappen eines erweiterten Abschnitts über MicroPython"
+  },
+  "about-read-more-micropython": {
+    "defaultMessage": "Lesen Sie mehr über MicroPython",
+    "description": "Aria-Label zum Erweitern eines eingeklappten Abschnitts über MicroPython"
+  },
+  "added-change": {
+    "defaultMessage": "Datei {Änderungsname} hinzugefügt",
+    "description": "Änderung an Datei vorgenommen"
+  },
+  "api-description": {
+    "defaultMessage": "Für die Verwendung und Beispiele, siehe <link>Referenz</link>",
+    "description": "Erweiterte Beschreibung am oberen Rand der API-Registerkarte"
+  },
+  "api-tab": {
+    "defaultMessage": "API",
+    "description": "API-Tab-Schaltflächentext"
+  },
+  "apidocs-baseclass": {
+    "defaultMessage": "{baseClassCount, Plural, eine {Basisklasse} andere {Basisklassen: }}",
+    "description": "Präfix für eine einzelne Basisklasse oder eine Liste von Basisklassen. Verwendet die ICU-Syntax für die Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
+  },
+  "apidocs-classes": {
+    "defaultMessage": "Classes",
+    "description": "Überschrift in der API-Dokumentation für die Klassen in einem Python-Modul"
+  },
+  "apidocs-fields": {
+    "defaultMessage": "Felder",
+    "description": "Überschrift in der API-Dokumentation für die Felder in einem Python-Modul"
+  },
+  "apidocs-functions": {
+    "defaultMessage": "Funktionen",
+    "description": "Überschrift in der API-Dokumentation für die Funktionen in einem Python-Modul"
+  },
+  "apidocs-methods": {
+    "defaultMessage": "Methoden",
+    "description": "Überschrift in der API-Dokumentation für die Methoden in einer Python-Klasse"
+  },
+  "back-action": {
+    "defaultMessage": "Zurück",
+    "description": "Text der Schaltfläche 'Zurück'"
+  },
+  "back-to-main": {
+    "defaultMessage": "zurück zum Hauptcode",
+    "description": "Text-Schaltfläche, führt zurück zum Hauptcode"
+  },
+  "cancel-action": {
+    "defaultMessage": "Abbrechen",
+    "description": "Text der Abbrechen-Schaltfläche"
+  },
+  "change-files": {
+    "defaultMessage": "Dateien ändern?",
+    "description": "Kopfzeile für den Dialog zur Bestätigung der geänderten Dateien"
+  },
+  "choose-main-add-file": {
+    "defaultMessage": "Datei {Name} hinzufügen",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-add-module": {
+    "defaultMessage": "Modul {Name} hinzufügen",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-replace-file": {
+    "defaultMessage": "Ersetze Datei {Name}",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-replace-module": {
+    "defaultMessage": "Ersetze Modul {Name}",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-source-add-file": {
+    "defaultMessage": "Datei {Ziel} von {Quelle} hinzufügen",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-source-add-main-code": {
+    "defaultMessage": "Hauptcode von {Quelle} hinzufügen",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-source-replace-file": {
+    "defaultMessage": "Ersetze Datei {target} durch {source}",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "choose-main-source-replace-main-code": {
+    "defaultMessage": "Ersetze Hauptcode durch {Quelle}",
+    "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
+  },
+  "clear": {
+    "defaultMessage": "Löschen",
+    "description": "Aria-Label für die Sucheingabe"
+  },
+  "close-action": {
+    "defaultMessage": "Schließen",
+    "description": "Text der Schaltfläche 'Schließen'"
+  },
+  "code-editor": {
+    "defaultMessage": "Code-Editor",
+    "description": "Aria-Label für den Code-Editor"
+  },
+  "code-example": {
+    "defaultMessage": "Code-Beispiel:",
+    "description": "Visuell verborgener Text zur Ankündigung von Codebeispielen in der Toolkit-Dokumentation"
+  },
+  "confirm-action": {
+    "defaultMessage": "Bestätigen",
+    "description": "Bezeichnung der Aktion bestätigen"
+  },
+  "confirm-delete": {
+    "defaultMessage": "Bestätigen Sie das Löschen",
+    "description": "Bestätigungskopf für die Löschung einer Datei"
+  },
+  "confirm-replace-body": {
+    "defaultMessage": "Alle Dateien durch die im Hexfeld enthaltenen ersetzen?",
+    "description": "Body der Bestätigungsnachricht für den Projektdialog zum Ersetzen"
+  },
+  "confirm-replace-reset": {
+    "defaultMessage": "Alle Dateien durch den Standard-Startercode ersetzen?",
+    "description": "Bestätigungsmeldung für die Rücksetzaktion"
+  },
+  "confirm-replace-title": {
+    "defaultMessage": "Bestätigen Sie das Projekt ersetzen",
+    "description": "Titel der Bestätigungsmeldung für den Dialog zum Ersetzen des Projekts"
+  },
+  "confirm-replace-with-idea": {
+    "defaultMessage": "Alle Dateien durch {Ideenname} ersetzen?",
+    "description": "Bestätigungs-Nachrichtentext für das Ersetzen des Projektdialogs durch eine Idee"
+  },
+  "confirm-save-action": {
+    "defaultMessage": "Bestätigen und speichern",
+    "description": "Aktionsetikett bestätigen und speichern"
+  },
+  "confirm-save-hint": {
+    "defaultMessage": "Abbrechen und dann Speichern verwenden, um eine Kopie des Projekts zu speichern.",
+    "description": "Hinweis, der angezeigt wird, wenn der Benutzer nicht gespeicherte Änderungen hat, die verloren gehen könnten, wenn er mit einer Aktion fortfährt"
+  },
+  "connect-action": {
+    "defaultMessage": "Verbinden",
+    "description": "Text der Schaltfläche 'Verbinden'"
+  },
+  "connect-cable-title": {
+    "defaultMessage": "Kabel verbinden",
+    "description": "Titel für den Dialog 'Kabel verbinden'"
+  },
+  "connect-help-alt": {
+    "defaultMessage": "WebUSB-Verbindungsdialog mit Calliope mini mit der Bezeichnung 1 und Schaltfläche 'Verbinden' mit der Bezeichnung 2",
+    "description": "Alt-Text für das Bild im connect-Hilfedialog"
+  },
+  "connect-help-message": {
+    "defaultMessage": "Im nächsten Popup:",
+    "description": "Text im Verbindungshilfedialog"
+  },
+  "connect-help-one": {
+    "defaultMessage": "Wählen deinen Calliope mini aus",
+    "description": "Legendärer Text für das Bild des connect-Hilfedialogs"
+  },
+  "connect-help-title": {
+    "defaultMessage": "Wähle den Calliope mini aus",
+    "description": "Titel für den connect-Hilfedialog"
+  },
+  "connect-help-two": {
+    "defaultMessage": "Wählen Sie 'Verbinden'",
+    "description": "Legendentext für das Bild des Verbindungshilfedialogs"
+  },
+  "connect-hover": {
+    "defaultMessage": "Verbinde dich mit deinem Calliope mini über WebUSB",
+    "description": "Connect button hover text"
+  },
+  "connect-microbit": {
+    "defaultMessage": "Verbinde dich mit deinem micro: Calliope mini, um die serielle Ausgabe hier zu sehen",
+    "description": "Text im seriellen Bereich"
+  },
+  "connect-troubleshoot": {
+    "defaultMessage": "Behebe Probleme bei der Verbindung mit deinem Calliope mini",
+    "description": "Text in den Dialogen Calliope mini gefunden und Firmware-Update"
+  },
+  "content-load-error": {
+    "defaultMessage": "Etwas ist schief gelaufen. Laden deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann die Seite, um sie neu zu laden.",
+    "description": "Text, der angezeigt wird, wenn der Inhalt nicht geladen werden kann"
+  },
+  "copied": {
+    "defaultMessage": "Kopiert",
+    "description": "Text, der nach dem Kopieren in die Zwischenablage angezeigt wird"
+  },
+  "copy-action": {
+    "defaultMessage": "Kopieren",
+    "description": "Aktionstext in die Zwischenablage kopieren"
+  },
+  "copy-code-action": {
+    "defaultMessage": "Code kopieren",
+    "description": "Code in die Zwischenablage kopieren - Aktionstext"
+  },
+  "create-action": {
+    "defaultMessage": "Erstellen",
+    "description": "Beschriftung der Aktion Erstellen (z.B. im Dialog Datei erstellen)"
+  },
+  "create-file-action": {
+    "defaultMessage": "Datei erstellen",
+    "description": "Schaltflächentext für eine Aktion, die eine neue leere Python-Datei im aktuellen Projekt erstellt"
+  },
+  "create-python": {
+    "defaultMessage": "Erstelle eine neue Python-Datei in diesem Projekt",
+    "description": "Hover und Dialogtitel beim Erstellen einer neuen Python-Datei"
+  },
+  "created-file": {
+    "defaultMessage": "Erstellt {Dateiname}",
+    "description": "Aktionsrückmeldung für die Erstellung einer Datei"
+  },
+  "delete-action": {
+    "defaultMessage": "Löschen",
+    "description": "Schaltflächentext für die Löschaktion"
+  },
+  "delete-file-action": {
+    "defaultMessage": "Lösche {Name}",
+    "description": "Menüoption zum Löschen einer Datei"
+  },
+  "deleted-file": {
+    "defaultMessage": "Gelöschte {Dateiname}",
+    "description": "Bestätigungsmeldung, dass die Datei gelöscht wurde"
+  },
+  "disconnect-action": {
+    "defaultMessage": "Verbindung trennen",
+    "description": "Text der Schaltfläche zum Trennen der Verbindung"
+  },
+  "disconnect-hover": {
+    "defaultMessage": "Trenne die Verbindung zum Calliope mini",
+    "description": "Disconnect button hover text"
+  },
+  "dont-show-again": {
+    "defaultMessage": "Dies nicht mehr anzeigen",
+    "description": "Text, um einen Dialog nie wieder anzuzeigen"
+  },
+  "drag-hover": {
+    "defaultMessage": "Ziehen und Ablegen",
+    "description": "Ziehbarer Code-Hover-Text"
+  },
+  "edit-file-action": {
+    "defaultMessage": "{Name} bearbeiten",
+    "description": "Menüoption zum Bearbeiten einer Datei"
+  },
+  "edit-name-project-hover": {
+    "defaultMessage": "Bearbeite den Namen deines Projekts",
+    "description": "Text für den Benutzer, um den Namen des Projekts zu bearbeiten"
+  },
+  "edit-project-name-action": {
+    "defaultMessage": "Projektname bearbeiten",
+    "description": "Text für den Benutzer, um den Namen des Projekts zu bearbeiten"
+  },
+  "failed-to-build-hex": {
+    "defaultMessage": "Konnte die Hex-Datei nicht erstellen",
+    "description": "Fehlertitel, wenn wir die Hex-Datei nicht erstellen können, z. B. weil kein Speicherplatz vorhanden ist. Zusätzliche Details werden separat angezeigt."
+  },
+  "feedback": {
+    "defaultMessage": "Rückmeldung",
+    "description": "Feedback-Aktion"
+  },
+  "file-actions": {
+    "defaultMessage": "{Name} Datei-Aktionen",
+    "description": "Header der Datei-Aktionen für die Datei"
+  },
+  "file-already-exists": {
+    "defaultMessage": "Diese Datei existiert bereits",
+    "description": "Datei existiert bereits Benachrichtigungstext"
+  },
+  "file-name-invalid-character": {
+    "defaultMessage": "Der Name enthält ein ungültiges Zeichen: {invalid}",
+    "description": "Warntext für neuen Python-Dateinamen mit einem ungültigen Zeichen"
+  },
+  "file-name-length": {
+    "defaultMessage": "Der Name ist zu lang",
+    "description": "Warntext für zu lange Dateinamen (Einschränkung des Dateisystems)"
+  },
+  "file-name-lowercase-only": {
+    "defaultMessage": "Der Name sollte nur in Kleinbuchstaben geschrieben werden",
+    "description": "Warntext für neue Python-Datei mit Großbuchstaben"
+  },
+  "file-name-not-empty": {
+    "defaultMessage": "Der Name darf nicht leer sein",
+    "description": "Warntext für neue Python-Datei mit leerem Namen"
+  },
+  "file-name-start-number": {
+    "defaultMessage": "Der Name kann nicht mit einer Zahl beginnen",
+    "description": "Warntext für neue Python-Dateinamen, die mit einer Zahl beginnen"
+  },
+  "file-name-whitespace": {
+    "defaultMessage": "Der Name darf keine Leerzeichen enthalten",
+    "description": "Warntext für neuen Python-Dateinamen mit Leerzeichen"
+  },
+  "firmware-update-link": {
+    "defaultMessage": "Du musst <link>die Firmware aktualisieren</link>, bevor du dich mit diesem Calliope mini verbinden können.",
+    "description": "Text im Firmware-Update-Dialog"
+  },
+  "firmware-update-message": {
+    "defaultMessage": "Die Verbindung mit dem Calliope mini ist fehlgeschlagen, weil die Firmware auf deinem Calliope mini zu alt ist.",
+    "description": "Text im Firmware-Update-Dialog"
+  },
+  "firmware-update-title": {
+    "defaultMessage": "Firmware-Update erforderlich",
+    "description": "Titel für den Firmware-Update-Dialog"
+  },
+  "flash-action": {
+    "defaultMessage": "Flash",
+    "description": "Text für Flash-Schaltfläche"
+  },
+  "flash-hover": {
+    "defaultMessage": "Flashe das Projekt direkt auf den Calliope mini",
+    "description": "Hover-Text über Flash-Schaltfläche"
+  },
+  "flashing-code": {
+    "defaultMessage": "Code senden (blinkend)",
+    "description": "Fortschrittsdialogtext für Teilblitze (quick)"
+  },
+  "flashing-full-flash-detail": {
+    "defaultMessage": "Dein Code wird gerade an den Calliope mini gesendet (geflasht). Dies kann beim ersten Mal eine Weile dauern, aber danach geht es schneller.",
+    "description": "Nachricht, die nach dem Titel im Fortschrittsdialog für ein vollständiges Flashen angezeigt wird"
+  },
+  "flashing-micropython": {
+    "defaultMessage": "Flashen von MicroPython",
+    "description": "Fortschrittsdialogtext für vollständige Flashes (langsamer)"
+  },
+  "font-size": {
+    "defaultMessage": "Schriftgröße",
+    "description": "Schriftgröße Option Text"
+  },
+  "guide-link": {
+    "defaultMessage": "Für weitere Unterstützung, schaue in der <link>Python Editor Hilfe</link> nach",
+    "description": "Text mit einem externen Link zu Support-/Hilfeinhalten"
+  },
+  "help": {
+    "defaultMessage": "Hilfe",
+    "description": "Bezeichnung des Hilfemenüs"
+  },
+  "help-support": {
+    "defaultMessage": "Hilfe und Unterstützung",
+    "description": "Menüpunkt für Link zur Supportseite"
+  },
+  "help-translate": {
+    "defaultMessage": "Hilfe-übersetzen",
+    "description": "Hilfe zum Übersetzen von Menüoptionstext"
+  },
+  "highlight-code-structure": {
+    "defaultMessage": "Code-Struktur hervorheben",
+    "description": "Code-Struktur-Einstellungs-Label"
+  },
+  "highlight-code-structure-full": {
+    "defaultMessage": "Vollständig",
+    "description": "Option 'Codestruktur hervorheben'"
+  },
+  "highlight-code-structure-none": {
+    "defaultMessage": "Keine",
+    "description": "Option Code-Struktur hervorheben"
+  },
+  "highlight-code-structure-simple": {
+    "defaultMessage": "Einfach",
+    "description": "Option Code-Struktur hervorheben"
+  },
+  "ideas-tab": {
+    "defaultMessage": "Ideen",
+    "description": "Text der Schaltfläche für die Registerkarte 'Ideen'. Die Registerkarte zeigt Programme, die den Schülern Ideen geben."
+  },
+  "ideas-tab-description": {
+    "defaultMessage": "Probiere diese Projekte aus, verändere sie und lasse dich inspirieren",
+    "description": "Beschreibungstext der Registerkarte 'Ideen'. Die Registerkarte zeigt Programme, die den Schülern Ideen geben."
+  },
+  "insert-code-action": {
+    "defaultMessage": "Code einfügen",
+    "descrition": "Code-Aktionsetikett einfügen"
+  },
+  "language": {
+    "defaultMessage": "Sprache",
+    "description": "Text der Sprachoption"
+  },
+  "less-action": {
+    "defaultMessage": "Weniger",
+    "description": "Weniger Schaltflächentext (zeigt weniger Inhalt)"
+  },
+  "load-error-makecode-info": {
+    "defaultMessage": "Diese Hex-Datei kann nicht in den Python-Editor geladen werden. Der Python-Editor kann keine mit Microsoft MakeCode erstellten Hex-Dateien öffnen.",
+    "description": "Fehlermeldung beim Laden"
+  },
+  "load-error-makecode-link": {
+    "defaultMessage": "Gehe zu <link>https://makecode.calliope.cc/</link>, um diese Hex-Datei zu verwenden.",
+    "description": "Load error message"
+  },
+  "load-error-mixed": {
+    "defaultMessage": "Eine Hex-Datei kann nur für sich alleine geladen werden. Sie ersetzt alle Dateien im Projekt.",
+    "description": "Fehlermeldung beim Laden"
+  },
+  "load-error-mpy": {
+    "defaultMessage": "Diese Version des Python-Editors unterstützt derzeit nicht das Hinzufügen von .mpy-Dateien.",
+    "description": "Fehlermeldung beim Laden"
+  },
+  "load-error-title": {
+    "defaultMessage": "Kann {fileCount, Plural, eine {file} andere {files}} nicht laden",
+    "description": "Titel des Fehlerdialogs, wenn wir keine Dateien laden können. Verwendet ICU-Syntax für Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
+  },
+  "loaded-file-feedback": {
+    "defaultMessage": "{Dateiname} geladen",
+    "description": "Erfolgsrückmeldung für das Laden der Datei"
+  },
+  "loading": {
+    "defaultMessage": "Lädt...",
+    "description": "Wird bei Ladeanzeigen angezeigt"
+  },
+  "microbit-hearts-alt": {
+    "defaultMessage": "Calliope mini mit der 5 x 5 LED-Matrix, das ein Herz zeigt",
+    "description": "Alt-Text für Calliope mini Bild im About-Dialog"
+  },
+  "micropython-documentation": {
+    "defaultMessage": "MicroPython-Dokumentation",
+    "description": "MicroPython-Dokumentation Menüoptionstext"
+  },
+  "micropython-history": {
+    "defaultMessage": "Erfahre, wie es zu MicroPython kam",
+    "description": "Links zur MicroPython-Geschichte im About-Dialog"
+  },
+  "micropython-source-code": {
+    "defaultMessage": "MicroPython <linkV1>Quellcode für den Calliope mini V1.x-V2.x</linkV1> und <linkV2>Calliope mimi V3</linkV2>",
+    "description": "Links zum MicroPython-Quellcode im About-Dialog"
+  },
+  "more-action": {
+    "defaultMessage": "Mehr",
+    "description": "Mehr Schaltflächentext (zeigt mehr/weitere Inhalte)"
+  },
+  "more-connect-options": {
+    "defaultMessage": "Mehr Verbindungsoptionen",
+    "description": "Aria-Label für das zusätzliche Aktionsmenü rechts neben der Schaltfläche 'An Calliope mini senden'"
+  },
+  "more-ideas": {
+    "defaultMessage": "<link>Mehr Ideen</link>",
+    "description": "Link zu weiteren Ideen auf der calliope.cc Website am Ende des Ideen-Abschnitts"
+  },
+  "more-save-options": {
+    "defaultMessage": "Mehr Speicheroptionen",
+    "description": "Aria-Label für das zusätzliche Aktionsmenü rechts neben der Schaltfläche 'Speichern'"
+  },
+  "multiple-files-message-one": {
+    "defaultMessage": "Dieses Projekt beinhaltet {fileCount, plural, other {{fileCount} files}}, aber nur <strong>main.py</strong> wurde heruntergeladen.",
+    "description": "Meldung im Dialogfeld, wenn mehrere Dateien zum Herunterladen verfügbar sind. Verwendet die ICU-Syntax für die Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format. In der Praxis wird fileCount immer zwei oder mehr sein."
+  },
+  "multiple-files-message-two": {
+    "defaultMessage": "Klicke auf die Schaltfläche <strong>Speichern</strong>, um das gesamtes Projekt als Hex-Datei herunterzuladen. Du können die Hex-Datei <strong>öffnen</strong>, um dein Projekt wiederherzustellen. Wenn du lieber einzelne Python-Dateien herunterladen möchtest, verwende den Punkt <strong>Projekt</strong>.",
+    "Beschreibung": "Eine Meldung im Dialog wird angezeigt, wenn mehrere Dateien zum Download verfügbar sind"
+  },
+  "multiple-files-title": {
+    "defaultMessage": "Warnung: Nur main.py heruntergeladen",
+    "description": "Titel des Dialogs, der angezeigt wird, wenn mehrere Dateien zum Download verfügbar sind, aber nur die Hauptdatei heruntergeladen wird."
+  },
+  "name-project": {
+    "defaultMessage": "Benenne dein Projekt",
+    "description": "Definiere den Namen des Hauptprojekts"
+  },
+  "name-text": {
+    "defaultMessage": "Name",
+    "description": "Kopfzeile für Namensfeld"
+  },
+  "name-used-when": {
+    "defaultMessage": "Der Name wird verwendet, wenn Sie eine Datei speichern.",
+    "description": "Text unter dem Feld Projektname"
+  },
+  "new-file-hint": {
+    "defaultMessage": "Wir fügen die <code>.py</code>-Erweiterung für dich hinzu.",
+    "description": "Hinweis im Dialog für neue Python-Dateien"
+  },
+  "next-action": {
+    "defaultMessage": "Weiter",
+    "description": "Text der 'Weiter' Schaltfläche"
+  },
+  "not-found-checklist-one": {
+    "defaultMessage": "Ist dein <strong>Calliope mini eingesteckt</strong>? Hast du <link>diese Schritte befolgt</link>?",
+    "description": "Text der Checkliste im Dialog Keinen Calliope mini gefunden"
+  },
+  "not-found-checklist-two": {
+    "defaultMessage": "Wenn du einen <strong>Calliope mini V1.x oder V2.x</strong> hast, musst du möglicherweise <link>die Firmware aktualisieren</link>",
+    "description": "Text der Checkliste im Dialog Keinen Calliope mini gefunden"
+  },
+  "not-found-message": {
+    "defaultMessage": "Du hast keinen Calliope mini ausgewählt, oder es gab ein Problem bei der Verbindung.",
+    "description": "Text der Checkliste im Dialog Keinen Calliope mini gefunden"
+  },
+  "not-found-save-message": {
+    "defaultMessage": "Alternative Methode: Wähle Speichern und folge den Schritten zur Übertragung.",
+    "description": "Text des Sichern-Aufrufs im Dialog Keinen Calliope mini gefunden"
+  },
+  "not-found-title": {
+    "defaultMessage": "Keinen Calliope mini gefunden",
+    "description": "Titel im Dialog Keinen Calliope mini gefunden"
+  },
+  "not-found-update-link": {
+    "defaultMessage": "Du musst <link>die Firmware aktualisieren, bevor</link> du dich mit diesem Calliope mini verbinden kannst.",
+    "description": "Text im Dialog Keinen Calliope mini gefunden"
+  },
+  "open-action": {
+    "defaultMessage": "Öffnen",
+    "description": "Öffnen Schaltfläche Text"
+  },
+  "open-file-action": {
+    "defaultMessage": "Öffnen",
+    "description": "Öffnen Datei-Schaltfläche Text"
+  },
+  "open-file-dropped": {
+    "defaultMessage": "Datei beim Ablegen öffnen",
+    "description": "Aria-Label für Dateiablageziel"
+  },
+  "open-hover": {
+    "defaultMessage": "Eine Hex- oder Python-Datei öffnen oder andere Dateien hinzufügen",
+    "description": "Hover-Text über der Schaltfläche Laden"
+  },
+  "options": {
+    "defaultMessage": "Optionen",
+    "description": "Label für ein Optionsmenü"
+  },
+  "parameter-help": {
+    "defaultMessage": "Parameter-Hilfe",
+    "description": "Einstellung des Etiketts, um zu steuern, ob die Pop-up-Dokumentation für Funktions-/Methodenparameter automatisch angezeigt wird."
+  },
+  "parameter-help-automatic": {
+    "defaultMessage": "Automatisch",
+    "description": "Einstellung der Parameterhilfe, wenn die Parameterdokumentation automatisch angezeigt wird"
+  },
+  "parameter-help-manual": {
+    "defaultMessage": "Manuell ({shortcut})",
+    "description": "Einstellung der Parameterhilfe, wenn der Benutzer eine Tastenkombination drücken muss, um die Parameterdokumentation zu öffnen"
+  },
+  "permanently-delete": {
+    "defaultMessage": "Dauerhaft löschen {filename}?",
+    "description": "Bestätigungsfrage zum endgültigen Löschen der Datei"
+  },
+  "post-save-message-files": {
+    "defaultMessage": "Dies enthält alle Dateien in diesem Projekt (einschließlich aller zusätzlichen Dateien, z. B. für die Ausführung von Zubehör, die auf der Registerkarte <strong>Projekt</strong> aufgeführt sind).",
+    "description": "Meldung im Dialog, die angezeigt wird, nachdem das Projekt als Hex-Datei gespeichert wurde."
+  },
+  "post-save-message-one": {
+    "defaultMessage": "Du findest die Hex-Datei im Ordner <strong>Downloads</strong> auf diesem Computer.",
+    "description": "Meldung im Dialog, die angezeigt wird, nachdem das Projekt als Hex-Datei gespeichert wurde."
+  },
+  "post-save-message-two": {
+    "defaultMessage": "SDu kannst es zur Speicherung in einen anderen Ordner verschieben und mit <strong>Öffnen</strong> später weiter bearbeiten.",
+    "description": "Meldung im Dialog, die angezeigt wird, nachdem das Projekt als Hex-Datei gespeichert wurde."
+  },
+  "post-save-title": {
+    "defaultMessage": "Projekt gespeichert",
+    "description": "Titel des Dialogs, der angezeigt wird, nachdem das Projekt als Hex-Datei gespeichert wurde."
+  },
+  "post-save-transfer-hex": {
+    "defaultMessage": "Um diese Hex-Datei auf deinem Calliope mini auszuführen, <link>befolge diese Schritte</link>.",
+    "description": "Meldung im Dialog, die angezeigt wird, nachdem das Projekt als Hex-Datei gespeichert wurde."
+  },
+  "project-actions": {
+    "defaultMessage": "Projekt-Aktionen",
+    "description": "Aria-Beschriftung für die Leiste mit Projektaktionen"
+  },
+  "project-header": {
+    "defaultMessage": "Projekt-Kopfzeile",
+    "description": "Aria-Label für den Kopfbereich des Projekts"
+  },
+  "project-name": {
+    "defaultMessage": "Projekt Name",
+    "description": "Text, der zur Angabe des Projektnamens verwendet wird"
+  },
+  "project-name-not-empty": {
+    "defaultMessage": "Der Projektname darf nicht leer sein",
+    "description": "Validierungsmeldung für den Projektnamen"
+  },
+  "project-tab": {
+    "defaultMessage": "Projekt",
+    "description": "Project tab button text"
+  },
+  "project-tab-description": {
+    "defaultMessage": "Anzeigen, Erstellen, Hinzufügen und Bearbeiten der Dateien in deinem Projekt",
+    "description": "Beschreibung des Menüpunkts Projekt"
+  },
+  "python-powered": {
+    "defaultMessage": "Python powered",
+    "description": "PPython powered Logo alt Text"
+  },
+  "python-tab": {
+    "defaultMessage": "Python",
+    "description": "Python Button Text"
+  },
+  "quit-anyway": {
+    "defaultMessage": "Viele der Änderungen wurden nicht gespeichert. Trotzdem beenden?",
+    "description": "Trotzdem beenden Text"
+  },
+  "read-less": {
+    "defaultMessage": "Weniger anzeigen",
+    "description": "Aktionstext zum Einklappen eines erweiterten Abschnitts"
+  },
+  "read-more": {
+    "defaultMessage": "Mehr zeigen",
+    "description": "Aktionstext zum Aufklappen eines eingeklappten Abschnitts"
+  },
+  "redo": {
+    "defaultMessage": "Wiederherstellen",
+    "description": "Aria-Beschriftung für die Schaltfläche Wiederherstellen"
+  },
+  "reference-tab": {
+    "defaultMessage": "Referenz",
+    "description": "Text auf dem Referenz Button"
+  },
+  "replace-action-label": {
+    "defaultMessage": "Ersetzen",
+    "description": "Aktionslabel zum Ersetzen des Projektdialogs"
+  },
+  "reset-project-action": {
+    "defaultMessage": "Projekt zurücksetzen",
+    "description": "Aktion zum Zurücksetzen des Projekts auf seinen Standardzustand"
+  },
+  "reset-project-feedback": {
+    "defaultMessage": "Projekt auf den Standard-Startcode zurücksetzen",
+    "description": "Bestätigungsmeldung nach dem Zurücksetzen des Projekts"
+  },
+  "reset-project-hover": {
+    "defaultMessage": "Setzt das Projekt auf den Standard-Startcode zurück und verwirft den aktuellen Zustand",
+    "description": "Aktion Hover-Text zurücksetzen"
+  },
+  "results-count": {
+    "defaultMessage": "{count, plural, =0 {Keine Ergebnisse} ein {# Ergebnis} andere {# Ergebnisse}}",
+    "description": "Anzahl der Ergebnisse einer Suche. Verwendet ICU-Syntax für Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
+  },
+  "save-action": {
+    "defaultMessage": "Sichern",
+    "description": "Text des Buttons Speichern"
+  },
+  "save-file-action": {
+    "defaultMessage": "Speichern {Name}",
+    "description": "Menüoption zum Speichern einer Datei"
+  },
+  "save-hex-action": {
+    "defaultMessage": "Projekt hex speichern",
+    "description": "Text für Menüpunkt zum Speichern einer Projekt-Hex-Datei"
+  },
+  "save-hover": {
+    "defaultMessage": "Speichert die Projekt-Hex-Datei auf deinem Computer",
+    "description": "Hover-Text über der Speichern-Schaltfläche"
+  },
+  "save-python-action": {
+    "defaultMessage": "Python-Skript speichern",
+    "description": "Menüoption der Schaltfläche 'Speichern' zum Speichern des Python-Skripts"
+  },
+  "search": {
+    "defaultMessage": "Suche",
+    "description": "Aria-Label für die Suche nach Dokumentation"
+  },
+  "send-action": {
+    "defaultMessage": "An Calliope mini senden",
+    "description": "An Calliope mini senden Button Text"
+  },
+  "send-hover": {
+    "defaultMessage": "Über WebUSB verbinden, dann Code auf Calliope mimi übertragen",
+    "description": "Hovertext des Buttons Senden"
+  },
+  "serial-collapse": {
+    "defaultMessage": "Seriennummer ausblenden",
+    "description": "Aktionslabel zum Ausblenden des seriellen Konsolen-/REPL-Bereichs"
+  },
+  "serial-ctrl-c-action": {
+    "defaultMessage": "Strg+C für REPL",
+    "description": "Button zum Auslösen der Python-REPL aus dem seriellen Bereich"
+  },
+  "serial-ctrl-d-action": {
+    "defaultMessage": "Ctrl+D für Reset",
+    "description": "Button zum Zurücksetzen des Calliope mini aus dem seriellen Bereich"
+  },
+  "serial-expand": {
+    "defaultMessage": "Serielle Daten anzeigen",
+    "description": "Aktionslabel zum Erweitern des Bereichs der seriellen Konsole/REPL"
+  },
+  "serial-flashed": {
+    "defaultMessage": "Calliope mini geflashed",
+    "description": "Wird angezeigt, wenn dein Programm mit dem Calliope mini synchronisiert ist"
+  },
+  "serial-help-ctrl-c": {
+    "defaultMessage": "Verwende die Tastenkombination <kbd>Strg</kbd> + <kbd>C</kbd>, um dein Programm zu unterbrechen. Anschließend kannst du Python-Befehle eingeben, die MicroPython ausführen soll. Es ist eine großartige Möglichkeit, mit etwas Neuem zu experimentieren.",
+    "description": "Text aus dem Dialogfeld 'Serielle Hinweise und Tipps'. kbd-Tag zeigt eine Tastenkombination an."
+  },
+  "serial-help-ctrl-d": {
+    "defaultMessage": "Um dein Programm erneut zu starten, drücke <kbd>Strg</kbd> + <kbd>D</kbd>.",
+    "description": "Text aus dem Dialogfeld 'Serielle Hinweise und Tipps'. kbd-Tag zeigt eine Tastenkombination an."
+  },
+  "serial-help-intro": {
+    "defaultMessage": "Das serielle Terminal zeigt Fehler und andere Ausgaben des Programms an, das auf deinem Calliope mini läuft. Standardmäßig zeigt es den letzten Fehler des Programms an. Erweitere es, um alle Ausgaben zu sehen.",
+    "description": "Text aus dem Dialog für Tipps und Tricks zur Serie"
+  },
+  "serial-help-print": {
+    "defaultMessage": "Din Programm kann Nachrichten mit der <code>Code-</code> Funktion ausgeben. Versuch doch, <code>print('Calliope mini ist super')</code> in dein Programm einzufügen.",
+    "description": "Der Text aus dem Dialogfeld 'Serielle Hinweise und Tipps'. code tag zeigt die Schriftart Monospaced."
+  },
+  "serial-help-title": {
+    "defaultMessage": "Hinweise und Tipps zu Serielle Daten",
+    "description": "Titel für den Dialog Hinweise und Tipps zur Serie"
+  },
+  "serial-hints-and-tips": {
+    "defaultMessage": "Hinweise und Tipps zu Serielle Daten",
+    "description": "Link/Button zum Öffnen des Dialogs für serielle Hinweise und Tipps"
+  },
+  "serial-menu": {
+    "defaultMessage": "Serielles Menü",
+    "description": "Aria-Beschriftung für das Menü des seriellen Bereichs"
+  },
+  "serial-ready-to-flash": {
+    "defaultMessage": "Callipoe mini bereit zum Flashen",
+    "description": "Wird angezeigt, wenn dein Programm nicht mehr mit dem Calliope mini synchronisiert ist"
+  },
+  "serial-running": {
+    "defaultMessage": "Läuft...",
+    "description": "Anzeigentext, wenn der Calliope mini ein Programm ausführt"
+  },
+  "serial-terminal": {
+    "defaultMessage": "Serielles Terminal",
+    "description": "Aria-Bezeichnung für das serielle Terminal"
+  },
+  "setting-allow-editing-third-party": {
+    "defaultMessage": "Bearbeitung von Drittanbieter-Modulen zulassen",
+    "description": "Bezeichnung der Checkbox-Einstellung"
+  },
+  "setting-allow-editing-third-party-info": {
+    "defaultMessage": "Das Ändern von Modulen von Drittanbietern kann dazu führen, dass sie nicht wie vorgesehen funktionieren.",
+    "description": "Bezeichnung der Checkbox-Einstellung"
+  },
+  "settings": {
+    "defaultMessage": "Einstellungen",
+    "description": "Einstellungstext"
+  },
+  "show-api-documentation": {
+    "defaultMessage": "Show API documentation",
+    "description": "Shown on link from editor autocomplete and signature help to the API docs."
+  },
+  "show-less": {
+    "defaultMessage": "Weniger anzeigen",
+    "description": "Weniger anzeigen für allgemeine progressive Offenlegung"
+  },
+  "show-less-for": {
+    "defaultMessage": "Weniger anzeigen für {item}",
+    "description": "Weniger anzeigen bei item normalerweise für aria label"
+  },
+  "show-more": {
+    "defaultMessage": "Mehr anzeigen",
+    "description": "Mehr anzeigen für allgemeine progressive Offenlegung"
+  },
+  "show-more-for": {
+    "defaultMessage": "Mehr anzeigen für {item}",
+    "description": "Mehr anzeigen mit item normalerweise für aria label"
+  },
+  "sidebar": {
+    "defaultMessage": "Sidebar",
+    "description": "Aria-Beschriftung für den Bereich auf der linken Seite"
+  },
+  "sidebar-collapse": {
+    "defaultMessage": "Seitenleiste einklappen",
+    "description": "Aria-Beschriftung für die Schaltfläche zum Einklappen der Seitenleiste"
+  },
+  "sidebar-expand": {
+    "defaultMessage": "Seitenleiste ausklappen",
+    "description": "Aria-Beschriftung für die Schaltfläche 'Seitenleiste erweitern'"
+  },
+  "simulator-accelerometer": {
+    "defaultMessage": "Beschleunigungsmesser",
+    "description": "Titel des Simulator-Beschleunigungsmesser-Panels"
+  },
+  "simulator-actions": {
+    "defaultMessage": "Simulator-Aktionen",
+    "description": "Aria-Label für die Leiste mit Simulator-Aktionen (Stopp, Stummschaltung usw.)"
+  },
+  "simulator-button-a": {
+    "defaultMessage": "Taster A",
+    "description": "Aria-Beschriftung der Schaltfläche A auf der Simulatortafel"
+  },
+  "simulator-button-b": {
+    "defaultMessage": "Taster B",
+    "description": "Aria-Beschriftung der Schaltfläche B auf der Simulatortafel"
+  },
+  "simulator-button-hold-label": {
+    "defaultMessage": "Taste {button} halten",
+    "description": "Aria-Beschriftung für Simulator-Umschalttaste"
+  },
+  "simulator-button-press-label": {
+    "defaultMessage": "Drücke den Taster {button}",
+    "description": "Aria-Beschriftung für Simulator-Drucktaste"
+  },
+  "simulator-buttons": {
+    "defaultMessage": "Buttons",
+    "description": "Buttons Simulator Panel Titel"
+  },
+  "simulator-collapse": {
+    "defaultMessage": "Simulator einklappen",
+    "description": "Aria-Beschriftung für die Schaltfläche 'Simulator einklappen'"
+  },
+  "simulator-collapse-module": {
+    "defaultMessage": "Verkleinere {Titel} Modul",
+    "description": "Aria-Beschriftung für die Schaltfläche des Simulator-Klappmoduls"
+  },
+  "simulator-compass": {
+    "defaultMessage": "Kompass",
+    "description": "Titel des Kompass-Simulator-Panels"
+  },
+  "simulator-compass-heading-one": {
+    "defaultMessage": "Überschrift",
+    "description": "Sub-Heading für Simulator-Kompass-Panel"
+  },
+  "simulator-compass-heading-two": {
+    "defaultMessage": "Magnetische Feldstärke",
+    "description": "Sub-Heading für Simulator-Kompass-Panel"
+  },
+  "simulator-data-logging-empty": {
+    "defaultMessage": "Keine Log-Einträge.",
+    "description": "Wird in der Simulator-Datenprotokollierungstabelle angezeigt, wenn keine Zeilen vorhanden sind"
+  },
+  "simulator-data-logging-full": {
+    "defaultMessage": "Log voll",
+    "description": "Unterhalb der Datenprotokollierungstabelle des Simulators wird angezeigt, dass das Protokoll voll ist."
+  },
+  "simulator-data-logging-rows": {
+    "defaultMessage": "{count, plural, =0 {No rows logged} eine {# row logged} andere {# rows logged}}",
+    "description": "Indikator für die Anzahl der in der Datenprotokollierungstabelle des Simulators protokollierten Zeilen. Verwendet die ICU-Syntax für die Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
+  },
+  "simulator-data-logging-save-log": {
+    "defaultMessage": "Log speichern",
+    "description": "Aktionslabel zum Speichern des Datenprotokolls als Datei im Bedienfeld des Datenprotokollsimulators"
+  },
+  "simulator-data-logging-truncated": {
+    "defaultMessage": "Ältere Zeilen werden nicht angezeigt",
+    "description": "Text, der in der Datenprotokollierungstabelle des Simulators angezeigt wird, um anzuzeigen, dass alte Zeilen ausgelassen wurden"
+  },
+  "simulator-expand": {
+    "defaultMessage": "Simulator anzeigen",
+    "description": "Aria-Beschriftung für die Schaltfläche 'Simulator erweitern'"
+  },
+  "simulator-expand-module": {
+    "defaultMessage": "Erweitere {title} Modul",
+    "description": "Aria label for expand simulator module button"
+  },
+  "simulator-gesture-3g": {
+    "defaultMessage": "3g",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-6g": {
+    "defaultMessage": "6g",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-8g": {
+    "defaultMessage": "8g",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-down": {
+    "defaultMessage": "runter",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-face-down": {
+    "defaultMessage": "LED-Matrix nach unten zeigen",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-face-up": {
+    "defaultMessage": "LED-Matrix nach oben zeigen",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-freefall": {
+    "defaultMessage": "freier Fall",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-left": {
+    "defaultMessage": "links",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-right": {
+    "defaultMessage": "rechts",
+    "description": "Gestenoption für den Simulator"
+  },
+  "simulator-gesture-select": {
+    "defaultMessage": "Geste Auswählen",
+    "description": "Aria-Beschriftung für den Gestenauswahl-Eingang des Simulators"
+  },
+  "simulator-gesture-send": {
+    "defaultMessage": "Geste senden",
+    "description": "Aria-Beschriftung für den Gestenauswahl-Eingang des Simulators"
+  },
+  "simulator-gesture-shake": {
+    "defaultMessage": "schütteln",
+    "description": "Simulator Gesture Option"
+  },
+  "simulator-gesture-up": {
+    "defaultMessage": "hoch",
+    "description": "Simulator Gesten option"
+  },
+  "simulator-hide": {
+    "defaultMessage": "Simulator ausblenden",
+    "description": "Hide simulator action"
+  },
+  "simulator-input-hold": {
+    "defaultMessage": "Halten",
+    "description": "Label für UI-Toggles zum Halten von Simulatortasten oder Pins"
+  },
+  "simulator-input-press": {
+    "defaultMessage": "Drücken",
+    "description": "Etikett für UI-Buttons zum Halten von Simulatortasten oder Pins"
+  },
+  "simulator-light-level": {
+    "defaultMessage": "Lichtstärke",
+    "description": "Lichstärke Menüpunkt"
+  },
+  "simulator-log": {
+    "defaultMessage": "Daten loggen",
+    "description": "Daten loggen im Simulator Panel"
+  },
+  "simulator-loud": {
+    "defaultMessage": "Lautstärke",
+    "description": "Simulator-Schallpegel hover Schwellenwert Menü Text. Dies sollte mit der Übersetzung von calliopemini.SoundEvent.LOUD in der api.en.json-Datei übereinstimmen, allerdings mit abweichender Groß-/Kleinschreibung."
+  },
+  "simulator-mute": {
+    "defaultMessage": "Stumm",
+    "description": "Aria-Beschriftung für die Taste der Lautstärke im Simulator"
+  },
+  "simulator-pin-hold-label": {
+    "defaultMessage": "Pin berühren {pin}",
+    "description": "Aria-Label für Simulator-Pin-Steuerung"
+  },
+  "simulator-pin-press-label": {
+    "defaultMessage": "Pin drücken {pin}",
+    "description": "Aria-Label für Simulator-Pin-Steuerung"
+  },
+  "simulator-pins": {
+    "defaultMessage": "Pins",
+    "description": "Pins Simulator Panel Titel"
+  },
+  "simulator-quiet": {
+    "defaultMessage": "Ruhig",
+    "description": "Simulator Schallpegel niedriger Schwellenwert Marker schweben Text. Dies sollte mit der Übersetzung von calliopemini.SoundEvent.QUIET in der api.en.json-Datei übereinstimmen, jedoch mit abweichender Groß- und Kleinschreibung."
+  },
+  "simulator-radio": {
+    "defaultMessage": "Funk",
+    "description": "Funk Simulator Panel Title"
+  },
+  "simulator-radio-code": {
+    "defaultMessage": "Calliope mini schickt:",
+    "description": "Textsignal per Funk, der von dem simulierten Calliope mini gesendet wird. Der Text der Nachricht folgt."
+  },
+  "simulator-radio-group-notice": {
+    "defaultMessage": "Funkgruppe eingestellt auf {groupNumber}",
+    "description": "Meldung im Bereich des Funksimulators, wenn sich die Funkgruppe ändert"
+  },
+  "simulator-radio-message": {
+    "defaultMessage": "Funk Nachricht",
+    "description": "Beschriftung und Platzhalter für das Simulator-Funkmeldungs-Eingabefeld"
+  },
+  "simulator-radio-message-limit-notice": {
+    "defaultMessage": "Ältere Nachrichten werden nicht angezeigt",
+    "description": "Text, der angezeigt wird, wenn die Anzahl der Funksprüche in der Benutzeroberfläche des Simulators begrenzt wurde"
+  },
+  "simulator-radio-no-messages": {
+    "defaultMessage": "Es werden keine Nachrichten angezeigt",
+    "description": "Text, der angezeigt wird, wenn auf der Benutzeroberfläche des Simulators keine Funkmeldungen angezeigt werden"
+  },
+  "simulator-radio-off": {
+    "defaultMessage": "Funk ist ausgestellt",
+    "description": "Text, der angezeigt wird, wenn es keine Funkmeldungen gibt, weil Funk in der Benutzeroberfläche des Simulators ausgeschaltet ist"
+  },
+  "simulator-radio-send": {
+    "defaultMessage": "Nachricht senden",
+    "description": "Aria-Beschriftung für den Simulator-Funk-Sendeknopf"
+  },
+  "simulator-radio-user": {
+    "defaultMessage": "Deine Nachricht:",
+    "description": "Visuell verborgener Text für einen Funkspruch, der vom Benutzer an das simulierte Calliope mini gesendet wird. Der Text der Nachricht folgt."
+  },
+  "simulator-reference-link": {
+    "defaultMessage": "Link zum Referenzteil",
+    "description": "Aria-Label für Simulator Referenz-Link-Schaltfläche"
+  },
+  "simulator-reset": {
+    "defaultMessage": "Reset",
+    "description": "Aria-Beschriftung für die Reset-Simulator-Taste"
+  },
+  "simulator-serial-terminal": {
+    "defaultMessage": "Serielles Terminal des Simulators",
+    "description": "Aria-Label für das serielle Terminal des Simulators"
+  },
+  "simulator-sound-level": {
+    "defaultMessage": "Lautstärke",
+    "description": "Titel des Schallpegelsimulator-Panels"
+  },
+  "simulator-start-simulator": {
+    "defaultMessage": "Simulator starten",
+    "description": "Aria-Beschriftung für die große Abspieltaste auf der Simulatortafel"
+  },
+  "simulator-stop": {
+    "defaultMessage": "Simulatir anhalten",
+    "description": "Aria-Label für die Schaltfläche 'Simulator anhalten'"
+  },
+  "simulator-temperature": {
+    "defaultMessage": "Temperatur",
+    "description": "Titel des Temperatursimulator-Panels"
+  },
+  "simulator-title": {
+    "defaultMessage": "Simulator",
+    "description": "Simulator Titel"
+  },
+  "simulator-touch-logo": {
+    "defaultMessage": "Touch Logo",
+    "description": "Name für den Touch-Logo-Pin auf dem Calliope mini V3. Wird im Simulator verwendet."
+  },
+  "simulator-unmute": {
+    "defaultMessage": "Aufheben der Stummschaltung",
+    "description": "Aria-Beschriftung für die Simulatortaste zum Aufheben der Stummschaltung"
+  },
+  "software-versions": {
+    "defaultMessage": "Software Version",
+    "description": "Überschrift für eine Tabelle der Softwareversionen im Info-Dialog"
+  },
+  "start-coding-action": {
+    "defaultMessage": "Programmieren beginnen",
+    "description": "Text der Schaltfläche Programmieren beginnen"
+  },
+  "support": {
+    "defaultMessage": "Support",
+    "description": "Support Menü Text"
+  },
+  "terms-of-use": {
+    "defaultMessage": "Nutzungshinweise",
+    "description": "Nutzungshinweise Menü Text"
+  },
+  "third-party-module-explanation": {
+    "defaultMessage": "Diese Datei ist ein Modul eines Drittanbieters und ist nicht zur Bearbeitung vorgesehen.",
+    "description": "Erläuterung, die anstelle des Code-Editors für Module von Drittanbietern angezeigt wird."
+  },
+  "third-party-module-how-to": {
+    "defaultMessage": "Erlaube die Bearbeitung von Drittanbieter-Modulen in <link>Einstellungen</link>, um dieses Modul zu ändern.",
+    "description": "Erläuterung, wie man die Bearbeitung von Modulen von Drittanbietern zulässt."
+  },
+  "timeout-error-description": {
+    "defaultMessage": "Verbindung zum Calliope mini nicht möglich",
+    "description": "Beschreibung für Fehlermeldungen im Zusammenhang mit WebUSB-Timeout"
+  },
+  "timeout-error-title": {
+    "defaultMessage": "Zeitüberschreitung bei der Verbindung",
+    "description": "Titel für Fehlermeldungen im Zusammenhang mit WebUSB-Timeout"
+  },
+  "toolkit-error-loading": {
+    "defaultMessage": "Beim Laden des Toolkits ist ein Fehler aufgetreten.",
+    "description": "Fehler, der angezeigt wird, wenn der Toolkit-Inhalt nicht geladen werden kann"
+  },
+  "toolkit-view-documentation": {
+    "defaultMessage": "{Name} Dokumentation anschauen",
+    "description": "Aria-Beschriftung für das Toolkit-Thema Rechtspfeil"
+  },
+  "transfer-hex-message-one": {
+    "defaultMessage": "Ziehe die Hex-Datei aus deinem <strong>Download Ordner</strong> auf deinen <strong>MINI Laufwerk</strong>.",
+    "description": "Text im Dialogfeld Hex übertragen"
+  },
+  "transfer-hex-message-two": {
+    "defaultMessage": "Du kannst die Hex-Datei später <strong>Öffnen</strong>, um die Bearbeitung fortzusetzen.",
+    "description": "Text im Dialogfeld Hex übertragen"
+  },
+  "transfer-hex-title": {
+    "defaultMessage": "Gespeicherte Hex-Datei auf Calliope mini übertragen",
+    "description": "Titel für den Transfer-Hex-Dialog"
+  },
+  "try-again-action": {
+    "defaultMessage": "Erneut versuchen",
+    "description": "Text des Butons Erneut versuchen"
+  },
+  "undo": {
+    "defaultMessage": "Rückgängig",
+    "description": "Aria-Beschriftung für die Schaltfläche Rückgängig machen"
+  },
+  "unexpected-error-description": {
+    "defaultMessage": "Versuche es erneut oder <link>schreibe uns eine Supportanfrage</link>",
+    "description": "Angezeigter Text für unerwartete Fehlerszenarien"
+  },
+  "unexpected-error-title": {
+    "defaultMessage": "Versuche es erneut oder <link>schreibe uns eine Supportanfrage</link>",
+    "description": "Angezeigter Text für unerwartete Fehlerszenarien"
+  },
+  "untitled-project": {
+    "defaultMessage": "Unbenanntes Projekt",
+    "description": "Titel für ein neues Projekt"
+  },
+  "update-firmware-action": {
+    "defaultMessage": "Firmware aktualisieren",
+    "description": "Update firmware button text"
+  },
+  "updated-change": {
+    "defaultMessage": "Aktualisierte Datei {changeName}",
+    "description": "Änderung in der Datei"
+  },
+  "visit-dot-org": {
+    "defaultMessage": "calliope.cc besuchen (öffnet in einem neuen Tab)",
+    "description": "Alt-Text für Logo-Link zu calliope.cc"
+  },
+  "webusb-error-clear-connect-description-1": {
+    "defaultMessage": "Ein weiterer Prozess ist mit diesem Gerät verbunden.",
+    "description": "PArt der WebUSB-Fehlermeldung"
+  },
+  "webusb-error-clear-connect-description-2": {
+    "defaultMessage": "Schließe alle anderen Tabs, die WebUSB verwenden (z. B. MakeCode, Python Editor), oder ziehe den Calliope mini ab und stecke ihn wieder an, bevor es erneut versuchst.",
+    "description": "Teil der WebUSB-Fehlermeldung"
+  },
+  "webusb-error-clear-connect-title": {
+    "defaultMessage": "Schnittstelle kann nicht genutzt werden",
+    "description": "Titel des Fehlers für WebUsb-Verbindung"
+  },
+  "webusb-error-default-title": {
+    "defaultMessage": "WebUSB Fehler",
+    "description": "Standardtitel für Fehlermeldungen im Zusammenhang mit WebUSB"
+  },
+  "webusb-error-reconnect-microbit-description": {
+    "defaultMessage": "Bitte verbinde deinen Calliope mini und versuche es erneut.",
+    "description": "Teil der WebUSB-Fehlermeldung"
+  },
+  "webusb-error-update-req-description": {
+    "defaultMessage": "Du musst <link>die Firmware auf deinem Calliope mini aktualisieren</link>, um diese Funktion nutzen zu können.",
+    "description": "WebUSB-Fehler, der den Benutzer auffordert, die Firmware zu aktualisieren"
+  },
+  "webusb-error-update-req-title": {
+    "defaultMessage": "Bitte aktualisiere die Calliope mini Firmware",
+    "description": "Fehlertext, der den Benutzer auffordert, die Firmware zu aktualisieren"
+  },
+  "webusb-not-supported": {
+    "defaultMessage": "Leider wird WebUSB in diesem Browser nicht unterstützt und dein Programm wird stattdessen auf deinen Computer gespeichert. Folge den Schritten auf dem nächsten Screen, um es auf deinen Calliope mini zu übertragen. Wir empfehlen Google Chrome oder Microsoft Edge, damit eine direkte Verbindung zum Calliope mini hergestellt werden kann.",
+    "description": "Erläuterung, wenn der Browser des Benutzers WebUSB nicht unterstützt"
+  },
+  "webusb-not-supported-title": {
+    "defaultMessage": "Dieser Browser unterstützt WebUSB nicht",
+    "description": "Titel des Dialogs, der angezeigt wird, wenn der Browser des Benutzers WebUSB nicht unterstützt"
+  },
+  "webusb-why-use": {
+    "defaultMessage": "Mit WebUSB kannst du deinen Calliope mini programmieren und dich direkt aus dem Editor mit der seriellen Konsole verbinden.",
+    "description": "Gezeigt, um die Verwendung eines Browsers zu fördern, der WebUSB unterstützt"
+  },
+  "welcome-message": {
+    "defaultMessage": "Schau dir den kurzen Leitfaden zu einigen der wichtigsten Funktionen an, oder beginne direkt mit der Programmierung.",
+    "description": "Text im Begrüßungsdialog"
+  },
+  "welcome-title": {
+    "defaultMessage": "Willkommen beim Calliope mini Python-Editor",
+    "description": "Titel für den Begrüßungsdialog"
+  },
+  "zoom-in-action": {
+    "defaultMessage": "Vergrößern",
+    "description": "Textbeschriftung für die Vergrößerungsschaltfläche"
+  },
+  "zoom-out-action": {
+    "defaultMessage": "Verkleinern",
+    "description": "Textbeschriftung für Verkleinerungsschaltfläche"
+  }
+}
