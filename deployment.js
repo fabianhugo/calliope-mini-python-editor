@@ -3,30 +3,9 @@
  *
  * SPDX-License-Identifier: MIT
  */
-const createDeploymentDetailsFromOptions = (options) => {
-  const STAGE = process.env.STAGE;
-
-  if (!STAGE) {
-    throw new Error("STAGE must be defined");
-  }
-
-  const environment = options[STAGE.toLocaleLowerCase()];
-
-  if (!environment) {
-    throw new Error(`No environment defined for stage ${STAGE}`);
-  }
-
-  if (!environment.bucket) {
-    throw new Error(`No bucket defined for stage ${STAGE}`);
-  }
-
-  return {
-    s3Config: {
-      bucketPrefix: environment.prefix || "",
-      bucket: environment.bucket,
-    }
-  };
-};
+const {
+  createDeploymentDetailsFromOptions,
+} = require("@calliope-edu/website-deploy-aws-config");
 
 const { s3Config } = createDeploymentDetailsFromOptions({
   production: {
