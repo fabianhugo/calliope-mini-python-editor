@@ -1031,6 +1031,14 @@
     "defaultMessage": "Support",
     "description": "Support Menü Text"
   },
+  "imprint": {
+    "defaultMessage": "Impressum",
+    "description": "Impressum Menü Text"
+  },
+  "data-protection": {
+    "defaultMessage": "Datenschutz",
+    "description": "Datenschutz Menü Text"
+  },
   "terms-of-use": {
     "defaultMessage": "Nutzungshinweise",
     "description": "Nutzungshinweise Menü Text"

@@ -463,6 +463,12 @@
       "value": "Dateiname"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Datenschutz"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -743,6 +749,12 @@
     {
       "type": 0,
       "value": "Probiere diese Projekte aus, verändere sie und lasse dich inspirieren"
+    }
+  ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Impressum"
     }
   ],
   "insert-code-action": [
