@@ -22,14 +22,14 @@ export interface Language {
 // Tag new languages with `preview: true` to enable for beta only.
 const allLanguages: Language[] = [
   {
-    id: "de",
-    name: "Deutsch",
-    enName: "German",
-  },
-  {
     id: "en",
     name: "English",
     enName: "English",
+  },
+  {
+    id: "de",
+    name: "Deutsch",
+    enName: "German",
   },
   {
     id: "ca",
