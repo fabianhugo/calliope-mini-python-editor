@@ -1,5 +1,5 @@
 /**
- * (c) 2021, Micro:bit Educational Foundation and contributors
+ * (c) 2021, Calliope mini Educational Foundation and contributors
  *
  * SPDX-License-Identifier: MIT
  */
@@ -49,19 +49,19 @@ describe("connect", () => {
     // No good options yet for asserting editor line.
   });
 
-  it("shows the micro:bit not found dialog and connects on try again", async () => {
+  it("shows the Calliope mini not found dialog and connects on try again", async () => {
     await app.mockDeviceConnectFailure("no-device-selected");
     await app.connect();
-    await app.confirmGenericDialog("No micro:bit found");
+    await app.confirmGenericDialog("No Calliope mini found");
     await app.connectViaTryAgain();
     await app.connectViaConnectHelp();
     await app.confirmConnection();
   });
 
-  it("shows the micro:bit not found dialog and connects after launching the connect help dialog", async () => {
+  it("shows the Calliope mini not found dialog and connects after launching the connect help dialog", async () => {
     await app.mockDeviceConnectFailure("no-device-selected");
     await app.connect();
-    await app.confirmGenericDialog("No micro:bit found");
+    await app.confirmGenericDialog("No Calliope mini found");
     await app.connectHelpFromNotFoundDialog();
     await app.connectViaConnectHelp();
     await app.confirmConnection();
@@ -76,12 +76,12 @@ describe("connect", () => {
     await app.confirmConnection();
   });
 
-  it("Shows the transfer hex help dialog after send to micro:bit where WebUSB is not supported", async () => {
+  it("Shows the transfer hex help dialog after send to Calliope mini where WebUSB is not supported", async () => {
     await app.mockWebUsbNotSupported();
     await app.setProjectName("not default name");
     await app.flash();
     await app.confirmGenericDialog("This browser does not support WebUSB");
     await app.closeDialog();
-    await app.confirmGenericDialog("Transfer saved hex file to micro:bit");
+    await app.confirmGenericDialog("Transfer saved hex file to Calliope mini");
   });
 });
