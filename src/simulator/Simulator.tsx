@@ -56,7 +56,7 @@ const Simulator = ({
 
   // if own url is localhost use the local simulator
   if (stage === "local") {
-    url = "http://localhost:3000/simulator.html";
+    url = "http://localhost:4000/simulator.html";
   }
 
   const ref = useRef<HTMLIFrameElement>(null);
