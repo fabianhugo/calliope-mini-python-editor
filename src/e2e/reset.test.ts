@@ -21,7 +21,7 @@ describe("reset", () => {
 
     // Everything's back to normal.
     await app.findProjectName("Untitled project");
-    await app.findVisibleEditorContents("from microbit import");
+    await app.findVisibleEditorContents("from calliopemini import");
     await app.findProjectFiles(["main.py"]);
   });
 });
