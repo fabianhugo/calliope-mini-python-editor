@@ -68,7 +68,7 @@ export const apiDocs = (
       "log",
       "machine",
       "math",
-      "microbit",
+      "calliopemini",
       "micropython",
       "music",
       "neopixel",
