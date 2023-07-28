@@ -8,24 +8,22 @@ import { microbitBoardId } from "@microbit/microbit-universal-hex";
 import microPythonV1HexUrl from "./microbit-micropython-v1.hex";
 import microPythonCalliopeHexUrl from "./main/microPython_CalliopeminiV3.hex";
 
-const v3Calliope = {
-  name: "MicroPython (Calliope mini V3)",
-  url: microPythonCalliopeHexUrl,
-  boardId: microbitBoardId.V2,
-  version: "2.1.1",
-  web: "https://github.com/calliope-edu/micropython-microbit-v2/tree/mini2.1.1renaming",
-};
-
 export const microPythonConfig = {
   versions: [
     {
       name: "MicroPython (micro:bit V1)",
       url: microPythonV1HexUrl,
-      boardId: microbitBoardId.V1,
+      boardId: microbitBoardId.V1, // 39168 | 0x9900
       version: "1.1.1",
       web: "https://github.com/bbcmicrobit/micropython/releases/tag/v1.1.1",
     },
-    v3Calliope,
+    {
+      name: "MicroPython (Calliope mini V3)",
+      url: microPythonCalliopeHexUrl,
+      boardId: microbitBoardId.V2, // 39171 | 0x9903
+      version: "2.1.1",
+      web: "https://github.com/calliope-edu/micropython-microbit-v2/tree/mini2.1.1renaming",
+    },
   ],
   // We've previously used this field to allow flags to affect
   // the stubs used and might do so again.
