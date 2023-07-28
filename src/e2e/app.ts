@@ -1391,8 +1391,8 @@ export class App {
     // Confirms that top left LED is switched on
     // to match Image.NO being displayed.
     const simulatorIframe = await this.getSimulatorIframe();
-    const gridLEDs = await simulatorIframe!.$("#LEDsOn");
-    await gridLEDs!.waitForSelector("use", { visible: true, timeout: 1000 });
+    const gridLEDs = await simulatorIframe!.$("#LED-Matrix");
+    await gridLEDs!.waitForSelector("rect", { visible: true, timeout: 1000 });
   }
 }
 
