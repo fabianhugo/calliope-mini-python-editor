@@ -1392,7 +1392,7 @@ export class App {
     // to match Image.NO being displayed.
     const simulatorIframe = await this.getSimulatorIframe();
     const gridLEDs = await simulatorIframe!.$("#LED-Matrix");
-    await gridLEDs!.waitForSelector("rect", { visible: true, timeout: 1000 });
+    await gridLEDs!.waitForSelector("path", { visible: true, timeout: 1000 });
   }
 }
 
