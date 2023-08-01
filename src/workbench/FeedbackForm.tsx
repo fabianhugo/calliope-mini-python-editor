@@ -45,7 +45,7 @@ const FeedbackForm = ({
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      size="2xl"
+      size="3xl"
       finalFocusRef={finalFocusRef}
     >
       <ModalOverlay>
@@ -55,9 +55,9 @@ const FeedbackForm = ({
             <iframe
               ref={iframeRef}
               title="Python editor feedback"
-              src="https://form.jotform.com/211534485207352"
+              src="https://form.jotform.com/232122009950345"
               frameBorder="0"
-              height="620px"
+              height="650px"
               width="100%"
               scrolling="no"
             />
