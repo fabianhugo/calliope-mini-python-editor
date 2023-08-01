@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Hecho con amor por la <link>Micro:bit Educational Foundation y colaboradores</link>",
+    "defaultMessage": "Hecho con amor por la <link>micro:bit Educational Foundation y colaboradores amélioré par Calliope et Lulububu pour le Calliope mini.</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Visita <link>https://makecode.microbit.org/</link> para usar este archivo HEX.",
+    "defaultMessage": "Visita <link>https://makecode.calliope.cc/</link> para usar este archivo HEX.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>Más ideas</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "Más opciones para guardar",
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Arrastra el archivo HEX desde la <strong>Carpeta de descargas</strong> a la <strong>Unidad MICROBIT</strong>.",
+    "defaultMessage": "Arrastra el archivo HEX desde la <strong>Carpeta de descargas</strong> a la <strong>Unidad MINI</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {

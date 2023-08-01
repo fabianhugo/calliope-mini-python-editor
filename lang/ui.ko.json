@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "<link>Micro:bit Educational Foundation 및 기여자</link>의 사랑을 담아 개발했습니다",
+    "defaultMessage": "<link>micro:bit Educational Foundation 및 기여자</link>의 사랑을 담아 개발했습니다",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -168,11 +168,11 @@
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "micro:bit를 선택하세요",
+    "defaultMessage": "Calliope mini를 선택하세요",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "micro:bit을 선택하세요",
+    "defaultMessage": "Calliope mini을 선택하세요",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
@@ -180,11 +180,11 @@
     "description": "Legend text for the connect help dialog image"
   },
   "connect-hover": {
-    "defaultMessage": "WebUSB를 통해 micro:bit에 연결합니다.",
+    "defaultMessage": "WebUSB를 통해 Calliope mini에 연결합니다.",
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "micro:bit에 연결하면 여기서 직렬 출력을 확인할 수 있습니다",
+    "defaultMessage": "Calliope mini에 연결하면 여기서 직렬 출력을 확인할 수 있습니다",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
@@ -304,7 +304,7 @@
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "이 micro:bit에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
+    "defaultMessage": "이 Calliope mini에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
@@ -328,7 +328,7 @@
     "description": "Progress dialog text for partial flashes (quick)"
   },
   "flashing-full-flash-detail": {
-    "defaultMessage": "코드가 micro:bit으로 전송(플래싱)되고 있습니다. 처음에는 조금 시간이 걸리지만 이후에는 빠르게 완료됩니다.",
+    "defaultMessage": "코드가 Calliope mini으로 전송(플래싱)되고 있습니다. 처음에는 조금 시간이 걸리지만 이후에는 빠르게 완료됩니다.",
     "description": "Message shown after the title in the progress dialog for a full flash"
   },
   "flashing-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "hex 파일을 사용하려면 <link>https://makecode.microbit.org/</link>를 방문하세요.",
+    "defaultMessage": "hex 파일을 사용하려면 <link>https://makecode.calliope.cc</link>를 방문하세요.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -427,7 +427,7 @@
     "description": "MicroPython documentation menu option text"
   },
   "micropython-history": {
-    "defaultMessage": "micro:bit의 MicroPython에 대해 알아보기",
+    "defaultMessage": "Calliope mini의 MicroPython에 대해 알아보기",
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>아이디어 더 보기</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "저장 옵션 더 보기",
@@ -483,7 +483,7 @@
     "description": "Next button text"
   },
   "not-found-checklist-one": {
-    "defaultMessage": " <strong>micro:bit이 연결되었나요</strong>? <link>다음 단계를 따르셨나요</link>?",
+    "defaultMessage": " <strong>Calliope mini이 연결되었나요</strong>? <link>다음 단계를 따르셨나요</link>?",
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-checklist-two": {
@@ -491,7 +491,7 @@
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-message": {
-    "defaultMessage": "micro:bit을 선택하지 않았거나 연결 문제가 발생했습니다.",
+    "defaultMessage": "Calliope mini을 선택하지 않았거나 연결 문제가 발생했습니다.",
     "description": "Text in the no Calliope mini found dialog"
   },
   "not-found-save-message": {
@@ -503,7 +503,7 @@
     "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "이 micro:bit에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
+    "defaultMessage": "이 Calliope mini에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
     "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
@@ -559,7 +559,7 @@
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "micro:bit에서 이 hex 파일을 실행하려면 <link>다음 단계를 따르세요</link>.",
+    "defaultMessage": "Calliope mini에서 이 hex 파일을 실행하려면 <link>다음 단계를 따르세요</link>.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "project-actions": {
@@ -659,11 +659,11 @@
     "description": "Aria label for searching documentation"
   },
   "send-action": {
-    "defaultMessage": "micro:bit로 전송",
+    "defaultMessage": "Calliope mini로 전송",
     "description": "Send to Calliope mini button text"
   },
   "send-hover": {
-    "defaultMessage": "WebUSB로 micro:bit에 연결하고 코드를 플래시합니다",
+    "defaultMessage": "WebUSB로 Calliope mini에 연결하고 코드를 플래시합니다",
     "description": "Send button hover text"
   },
   "serial-collapse": {
@@ -695,7 +695,7 @@
     "description": "Text from the serial hints and tips dialog.  kbd tag shows a keyboard key style."
   },
   "serial-help-intro": {
-    "defaultMessage": "시리얼 터미널은 micro:bit에서 작동하는 프로그램으로부터의 오류와 기타 출력을 표시합니다. 기본적으로 해당 프로그램의 가장 최근의 오류를 표시합니다. 확대하여 모든 출력을 볼 수 있습니다.",
+    "defaultMessage": "시리얼 터미널은 Calliope mini에서 작동하는 프로그램으로부터의 오류와 기타 출력을 표시합니다. 기본적으로 해당 프로그램의 가장 최근의 오류를 표시합니다. 확대하여 모든 출력을 볼 수 있습니다.",
     "description": "Text from the serial hints and tips dialog"
   },
   "serial-help-print": {
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "<strong>다운로드 폴더</strong>에서 hex 파일을 <strong>MICROBIT 드라이브</strong>로 드래그하세요.",
+    "defaultMessage": "<strong>다운로드 폴더</strong>에서 hex 파일을 <strong>MINI 드라이브</strong>로 드래그하세요.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1067,7 +1067,7 @@
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-title": {
-    "defaultMessage": "저장된 hex 파일을 micro:bit으로 전송",
+    "defaultMessage": "저장된 hex 파일을 Calliope mini으로 전송",
     "description": "Title for the transfer hex dialog"
   },
   "try-again-action": {
@@ -1107,7 +1107,7 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-description-2": {
-    "defaultMessage": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor)을 닫거나 다시 시도하기 전에 micro:bit의 플러그를 뽑은 후 다시 연결해보세요.",
+    "defaultMessage": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor)을 닫거나 다시 시도하기 전에 Calliope mini의 플러그를 뽑은 후 다시 연결해보세요.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-title": {
@@ -1131,7 +1131,7 @@
     "description": "Error text telling user to update firmware"
   },
   "webusb-not-supported": {
-    "defaultMessage": "이 브라우저가 WebUSB를 지원하지 않아 프로그램이 컴퓨터에 저장됩니다. micro:bit로 전송하려면 다음 화면의 단계를 따르세요. micro:bit에 직접 연결할 수 있도록 Google Chrome 또는 Microsoft Edge 사용을 권장합니다.",
+    "defaultMessage": "이 브라우저가 WebUSB를 지원하지 않아 프로그램이 컴퓨터에 저장됩니다. Calliope mini로 전송하려면 다음 화면의 단계를 따르세요. Calliope mini에 직접 연결할 수 있도록 Google Chrome 또는 Microsoft Edge 사용을 권장합니다.",
     "description": "Explantion shown when user's browser doesn't support WebUSB"
   },
   "webusb-not-supported-title": {
@@ -1139,7 +1139,7 @@
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "WebUSB로 온라인 에디터에서 직접 micro:bit을 프로그래밍하고 시리얼 콘솔에 연결할 수 있습니다.",
+    "defaultMessage": "WebUSB로 온라인 에디터에서 직접 Calliope mini을 프로그래밍하고 시리얼 콘솔에 연결할 수 있습니다.",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {

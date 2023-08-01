@@ -1,14 +1,14 @@
 {
   "about": {
-    "defaultMessage": "micro:bitについて",
+    "defaultMessage": "Calliope miniについて",
     "description": "About action"
   },
   "about-comic": {
-    "defaultMessage": "Mike Rowbitによる「MicroPython Rocks」（MicroPython最高！）という3コマ漫画。漫画のヘビが「Damienを紹介します... 彼はMicroPythonを作成しました」と言ってDamienを紹介します。2匹のヘビがMicroPythonについて話します。黄色のヘビが「MicroPythonは非常に小さなコンピュータで動作するように設計されています」と言います。紫のヘビが「あなたのBBC micro:bitのようにね」と応じます。黄色のヘビが「けれどもPythonはどこでも動作します」と続けます。 紫のヘビは同意して「巨大なウェブサイトを動かすこのラックのサーバーのようにね」と言います。ヘビたちの背後にはサーバーラックが見えます。",
+    "defaultMessage": "Mike Rowbitによる「MicroPython Rocks」（MicroPython最高！）という3コマ漫画。漫画のヘビが「Damienを紹介します... 彼はMicroPythonを作成しました」と言ってDamienを紹介します。2匹のヘビがMicroPythonについて話します。黄色のヘビが「MicroPythonは非常に小さなコンピュータで動作するように設計されています」と言います。紫のヘビが「あなたのBBC Calliope miniのようにね」と応じます。黄色のヘビが「けれどもPythonはどこでも動作します」と続けます。 紫のヘビは同意して「巨大なウェブサイトを動かすこのラックのサーバーのようにね」と言います。ヘビたちの背後にはサーバーラックが見えます。",
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "<link>Micro:bit Educational Foundationと貢献者</link>により愛を込めて作られました",
+    "defaultMessage": "<link>micro:bit Educational Foundationと貢献者</link>により愛を込めて作られました",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -160,7 +160,7 @@
     "description": "Title for the connect cable dialog"
   },
   "connect-help-alt": {
-    "defaultMessage": "「1」のラベルが付いたBBC micro:bitエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ",
+    "defaultMessage": "「1」のラベルが付いたBBC Calliope miniエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-help-message": {
@@ -168,11 +168,11 @@
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "micro:bitを選ぶ",
+    "defaultMessage": "Calliope miniを選ぶ",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "micro:bitを選択",
+    "defaultMessage": "Calliope miniを選択",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
@@ -180,15 +180,15 @@
     "description": "Legend text for the connect help dialog image"
   },
   "connect-hover": {
-    "defaultMessage": "WebUSB経由でmicro:bitに接続",
+    "defaultMessage": "WebUSB経由でCalliope miniに接続",
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "micro:bitに接続してシリアル出力をここに表示",
+    "defaultMessage": "Calliope miniに接続してシリアル出力をここに表示",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "micro:bit接続時に発生する問題のトラブルシューティング",
+    "defaultMessage": "Calliope mini接続時に発生する問題のトラブルシューティング",
     "description": "Text in no the Calliope mini found and firmware update dialogs"
   },
   "content-load-error": {
@@ -240,7 +240,7 @@
     "description": "Disconnect button text"
   },
   "disconnect-hover": {
-    "defaultMessage": "micro:bitを切断",
+    "defaultMessage": "Calliope miniを切断",
     "description": "Disconnect button hover text"
   },
   "dont-show-again": {
@@ -304,11 +304,11 @@
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "このmicro:bitに接続するには、<link>ファームウェアを更新する</link>必要があります。",
+    "defaultMessage": "このCalliope miniに接続するには、<link>ファームウェアを更新する</link>必要があります。",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
-    "defaultMessage": "micro:bitのファームウェアが古すぎるため、micro:bitへの接続に失敗しました。",
+    "defaultMessage": "Calliope miniのファームウェアが古すぎるため、Calliope miniへの接続に失敗しました。",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-title": {
@@ -320,7 +320,7 @@
     "description": "Text for flash button"
   },
   "flash-hover": {
-    "defaultMessage": "プロジェクトをmicro:bitに直接書き込む",
+    "defaultMessage": "プロジェクトをCalliope miniに直接書き込む",
     "description": "Hover text over flash button"
   },
   "flashing-code": {
@@ -328,7 +328,7 @@
     "description": "Progress dialog text for partial flashes (quick)"
   },
   "flashing-full-flash-detail": {
-    "defaultMessage": "プログラムがmicro:bitに送信（書き込み）されています。最初はしばらく時間がかかることがありますが、その後は速くなります。",
+    "defaultMessage": "プログラムがCalliope miniに送信（書き込み）されています。最初はしばらく時間がかかることがありますが、その後は速くなります。",
     "description": "Message shown after the title in the progress dialog for a full flash"
   },
   "flashing-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "この hex ファイルを使用するには、<link>https://makecode.microbit.org/</link>を参照してください。",
+    "defaultMessage": "この hex ファイルを使用するには、<link>https://makecode.calliope.cc/</link>を参照してください。",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -419,7 +419,7 @@
     "description": "Shown on loading indicators"
   },
   "microbit-hearts-alt": {
-    "defaultMessage": "5×5のLEDグリッドにハートを表示するmicro:bitボード",
+    "defaultMessage": "5×5のLEDグリッドにハートを表示するCalliope miniボード",
     "description": "Alt text for Calliope mini image in About dialog"
   },
   "micropython-documentation": {
@@ -427,7 +427,7 @@
     "description": "MicroPython documentation menu option text"
   },
   "micropython-history": {
-    "defaultMessage": "micro:bit上のMicroPythonがどのように生まれたかを学ぶ",
+    "defaultMessage": "Calliope mini上のMicroPythonがどのように生まれたかを学ぶ",
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>他のアイデア</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "その他の保存オプション",
@@ -483,7 +483,7 @@
     "description": "Next button text"
   },
   "not-found-checklist-one": {
-    "defaultMessage": "<strong>micro:bitは接続</strong>されていますか？<link>以下の手順</link>に従いましたか？",
+    "defaultMessage": "<strong>Calliope miniは接続</strong>されていますか？<link>以下の手順</link>に従いましたか？",
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-checklist-two": {
@@ -491,7 +491,7 @@
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-message": {
-    "defaultMessage": "micro:bitを選択していないか、接続中に問題が発生しました。",
+    "defaultMessage": "Calliope miniを選択していないか、接続中に問題が発生しました。",
     "description": "Text in the no Calliope mini found dialog"
   },
   "not-found-save-message": {
@@ -499,11 +499,11 @@
     "description": "Save prompt in the no Calliope mini found dialog"
   },
   "not-found-title": {
-    "defaultMessage": "micro:bitが見つかりません",
+    "defaultMessage": "Calliope miniが見つかりません",
     "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "このmicro:bitに接続するには、<link>ファームウェアを更新</link>する必要があります。",
+    "defaultMessage": "このCalliope miniに接続するには、<link>ファームウェアを更新</link>する必要があります。",
     "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
@@ -559,7 +559,7 @@
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "micro:bit上のhex ファイルを実行するには<link>この手順に従います</link>。",
+    "defaultMessage": "Calliope mini上のhex ファイルを実行するには<link>この手順に従います</link>。",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "project-actions": {
@@ -659,11 +659,11 @@
     "description": "Aria label for searching documentation"
   },
   "send-action": {
-    "defaultMessage": "micro:bitに送る",
+    "defaultMessage": "Calliope miniに送る",
     "description": "Send to Calliope mini button text"
   },
   "send-hover": {
-    "defaultMessage": "WebUSBで接続してプログラムをmicro:bitに書き込む",
+    "defaultMessage": "WebUSBで接続してプログラムをCalliope miniに書き込む",
     "description": "Send button hover text"
   },
   "serial-collapse": {
@@ -683,7 +683,7 @@
     "description": "Action label to expand the serial console/REPL area"
   },
   "serial-flashed": {
-    "defaultMessage": "micro:bitに書き込みました",
+    "defaultMessage": "Calliope miniに書き込みました",
     "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
@@ -695,11 +695,11 @@
     "description": "Text from the serial hints and tips dialog.  kbd tag shows a keyboard key style."
   },
   "serial-help-intro": {
-    "defaultMessage": "シリアルターミナルはmicro:bit上で実行されているプログラムからのエラーやその他の出力を表示します。デフォルトでは、プログラムからの最新のエラーが表示されます。展開するとすべての出力を見ることができます。",
+    "defaultMessage": "シリアルターミナルはCalliope mini上で実行されているプログラムからのエラーやその他の出力を表示します。デフォルトでは、プログラムからの最新のエラーが表示されます。展開するとすべての出力を見ることができます。",
     "description": "Text from the serial hints and tips dialog"
   },
   "serial-help-print": {
-    "defaultMessage": "プログラムで <code>print</code> 関数を使うとメッセージを出力できます。プログラムに <code>print('micro:bitは素晴らしい')</code> を追加してみてください。",
+    "defaultMessage": "プログラムで <code>print</code> 関数を使うとメッセージを出力できます。プログラムに <code>print('Calliope miniは素晴らしい')</code> を追加してみてください。",
     "description": "Text from the serial hints and tips dialog. code tag shows monospaced font."
   },
   "serial-help-title": {
@@ -715,7 +715,7 @@
     "description": "Aria label for serial area menu"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "micro:bitの書き込み準備ができました",
+    "defaultMessage": "Calliope miniの書き込み準備ができました",
     "description": "Shown when your program is out of sync with the Calliope mini"
   },
   "serial-running": {
@@ -947,7 +947,7 @@
     "description": "Radio simulator panel title"
   },
   "simulator-radio-code": {
-    "defaultMessage": "micro:bitの送信:",
+    "defaultMessage": "Calliope miniの送信:",
     "description": "Visually hidden text for a radio message sent from the simulated Calliope mini. Text of the message follows."
   },
   "simulator-radio-group-notice": {
@@ -1043,7 +1043,7 @@
     "description": "Explanation of how to allow editing for third-party modules."
   },
   "timeout-error-description": {
-    "defaultMessage": "micro:bitに接続できません",
+    "defaultMessage": "Calliope miniに接続できません",
     "description": "Description for error messages relating to WebUSB timeout"
   },
   "timeout-error-title": {
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "hex ファイルを<strong>ダウンロードフォルダ</strong>から<strong>MICROBITドライブ</strong>へドラッグします。",
+    "defaultMessage": "hex ファイルを<strong>ダウンロードフォルダ</strong>から<strong>MINIドライブ</strong>へドラッグします。",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1067,7 +1067,7 @@
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-title": {
-    "defaultMessage": "保存された hex ファイルをmicro:bitに転送する",
+    "defaultMessage": "保存された hex ファイルをCalliope miniに転送する",
     "description": "Title for the transfer hex dialog"
   },
   "try-again-action": {
@@ -1107,7 +1107,7 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-description-2": {
-    "defaultMessage": "WebUSBを使用している他のタブ（MakeCode、Pythonエディターなど）を閉じるか、micro:bitを抜き差ししてやり直してください。",
+    "defaultMessage": "WebUSBを使用している他のタブ（MakeCode、Pythonエディターなど）を閉じるか、Calliope miniを抜き差ししてやり直してください。",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-title": {
@@ -1119,11 +1119,11 @@
     "description": "Default title for error messages relating to WebUSB"
   },
   "webusb-error-reconnect-microbit-description": {
-    "defaultMessage": "micro:bitを再接続して、やり直してください。",
+    "defaultMessage": "Calliope miniを再接続して、やり直してください。",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-update-req-description": {
-    "defaultMessage": "この機能を利用するには、<link>micro:bitファームウェアを更新</link>する必要があります。",
+    "defaultMessage": "この機能を利用するには、<link>Calliope miniファームウェアを更新</link>する必要があります。",
     "description": "WebUSB error telling user to update firmware"
   },
   "webusb-error-update-req-title": {
@@ -1131,7 +1131,7 @@
     "description": "Error text telling user to update firmware"
   },
   "webusb-not-supported": {
-    "defaultMessage": "残念ながら、WebUSBはこのブラウザではサポートされていないので、代わりにプログラムをコンピュータに保存します。 次の画面の手順に従ってmicro:bitに転送してください。micro:bitと直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。",
+    "defaultMessage": "残念ながら、WebUSBはこのブラウザではサポートされていないので、代わりにプログラムをコンピュータに保存します。 次の画面の手順に従ってCalliope miniに転送してください。Calliope miniと直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。",
     "description": "Explantion shown when user's browser doesn't support WebUSB"
   },
   "webusb-not-supported-title": {
@@ -1139,7 +1139,7 @@
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "WebUSBを使用すると、オンラインエディターから直接micro:bitをプログラムしたり、シリアルコンソールに接続できます。",
+    "defaultMessage": "WebUSBを使用すると、オンラインエディターから直接Calliope miniをプログラムしたり、シリアルコンソールに接続できます。",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {

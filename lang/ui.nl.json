@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Met liefde gemaakt door de <link>Micro:bit Educational Foundation en bijdragers</link>",
+    "defaultMessage": "Met liefde gemaakt door de <link>micro:bit Educational Foundation en bijdragers verbeterd door Calliope en Lulububu voor de Calliope mini.</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Bezoek <link>https://makecode.microbit.org/</link> om dit hex-bestand te gebruiken.",
+    "defaultMessage": "Bezoek <link>https://makecode.calliope.cc/</link> om dit hex-bestand te gebruiken.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -683,7 +683,7 @@
     "description": "Action label to expand the serial console/REPL area"
   },
   "serial-flashed": {
-    "defaultMessage": "Micro:bit geflasht",
+    "defaultMessage": "Calliope mini geflasht",
     "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
@@ -715,7 +715,7 @@
     "description": "Aria label for serial area menu"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "Micro:bit klaar om te flashen",
+    "defaultMessage": "Calliope mini klaar om te flashen",
     "description": "Shown when your program is out of sync with the Calliope mini"
   },
   "serial-running": {
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Sleep het hex-bestand van je <strong>map Downloads</strong> naar het <strong>MICROBIT-station</strong>.",
+    "defaultMessage": "Sleep het hex-bestand van je <strong>map Downloads</strong> naar het <strong>MINI-station</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1099,7 +1099,7 @@
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "bezoek microbit.org (opent in een nieuw tabblad)",
+    "defaultMessage": "bezoek calliope.cc (opent in een nieuw tabblad)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {

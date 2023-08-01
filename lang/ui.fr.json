@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Réalisé avec amour par la <link>Micro:bit Educational Foundation et ses contributeurs</link>",
+    "defaultMessage": "Réalisé avec amour par la <link>micro:bit Educational Foundation et ses contributeurs</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Veuillez visiter <link>https://makecode.microbit.org/</link> pour utiliser ce fichier hex.",
+    "defaultMessage": "Veuillez visiter <link>https://makecode.calliope.cc/</link> pour utiliser ce fichier hex.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>Plus d'idées</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "Plus d'options d'enregistrement",
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Faites glisser le fichier hex de votre dossier <strong>Téléchargements</strong> vers le <strong>lecteur MICROBIT</strong>.",
+    "defaultMessage": "Faites glisser le fichier hex de votre dossier <strong>Téléchargements</strong> vers le <strong>lecteur MINI</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {

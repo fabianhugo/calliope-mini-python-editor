@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "<link>Micro:bit Educational Foundation and contributors</link> 用爱心制作",
+    "defaultMessage": "<link>micro:bit Educational Foundation and contributors</link> 用爱心制作",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "要使用该 hex 文件，请访问 <link>https://makecode.microbit.org/</link>。",
+    "defaultMessage": "要使用该 hex 文件，请访问 <link>https://makecode.calliope.cc</link>。",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>More ideas</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "更多保存选项",
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "将 hex 文件从 <strong>Downloads (下载) 文件夹</strong> 拖到 <strong>MICROBIT 驱动器</strong>。",
+    "defaultMessage": "将 hex 文件从 <strong>Downloads (下载) 文件夹</strong> 拖到 <strong>MINI 驱动器</strong>。",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1099,7 +1099,7 @@
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "访问 microbit.org (在新标签页中打开)",
+    "defaultMessage": "访问 calliope.cc (在新标签页中打开)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {

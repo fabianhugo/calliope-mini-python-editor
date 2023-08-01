@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "<link>Micro:bit Educational Foundation 者用愛製作</link>",
+    "defaultMessage": "<link>microbit Educational Foundation 者用愛製作</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "請造訪 <link>https://makecode.microbit.org/</link>，以使用此 HEX 檔案。",
+    "defaultMessage": "請造訪 <link>https://makecode.calliope.cc</link>，以使用此 HEX 檔案。",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -444,7 +444,7 @@
   },
   "more-ideas": {
     "defaultMessage": "<link>更多構想</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "更多儲存選項",
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "將 HEX 檔案從<strong>下載</strong>資料夾拖曳至 <strong>MICROBIT 磁碟</strong>。",
+    "defaultMessage": "將 HEX 檔案從<strong>下載</strong>資料夾拖曳至 <strong>MINI 磁碟</strong>。",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1099,7 +1099,7 @@
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "造訪 microbit.org (在新索引標籤中開啟)",
+    "defaultMessage": "造訪 calliope.cc (在新索引標籤中開啟)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {

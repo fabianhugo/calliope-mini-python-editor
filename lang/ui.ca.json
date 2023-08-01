@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Fet amb amor per la <link>Micro:bit Educational Foundation i els col·laboradors</link>",
+    "defaultMessage": "Fet amb amor per la <link>Calliope mini Educational Foundation i els col·laboradors mejorado por Calliope y Lulububu para el Calliope mini.</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -160,7 +160,7 @@
     "description": "Title for the connect cable dialog"
   },
   "connect-help-alt": {
-    "defaultMessage": "Diàleg de connexió WebUSB amb l'entrada de BBC Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2",
+    "defaultMessage": "Diàleg de connexió WebUSB amb l'entrada de Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-help-message": {
@@ -395,7 +395,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Visita <link>https://makecode.microbit.org/</link> per utilitzar aquest fitxer hexadecimal.",
+    "defaultMessage": "Visita <link>https://makecode.calliope.cc/</link> per utilitzar aquest fitxer hexadecimal.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -1059,7 +1059,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Arrossega el fitxer hexadecimal de la teva <strong>carpeta de descàrregues</strong> a la <strong>unitat MICROBIT</strong>.",
+    "defaultMessage": "Arrossega el fitxer hexadecimal de la teva <strong>carpeta de descàrregues</strong> a la <strong>unitat MINI</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1099,7 +1099,7 @@
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "visita microbit.org (s'obre en una pestanya nova)",
+    "defaultMessage": "visita calliope.cc (s'obre en una pestanya nova)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {
