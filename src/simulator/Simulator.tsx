@@ -46,9 +46,9 @@ const Simulator = ({
   simFocus,
 }: SimulatorProps) => {
   const production =
-    "http://production.calliope.simulator.s3-website.eu-central-1.amazonaws.com/simulator.html";
+    "https://simulator.python.calliope.cc/simulator.html";
   const staging =
-    "http://staging.calliope.simulator.s3-website.eu-central-1.amazonaws.com/simulator.html";
+    "https://staging.simulator.python.calliope.cc/simulator.html";
   let url = stage === "PRODUCTION" ? production : staging;
   // For testing with sim branches:
   //const branch = "upgrade-mpy";
