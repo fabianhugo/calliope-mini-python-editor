@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Made with love by the <link>micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu</link>",
+    "defaultMessage": "Made with love by the Micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu.",
     "description": "Text in about dialog"
   },
   "about-micropython": {

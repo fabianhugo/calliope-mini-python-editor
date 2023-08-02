@@ -8,7 +8,7 @@
     "description": "Alt-Text für den Comic im Info-Dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Ursprünglich erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
+    "defaultMessage": "Erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
     "description": "Text im about-Dialog"
   },
   "about-micropython": {
@@ -124,7 +124,7 @@
     "description": "Bezeichnung der Aktion bestätigen"
   },
   "confirm-delete": {
-    "defaultMessage": "Bestätigen Sie das Löschen",
+    "defaultMessage": "Bestätige das Löschen",
     "description": "Bestätigungskopf für die Löschung einer Datei"
   },
   "confirm-replace-body": {
@@ -136,7 +136,7 @@
     "description": "Bestätigungsmeldung für die Rücksetzaktion"
   },
   "confirm-replace-title": {
-    "defaultMessage": "Bestätigen Sie das Projekt ersetzen",
+    "defaultMessage": "Bestätige, dass das Projekt ersetzt wird",
     "description": "Titel der Bestätigungsmeldung für den Dialog zum Ersetzen des Projekts"
   },
   "confirm-replace-with-idea": {
@@ -176,7 +176,7 @@
     "description": "Titel für den connect-Hilfedialog"
   },
   "connect-help-two": {
-    "defaultMessage": "Wählen Sie 'Verbinden'",
+    "defaultMessage": "Wähle 'Verbinden'",
     "description": "Legendentext für das Bild des Verbindungshilfedialogs"
   },
   "connect-hover": {
@@ -192,7 +192,7 @@
     "description": "Text in den Dialogen Calliope mini gefunden und Firmware-Update"
   },
   "content-load-error": {
-    "defaultMessage": "Etwas ist schief gelaufen. Laden deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann die Seite, um sie neu zu laden.",
+    "defaultMessage": "Etwas ist schief gelaufen. Lade deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann diese Seite.",
     "description": "Text, der angezeigt wird, wenn der Inhalt nicht geladen werden kann"
   },
   "copied": {
@@ -472,7 +472,7 @@
     "description": "Kopfzeile für Namensfeld"
   },
   "name-used-when": {
-    "defaultMessage": "Der Name wird verwendet, wenn Sie eine Datei speichern.",
+    "defaultMessage": "Der Name wird verwendet, wenn du eine Datei speicherst.",
     "description": "Text unter dem Feld Projektname"
   },
   "new-file-hint": {
@@ -668,7 +668,7 @@
     "description": "Hovertext des Buttons Senden"
   },
   "serial-collapse": {
-    "defaultMessage": "Seriennummer ausblenden",
+    "defaultMessage": "Serielle Daten  ausblenden",
     "description": "Aktionslabel zum Ausblenden des seriellen Konsolen-/REPL-Bereichs"
   },
   "serial-ctrl-c-action": {
@@ -716,7 +716,7 @@
     "description": "Aria-Beschriftung für das Menü des seriellen Bereichs"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "Callipoe mini bereit zum Flashen",
+    "defaultMessage": "Calliope mini bereit zum Flashen",
     "description": "Wird angezeigt, wenn dein Programm nicht mehr mit dem Calliope mini synchronisiert ist"
   },
   "serial-running": {
