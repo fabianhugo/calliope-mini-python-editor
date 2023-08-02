@@ -195,7 +195,7 @@ const SideBarHeader = ({
         >
           <Link
             display="block"
-            href="https://microbit.org/code/"
+            href="https://calliope.cc/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label={intl.formatMessage({ id: "visit-dot-org" })}
