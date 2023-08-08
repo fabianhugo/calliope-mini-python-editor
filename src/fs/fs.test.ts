@@ -27,7 +27,7 @@ const hexes = Promise.all([
   fs.readFileSync("src/micropython/microbit-micropython-v1.hex", {
     encoding: "ascii",
   }),
-  fs.readFileSync("src/micropython/main/microbit-micropython-v2.hex", {
+  fs.readFileSync("src/micropython/main/calliope-v3.hex", {
     encoding: "ascii",
   }),
 ]);
