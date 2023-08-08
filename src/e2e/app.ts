@@ -1240,7 +1240,7 @@ export class App {
     return this.assertActiveElement(() =>
       this.getElementByRoleAndLabel(
         "link",
-        "visit microbit.org (opens in a new tab)"
+        "visit calliope.cc (opens in a new tab)"
       )
     );
   }
