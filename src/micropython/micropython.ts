@@ -5,24 +5,24 @@
  */
 import { IntelHexWithId } from "@microbit/microbit-fs";
 import { microbitBoardId } from "@microbit/microbit-universal-hex";
-import microPythonV1HexUrl from "./microbit-micropython-v1.hex";
-import microPythonCalliopeHexUrl from "./main/microPython_CalliopeminiV3.hex";
+import microPythonCalliopeV1V2HexUrl from "./calliope-v1v2.hex";
+import microPythonCalliopeV3HexUrl from "./main/calliope-v3.hex";
 
 export const microPythonConfig = {
   versions: [
     {
-      name: "MicroPython (micro:bit V1)",
-      url: microPythonV1HexUrl,
+      name: "MicroPython (Calliope mini V1-V2)",
+      url: microPythonCalliopeV1V2HexUrl,
       boardId: microbitBoardId.V1, // 39168 | 0x9900
-      version: "1.1.1",
-      web: "https://github.com/bbcmicrobit/micropython/releases/tag/v1.1.1",
+      version: "1.9.2",
+      web: "https://github.com/calliope-edu/micropython-calliope-mini/tree/minidal",
     },
     {
       name: "MicroPython (Calliope mini V3)",
-      url: microPythonCalliopeHexUrl,
+      url: microPythonCalliopeV3HexUrl,
       boardId: microbitBoardId.V2, // 39171 | 0x9903
       version: "2.1.1",
-      web: "https://github.com/calliope-edu/micropython-microbit-v2/tree/mini2.1.1renaming",
+      web: "https://github.com/calliope-edu/micropython-calliope-mini-v3/tree/v2.1.1-cmini3",
     },
   ],
   // We've previously used this field to allow flags to affect

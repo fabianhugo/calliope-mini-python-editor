@@ -51,7 +51,7 @@ const versionInfo = [
   {
     name: "Editor",
     value: process.env.REACT_APP_VERSION,
-    href: "https://github.com/microbit-foundation/python-editor-v3",
+    href: "https://github.com/calliope-edu/calliope-mini-python-editor",
   },
   ...microPythonConfig.versions.map((mpy) => ({
     name: mpy.name,
