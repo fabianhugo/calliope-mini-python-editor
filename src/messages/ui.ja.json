@@ -2,13 +2,13 @@
   "about": [
     {
       "type": 0,
-      "value": "micro:bitについて"
+      "value": "Calliope miniについて"
     }
   ],
   "about-comic": [
     {
       "type": 0,
-      "value": "Mike Rowbitによる「MicroPython Rocks」（MicroPython最高！）という3コマ漫画。漫画のヘビが「Damienを紹介します... 彼はMicroPythonを作成しました」と言ってDamienを紹介します。2匹のヘビがMicroPythonについて話します。黄色のヘビが「MicroPythonは非常に小さなコンピュータで動作するように設計されています」と言います。紫のヘビが「あなたのBBC micro:bitのようにね」と応じます。黄色のヘビが「けれどもPythonはどこでも動作します」と続けます。 紫のヘビは同意して「巨大なウェブサイトを動かすこのラックのサーバーのようにね」と言います。ヘビたちの背後にはサーバーラックが見えます。"
+      "value": "Mike Rowbitによる「MicroPython Rocks」（MicroPython最高！）という3コマ漫画。漫画のヘビが「Damienを紹介します... 彼はMicroPythonを作成しました」と言ってDamienを紹介します。2匹のヘビがMicroPythonについて話します。黄色のヘビが「MicroPythonは非常に小さなコンピュータで動作するように設計されています」と言います。紫のヘビが「あなたのBBC Calliope miniのようにね」と応じます。黄色のヘビが「けれどもPythonはどこでも動作します」と続けます。 紫のヘビは同意して「巨大なウェブサイトを動かすこのラックのサーバーのようにね」と言います。ヘビたちの背後にはサーバーラックが見えます。"
     }
   ],
   "about-microbit": [
@@ -16,7 +16,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundationと貢献者"
+          "value": "micro:bit Educational Foundationと貢献者"
         }
       ],
       "type": 8,
@@ -380,7 +380,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "「1」のラベルが付いたBBC micro:bitエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ"
+      "value": "「1」のラベルが付いたBBC Calliope miniエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ"
     }
   ],
   "connect-help-message": [
@@ -392,13 +392,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "micro:bitを選ぶ"
+      "value": "Calliope miniを選ぶ"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "micro:bitを選択"
+      "value": "Calliope miniを選択"
     }
   ],
   "connect-help-two": [
@@ -410,19 +410,19 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "WebUSB経由でmicro:bitに接続"
+      "value": "WebUSB経由でCalliope miniに接続"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "micro:bitに接続してシリアル出力をここに表示"
+      "value": "Calliope miniに接続してシリアル出力をここに表示"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "micro:bit接続時に発生する問題のトラブルシューティング"
+      "value": "Calliope mini接続時に発生する問題のトラブルシューティング"
     }
   ],
   "content-load-error": [
@@ -477,6 +477,12 @@
       "value": " を作成しました"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -503,6 +509,12 @@
       "value": " を削除しました"
     }
   ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
+    }
+  ],
   "disconnect-action": [
     {
       "type": 0,
@@ -512,7 +524,7 @@
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "micro:bitを切断"
+      "value": "Calliope miniを切断"
     }
   ],
   "dont-show-again": [
@@ -620,7 +632,7 @@
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "このmicro:bitに接続するには、"
+      "value": "このCalliope miniに接続するには、"
     },
     {
       "children": [
@@ -640,7 +652,7 @@
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "micro:bitのファームウェアが古すぎるため、micro:bitへの接続に失敗しました。"
+      "value": "Calliope miniのファームウェアが古すぎるため、Calliope miniへの接続に失敗しました。"
     }
   ],
   "firmware-update-title": [
@@ -658,7 +670,7 @@
   "flash-hover": [
     {
       "type": 0,
-      "value": "プロジェクトをmicro:bitに直接書き込む"
+      "value": "プロジェクトをCalliope miniに直接書き込む"
     }
   ],
   "flashing-code": [
@@ -670,7 +682,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "プログラムがmicro:bitに送信（書き込み）されています。最初はしばらく時間がかかることがありますが、その後は速くなります。"
+      "value": "プログラムがCalliope miniに送信（書き込み）されています。最初はしばらく時間がかかることがありますが、その後は速くなります。"
     }
   ],
   "flashing-micropython": [
@@ -759,6 +771,12 @@
       "value": "これらのプロジェクトを試し、修正し、インスピレーションを得ることができます。"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -792,7 +810,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -856,7 +874,7 @@
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "5×5のLEDグリッドにハートを表示するmicro:bitボード"
+      "value": "5×5のLEDグリッドにハートを表示するCalliope miniボード"
     }
   ],
   "micropython-documentation": [
@@ -868,7 +886,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "micro:bit上のMicroPythonがどのように生まれたかを学ぶ"
+      "value": "Calliope mini上のMicroPythonがどのように生まれたかを学ぶ"
     }
   ],
   "micropython-source-code": [
@@ -1070,7 +1088,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bitは接続"
+          "value": "Calliope miniは接続"
         }
       ],
       "type": 8,
@@ -1128,7 +1146,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "micro:bitを選択していないか、接続中に問題が発生しました。"
+      "value": "Calliope miniを選択していないか、接続中に問題が発生しました。"
     }
   ],
   "not-found-save-message": [
@@ -1140,13 +1158,13 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "micro:bitが見つかりません"
+      "value": "Calliope miniが見つかりません"
     }
   ],
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "このmicro:bitに接続するには、"
+      "value": "このCalliope miniに接続するには、"
     },
     {
       "children": [
@@ -1298,7 +1316,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "micro:bit上のhex ファイルを実行するには"
+      "value": "Calliope mini上のhex ファイルを実行するには"
     },
     {
       "children": [
@@ -1489,13 +1507,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "micro:bitに送る"
+      "value": "Calliope miniに送る"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "WebUSBで接続してプログラムをmicro:bitに書き込む"
+      "value": "WebUSBで接続してプログラムをCalliope miniに書き込む"
     }
   ],
   "serial-collapse": [
@@ -1525,7 +1543,7 @@
   "serial-flashed": [
     {
       "type": 0,
-      "value": "micro:bitに書き込みました"
+      "value": "Calliope miniに書き込みました"
     }
   ],
   "serial-help-ctrl-c": [
@@ -1599,7 +1617,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "シリアルターミナルはmicro:bit上で実行されているプログラムからのエラーやその他の出力を表示します。デフォルトでは、プログラムからの最新のエラーが表示されます。展開するとすべての出力を見ることができます。"
+      "value": "シリアルターミナルはCalliope mini上で実行されているプログラムからのエラーやその他の出力を表示します。デフォルトでは、プログラムからの最新のエラーが表示されます。展開するとすべての出力を見ることができます。"
     }
   ],
   "serial-help-print": [
@@ -1625,7 +1643,7 @@
       "children": [
         {
           "type": 0,
-          "value": "print('micro:bitは素晴らしい')"
+          "value": "print('Calliope miniは素晴らしい')"
         }
       ],
       "type": 8,
@@ -1657,7 +1675,7 @@
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "micro:bitの書き込み準備ができました"
+      "value": "Calliope miniの書き込み準備ができました"
     }
   ],
   "serial-running": [
@@ -2068,7 +2086,7 @@
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "micro:bitの送信:"
+      "value": "Calliope miniの送信:"
     }
   ],
   "simulator-radio-group-notice": [
@@ -2234,7 +2252,7 @@
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "micro:bitに接続できません"
+      "value": "Calliope miniに接続できません"
     }
   ],
   "timeout-error-title": [
@@ -2282,7 +2300,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBITドライブ"
+          "value": "MINIドライブ"
         }
       ],
       "type": 8,
@@ -2316,7 +2334,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "保存された hex ファイルをmicro:bitに転送する"
+      "value": "保存された hex ファイルをCalliope miniに転送する"
     }
   ],
   "try-again-action": [
@@ -2412,7 +2430,7 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "WebUSBを使用している他のタブ（MakeCode、Pythonエディターなど）を閉じるか、micro:bitを抜き差ししてやり直してください。"
+      "value": "WebUSBを使用している他のタブ（MakeCode、Pythonエディターなど）を閉じるか、Calliope miniを抜き差ししてやり直してください。"
     }
   ],
   "webusb-error-clear-connect-title": [
@@ -2430,7 +2448,7 @@
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "micro:bitを再接続して、やり直してください。"
+      "value": "Calliope miniを再接続して、やり直してください。"
     }
   ],
   "webusb-error-update-req-description": [
@@ -2442,7 +2460,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bitファームウェアを更新"
+          "value": "Calliope miniファームウェアを更新"
         }
       ],
       "type": 8,
@@ -2462,7 +2480,7 @@
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "残念ながら、WebUSBはこのブラウザではサポートされていないので、代わりにプログラムをコンピュータに保存します。 次の画面の手順に従ってmicro:bitに転送してください。micro:bitと直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。"
+      "value": "残念ながら、WebUSBはこのブラウザではサポートされていないので、代わりにプログラムをコンピュータに保存します。 次の画面の手順に従ってCalliope miniに転送してください。Calliope miniと直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。"
     }
   ],
   "webusb-not-supported-title": [
@@ -2474,7 +2492,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "WebUSBを使用すると、オンラインエディターから直接micro:bitをプログラムしたり、シリアルコンソールに接続できます。"
+      "value": "WebUSBを使用すると、オンラインエディターから直接Calliope miniをプログラムしたり、シリアルコンソールに接続できます。"
     }
   ],
   "welcome-message": [

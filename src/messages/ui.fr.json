@@ -20,7 +20,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation et ses contributeurs"
+          "value": "micro:bit Educational Foundation et ses contributeurs"
         }
       ],
       "type": 8,
@@ -453,6 +453,12 @@
       "value": " créé"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -477,6 +483,12 @@
     {
       "type": 0,
       "value": " a été supprimé"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -731,6 +743,12 @@
       "value": "Essayez ces projets, modifiez-les et inspirez-vous en"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -764,7 +782,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -2288,7 +2306,7 @@
       "children": [
         {
           "type": 0,
-          "value": "lecteur MICROBIT"
+          "value": "lecteur MINI"
         }
       ],
       "type": 8,

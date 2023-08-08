@@ -20,7 +20,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation i els col·laboradors"
+          "value": "Calliope mini Educational Foundation i els col·laboradors mejorado por Calliope y Lulububu para el Calliope mini."
         }
       ],
       "type": 8,
@@ -360,7 +360,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Diàleg de connexió WebUSB amb l'entrada de BBC Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2"
+      "value": "Diàleg de connexió WebUSB amb l'entrada de Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2"
     }
   ],
   "connect-help-message": [
@@ -457,6 +457,12 @@
       "value": "filename"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -481,6 +487,12 @@
     {
       "type": 1,
       "value": "filename"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -721,6 +733,12 @@
       "value": "Prova aquests projectes, modifica'ls i inspira't"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -754,7 +772,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -2258,7 +2276,7 @@
       "children": [
         {
           "type": 0,
-          "value": "unitat MICROBIT"
+          "value": "unitat MINI"
         }
       ],
       "type": 8,
@@ -2372,7 +2390,7 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "visita microbit.org (s'obre en una pestanya nova)"
+      "value": "visita calliope.cc (s'obre en una pestanya nova)"
     }
   ],
   "webusb-error-clear-connect-description-1": [

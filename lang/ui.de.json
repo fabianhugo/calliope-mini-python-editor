@@ -8,7 +8,7 @@
     "description": "Alt-Text für den Comic im Info-Dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
+    "defaultMessage": "Ursprünglich erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
     "description": "Text im about-Dialog"
   },
   "about-micropython": {
@@ -20,11 +20,11 @@
     "description": "Aria-Label zum Einklappen eines erweiterten Abschnitts über MicroPython"
   },
   "about-read-more-micropython": {
-    "defaultMessage": "Lesen Sie mehr über MicroPython",
+    "defaultMessage": "Lese mehr über MicroPython",
     "description": "Aria-Label zum Erweitern eines eingeklappten Abschnitts über MicroPython"
   },
   "added-change": {
-    "defaultMessage": "Datei {Änderungsname} hinzugefügt",
+    "defaultMessage": "Datei {changeName} hinzugefügt",
     "description": "Änderung an Datei vorgenommen"
   },
   "api-description": {
@@ -72,27 +72,27 @@
     "description": "Kopfzeile für den Dialog zur Bestätigung der geänderten Dateien"
   },
   "choose-main-add-file": {
-    "defaultMessage": "Datei {Name} hinzufügen",
+    "defaultMessage": "Datei {name} hinzufügen",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-add-module": {
-    "defaultMessage": "Modul {Name} hinzufügen",
+    "defaultMessage": "Modul {name} hinzufügen",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-replace-file": {
-    "defaultMessage": "Ersetze Datei {Name}",
+    "defaultMessage": "Ersetze Datei {name}",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-replace-module": {
-    "defaultMessage": "Ersetze Modul {Name}",
+    "defaultMessage": "Ersetze Modul {name}",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-source-add-file": {
-    "defaultMessage": "Datei {Ziel} von {Quelle} hinzufügen",
+    "defaultMessage": "Datei {target} von {source} hinzufügen",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-source-add-main-code": {
-    "defaultMessage": "Hauptcode von {Quelle} hinzufügen",
+    "defaultMessage": "Hauptcode von {source} hinzufügen",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-source-replace-file": {
@@ -100,7 +100,7 @@
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "choose-main-source-replace-main-code": {
-    "defaultMessage": "Ersetze Hauptcode durch {Quelle}",
+    "defaultMessage": "Ersetze Hauptcode durch {source}",
     "description": "Wird im Ladedialog angezeigt, um Aktionen zu bestätigen"
   },
   "clear": {
@@ -140,7 +140,7 @@
     "description": "Titel der Bestätigungsmeldung für den Dialog zum Ersetzen des Projekts"
   },
   "confirm-replace-with-idea": {
-    "defaultMessage": "Alle Dateien durch {Ideenname} ersetzen?",
+    "defaultMessage": "Alle Dateien durch {ideaName} ersetzen?",
     "description": "Bestätigungs-Nachrichtentext für das Ersetzen des Projektdialogs durch eine Idee"
   },
   "confirm-save-action": {
@@ -192,7 +192,7 @@
     "description": "Text in den Dialogen Calliope mini gefunden und Firmware-Update"
   },
   "content-load-error": {
-    "defaultMessage": "Etwas ist schief gelaufen. Lade deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann diese Seite.",
+    "defaultMessage": "Etwas ist schief gelaufen. Laden deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann die Seite, um sie neu zu laden.",
     "description": "Text, der angezeigt wird, wenn der Inhalt nicht geladen werden kann"
   },
   "copied": {
@@ -220,20 +220,28 @@
     "description": "Hover und Dialogtitel beim Erstellen einer neuen Python-Datei"
   },
   "created-file": {
-    "defaultMessage": "Erstellt {Dateiname}",
+    "defaultMessage": "Erstellt {filename}",
     "description": "Aktionsrückmeldung für die Erstellung einer Datei"
+  },
+  "data-protection": {
+    "defaultMessage": "Datenschutz",
+    "description": "Data protection simulator panel title"
   },
   "delete-action": {
     "defaultMessage": "Löschen",
     "description": "Schaltflächentext für die Löschaktion"
   },
   "delete-file-action": {
-    "defaultMessage": "Lösche {Name}",
+    "defaultMessage": "Lösche {name}",
     "description": "Menüoption zum Löschen einer Datei"
   },
   "deleted-file": {
-    "defaultMessage": "Gelöschte {Dateiname}",
+    "defaultMessage": "Gelöschte {filename}",
     "description": "Bestätigungsmeldung, dass die Datei gelöscht wurde"
+  },
+  "disclaimer": {
+    "defaultMessage": "Haftungsausschluss",
+    "description": "Disclaimer menu option text"
   },
   "disconnect-action": {
     "defaultMessage": "Verbindung trennen",
@@ -252,7 +260,7 @@
     "description": "Ziehbarer Code-Hover-Text"
   },
   "edit-file-action": {
-    "defaultMessage": "{Name} bearbeiten",
+    "defaultMessage": "{name} bearbeiten",
     "description": "Menüoption zum Bearbeiten einer Datei"
   },
   "edit-name-project-hover": {
@@ -272,7 +280,7 @@
     "description": "Feedback-Aktion"
   },
   "file-actions": {
-    "defaultMessage": "{Name} Datei-Aktionen",
+    "defaultMessage": "{name} Datei-Aktionen",
     "description": "Header der Datei-Aktionen für die Datei"
   },
   "file-already-exists": {
@@ -379,6 +387,10 @@
     "defaultMessage": "Probiere diese Projekte aus, verändere sie und lasse dich inspirieren",
     "description": "Beschreibungstext der Registerkarte 'Ideen'. Die Registerkarte zeigt Programme, die den Schülern Ideen geben."
   },
+  "imprint": {
+    "defaultMessage": "Impressum",
+    "description": "Imprint menu option text"
+  },
   "insert-code-action": {
     "defaultMessage": "Code einfügen",
     "descrition": "Code-Aktionsetikett einfügen"
@@ -412,7 +424,7 @@
     "description": "Titel des Fehlerdialogs, wenn wir keine Dateien laden können. Verwendet ICU-Syntax für Pluralisierung: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "loaded-file-feedback": {
-    "defaultMessage": "{Dateiname} geladen",
+    "defaultMessage": "{filename} geladen",
     "description": "Erfolgsrückmeldung für das Laden der Datei"
   },
   "loading": {
@@ -457,7 +469,7 @@
   },
   "multiple-files-message-two": {
     "defaultMessage": "Klicke auf die Schaltfläche <strong>Speichern</strong>, um das gesamtes Projekt als Hex-Datei herunterzuladen. Du können die Hex-Datei <strong>öffnen</strong>, um dein Projekt wiederherzustellen. Wenn du lieber einzelne Python-Dateien herunterladen möchtest, verwende den Punkt <strong>Projekt</strong>.",
-    "Beschreibung": "Eine Meldung im Dialog wird angezeigt, wenn mehrere Dateien zum Download verfügbar sind"
+    "description": "Eine Meldung im Dialog wird angezeigt, wenn mehrere Dateien zum Download verfügbar sind"
   },
   "multiple-files-title": {
     "defaultMessage": "Warnung: Nur main.py heruntergeladen",
@@ -640,7 +652,7 @@
     "description": "Text des Buttons Speichern"
   },
   "save-file-action": {
-    "defaultMessage": "Speichern {Name}",
+    "defaultMessage": "Speichern {name}",
     "description": "Menüoption zum Speichern einer Datei"
   },
   "save-hex-action": {
@@ -668,7 +680,7 @@
     "description": "Hovertext des Buttons Senden"
   },
   "serial-collapse": {
-    "defaultMessage": "Serielle Daten  ausblenden",
+    "defaultMessage": "Serielle Daten ausblenden",
     "description": "Aktionslabel zum Ausblenden des seriellen Konsolen-/REPL-Bereichs"
   },
   "serial-ctrl-c-action": {
@@ -716,7 +728,7 @@
     "description": "Aria-Beschriftung für das Menü des seriellen Bereichs"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "Calliope mini bereit zum Flashen",
+    "defaultMessage": "Callipoe mini bereit zum Flashen",
     "description": "Wird angezeigt, wenn dein Programm nicht mehr mit dem Calliope mini synchronisiert ist"
   },
   "serial-running": {
@@ -804,7 +816,7 @@
     "description": "Aria-Beschriftung für die Schaltfläche 'Simulator einklappen'"
   },
   "simulator-collapse-module": {
-    "defaultMessage": "Verkleinere {Titel} Modul",
+    "defaultMessage": "Verkleinere {title} Modul",
     "description": "Aria-Beschriftung für die Schaltfläche des Simulator-Klappmoduls"
   },
   "simulator-compass": {
@@ -1031,14 +1043,6 @@
     "defaultMessage": "Support",
     "description": "Support Menü Text"
   },
-  "imprint": {
-    "defaultMessage": "Impressum",
-    "description": "Impressum Menü Text"
-  },
-  "data-protection": {
-    "defaultMessage": "Datenschutz",
-    "description": "Datenschutz Menü Text"
-  },
   "terms-of-use": {
     "defaultMessage": "Nutzungshinweise",
     "description": "Nutzungshinweise Menü Text"
@@ -1064,7 +1068,7 @@
     "description": "Fehler, der angezeigt wird, wenn der Toolkit-Inhalt nicht geladen werden kann"
   },
   "toolkit-view-documentation": {
-    "defaultMessage": "{Name} Dokumentation anschauen",
+    "defaultMessage": "{name} Dokumentation anschauen",
     "description": "Aria-Beschriftung für das Toolkit-Thema Rechtspfeil"
   },
   "transfer-hex-message-one": {

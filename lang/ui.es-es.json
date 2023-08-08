@@ -223,6 +223,10 @@
     "defaultMessage": "{filename} creado",
     "description": "Action feedback for creating a file"
   },
+  "data-protection": {
+    "defaultMessage": "Data protection",
+    "description": "Data protection simulator panel title"
+  },
   "delete-action": {
     "defaultMessage": "Eliminar",
     "description": "Button text for delete action"
@@ -234,6 +238,10 @@
   "deleted-file": {
     "defaultMessage": "{filename} eliminado",
     "description": "Confirmation message that file got deleted"
+  },
+  "disclaimer": {
+    "defaultMessage": "Disclaimer",
+    "description": "Disclaimer menu option text"
   },
   "disconnect-action": {
     "defaultMessage": "Desconectar",
@@ -378,6 +386,10 @@
   "ideas-tab-description": {
     "defaultMessage": "Prueba estos proyectos y modifícalos para inspirarte",
     "description": "Ideas tab description text. Tab shows programs to give students ideas."
+  },
+  "imprint": {
+    "defaultMessage": "Imprint",
+    "description": "Imprint menu option text"
   },
   "insert-code-action": {
     "defaultMessage": "Insertar código"

@@ -16,7 +16,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation and contributors"
+          "value": "micro:bit Educational Foundation and contributors"
         }
       ],
       "type": 8,
@@ -453,6 +453,12 @@
       "value": "filename"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -477,6 +483,12 @@
     {
       "type": 1,
       "value": "filename"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -731,6 +743,12 @@
       "value": "尝试这些项目，修改它们并获得灵感"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -764,7 +782,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc"
         }
       ],
       "type": 8,
@@ -2301,7 +2319,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBIT 驱动器"
+          "value": "MINI 驱动器"
         }
       ],
       "type": 8,
@@ -2407,7 +2425,7 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "访问 microbit.org (在新标签页中打开)"
+      "value": "访问 calliope.cc (在新标签页中打开)"
     }
   ],
   "webusb-error-clear-connect-description-1": [

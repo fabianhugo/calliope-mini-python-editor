@@ -223,6 +223,10 @@
     "defaultMessage": "{filename} 생성됨",
     "description": "Action feedback for creating a file"
   },
+  "data-protection": {
+    "defaultMessage": "Data protection",
+    "description": "Data protection simulator panel title"
+  },
   "delete-action": {
     "defaultMessage": "삭제",
     "description": "Button text for delete action"
@@ -234,6 +238,10 @@
   "deleted-file": {
     "defaultMessage": "{filename} 삭제됨",
     "description": "Confirmation message that file got deleted"
+  },
+  "disclaimer": {
+    "defaultMessage": "Disclaimer",
+    "description": "Disclaimer menu option text"
   },
   "disconnect-action": {
     "defaultMessage": "연결 해제",
@@ -378,6 +386,10 @@
   "ideas-tab-description": {
     "defaultMessage": "다양한 프로젝트를 체험해보고 수정하며 아이디어를 얻어보세요",
     "description": "Ideas tab description text. Tab shows programs to give students ideas."
+  },
+  "imprint": {
+    "defaultMessage": "Imprint",
+    "description": "Imprint menu option text"
   },
   "insert-code-action": {
     "defaultMessage": "코드 삽입"

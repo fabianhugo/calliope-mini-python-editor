@@ -46,7 +46,7 @@
   "about-read-more-micropython": [
     {
       "type": 0,
-      "value": "Lesen Sie mehr über MicroPython"
+      "value": "Lese mehr über MicroPython"
     }
   ],
   "added-change": [
@@ -56,7 +56,7 @@
     },
     {
       "type": 1,
-      "value": "Änderungsname"
+      "value": "changeName"
     },
     {
       "type": 0,
@@ -166,7 +166,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     },
     {
       "type": 0,
@@ -180,7 +180,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     },
     {
       "type": 0,
@@ -194,7 +194,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     }
   ],
   "choose-main-replace-module": [
@@ -204,7 +204,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     }
   ],
   "choose-main-source-add-file": [
@@ -214,7 +214,7 @@
     },
     {
       "type": 1,
-      "value": "Ziel"
+      "value": "target"
     },
     {
       "type": 0,
@@ -222,7 +222,7 @@
     },
     {
       "type": 1,
-      "value": "Quelle"
+      "value": "source"
     },
     {
       "type": 0,
@@ -236,7 +236,7 @@
     },
     {
       "type": 1,
-      "value": "Quelle"
+      "value": "source"
     },
     {
       "type": 0,
@@ -268,7 +268,7 @@
     },
     {
       "type": 1,
-      "value": "Quelle"
+      "value": "source"
     }
   ],
   "clear": [
@@ -304,7 +304,7 @@
   "confirm-delete": [
     {
       "type": 0,
-      "value": "Bestätigen Sie das Löschen"
+      "value": "Bestätige das Löschen"
     }
   ],
   "confirm-replace-body": [
@@ -322,7 +322,7 @@
   "confirm-replace-title": [
     {
       "type": 0,
-      "value": "Bestätigen Sie das Projekt ersetzen"
+      "value": "Bestätige, dass das Projekt ersetzt wird"
     }
   ],
   "confirm-replace-with-idea": [
@@ -332,7 +332,7 @@
     },
     {
       "type": 1,
-      "value": "Ideenname"
+      "value": "ideaName"
     },
     {
       "type": 0,
@@ -390,7 +390,7 @@
   "connect-help-two": [
     {
       "type": 0,
-      "value": "Wählen Sie 'Verbinden'"
+      "value": "Wähle 'Verbinden'"
     }
   ],
   "connect-hover": [
@@ -460,7 +460,7 @@
     },
     {
       "type": 1,
-      "value": "Dateiname"
+      "value": "filename"
     }
   ],
   "data-protection": [
@@ -482,7 +482,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     }
   ],
   "deleted-file": [
@@ -492,7 +492,13 @@
     },
     {
       "type": 1,
-      "value": "Dateiname"
+      "value": "filename"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Haftungsausschluss"
     }
   ],
   "disconnect-action": [
@@ -522,7 +528,7 @@
   "edit-file-action": [
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     },
     {
       "type": 0,
@@ -556,7 +562,7 @@
   "file-actions": [
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     },
     {
       "type": 0,
@@ -850,7 +856,7 @@
   "loaded-file-feedback": [
     {
       "type": 1,
-      "value": "Dateiname"
+      "value": "filename"
     },
     {
       "type": 0,
@@ -1054,7 +1060,7 @@
   "name-used-when": [
     {
       "type": 0,
-      "value": "Der Name wird verwendet, wenn Sie eine Datei speichern."
+      "value": "Der Name wird verwendet, wenn du eine Datei speicherst."
     }
   ],
   "new-file-hint": [
@@ -1496,7 +1502,7 @@
     },
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     }
   ],
   "save-hex-action": [
@@ -1538,7 +1544,7 @@
   "serial-collapse": [
     {
       "type": 0,
-      "value": "Seriennummer ausblenden"
+      "value": "Serielle Daten ausblenden"
     }
   ],
   "serial-ctrl-c-action": [
@@ -1850,7 +1856,7 @@
     },
     {
       "type": 1,
-      "value": "Titel"
+      "value": "title"
     },
     {
       "type": 0,
@@ -2300,7 +2306,7 @@
   "toolkit-view-documentation": [
     {
       "type": 1,
-      "value": "Name"
+      "value": "name"
     },
     {
       "type": 0,

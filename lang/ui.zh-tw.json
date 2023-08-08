@@ -223,6 +223,10 @@
     "defaultMessage": "已建立 {filename}",
     "description": "Action feedback for creating a file"
   },
+  "data-protection": {
+    "defaultMessage": "Data protection",
+    "description": "Data protection simulator panel title"
+  },
   "delete-action": {
     "defaultMessage": "刪除",
     "description": "Button text for delete action"
@@ -234,6 +238,10 @@
   "deleted-file": {
     "defaultMessage": "已刪除 {filename}",
     "description": "Confirmation message that file got deleted"
+  },
+  "disclaimer": {
+    "defaultMessage": "Disclaimer",
+    "description": "Disclaimer menu option text"
   },
   "disconnect-action": {
     "defaultMessage": "中斷連線",
@@ -378,6 +386,10 @@
   "ideas-tab-description": {
     "defaultMessage": "嘗試這些專案，進行修改並獲得靈感",
     "description": "Ideas tab description text. Tab shows programs to give students ideas."
+  },
+  "imprint": {
+    "defaultMessage": "Imprint",
+    "description": "Imprint menu option text"
   },
   "insert-code-action": {
     "defaultMessage": "插入程式碼"

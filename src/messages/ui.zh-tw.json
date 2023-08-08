@@ -16,7 +16,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation 者用愛製作"
+          "value": "microbit Educational Foundation 者用愛製作"
         }
       ],
       "type": 8,
@@ -449,6 +449,12 @@
       "value": "filename"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -473,6 +479,12 @@
     {
       "type": 1,
       "value": "filename"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -727,6 +739,12 @@
       "value": "嘗試這些專案，進行修改並獲得靈感"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -760,7 +778,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc"
         }
       ],
       "type": 8,
@@ -2300,7 +2318,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBIT 磁碟"
+          "value": "MINI 磁碟"
         }
       ],
       "type": 8,
@@ -2406,7 +2424,7 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "造訪 microbit.org (在新索引標籤中開啟)"
+      "value": "造訪 calliope.cc (在新索引標籤中開啟)"
     }
   ],
   "webusb-error-clear-connect-description-1": [

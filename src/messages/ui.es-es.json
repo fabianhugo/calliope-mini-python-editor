@@ -20,7 +20,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation y colaboradores"
+          "value": "micro:bit Educational Foundation y colaboradores amélioré par Calliope et Lulububu pour le Calliope mini."
         }
       ],
       "type": 8,
@@ -457,6 +457,12 @@
       "value": " creado"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -481,6 +487,12 @@
     {
       "type": 0,
       "value": " eliminado"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -735,6 +747,12 @@
       "value": "Prueba estos proyectos y modifícalos para inspirarte"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -768,7 +786,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -2288,7 +2306,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Unidad MICROBIT"
+          "value": "Unidad MINI"
         }
       ],
       "type": 8,

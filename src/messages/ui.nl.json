@@ -20,7 +20,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation en bijdragers"
+          "value": "micro:bit Educational Foundation en bijdragers verbeterd door Calliope en Lulububu voor de Calliope mini."
         }
       ],
       "type": 8,
@@ -465,6 +465,12 @@
       "value": "filename"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -489,6 +495,12 @@
     {
       "type": 1,
       "value": "filename"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -743,6 +755,12 @@
       "value": "Probeer deze projecten uit, verander ze en laat je inspireren"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -776,7 +794,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -1555,7 +1573,7 @@
   "serial-flashed": [
     {
       "type": 0,
-      "value": "Micro:bit geflasht"
+      "value": "Calliope mini geflasht"
     }
   ],
   "serial-help-ctrl-c": [
@@ -1687,7 +1705,7 @@
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "Micro:bit klaar om te flashen"
+      "value": "Calliope mini klaar om te flashen"
     }
   ],
   "serial-running": [
@@ -2331,7 +2349,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBIT-station"
+          "value": "MINI-station"
         }
       ],
       "type": 8,
@@ -2441,7 +2459,7 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "bezoek microbit.org (opent in een nieuw tabblad)"
+      "value": "bezoek calliope.cc (opent in een nieuw tabblad)"
     }
   ],
   "webusb-error-clear-connect-description-1": [

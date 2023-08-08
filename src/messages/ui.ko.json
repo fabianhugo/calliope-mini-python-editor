@@ -16,7 +16,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation 및 기여자"
+          "value": "micro:bit Educational Foundation 및 기여자"
         }
       ],
       "type": 8,
@@ -376,13 +376,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "micro:bit를 선택하세요"
+      "value": "Calliope mini를 선택하세요"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "micro:bit을 선택하세요"
+      "value": "Calliope mini을 선택하세요"
     }
   ],
   "connect-help-two": [
@@ -394,13 +394,13 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "WebUSB를 통해 micro:bit에 연결합니다."
+      "value": "WebUSB를 통해 Calliope mini에 연결합니다."
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "micro:bit에 연결하면 여기서 직렬 출력을 확인할 수 있습니다"
+      "value": "Calliope mini에 연결하면 여기서 직렬 출력을 확인할 수 있습니다"
     }
   ],
   "connect-troubleshoot": [
@@ -461,6 +461,12 @@
       "value": " 생성됨"
     }
   ],
+  "data-protection": [
+    {
+      "type": 0,
+      "value": "Data protection"
+    }
+  ],
   "delete-action": [
     {
       "type": 0,
@@ -485,6 +491,12 @@
     {
       "type": 0,
       "value": " 삭제됨"
+    }
+  ],
+  "disclaimer": [
+    {
+      "type": 0,
+      "value": "Disclaimer"
     }
   ],
   "disconnect-action": [
@@ -604,7 +616,7 @@
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "이 micro:bit에 연결하기 전에 "
+      "value": "이 Calliope mini에 연결하기 전에 "
     },
     {
       "children": [
@@ -654,7 +666,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "코드가 micro:bit으로 전송(플래싱)되고 있습니다. 처음에는 조금 시간이 걸리지만 이후에는 빠르게 완료됩니다."
+      "value": "코드가 Calliope mini으로 전송(플래싱)되고 있습니다. 처음에는 조금 시간이 걸리지만 이후에는 빠르게 완료됩니다."
     }
   ],
   "flashing-micropython": [
@@ -743,6 +755,12 @@
       "value": "다양한 프로젝트를 체험해보고 수정하며 아이디어를 얻어보세요"
     }
   ],
+  "imprint": [
+    {
+      "type": 0,
+      "value": "Imprint"
+    }
+  ],
   "insert-code-action": [
     {
       "type": 0,
@@ -776,7 +794,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://makecode.calliope.cc"
         }
       ],
       "type": 8,
@@ -860,7 +878,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "micro:bit의 MicroPython에 대해 알아보기"
+      "value": "Calliope mini의 MicroPython에 대해 알아보기"
     }
   ],
   "micropython-source-code": [
@@ -1074,7 +1092,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit이 연결되었나요"
+          "value": "Calliope mini이 연결되었나요"
         }
       ],
       "type": 8,
@@ -1132,7 +1150,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "micro:bit을 선택하지 않았거나 연결 문제가 발생했습니다."
+      "value": "Calliope mini을 선택하지 않았거나 연결 문제가 발생했습니다."
     }
   ],
   "not-found-save-message": [
@@ -1150,7 +1168,7 @@
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "이 micro:bit에 연결하기 전에 "
+      "value": "이 Calliope mini에 연결하기 전에 "
     },
     {
       "children": [
@@ -1302,7 +1320,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "micro:bit에서 이 hex 파일을 실행하려면 "
+      "value": "Calliope mini에서 이 hex 파일을 실행하려면 "
     },
     {
       "children": [
@@ -1504,13 +1522,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "micro:bit로 전송"
+      "value": "Calliope mini로 전송"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "WebUSB로 micro:bit에 연결하고 코드를 플래시합니다"
+      "value": "WebUSB로 Calliope mini에 연결하고 코드를 플래시합니다"
     }
   ],
   "serial-collapse": [
@@ -1614,7 +1632,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "시리얼 터미널은 micro:bit에서 작동하는 프로그램으로부터의 오류와 기타 출력을 표시합니다. 기본적으로 해당 프로그램의 가장 최근의 오류를 표시합니다. 확대하여 모든 출력을 볼 수 있습니다."
+      "value": "시리얼 터미널은 Calliope mini에서 작동하는 프로그램으로부터의 오류와 기타 출력을 표시합니다. 기본적으로 해당 프로그램의 가장 최근의 오류를 표시합니다. 확대하여 모든 출력을 볼 수 있습니다."
     }
   ],
   "serial-help-print": [
@@ -2292,7 +2310,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBIT 드라이브"
+          "value": "MINI 드라이브"
         }
       ],
       "type": 8,
@@ -2322,7 +2340,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "저장된 hex 파일을 micro:bit으로 전송"
+      "value": "저장된 hex 파일을 Calliope mini으로 전송"
     }
   ],
   "try-again-action": [
@@ -2406,7 +2424,7 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor)을 닫거나 다시 시도하기 전에 micro:bit의 플러그를 뽑은 후 다시 연결해보세요."
+      "value": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor)을 닫거나 다시 시도하기 전에 Calliope mini의 플러그를 뽑은 후 다시 연결해보세요."
     }
   ],
   "webusb-error-clear-connect-title": [
@@ -2456,7 +2474,7 @@
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "이 브라우저가 WebUSB를 지원하지 않아 프로그램이 컴퓨터에 저장됩니다. micro:bit로 전송하려면 다음 화면의 단계를 따르세요. micro:bit에 직접 연결할 수 있도록 Google Chrome 또는 Microsoft Edge 사용을 권장합니다."
+      "value": "이 브라우저가 WebUSB를 지원하지 않아 프로그램이 컴퓨터에 저장됩니다. Calliope mini로 전송하려면 다음 화면의 단계를 따르세요. Calliope mini에 직접 연결할 수 있도록 Google Chrome 또는 Microsoft Edge 사용을 권장합니다."
     }
   ],
   "webusb-not-supported-title": [
@@ -2468,7 +2486,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "WebUSB로 온라인 에디터에서 직접 micro:bit을 프로그래밍하고 시리얼 콘솔에 연결할 수 있습니다."
+      "value": "WebUSB로 온라인 에디터에서 직접 Calliope mini을 프로그래밍하고 시리얼 콘솔에 연결할 수 있습니다."
     }
   ],
   "welcome-message": [
