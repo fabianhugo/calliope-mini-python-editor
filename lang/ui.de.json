@@ -8,7 +8,7 @@
     "description": "Alt-Text für den Comic im Info-Dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Ursprünglich erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
+    "defaultMessage": "Erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu.",
     "description": "Text im about-Dialog"
   },
   "about-micropython": {
@@ -184,7 +184,7 @@
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "Verbinde dich mit deinem micro: Calliope mini, um die serielle Ausgabe hier zu sehen",
+    "defaultMessage": "Verbinde dich mit deinem Calliope mini, um die serielle Ausgabe hier zu sehen",
     "description": "Text im seriellen Bereich"
   },
   "connect-troubleshoot": {
@@ -192,8 +192,8 @@
     "description": "Text in den Dialogen Calliope mini gefunden und Firmware-Update"
   },
   "content-load-error": {
-    "defaultMessage": "Etwas ist schief gelaufen. Laden deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann die Seite, um sie neu zu laden.",
-    "description": "Text, der angezeigt wird, wenn der Inhalt nicht geladen werden kann"
+    "defaultMessage": "",
+    "description": ""
   },
   "copied": {
     "defaultMessage": "Kopiert",
@@ -1156,7 +1156,7 @@
     "description": "Gezeigt, um die Verwendung eines Browsers zu fördern, der WebUSB unterstützt"
   },
   "welcome-message": {
-    "defaultMessage": "Schau dir den kurzen Leitfaden zu einigen der wichtigsten Funktionen an, oder beginne direkt mit der Programmierung.",
+    "defaultMessage": "Wenn du dich mit dem Editor und MicroPython vetraut machen möchtest, kannst du dir die Referenzen anschauen oder direkt den Bereich Ideen erkunden, ansonsten beginne direkt mit der Programmierung.",
     "description": "Text im Begrüßungsdialog"
   },
   "welcome-title": {

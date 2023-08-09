@@ -14,7 +14,7 @@
   "about-microbit": [
     {
       "type": 0,
-      "value": "Ursprünglich erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu."
+      "value": "Erstellt von der Micro:bit Educational Foundation und Mitwirkenden, angepasst von Calliope und Lulububu."
     }
   ],
   "about-micropython": [
@@ -402,7 +402,7 @@
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Verbinde dich mit deinem micro: Calliope mini, um die serielle Ausgabe hier zu sehen"
+      "value": "Verbinde dich mit deinem Calliope mini, um die serielle Ausgabe hier zu sehen"
     }
   ],
   "connect-troubleshoot": [
@@ -412,10 +412,6 @@
     }
   ],
   "content-load-error": [
-    {
-      "type": 0,
-      "value": "Etwas ist schief gelaufen. Laden deine Hex-Datei herunter, um sie sicher aufzubewahren, und aktualisiere dann die Seite, um sie neu zu laden."
-    }
   ],
   "copied": [
     {
@@ -1912,7 +1908,7 @@
             },
             {
               "type": 0,
-              "value": " row logged"
+              "value": " Zeile protokolliert"
             }
           ]
         },
@@ -1923,7 +1919,7 @@
             },
             {
               "type": 0,
-              "value": " rows logged"
+              "value": " Zeilen protokolliert"
             }
           ]
         }
@@ -2522,7 +2518,7 @@
   "welcome-message": [
     {
       "type": 0,
-      "value": "Schau dir den kurzen Leitfaden zu einigen der wichtigsten Funktionen an, oder beginne direkt mit der Programmierung."
+      "value": "Wenn du dich mit dem Editor und MicroPython vetraut machen möchtest, kannst du dir die Referenzen anschauen oder direkt den Bereich Ideen erkunden, ansonsten beginne direkt mit der Programmierung."
     }
   ],
   "welcome-title": [
