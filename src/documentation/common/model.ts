@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-type Product = "microbitV1" | "microbitV2";
+type Product = "microbitV1" | "microbitV2" | "microbitV3" | "calliopeV3";
 
 export interface HasCompatibility {
   compatibility: Product[];
@@ -16,6 +16,6 @@ export const isV2Only = (compatible: HasCompatibility) => {
     // This will be defined everywhere shortly, but for now we need to cope before the migration.
     compatible.compatibility &&
     compatible.compatibility.length === 1 &&
-    compatible.compatibility[0] === "microbitV2"
+    ["microbitV2", "microbitV3", "calliopeV3"].includes(compatible.compatibility[0])
   );
 };

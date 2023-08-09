@@ -5,7 +5,7 @@
  */
 import { Text, TextProps } from "@chakra-ui/layout";
 import { Flex } from "@chakra-ui/react";
-import V2Tag from "../common/V2Tag";
+import V3Tag from "../common/V3Tag";
 
 interface DocumentationHeadingProps extends TextProps {
   name: string;
@@ -22,7 +22,7 @@ const DocumentationHeading = ({
       {name}
       {isV2Only && (
         <Flex display="inline-flex">
-          <V2Tag />
+          <V3Tag />
         </Flex>
       )}
     </Text>
