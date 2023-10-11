@@ -251,45 +251,6 @@ const MicroPythonSection = (props: BoxProps) => {
           alt={intl.formatMessage({ id: "about-comic" })}
         />
       </AspectRatio>
-      <SimpleGrid columns={[1, 1, 1, 2]} spacing={4} textAlign="center">
-        <Text fontSize="md">
-          <FormattedMessage
-            id="micropython-source-code"
-            values={{
-              linkV1: (chunks: ReactNode) => (
-                <Link
-                  color="brand.500"
-                  href="https://github.com/bbcmicrobit/micropython"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  {chunks}
-                </Link>
-              ),
-              linkV2: (chunks: ReactNode) => (
-                <Link
-                  color="brand.500"
-                  href="https://github.com/microbit-foundation/micropython-microbit-v2"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  micro:bit V2
-                </Link>
-              ),
-            }}
-          />
-        </Text>
-        <Text fontSize="md">
-          <Link
-            color="brand.500"
-            href="https://ntoll.org/article/story-micropython-on-microbit/"
-            target="_blank"
-            rel="noopener"
-          >
-            <FormattedMessage id="micropython-history" />
-          </Link>
-        </Text>
-      </SimpleGrid>
     </VStack>
   );
 };
