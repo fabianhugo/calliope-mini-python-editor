@@ -71,7 +71,7 @@ export const LanguageDialog = ({
               <Link
                 pl={1}
                 alignSelf="flex-start"
-                href={deployment.translationLink}
+                href={"https://calliope.cc/programmieren/editoren/python/python-api"}
                 target="_blank"
                 rel="noopener"
                 color="brand.500"
