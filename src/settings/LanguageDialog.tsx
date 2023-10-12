@@ -68,17 +68,6 @@ export const LanguageDialog = ({
                   />
                 ))}
               </SimpleGrid>
-              <Link
-                pl={1}
-                alignSelf="flex-start"
-                href={"https://calliope.cc/programmieren/editoren/python/python-api"}
-                target="_blank"
-                rel="noopener"
-                color="brand.500"
-              >
-                <FormattedMessage id="help-translate" />{" "}
-                <Icon as={RiExternalLinkLine} />
-              </Link>
             </VStack>
             {hasPreviewLanguages && (
               <Text fontSize="xs" alignSelf="flex-end" mt={1}>

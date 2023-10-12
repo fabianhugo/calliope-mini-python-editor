@@ -84,7 +84,7 @@ const HelpMenu = ({ size, ...props }: HelpMenuProps) => {
             )}
             <MenuItem
               as="a"
-              href="https://microbit-micropython.readthedocs.io/en/v2-docs/"
+              href="https://calliope.cc/programmieren/editoren/python/python-api"
               target="_blank"
               rel="noopener"
               icon={<RiExternalLinkLine />}
