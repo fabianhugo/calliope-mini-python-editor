@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Partial automation of updating translations.
 # This process expects sibling checkouts of pyright and the stubs projects.
@@ -15,15 +15,16 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-languages="de"
+languages=(ca de es-ES fr ja ko nl zh-cn zh-cn)
 
 mkdir -p crowdin/translated
 for language in $languages; do
-    lower="${language}" # TODO: lowercase
+    lower_language=$(echo "${language}" | tr '[:upper:]' '[:lower:]')
     prefix="${1}/${language}"
-    cp "${prefix}/ui.en.json" "crowdin/translated/ui.${lower}.json"
-#    cp "${prefix}/errors.en.json" "../pyright/packages/pyright-internal/src/localization/simplified.nls.${lower}.json"
-    cp "${prefix}/api.en.json" "../micropython-calliope-stubs/crowdin/translated/api.${lower}.json"
+
+    cp "${prefix}/ui.en.json" "crowdin/translated/ui.${lower_language}.json"
+    cp "${prefix}/errors.en.json" "../pyright/packages/pyright-internal/src/localization/simplified.nls.${lower_language}.json"
+    cp "${prefix}/api.en.json" "../micropython-calliope-stubs/crowdin/translated/api.${lower_language}.json"
 done
 npm run i18n:convert
 npm run i18n:compile
@@ -32,7 +33,8 @@ npm run i18n:compile
   cd ../micropython-calliope-stubs
   ./scripts/build-translations.sh
 )
-#./bin/update-pyright.sh
+
+NODE_OPTIONS=--openssl-legacy-provider ./bin/update-pyright.sh
 ./bin/update-typeshed.sh
 # We sometimes have newer English stubs than translations and don't want to
 # regress them as part of a translations update.
