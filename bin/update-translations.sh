@@ -8,7 +8,7 @@
 # 2. Editor updates in settings.tsx and TranslationProvider.tsx.
 #
 
-set -euxo pipefail
+set -euo pipefail
 
 if [ $# -eq 0 ]; then
   echo Missing argument to extracted Crowdin ZIP >&1
