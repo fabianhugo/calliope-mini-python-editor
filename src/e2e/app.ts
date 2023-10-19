@@ -491,7 +491,7 @@ export class App {
         ...defaultWaitForOptions,
         onTimeout: (e) =>
           new Error(
-            `Timeout waiting for ${match} but content was:\n${lastText}}\n\nJSON version:\n${JSON.stringify(
+            `Timeout waiting for ${match} but content was:\n${lastText}\n\nJSON version:\n${JSON.stringify(
               lastText
             )}`
           ),
