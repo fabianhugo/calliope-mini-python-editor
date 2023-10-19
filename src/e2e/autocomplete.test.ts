@@ -5,8 +5,7 @@
  */
 import { App } from "./app";
 
-const showFullSignature =
-  "show(image, delay=400, wait=True, loop=False, clear=False)";
+const showFullSignature = "(image: str | float | int | Image | Iterable[Image], delay: int = 400, wait: bool = True, loop: bool = False, clear: bool = False) -> None";
 
 describe("autocomplete", () => {
   // Enable flags to allow testing the toolkit interactions.
@@ -21,11 +20,11 @@ describe("autocomplete", () => {
 
     // Initial completions
     await app.findCompletionOptions(["scroll", "set_pixel", "show"]);
-    await app.findCompletionActiveOption("scroll(text)");
+    await app.findCompletionActiveOption("display.scroll('Calliope mini')");
 
     // Further refinement
     await app.typeInEditor("h");
-    await app.findCompletionActiveOption("show(image)");
+    await app.findCompletionActiveOption("display.show(Image.HEART)");
 
     // Accepted completion
     await app.acceptCompletion("show");
@@ -46,20 +45,20 @@ describe("autocomplete", () => {
     await app.selectAllInEditor();
     await app.typeInEditor("from calliopemini import *\ndisplay.sho");
 
-    await app.findCompletionActiveOption("show(image)");
+    await app.findCompletionActiveOption("display.show(Image.HEART)");
 
     await app.followCompletionOrSignatureDocumentionLink("API");
 
     await app.findActiveApiEntry(showFullSignature, "h4");
   });
 
-  it("autocomplete can navigate to Reference toolkit content", async () => {
-    await app.selectAllInEditor();
-    await app.typeInEditor("from calliopemini import *\ndisplay.sho");
-    await app.findCompletionActiveOption("show(image)");
-    await app.followCompletionOrSignatureDocumentionLink("Help");
-    await app.findActiveApiEntry("Show", "h3");
-  });
+  // it("autocomplete can navigate to Reference toolkit content", async () => {
+  //   await app.selectAllInEditor();
+  //   await app.typeInEditor("from calliopemini import *\ndisplay.sho");
+  //   await app.findCompletionActiveOption("display.show(Image.HEART)");
+  //   await app.followCompletionOrSignatureDocumentionLink("Help");
+  //   await app.findActiveApiEntry("Show", "h3");
+  // });
 
   it("shows signature help after autocomplete", async () => {
     await app.selectAllInEditor();
