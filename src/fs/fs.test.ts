@@ -24,7 +24,7 @@ import { defaultInitialProject } from "./initial-project";
 import { MicroPythonSource } from "../micropython/micropython";
 
 const hexes = Promise.all([
-  fs.readFileSync("src/micropython/microbit-micropython-v1.hex", {
+  fs.readFileSync("src/micropython/calliope-v1v2.hex", {
     encoding: "ascii",
   }),
   fs.readFileSync("src/micropython/main/calliope-v3.hex", {
