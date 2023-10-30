@@ -14,7 +14,7 @@
   "about-microbit": [
     {
       "type": 0,
-      "value": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und ihren Mitwirkenden."
+      "value": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und Mitwirkenden."
     }
   ],
   "about-micropython": [
@@ -378,13 +378,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Wähle deinen Calliope Mini"
+      "value": "Wähle deinen Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Calliope Mini auswählen"
+      "value": "Calliope mini auswählen"
     }
   ],
   "connect-help-two": [
@@ -402,7 +402,7 @@
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Verbinde dich mit deinem Calliope mini um die serielle Ausgabe hier zu sehen"
+      "value": "Verbinde dich mit deinem Calliope mini, um hier die serielle Ausgabe zu sehen"
     }
   ],
   "connect-troubleshoot": [
@@ -624,7 +624,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Firmware"
+          "value": "USB-Firmware"
         }
       ],
       "type": 8,
@@ -638,13 +638,13 @@
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "Die Verbindung zum Calliope mini ist fehlgeschlagen, da die Firmware auf dem Calliope mini zu alt ist."
+      "value": "Die Verbindung zum Calliope mini ist fehlgeschlagen, da die USB-Firmware auf dem Calliope mini zu alt ist."
     }
   ],
   "firmware-update-title": [
     {
       "type": 0,
-      "value": "Firmware-Aktualisierung erforderlich"
+      "value": "USB-Firmware-Aktualisierung erforderlich"
     }
   ],
   "flash-action": [
@@ -718,7 +718,7 @@
   "help-translate": [
     {
       "type": 0,
-      "value": "Übersetzen helfen"
+      "value": "Beim Übersetzen helfen"
     }
   ],
   "highlight-code-structure": [
@@ -1164,7 +1164,7 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "Kein Calliope mini gefunden"
+      "value": "Keinen Calliope mini gefunden"
     }
   ],
   "not-found-update-link": [
@@ -1176,7 +1176,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Firmware"
+          "value": "USB-Firmware"
         }
       ],
       "type": 8,
@@ -1296,7 +1296,7 @@
   "post-save-message-two": [
     {
       "type": 0,
-      "value": "Sie kann ihn in einen anderen Ordner verschoben werden und durch "
+      "value": "Zum Speichern kann das Projekt in einen anderen Ordner verschoben und mit "
     },
     {
       "children": [
@@ -1310,7 +1310,7 @@
     },
     {
       "type": 0,
-      "value": " verwendet und später weiter bearbeitet werden."
+      "value": " später weiter bearbeitet werden."
     }
   ],
   "post-save-title": [
@@ -1328,7 +1328,7 @@
       "children": [
         {
           "type": 0,
-          "value": "auszuführen, müssen folgende Schritte befugt werden"
+          "value": "auszuführen, müssen folgende Schritte befolgt werden"
         }
       ],
       "type": 8,
@@ -1372,7 +1372,7 @@
   "project-tab-description": [
     {
       "type": 0,
-      "value": "Die Dateien in dem Projekt ansehen, erstellen, hinzufügen und bearbeiten"
+      "value": "Dateien in dem Projekt ansehen, erstellen, hinzufügen und bearbeiten"
     }
   ],
   "python-powered": [
@@ -1542,13 +1542,13 @@
   "serial-ctrl-c-action": [
     {
       "type": 0,
-      "value": "Sende Strg+C für REPL"
+      "value": "Strg+C für REPL"
     }
   ],
   "serial-ctrl-d-action": [
     {
       "type": 0,
-      "value": "Sende Strg+D zum Zurücksetzen"
+      "value": "Strg+D zum Zurücksetzen"
     }
   ],
   "serial-expand": [
@@ -1594,7 +1594,7 @@
     },
     {
       "type": 0,
-      "value": ", kann das Programm unterbrochen werden. Dann können Python-Befehle eingetippt werden, damit MicroPython direkt ausgeführt werden kann. Es ist eine großartige Möglichkeit, mit etwas Neuem experimentieren."
+      "value": ", kann das Programm unterbrochen werden. Dann können Python-Befehle eingetippt werden, damit MicroPython direkt ausgeführt werden kann. Es ist eine großartige Möglichkeit, mit etwas Neuem zu experimentieren."
     }
   ],
   "serial-help-ctrl-d": [
@@ -1808,17 +1808,21 @@
   "simulator-button-hold-label": [
     {
       "type": 0,
-      "value": "Hold button "
+      "value": "Taste "
     },
     {
       "type": 1,
       "value": "button"
+    },
+    {
+      "type": 0,
+      "value": " halten"
     }
   ],
   "simulator-button-press-label": [
     {
       "type": 0,
-      "value": "Press button "
+      "value": "Drücke Taste "
     },
     {
       "type": 1,
@@ -1974,7 +1978,7 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "down"
+      "value": "runter (down)"
     }
   ],
   "simulator-gesture-face-down": [
@@ -1998,13 +2002,13 @@
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "left"
+      "value": "links (left)"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "right"
+      "value": "rechts (right)"
     }
   ],
   "simulator-gesture-select": [
@@ -2496,7 +2500,7 @@
     },
     {
       "type": 0,
-      "value": " aktualisieren, um diese Funktion nutzen zu können."
+      "value": " muss aktualisiert werden, um diese Funktion nutzen zu können."
     }
   ],
   "webusb-error-update-req-title": [
@@ -2520,7 +2524,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "Mit WebUSB kann der Calliope mini direkt programmiert und direkt an die serielle Konsole aus dem Editor angeschlossen werden."
+      "value": "Mit WebUSB kann der Calliope mini programmiert und direkt an die serielle Terminal aus dem Editor angeschlossen werden."
     }
   ],
   "welcome-message": [

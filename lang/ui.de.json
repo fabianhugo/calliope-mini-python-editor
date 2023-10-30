@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und ihren Mitwirkenden.",
+    "defaultMessage": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und Mitwirkenden.",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -168,11 +168,11 @@
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "Wähle deinen Calliope Mini",
+    "defaultMessage": "Wähle deinen Calliope mini",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "Calliope Mini auswählen",
+    "defaultMessage": "Calliope mini auswählen",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
@@ -184,7 +184,7 @@
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "Verbinde dich mit deinem Calliope mini um die serielle Ausgabe hier zu sehen",
+    "defaultMessage": "Verbinde dich mit deinem Calliope mini, um hier die serielle Ausgabe zu sehen",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
@@ -312,15 +312,15 @@
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "Die <link>Firmware</link> muss aktualisiert werden, bevor sich mit diesem Calliope mini verbunden werden kann.",
+    "defaultMessage": "Die <link>USB-Firmware</link> muss aktualisiert werden, bevor sich mit diesem Calliope mini verbunden werden kann.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
-    "defaultMessage": "Die Verbindung zum Calliope mini ist fehlgeschlagen, da die Firmware auf dem Calliope mini zu alt ist.",
+    "defaultMessage": "Die Verbindung zum Calliope mini ist fehlgeschlagen, da die USB-Firmware auf dem Calliope mini zu alt ist.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-title": {
-    "defaultMessage": "Firmware-Aktualisierung erforderlich",
+    "defaultMessage": "USB-Firmware-Aktualisierung erforderlich",
     "description": "Title for the firmware update dialog"
   },
   "flash-action": {
@@ -360,7 +360,7 @@
     "description": "Menu item for link to support site"
   },
   "help-translate": {
-    "defaultMessage": "Übersetzen helfen",
+    "defaultMessage": "Beim Übersetzen helfen",
     "description": "Help translate  menu option text"
   },
   "highlight-code-structure": {
@@ -511,11 +511,11 @@
     "description": "Save prompt in the no Calliope mini found dialog"
   },
   "not-found-title": {
-    "defaultMessage": "Kein Calliope mini gefunden",
+    "defaultMessage": "Keinen Calliope mini gefunden",
     "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "Die <link>Firmware</link> muss aktualisiert werden, bevor sich mit diesem Calliope mini verbunden werden kann.",
+    "defaultMessage": "Die <link>USB-Firmware</link> muss aktualisiert werden, bevor sich mit diesem Calliope mini verbunden werden kann.",
     "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
@@ -563,7 +563,7 @@
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "post-save-message-two": {
-    "defaultMessage": "Sie kann ihn in einen anderen Ordner verschoben werden und durch <strong>Öffnen</strong> verwendet und später weiter bearbeitet werden.",
+    "defaultMessage": "Zum Speichern kann das Projekt in einen anderen Ordner verschoben und mit <strong>Öffnen</strong> später weiter bearbeitet werden.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "post-save-title": {
@@ -571,7 +571,7 @@
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "Um diese Hex-Datei auf dem Calliope mini <link>auszuführen, müssen folgende Schritte befugt werden</link>.",
+    "defaultMessage": "Um diese Hex-Datei auf dem Calliope mini <link>auszuführen, müssen folgende Schritte befolgt werden</link>.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "project-actions": {
@@ -595,7 +595,7 @@
     "description": "Project tab button text"
   },
   "project-tab-description": {
-    "defaultMessage": "Die Dateien in dem Projekt ansehen, erstellen, hinzufügen und bearbeiten",
+    "defaultMessage": "Dateien in dem Projekt ansehen, erstellen, hinzufügen und bearbeiten",
     "description": "Project tab description"
   },
   "python-powered": {
@@ -683,11 +683,11 @@
     "description": "Action label to collapse the serial console/REPL area"
   },
   "serial-ctrl-c-action": {
-    "defaultMessage": "Sende Strg+C für REPL",
+    "defaultMessage": "Strg+C für REPL",
     "description": "Button to trigger the Python REPL from the serial area"
   },
   "serial-ctrl-d-action": {
-    "defaultMessage": "Sende Strg+D zum Zurücksetzen",
+    "defaultMessage": "Strg+D zum Zurücksetzen",
     "description": "Button to reset the Calliope mini from the serial area"
   },
   "serial-expand": {
@@ -699,7 +699,7 @@
     "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
-    "defaultMessage": "Mit dem Tastaturkürzel <kbd>Strg</kbd> + <kbd>C</kbd>, kann das Programm unterbrochen werden. Dann können Python-Befehle eingetippt werden, damit MicroPython direkt ausgeführt werden kann. Es ist eine großartige Möglichkeit, mit etwas Neuem experimentieren.",
+    "defaultMessage": "Mit dem Tastaturkürzel <kbd>Strg</kbd> + <kbd>C</kbd>, kann das Programm unterbrochen werden. Dann können Python-Befehle eingetippt werden, damit MicroPython direkt ausgeführt werden kann. Es ist eine großartige Möglichkeit, mit etwas Neuem zu experimentieren.",
     "description": "Text from the serial hints and tips dialog. kbd tag shows a keyboard key style."
   },
   "serial-help-ctrl-d": {
@@ -799,11 +799,11 @@
     "description": "Button B aria label on the simulator board"
   },
   "simulator-button-hold-label": {
-    "defaultMessage": "Hold button {button}",
+    "defaultMessage": "Taste {button} halten",
     "description": "Aria label for simulator toggle button"
   },
   "simulator-button-press-label": {
-    "defaultMessage": "Press button {button}",
+    "defaultMessage": "Drücke Taste {button}",
     "description": "Aria label for simulator push button"
   },
   "simulator-buttons": {
@@ -871,7 +871,7 @@
     "description": "Simulator gesture option"
   },
   "simulator-gesture-down": {
-    "defaultMessage": "down",
+    "defaultMessage": "runter (down)",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-face-down": {
@@ -887,11 +887,11 @@
     "description": "Simulator gesture option"
   },
   "simulator-gesture-left": {
-    "defaultMessage": "left",
+    "defaultMessage": "links (left)",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-right": {
-    "defaultMessage": "right",
+    "defaultMessage": "rechts (right)",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-select": {
@@ -1135,7 +1135,7 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-error-update-req-description": {
-    "defaultMessage": "Die <link>Calliope mini USB-Firmware</link> aktualisieren, um diese Funktion nutzen zu können.",
+    "defaultMessage": "Die <link>Calliope mini USB-Firmware</link> muss aktualisiert werden, um diese Funktion nutzen zu können.",
     "description": "WebUSB error telling user to update firmware"
   },
   "webusb-error-update-req-title": {
@@ -1151,7 +1151,7 @@
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "Mit WebUSB kann der Calliope mini direkt programmiert und direkt an die serielle Konsole aus dem Editor angeschlossen werden.",
+    "defaultMessage": "Mit WebUSB kann der Calliope mini programmiert und direkt an die serielle Terminal aus dem Editor angeschlossen werden.",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {

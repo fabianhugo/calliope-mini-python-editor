@@ -1,34 +1,34 @@
 {
   "about": {
-    "defaultMessage": "Quant a",
+    "defaultMessage": "About",
     "description": "About action"
   },
   "about-comic": {
-    "defaultMessage": "Còmic de tres panells titulat \"MicroPython Rocks\" de Mike Rowbit. Una serp de dibuixos animats presenta a Damien, dient \"Et presento Damien... Va crear MicroPython\". Dues serps parlen de MicroPython. La serp groga diu \"MicroPython està dissenyat per funcionar en ordinadors molt petits\". \"Com la teva BBC Calliope mini\" respon la serp morada.\" La serp groga continua \"Però Python pot executar-se a qualsevol lloc\". La serp morada hi està d'acord, dient \"Com en aquest bastidor de servidors que fan funcionar llocs de web enormes\". El fons darrere de les serps mostra un bastidor de servidors.",
+    "defaultMessage": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC Calliope mini\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack.",
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Fet amb amor per la <link>Calliope mini Educational Foundation i els col·laboradors mejorado por Calliope y Lulububu para el Calliope mini.</link>",
+    "defaultMessage": "Made with love by the Micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu.",
     "description": "Text in about dialog"
   },
   "about-micropython": {
-    "defaultMessage": "L'editor depèn de <link>MicroPython</link>, fet per Damien George i una comunitat de desenvolupadors d'arreu del món.",
+    "defaultMessage": "The editor depends on <link>MicroPython</link> which is made by Damien George and a community of developers around the world.",
     "description": "Text in about dialog"
   },
   "about-read-less-micropython": {
-    "defaultMessage": "Llegeix menys sobre MicroPython",
+    "defaultMessage": "Read less about MicroPython",
     "description": "Aria label to collapse an expanded section about MicroPython"
   },
   "about-read-more-micropython": {
-    "defaultMessage": "Llegeix més sobre MicroPython",
+    "defaultMessage": "Read more about MicroPython",
     "description": "Aria label to expand a collapsed section about MicroPython"
   },
   "added-change": {
-    "defaultMessage": "S'ha afegit el fitxer {changeName}",
+    "defaultMessage": "Added file {changeName}",
     "description": "Change made to file"
   },
   "api-description": {
-    "defaultMessage": "Per a l'ús i els exemples, consulta <link>Referència</link>",
+    "defaultMessage": "For usage and examples, see <link>Reference</link>",
     "description": "Extended description at the top of the API tab"
   },
   "api-tab": {
@@ -36,7 +36,7 @@
     "description": "API tab button text"
   },
   "apidocs-baseclass": {
-    "defaultMessage": "{baseClassCount, plural, one {classe base} other {classes base: }}",
+    "defaultMessage": "{baseClassCount, plural, one {base class} other {base classes: }}",
     "description": "Prefix for a single base class or a list of base classes. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "apidocs-classes": {
@@ -44,183 +44,183 @@
     "description": "Heading in API documentation for the classes in a Python module"
   },
   "apidocs-fields": {
-    "defaultMessage": "Camps",
+    "defaultMessage": "Fields",
     "description": "Heading in API documentation for the fields in a Python module"
   },
   "apidocs-functions": {
-    "defaultMessage": "Funcions",
+    "defaultMessage": "Functions",
     "description": "Heading in API documentation for the functions in a Python module"
   },
   "apidocs-methods": {
-    "defaultMessage": "Mètodes",
+    "defaultMessage": "Methods",
     "description": "Heading in API documentation for the methods in a Python class"
   },
   "back-action": {
-    "defaultMessage": "Enrera",
+    "defaultMessage": "Back",
     "description": "Back button text"
   },
   "back-to-main": {
-    "defaultMessage": "tornar al codi principal",
+    "defaultMessage": "back to the main code",
     "description": "Text button, takes back to main code"
   },
   "cancel-action": {
-    "defaultMessage": "Cancel·lar",
+    "defaultMessage": "Cancel",
     "description": "Cancel button text"
   },
   "change-files": {
-    "defaultMessage": "Canviar fitxers?",
+    "defaultMessage": "Change files?",
     "description": "Header for dialog of confirmation of files changed"
   },
   "choose-main-add-file": {
-    "defaultMessage": "Afegeix el fitxer {name}",
+    "defaultMessage": "Add file {name}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-add-module": {
-    "defaultMessage": "Afegeix el mòdul {name}",
+    "defaultMessage": "Add module {name}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-replace-file": {
-    "defaultMessage": "Substitueix el fitxer {name}",
+    "defaultMessage": "Replace file {name}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-replace-module": {
-    "defaultMessage": "Substitueix el mòdul {name}",
+    "defaultMessage": "Replace module {name}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-source-add-file": {
-    "defaultMessage": "Afegeix el fitxer {target} des de {source} ",
+    "defaultMessage": "Add file {target} from {source}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-source-add-main-code": {
-    "defaultMessage": "Afegeix el programa principal de {source}",
+    "defaultMessage": "Add main code from {source}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-source-replace-file": {
-    "defaultMessage": "Substitueix el fitxer {target} per {source}",
+    "defaultMessage": "Replace file {target} with {source}",
     "description": "Shown in load dialog to confirm actions"
   },
   "choose-main-source-replace-main-code": {
-    "defaultMessage": "Substitueix el programa principal per {source}",
+    "defaultMessage": "Replace main code with {source}",
     "description": "Shown in load dialog to confirm actions"
   },
   "clear": {
-    "defaultMessage": "Esborra",
+    "defaultMessage": "Clear",
     "description": "Aria label for the search input"
   },
   "close-action": {
-    "defaultMessage": "Tanca ",
+    "defaultMessage": "Close",
     "description": "Close button text"
   },
   "code-editor": {
-    "defaultMessage": "Editor de codi",
+    "defaultMessage": "Code editor",
     "description": "Aria label for the code editor"
   },
   "code-example": {
-    "defaultMessage": "Exemple de codi:",
+    "defaultMessage": "Code example:",
     "description": "Visually hidden text to announce code examples in the toolkit documentation"
   },
   "confirm-action": {
-    "defaultMessage": "Confirma",
+    "defaultMessage": "Confirm",
     "description": "Confirm action label"
   },
   "confirm-delete": {
-    "defaultMessage": "Confirma la supressió",
+    "defaultMessage": "Confirm delete",
     "description": "Confirmation header of deletion of a file"
   },
   "confirm-replace-body": {
-    "defaultMessage": "Substitueix tots els fitxers amb els de l'hexadecimal?",
+    "defaultMessage": "Replace all files with those in the hex?",
     "description": "Confirmation message body for replacing project dialog"
   },
   "confirm-replace-reset": {
-    "defaultMessage": "Vols substituir tots els fitxers pel programa d'inici per defecte?",
+    "defaultMessage": "Replace all files with the default starter code?",
     "description": "Confirmation message for the reset action"
   },
   "confirm-replace-title": {
-    "defaultMessage": "Confirma la substitució del projecte",
+    "defaultMessage": "Confirm replace project",
     "description": "Confirmation message title for replacing project dialog"
   },
   "confirm-replace-with-idea": {
-    "defaultMessage": "Vols substituir tots els fitxers per {ideaName}?",
+    "defaultMessage": "Replace all files with {ideaName}?",
     "description": "Confirmation message body for replacing project dialog with an idea"
   },
   "confirm-save-action": {
-    "defaultMessage": "Confirma i desa",
+    "defaultMessage": "Confirm and save",
     "description": "Confirm and save action label"
   },
   "confirm-save-hint": {
-    "defaultMessage": "Cancel·la i després utilitza Desa per conservar una còpia del teu projecte.",
+    "defaultMessage": "Cancel then use Save to keep a copy of your project.",
     "description": "Hint shown when the user has unsaved changes that they might lose if they continue with an action"
   },
   "connect-action": {
-    "defaultMessage": "Connecta",
+    "defaultMessage": "Connect",
     "description": "Connect button text"
   },
   "connect-cable-title": {
-    "defaultMessage": "Connecta el cable",
+    "defaultMessage": "Connect cable",
     "description": "Title for the connect cable dialog"
   },
   "connect-help-alt": {
-    "defaultMessage": "Diàleg de connexió WebUSB amb l'entrada de Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2",
+    "defaultMessage": "WebUSB connection dialog with BBC Calliope mini entry labelled 1 and Connect button labelled 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-help-message": {
-    "defaultMessage": "A la següent finestra emergent:",
+    "defaultMessage": "In next popup:",
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "Tria la teva Calliope mini",
+    "defaultMessage": "Choose your Calliope mini",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "Selecciona la Calliope mini",
+    "defaultMessage": "Select Calliope mini",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
-    "defaultMessage": "Selecciona 'Connecta'",
+    "defaultMessage": "Select ‘Connect’",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-hover": {
-    "defaultMessage": "Connecta't a la teva Calliope mini mitjançant WebUSB",
+    "defaultMessage": "Connect to your Calliope mini over WebUSB",
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "Connecta't a la teva Calliope mini per veure la sortida en sèrie aquí",
+    "defaultMessage": "Connect to your Calliope mini to see serial output here",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Soluciona problemes de connexió a la teva Calliope mini",
+    "defaultMessage": "Troubleshoot problems with connecting to your Calliope mini",
     "description": "Text in no the Calliope mini found and firmware update dialogs"
   },
   "content-load-error": {
-    "defaultMessage": "Alguna cosa ha anat malament. Baixa el teu fitxer hexadecimal per mantenir-lo segur i, a continuació, actualitza la pàgina per tornar-la a carregar.",
+    "defaultMessage": "Something went wrong. Download your hex file for safe keeping, then refresh the page to reload.",
     "description": "Text displayed when content fails to load"
   },
   "copied": {
-    "defaultMessage": "Copiat",
+    "defaultMessage": "Copied",
     "description": "Text shown after copy to clipboard"
   },
   "copy-action": {
-    "defaultMessage": "Copia",
+    "defaultMessage": "Copy",
     "description": "Copy to clipboard action text"
   },
   "copy-code-action": {
-    "defaultMessage": "Copia el programa",
+    "defaultMessage": "Copy code",
     "description": "Copy code to clipboard action text"
   },
   "create-action": {
-    "defaultMessage": "Crea",
+    "defaultMessage": "Create",
     "description": "Create action label (e.g. in create file dialog)"
   },
   "create-file-action": {
-    "defaultMessage": "Crea un fitxer",
+    "defaultMessage": "Create file",
     "description": "Button text for action that creates a new blank Python file in the current project"
   },
   "create-python": {
-    "defaultMessage": "Crea un nou fitxer Python en aquest projecte",
+    "defaultMessage": "Create a new Python file in this project",
     "description": "Hover and dialog title when creating a new Python file"
   },
   "created-file": {
-    "defaultMessage": "S'ha creat {filename}",
+    "defaultMessage": "Created {filename}",
     "description": "Action feedback for creating a file"
   },
   "data-protection": {
@@ -228,15 +228,15 @@
     "description": "Data protection simulator panel title"
   },
   "delete-action": {
-    "defaultMessage": "Eliminar",
+    "defaultMessage": "Delete",
     "description": "Button text for delete action"
   },
   "delete-file-action": {
-    "defaultMessage": "Suprimeix {name}",
+    "defaultMessage": "Delete {name}",
     "description": "Menu option to delete file"
   },
   "deleted-file": {
-    "defaultMessage": "S'ha suprimit {filename}",
+    "defaultMessage": "Deleted {filename}",
     "description": "Confirmation message that file got deleted"
   },
   "disclaimer": {
@@ -244,147 +244,147 @@
     "description": "Disclaimer menu option text"
   },
   "disconnect-action": {
-    "defaultMessage": "Desconnecta",
+    "defaultMessage": "Disconnect",
     "description": "Disconnect button text"
   },
   "disconnect-hover": {
-    "defaultMessage": "Desconnecta't de la Calliope mini",
+    "defaultMessage": "Disconnect from the Calliope mini",
     "description": "Disconnect button hover text"
   },
   "dont-show-again": {
-    "defaultMessage": "No tornis a mostrar això",
+    "defaultMessage": "Don't show this again",
     "description": "Text to never show a dialog again"
   },
   "drag-hover": {
-    "defaultMessage": "Arrossegar i deixar anar",
+    "defaultMessage": "Drag and drop",
     "description": "Draggable code hover text"
   },
   "edit-file-action": {
-    "defaultMessage": "Edita {name}",
+    "defaultMessage": "Edit {name}",
     "description": "Menu option to edit file"
   },
   "edit-name-project-hover": {
-    "defaultMessage": "Edita el nom del teu projecte",
+    "defaultMessage": "Edit the name of your project",
     "description": "Text for user to edit the name of the project"
   },
   "edit-project-name-action": {
-    "defaultMessage": "Edita el nom del projecte",
+    "defaultMessage": "Edit project name",
     "description": "Text for user to edit the name of the project"
   },
   "failed-to-build-hex": {
-    "defaultMessage": "No s'ha pogut crear el fitxer hexadecimal",
+    "defaultMessage": "Failed to build the hex file",
     "description": "Error title when we cannot build the hex file, for example because no storage space. Additional detail is shown separately."
   },
   "feedback": {
-    "defaultMessage": "Comentaris",
+    "defaultMessage": "Feedback",
     "description": "Feedback action"
   },
   "file-actions": {
-    "defaultMessage": "Accions del fitxer {name}",
+    "defaultMessage": "{name} file actions",
     "description": "Header of file actions for file"
   },
   "file-already-exists": {
-    "defaultMessage": "Aquest fitxer ja existeix",
+    "defaultMessage": "This file already exists",
     "description": "File already exists notification text"
   },
   "file-name-invalid-character": {
-    "defaultMessage": "El nom conté un caràcter no vàlid: {invalid}",
+    "defaultMessage": "The name contains an invalid character: {invalid}",
     "description": "Warning text for new Python file name with an invalid character"
   },
   "file-name-length": {
-    "defaultMessage": "El nom és massa llarg",
+    "defaultMessage": "The name is too long",
     "description": "Warning text for overly long file names (file system limitation)"
   },
   "file-name-lowercase-only": {
-    "defaultMessage": "El nom ha de ser tot en minúscula",
+    "defaultMessage": "The name should be all lowercase",
     "description": "Warning text for new Python file with uppercase"
   },
   "file-name-not-empty": {
-    "defaultMessage": "El nom no pot estar buit",
+    "defaultMessage": "The name cannot be empty",
     "description": "Warning text for new Python file with empty name"
   },
   "file-name-start-number": {
-    "defaultMessage": "El nom no pot començar amb un nombre",
+    "defaultMessage": "The name cannot start with a number",
     "description": "Warning text for new Python file names starting with a number"
   },
   "file-name-whitespace": {
-    "defaultMessage": "El nom no pot contenir espais",
+    "defaultMessage": "The name cannot contain spaces",
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "Has d'<link>actualitzar el teu microprogramari</link> abans de poder connectar amb aquesta Calliope mini.",
+    "defaultMessage": "You must <link>update your firmware</link> before you can connect to this Calliope mini.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
-    "defaultMessage": "La connexió a la Calliope mini ha fallat perquè el microprogramari de la teva Calliope mini és massa antic.",
+    "defaultMessage": "Connecting to the Calliope mini failed because the firmware on your Calliope mini is too old.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-title": {
-    "defaultMessage": "Cal actualitzar el firmware",
+    "defaultMessage": "Firmware update required",
     "description": "Title for the firmware update dialog"
   },
   "flash-action": {
-    "defaultMessage": "Transferir",
+    "defaultMessage": "Flash",
     "description": "Text for flash button"
   },
   "flash-hover": {
-    "defaultMessage": "Transfereix el projecte directament a la Calliope mini",
+    "defaultMessage": "Flash the project directly to the Calliope mini",
     "description": "Hover text over flash button"
   },
   "flashing-code": {
-    "defaultMessage": "S'està enviant el programa (transferint)",
+    "defaultMessage": "Sending code (flashing)",
     "description": "Progress dialog text for partial flashes (quick)"
   },
   "flashing-full-flash-detail": {
-    "defaultMessage": "El teu programa s'està enviant (transferint) a la teva Calliope mini. Això pot trigar una mica la primera vegada, però després serà més ràpid.",
+    "defaultMessage": "Your code is being sent (flashed) to your Calliope mini. This can take a while the first time but it will be quicker after that.",
     "description": "Message shown after the title in the progress dialog for a full flash"
   },
   "flashing-micropython": {
-    "defaultMessage": "Transferint MicroPython ",
+    "defaultMessage": "Flashing MicroPython",
     "description": "Progress dialog text for full flashes (slower)"
   },
   "font-size": {
-    "defaultMessage": "Mida de la font",
+    "defaultMessage": "Font size",
     "description": "Font size option text"
   },
   "guide-link": {
-    "defaultMessage": "Per obtenir més suport, consulta la <link>guia de l'Editor de Python</link>",
+    "defaultMessage": "For more support, see the <link>Python Editor guide</link>",
     "description": "Text with an external link to support/help content"
   },
   "help": {
-    "defaultMessage": "Ajuda",
+    "defaultMessage": "Help",
     "description": "Help menu label"
   },
   "help-support": {
-    "defaultMessage": "Ajuda i suport",
+    "defaultMessage": "Help & support",
     "description": "Menu item for link to support site"
   },
   "help-translate": {
-    "defaultMessage": "Ajuda a traduir",
+    "defaultMessage": "Help translate",
     "description": "Help translate  menu option text"
   },
   "highlight-code-structure": {
-    "defaultMessage": "Ressaltar l'estructura del programa",
+    "defaultMessage": "Highlight code structure",
     "description": "Code structure setting label"
   },
   "highlight-code-structure-full": {
-    "defaultMessage": "Ple",
+    "defaultMessage": "Full",
     "description": "Highlight code structure option"
   },
   "highlight-code-structure-none": {
-    "defaultMessage": "Cap",
+    "defaultMessage": "None",
     "description": "Highlight code structure option"
   },
   "highlight-code-structure-simple": {
-    "defaultMessage": "Senzill",
+    "defaultMessage": "Simple",
     "description": "Highlight code structure option"
   },
   "ideas-tab": {
-    "defaultMessage": "Idees",
+    "defaultMessage": "Ideas",
     "description": "Ideas tab button text. Tab shows programs to give students ideas."
   },
   "ideas-tab-description": {
-    "defaultMessage": "Prova aquests projectes, modifica'ls i inspira't",
+    "defaultMessage": "Try out these projects, modify them and get inspired",
     "description": "Ideas tab description text. Tab shows programs to give students ideas."
   },
   "imprint": {
@@ -392,158 +392,158 @@
     "description": "Imprint menu option text"
   },
   "insert-code-action": {
-    "defaultMessage": "Insereix codi"
+    "defaultMessage": "Insert code"
   },
   "language": {
-    "defaultMessage": "Idioma",
+    "defaultMessage": "Language",
     "description": "Language option text"
   },
   "less-action": {
-    "defaultMessage": "Menys",
+    "defaultMessage": "Less",
     "description": "Less button text (showing less content)"
   },
   "load-error-makecode-info": {
-    "defaultMessage": "Aquest fitxer hexadecimal no es pot carregar a l'Editor de Python. L'Editor Python no pot obrir fitxers hexadecimals creats amb Microsoft MakeCode.",
+    "defaultMessage": "This hex file cannot be loaded in the Python Editor. The Python Editor cannot open hex files created with Microsoft MakeCode.",
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Visita <link>https://makecode.calliope.cc/</link> per utilitzar aquest fitxer hexadecimal.",
+    "defaultMessage": "Please visit <link>https://makecode.calliope.cc/</link> to use this hex file.",
     "description": "Load error message"
   },
   "load-error-mixed": {
-    "defaultMessage": "Un fitxer hexadecimal només es pot carregar sol. Substitueix tots els fitxers del projecte.",
+    "defaultMessage": "A hex file can only be loaded on its own. It replaces all files in the project.",
     "description": "Load error message"
   },
   "load-error-mpy": {
-    "defaultMessage": "Aquesta versió de l'Editor de Python actualment no admet l'addició de fitxers .mpy.",
+    "defaultMessage": "This version of the Python Editor doesn't currently support adding .mpy files.",
     "description": "Load error message"
   },
   "load-error-title": {
-    "defaultMessage": "No es pot carregar {fileCount, plural, one {file} other {files}}",
+    "defaultMessage": "Cannot load {fileCount, plural, one {file} other {files}}",
     "description": "Title of error dialog when we cannot load files. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "loaded-file-feedback": {
-    "defaultMessage": "S'ha carregat {filename}",
+    "defaultMessage": "Loaded {filename}",
     "description": "Success feedback for loading file"
   },
   "loading": {
-    "defaultMessage": "S'està carregant…",
+    "defaultMessage": "Loading…",
     "description": "Shown on loading indicators"
   },
   "microbit-hearts-alt": {
-    "defaultMessage": "placa Calliope mini amb la graella LED de 5 per 5 que mostra un cor",
+    "defaultMessage": "Calliope mini board with the 5 by 5 LED grid showing a heart",
     "description": "Alt text for Calliope mini image in About dialog"
   },
   "micropython-documentation": {
-    "defaultMessage": "Documentació de MicroPython",
+    "defaultMessage": "MicroPython documentation",
     "description": "MicroPython documentation menu option text"
   },
   "micropython-history": {
-    "defaultMessage": "Descobreix com va néixer MicroPython a la Calliope mini",
+    "defaultMessage": "Learn how MicroPython on the Calliope mini came to be",
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
-    "defaultMessage": "MicroPython <linkV1>codi font per a la Calliope mini V1</linkV1> i <linkV2>Calliope mini V2</linkV2>",
+    "defaultMessage": "MicroPython <linkV1>source code for the Calliope mini V1</linkV1> and <linkV2>Calliope mini V2</linkV2>",
     "description": "Links to the MicroPython source code in the about dialog"
   },
   "more-action": {
-    "defaultMessage": "Més",
+    "defaultMessage": "More",
     "description": "More button text (showing more/further content)"
   },
   "more-connect-options": {
-    "defaultMessage": "Més opcions de connexió",
+    "defaultMessage": "More connect options",
     "description": "Aria label for the additional actions menu to the right of the Send to Calliope mini button"
   },
   "more-ideas": {
-    "defaultMessage": "<link>Més idees</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "defaultMessage": "<link>More ideas</link>",
+    "description": "Link to more ideas on the calliope.cc website at the end of the ideas section"
   },
   "more-save-options": {
-    "defaultMessage": "Més opcions de desar",
+    "defaultMessage": "More save options",
     "description": "Aria label for the additional actions menu to the right of the Save button"
   },
   "multiple-files-message-one": {
-    "defaultMessage": "Aquest projecte conté els fitxers {fileCount, plural, other {{fileCount} fitxers}}, però només s'ha baixat <strong>main.py</strong>.",
+    "defaultMessage": "This project contains {fileCount, plural, other {{fileCount} files}} but only <strong>main.py</strong> has been downloaded.",
     "description": "Message in dialog shown when multiple files are available for download. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format. In practice, fileCount will always be two or more."
   },
   "multiple-files-message-two": {
-    "defaultMessage": "Fes servir el botó <strong>Desa</strong> per baixar tot el projecte com a fitxer hexadecimal. Pots <strong>obrir</strong> el fitxer hexadecimal per restaurar el teu projecte. Si prefereixes baixar fitxers Python individuals, fes servir la pestanya <strong>Projecte</strong>.",
+    "defaultMessage": "Use the <strong>Save</strong> button to download your whole project as a hex file. You can <strong>Open</strong> the hex file to restore your project. If you prefer to download individual Python files, use the <strong>Project</strong> tab.",
     "description": "Message in dialog shown when multiple files are available for download"
   },
   "multiple-files-title": {
-    "defaultMessage": "Avís: només s'ha descarregat main.py",
+    "defaultMessage": "Warning: Only main.py downloaded",
     "description": "Title of dialog shown when multiple files are available for download but only the main file downloaded."
   },
   "name-project": {
-    "defaultMessage": "Anomena el teu projecte",
+    "defaultMessage": "Name your project",
     "description": "Name your project header"
   },
   "name-text": {
-    "defaultMessage": "Nom",
+    "defaultMessage": "Name",
     "description": "Header for name field"
   },
   "name-used-when": {
-    "defaultMessage": "El nom s'utilitza quan deses un fitxer hexadecimal.",
+    "defaultMessage": "The name is used when you save a file.",
     "description": "Text under project name field"
   },
   "new-file-hint": {
-    "defaultMessage": "T'afegirem l'extensió <code>.py</code>.",
+    "defaultMessage": "We'll add the <code>.py</code> extension for you.",
     "description": "Hint shown in the new Python file dialog"
   },
   "next-action": {
-    "defaultMessage": "Següent",
+    "defaultMessage": "Next",
     "description": "Next button text"
   },
   "not-found-checklist-one": {
-    "defaultMessage": "La teva <strong>Calliope mini està connectada</strong>? Has  <link>seguit aquests passos</link>?",
+    "defaultMessage": "Is your <strong>Calliope mini plugged in</strong>? Did you <link>follow these steps</link>?",
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-checklist-two": {
-    "defaultMessage": "Si tens una <strong>Calliope mini V1</strong>, potser hauries d'<link>actualitzar el microprogramari</link>",
+    "defaultMessage": "If you have a <strong>Calliope mini V1</strong> you may need to <link>update the firmware</link>",
     "description": "Checklist text in the no Calliope mini found dialog"
   },
   "not-found-message": {
-    "defaultMessage": "No has seleccionat cap Calliope mini o hi ha hagut un problema en connectar-s'hi.",
+    "defaultMessage": "You didn’t select a Calliope mini, or there was a problem connecting to it.",
     "description": "Text in the no Calliope mini found dialog"
   },
   "not-found-save-message": {
-    "defaultMessage": "Mètode alternatiu: selecciona Desa i segueix els passos per transferir",
+    "defaultMessage": "Alternative method: choose Save then follow steps to transfer",
     "description": "Save prompt in the no Calliope mini found dialog"
   },
   "not-found-title": {
-    "defaultMessage": "No s'ha trobat cap Calliope mini",
+    "defaultMessage": "No Calliope mini found",
     "description": "Title for the Calliope mini found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "Has d'<link>actualitzar el teu microprogramari</link> abans de poder connectar amb aquesta Calliope mini.",
+    "defaultMessage": "You must <link>update your firmware before</link> you can connect to this Calliope mini.",
     "description": "Text in the no Calliope mini found dialog"
   },
   "open-action": {
-    "defaultMessage": "Obert",
+    "defaultMessage": "Open",
     "description": "Open button text"
   },
   "open-file-action": {
-    "defaultMessage": "Obert",
+    "defaultMessage": "Open…",
     "description": "Open file button text"
   },
   "open-file-dropped": {
-    "defaultMessage": "Obre el fitxer quan es deixa anar",
+    "defaultMessage": "Open file when dropped",
     "description": "Aria label for file drop target"
   },
   "open-hover": {
-    "defaultMessage": "Obre un fitxer hexadecimal o Python o afegeix altres fitxers",
+    "defaultMessage": "Open a hex or Python file or add other files",
     "description": "Hover text over load button"
   },
   "options": {
-    "defaultMessage": "Opcions",
+    "defaultMessage": "Options",
     "description": "Label for an options menu"
   },
   "parameter-help": {
-    "defaultMessage": "Ajuda dels paràmetres",
+    "defaultMessage": "Parameter help",
     "description": "Setting label to control whether pop-up documentation for function/method parameters is automatically shown."
   },
   "parameter-help-automatic": {
-    "defaultMessage": "Automàtic",
+    "defaultMessage": "Automatic",
     "description": "Parameter help setting for when the parameter documentation is shown automatically"
   },
   "parameter-help-manual": {
@@ -551,55 +551,55 @@
     "description": "Parameter help setting for when the user must press a key combination to open the parameter documentation"
   },
   "permanently-delete": {
-    "defaultMessage": "Suprimir {filename} permanentment?",
+    "defaultMessage": "Permanently delete {filename}?",
     "description": "Confirmation question to permanently delete file"
   },
   "post-save-message-files": {
-    "defaultMessage": "Conté tots els fitxers d'aquest projecte (inclosos els fitxers addicionals, per exemple, per executar accessoris, que s'enumeren a la pestanya <strong>Projecte</strong>).",
+    "defaultMessage": "This contains all files in this project (including any additional files, e.g. to run accessories, listed in the <strong>Project</strong> tab).",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "post-save-message-one": {
-    "defaultMessage": "Trobaràs el teu fitxer hexadecimal a la carpeta <strong>Baixades</strong> d'aquest ordinador.",
+    "defaultMessage": "You will find your hex file in this computer’s <strong>Downloads</strong> folder.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "post-save-message-two": {
-    "defaultMessage": "Pots moure'l a una altra carpeta per emmagatzemar-lo i fer servir  <strong>Obre</strong> per continuar editant-lo més tard.",
+    "defaultMessage": "You can move it to another folder for storage and use <strong>Open</strong> to continue editing later.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "post-save-title": {
-    "defaultMessage": "Projecte desat",
+    "defaultMessage": "Project saved",
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "Per executar aquest fitxer hexadecimal a la teva Calliope mini <link>segueix aquests passos</link>.",
+    "defaultMessage": "To run this hex file on your Calliope mini <link>follow these steps</link>.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "project-actions": {
-    "defaultMessage": "Accions del projecte",
+    "defaultMessage": "Project actions",
     "description": "Aria label for the bar with project actions"
   },
   "project-header": {
-    "defaultMessage": "Capçalera del projecte",
+    "defaultMessage": "Project header",
     "description": "Aria label for the project header area"
   },
   "project-name": {
-    "defaultMessage": "Nom del projecte",
+    "defaultMessage": "Project name",
     "description": "Text used to indicate the project name"
   },
   "project-name-not-empty": {
-    "defaultMessage": "El nom del projecte no pot estar buit",
+    "defaultMessage": "The project name cannot be empty",
     "description": "Validation message for project name"
   },
   "project-tab": {
-    "defaultMessage": "Projecte",
+    "defaultMessage": "Project",
     "description": "Project tab button text"
   },
   "project-tab-description": {
-    "defaultMessage": "Visualitza, crea, afegeix i edita els fitxers del teu projecte",
+    "defaultMessage": "View, create, add and edit the files in your project",
     "description": "Project tab description"
   },
   "python-powered": {
-    "defaultMessage": "Fet amb Python",
+    "defaultMessage": "Python powered",
     "description": "Python powered logo alt text"
   },
   "python-tab": {
@@ -607,255 +607,255 @@
     "description": "Python tab text"
   },
   "quit-anyway": {
-    "defaultMessage": "Alguns dels teus canvis no s'han desat. Sortir de totes maneres?",
+    "defaultMessage": "Some of your changes have not been saved. Quit anyway?",
     "description": "Quit anyway text"
   },
   "read-less": {
-    "defaultMessage": "Llegir menys",
+    "defaultMessage": "Read less",
     "description": "Action text to collapse an expanded section"
   },
   "read-more": {
-    "defaultMessage": "Més informació",
+    "defaultMessage": "Read more",
     "description": "Action text to expand a collapsed section"
   },
   "redo": {
-    "defaultMessage": "Refer",
+    "defaultMessage": "Redo",
     "description": "Aria label for the redo button"
   },
   "reference-tab": {
-    "defaultMessage": "Referència",
+    "defaultMessage": "Reference",
     "description": "Reference tab button text"
   },
   "replace-action-label": {
-    "defaultMessage": "Substitueix",
+    "defaultMessage": "Replace",
     "description": "Action label for replacing project dialog"
   },
   "reset-project-action": {
-    "defaultMessage": "Restableix el projecte",
+    "defaultMessage": "Reset project",
     "description": "Action to reset the project to its default state"
   },
   "reset-project-feedback": {
-    "defaultMessage": "Restableix el projecte al programa d'inici predeterminat",
+    "defaultMessage": "Project reset to the default starter code",
     "description": "Confirmation message after resetting the project"
   },
   "reset-project-hover": {
-    "defaultMessage": "Restableix el projecte al programa inicial predeterminat, descartant el teu treball",
+    "defaultMessage": "Resets the project to the default starter code, discarding your work",
     "description": "Reset action hover text"
   },
   "results-count": {
-    "defaultMessage": "{count, plural, =0 {Sense resultats} one {# resultat} other {# resultats}}",
+    "defaultMessage": "{count, plural, =0 {No results} one {# result} other {# results}}",
     "description": "Number of results from a search. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "save-action": {
-    "defaultMessage": "Desa",
+    "defaultMessage": "Save",
     "description": "Save button text"
   },
   "save-file-action": {
-    "defaultMessage": "Desa {name}",
+    "defaultMessage": "Save {name}",
     "description": "Menu option to save a file"
   },
   "save-hex-action": {
-    "defaultMessage": "Desa el projecte hexadecimal",
+    "defaultMessage": "Save project hex",
     "description": "Text for menu item for saving a project hex file"
   },
   "save-hover": {
-    "defaultMessage": "Desa el fitxer hexadecimal del projecte al teu ordinador",
+    "defaultMessage": "Save the project hex file to your computer",
     "description": "Hover text over save button"
   },
   "save-python-action": {
-    "defaultMessage": "Desa l'script de Python",
+    "defaultMessage": "Save Python script",
     "description": "Save button menu option to save the Python script"
   },
   "search": {
-    "defaultMessage": "Cerca",
+    "defaultMessage": "Search",
     "description": "Aria label for searching documentation"
   },
   "send-action": {
-    "defaultMessage": "Envia a la Calliope mini",
+    "defaultMessage": "Send to Calliope mini",
     "description": "Send to Calliope mini button text"
   },
   "send-hover": {
-    "defaultMessage": "Connecta't mitjançant WebUSB i després transfereix el programa a la Calliope mini",
+    "defaultMessage": "Connect via WebUSB then flash code onto Calliope mini",
     "description": "Send button hover text"
   },
   "serial-collapse": {
-    "defaultMessage": "Amaga el terminal sèrie",
+    "defaultMessage": "Hide serial",
     "description": "Action label to collapse the serial console/REPL area"
   },
   "serial-ctrl-c-action": {
-    "defaultMessage": "Envia Ctrl+C per REPL",
+    "defaultMessage": "Send Ctrl+C for REPL",
     "description": "Button to trigger the Python REPL from the serial area"
   },
   "serial-ctrl-d-action": {
-    "defaultMessage": "Envia Ctrl+D per restablir",
+    "defaultMessage": "Send Ctrl+D to reset",
     "description": "Button to reset the Calliope mini from the serial area"
   },
   "serial-expand": {
-    "defaultMessage": "Mostra la consola sèrie",
+    "defaultMessage": "Show serial",
     "description": "Action label to expand the serial console/REPL area"
   },
   "serial-flashed": {
-    "defaultMessage": "Calliope mini transferit",
+    "defaultMessage": "Calliope mini flashed",
     "description": "Shown when your program is in sync with the Calliope mini"
   },
   "serial-help-ctrl-c": {
-    "defaultMessage": "Utilitza la drecera de teclat <kbd>Ctrl</kbd> + <kbd>C</kbd> per interrompre el teu programa. A continuació, pots escriure ordres de Python perquè s'executi MicroPython. És una bona manera d'experimentar amb alguna cosa nova.",
+    "defaultMessage": "Use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>C</kbd> to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new.",
     "description": "Text from the serial hints and tips dialog. kbd tag shows a keyboard key style."
   },
   "serial-help-ctrl-d": {
-    "defaultMessage": "Per tornar a iniciar el programa, fes servir <kbd>Ctrl</kbd> + <kbd>D</kbd>.",
+    "defaultMessage": "To start your program running again use <kbd>Ctrl</kbd> + <kbd>D</kbd>.",
     "description": "Text from the serial hints and tips dialog.  kbd tag shows a keyboard key style."
   },
   "serial-help-intro": {
-    "defaultMessage": "El terminal sèrie mostra errors i altres sortides del programa que s'executa a la teva Calliope mini. Per defecte, mostra l'error més recent del programa. Amplia'l per veure tota la sortida.",
+    "defaultMessage": "The serial terminal shows errors and other output from the program running on your Calliope mini. By default, it shows the most recent error from the program. Expand it to see all the output.",
     "description": "Text from the serial hints and tips dialog"
   },
   "serial-help-print": {
-    "defaultMessage": "El teu programa pot imprimir missatges mitjançant la funció <code>print</code>. Prova d'afegir <code>print('la Calliope mini es genial')</code> al teu programa.",
+    "defaultMessage": "Your program can print messages using the <code>print</code> function. Try adding <code>print('Calliope mini is awesome')</code> to your program.",
     "description": "Text from the serial hints and tips dialog. code tag shows monospaced font."
   },
   "serial-help-title": {
-    "defaultMessage": "Suggeriments i consells sobre la comunicació en sèrie",
+    "defaultMessage": "Serial hints and tips",
     "description": "Title for the serial hints and tips dialog"
   },
   "serial-hints-and-tips": {
-    "defaultMessage": "Suggeriments i consells sobre la comunicació en sèrie",
+    "defaultMessage": "Serial hints and tips",
     "description": "Link/button to open the serial hints and tips dialog"
   },
   "serial-menu": {
-    "defaultMessage": "Menú del terminal sèrie",
+    "defaultMessage": "Serial menu",
     "description": "Aria label for serial area menu"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "Calliope mini llesta per transferir",
+    "defaultMessage": "Calliope mini ready to flash",
     "description": "Shown when your program is out of sync with the Calliope mini"
   },
   "serial-running": {
-    "defaultMessage": "Executant...",
+    "defaultMessage": "Running…",
     "description": "Indicator text when the Calliope mini is running a program"
   },
   "serial-terminal": {
-    "defaultMessage": "Terminal sèrie",
+    "defaultMessage": "Serial terminal",
     "description": "Aria label for the serial terminal"
   },
   "setting-allow-editing-third-party": {
-    "defaultMessage": "Permet editar mòduls de tercers",
+    "defaultMessage": "Allow editing third-party modules",
     "description": "Checkbox setting label"
   },
   "setting-allow-editing-third-party-info": {
-    "defaultMessage": "Canviar mòduls de tercers pot significar que no funcionin com s'havia previst.",
+    "defaultMessage": "Changing third-party modules may mean they don’t work as intended.",
     "description": "Checkbox setting label"
   },
   "settings": {
-    "defaultMessage": "Configuració",
+    "defaultMessage": "Settings",
     "description": "Settings text"
   },
   "show-api-documentation": {
-    "defaultMessage": "Mostra la documentació de l'API",
+    "defaultMessage": "Show API documentation",
     "description": "Shown on link from editor autocomplete and signature help to the API docs."
   },
   "show-less": {
-    "defaultMessage": "Mostra menys",
+    "defaultMessage": "Show less",
     "description": "Show less for general progressive disclosure"
   },
   "show-less-for": {
-    "defaultMessage": "Mostra menys per a {item}",
+    "defaultMessage": "Show less for {item}",
     "description": "Show less with item usually for aria label"
   },
   "show-more": {
-    "defaultMessage": "Mostra més",
+    "defaultMessage": "Show more",
     "description": "Show more for general progressive disclosure"
   },
   "show-more-for": {
-    "defaultMessage": "Mostra més per a {item}",
+    "defaultMessage": "Show more for {item}",
     "description": "Show more with item usually for aria label"
   },
   "sidebar": {
-    "defaultMessage": "Barra lateral",
+    "defaultMessage": "Sidebar",
     "description": "Aria label for the area on the left"
   },
   "sidebar-collapse": {
-    "defaultMessage": "Replega la barra lateral",
+    "defaultMessage": "Collapse sidebar",
     "description": "Aria label for the collapse sidebar button"
   },
   "sidebar-expand": {
-    "defaultMessage": "Amplia la barra lateral",
+    "defaultMessage": "Expand sidebar",
     "description": "Aria label for the expand sidebar button"
   },
   "simulator-accelerometer": {
-    "defaultMessage": "Acceleròmetre",
+    "defaultMessage": "Accelerometer",
     "description": "Simulator Accelerometer panel title"
   },
   "simulator-actions": {
-    "defaultMessage": "Accions del simulador",
+    "defaultMessage": "Simulator actions",
     "description": "Aria label for the bar with simulator actions (stop, mute etc)"
   },
   "simulator-button-a": {
-    "defaultMessage": "Botó A",
+    "defaultMessage": "Button A",
     "description": "Button A aria label on the simulator board"
   },
   "simulator-button-b": {
-    "defaultMessage": "Botó B",
+    "defaultMessage": "Button B",
     "description": "Button B aria label on the simulator board"
   },
   "simulator-button-hold-label": {
-    "defaultMessage": "Manté premut el botó {button}",
+    "defaultMessage": "Hold button {button}",
     "description": "Aria label for simulator toggle button"
   },
   "simulator-button-press-label": {
-    "defaultMessage": "Prem el botó {button}",
+    "defaultMessage": "Press button {button}",
     "description": "Aria label for simulator push button"
   },
   "simulator-buttons": {
-    "defaultMessage": "Botons",
+    "defaultMessage": "Buttons",
     "description": "Buttons simulator panel title"
   },
   "simulator-collapse": {
-    "defaultMessage": "Replega el simulador",
+    "defaultMessage": "Collapse simulator",
     "description": "Aria label for the collapse simulator button"
   },
   "simulator-collapse-module": {
-    "defaultMessage": "Replega el mòdul {title}",
+    "defaultMessage": "Collapse {title} module",
     "description": "Aria label for collapse simulator module button"
   },
   "simulator-compass": {
-    "defaultMessage": "Brúixola",
+    "defaultMessage": "Compass",
     "description": "Compass simulator panel title"
   },
   "simulator-compass-heading-one": {
-    "defaultMessage": "Orientació",
+    "defaultMessage": "Heading",
     "description": "Sub heading for simulator Compass panel"
   },
   "simulator-compass-heading-two": {
-    "defaultMessage": "Intensitat del camp magnètic",
+    "defaultMessage": "Magnetic field strength",
     "description": "Sub heading for simulator Compass panel"
   },
   "simulator-data-logging-empty": {
-    "defaultMessage": "Sense entrades al registre.",
+    "defaultMessage": "No log entries.",
     "description": "Shown in the simulator Data logging table when there are no rows"
   },
   "simulator-data-logging-full": {
-    "defaultMessage": "Registre ple",
+    "defaultMessage": "Log full",
     "description": "Shown below the simulator Data logging table to warn that the log is full"
   },
   "simulator-data-logging-rows": {
-    "defaultMessage": "{count, plural, =0 {No hi ha files registrades} one {# fila registrada} other{# files registrades}}",
+    "defaultMessage": "{count, plural, =0 {No rows logged} one {# row logged} other {# rows logged}}",
     "description": "Indicator of the number of rows logged in the simulator Data logging table. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "simulator-data-logging-save-log": {
-    "defaultMessage": "Guarda el registre",
+    "defaultMessage": "Save log",
     "description": "Action label to save the data log as a file from the Data logging simulator panel"
   },
   "simulator-data-logging-truncated": {
-    "defaultMessage": "Les files més antigues no es mostren",
+    "defaultMessage": "Older rows not shown",
     "description": "Text shown in the simulator Data logging table to indicate that old rows have been omitted"
   },
   "simulator-expand": {
-    "defaultMessage": "Ampliar el simulador",
+    "defaultMessage": "Expand simulator",
     "description": "Aria label for the expand simulator button"
   },
   "simulator-expand-module": {
-    "defaultMessage": "Desplega el mòdul {title} ",
+    "defaultMessage": "Expand {title} module",
     "description": "Aria label for expand simulator module button"
   },
   "simulator-gesture-3g": {
@@ -871,79 +871,79 @@
     "description": "Simulator gesture option"
   },
   "simulator-gesture-down": {
-    "defaultMessage": "cap avall",
+    "defaultMessage": "down",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-face-down": {
-    "defaultMessage": "cara avall ",
+    "defaultMessage": "face down",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-face-up": {
-    "defaultMessage": "cara amunt",
+    "defaultMessage": "face up",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-freefall": {
-    "defaultMessage": "caiguda lliure",
+    "defaultMessage": "freefall",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-left": {
-    "defaultMessage": "esquerra",
+    "defaultMessage": "left",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-right": {
-    "defaultMessage": "dreta",
+    "defaultMessage": "right",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-select": {
-    "defaultMessage": "Tria el gest",
+    "defaultMessage": "Select gesture",
     "description": "Aria label for the simulator gesture select input"
   },
   "simulator-gesture-send": {
-    "defaultMessage": "Envia el gest",
+    "defaultMessage": "Send gesture",
     "description": "Aria label for the simulator gesture send button"
   },
   "simulator-gesture-shake": {
-    "defaultMessage": "sacseja",
+    "defaultMessage": "shake",
     "description": "Simulator gesture option"
   },
   "simulator-gesture-up": {
-    "defaultMessage": "amunt",
+    "defaultMessage": "up",
     "description": "Simulator gesture option"
   },
   "simulator-hide": {
-    "defaultMessage": "Amaga el simulador",
+    "defaultMessage": "Hide simulator",
     "description": "Hide simulator action"
   },
   "simulator-input-hold": {
-    "defaultMessage": "Manté",
+    "defaultMessage": "Hold",
     "description": "Label for UI toggles to hold simulator buttons or pins"
   },
   "simulator-input-press": {
-    "defaultMessage": "Prem",
+    "defaultMessage": "Press",
     "description": "Label for UI buttons to press simulator buttons or pins"
   },
   "simulator-light-level": {
-    "defaultMessage": "Nivell de llum",
+    "defaultMessage": "Light level",
     "description": "Light level simulator panel title"
   },
   "simulator-log": {
-    "defaultMessage": "Registre de dades",
+    "defaultMessage": "Data log",
     "description": "Data log simulator panel title"
   },
   "simulator-loud": {
-    "defaultMessage": "So fort",
+    "defaultMessage": "Loud",
     "description": "Simulator sound level high threshold marker hover text. This should match the translation of microbit.SoundEvent.LOUD in the api.en.json file but with differing case."
   },
   "simulator-mute": {
-    "defaultMessage": "Silencia",
+    "defaultMessage": "Mute",
     "description": "Aria label for the mute simulator button"
   },
   "simulator-pin-hold-label": {
-    "defaultMessage": "Manté premut el pin {pin}",
+    "defaultMessage": "Hold pin {pin}",
     "description": "Aria label for simulator pin control"
   },
   "simulator-pin-press-label": {
-    "defaultMessage": "Prem el pin {pin}",
+    "defaultMessage": "Press pin {pin}",
     "description": "Aria label for simulator pin control"
   },
   "simulator-pins": {
@@ -951,223 +951,223 @@
     "description": "Pins simulator panel title"
   },
   "simulator-quiet": {
-    "defaultMessage": "So fluix",
+    "defaultMessage": "Quiet",
     "description": "Simulator sound level low threshold marker hover text. This should match the translation of microbit.SoundEvent.QUIET in the api.en.json file but with differing case."
   },
   "simulator-radio": {
-    "defaultMessage": "Ràdio",
+    "defaultMessage": "Radio",
     "description": "Radio simulator panel title"
   },
   "simulator-radio-code": {
-    "defaultMessage": "Calliope mini ha enviat:",
+    "defaultMessage": "Calliope mini sent:",
     "description": "Visually hidden text for a radio message sent from the simulated Calliope mini. Text of the message follows."
   },
   "simulator-radio-group-notice": {
-    "defaultMessage": "Grup de ràdio establert a  {groupNumber}",
+    "defaultMessage": "Radio group set to {groupNumber}",
     "description": "Message in radio simulator area when the radio group changes"
   },
   "simulator-radio-message": {
-    "defaultMessage": "Missatge de ràdio",
+    "defaultMessage": "Radio message",
     "description": "Label and placeholder for the simulator radio message input field"
   },
   "simulator-radio-message-limit-notice": {
-    "defaultMessage": "Els missatges més antigs no es mostren",
+    "defaultMessage": "Older messages not shown",
     "description": "Text shown when the number of radio messages has been capped in the simulator user interface"
   },
   "simulator-radio-no-messages": {
-    "defaultMessage": "Cap missatge a mostrar",
+    "defaultMessage": "No messages to show",
     "description": "Text shown when there are no radio messages to display in the simulator user interface"
   },
   "simulator-radio-off": {
-    "defaultMessage": "La ràdio està tancada",
+    "defaultMessage": "The radio is off",
     "description": "Text shown when there are no radio messages because the radio is off in the simulator user interface"
   },
   "simulator-radio-send": {
-    "defaultMessage": "Envia missatge",
+    "defaultMessage": "Send message",
     "description": "Aria label for the simulator radio send button"
   },
   "simulator-radio-user": {
-    "defaultMessage": "Has enviat:",
+    "defaultMessage": "You sent:",
     "description": "Visually hidden text for a radio message sent from the user to the simulated Calliope mini. Text of the message follows."
   },
   "simulator-reference-link": {
-    "defaultMessage": "Enllaç a la secció de Referència",
+    "defaultMessage": "Link to Reference section",
     "description": "Aria label for simulator Reference link button"
   },
   "simulator-reset": {
-    "defaultMessage": "Reiniciar",
+    "defaultMessage": "Reset",
     "description": "Aria label for the reset simulator button"
   },
   "simulator-serial-terminal": {
-    "defaultMessage": "Terminal sèrie del simulador",
+    "defaultMessage": "Simulator serial terminal",
     "description": "Aria label for the simulator serial terminal"
   },
   "simulator-sound-level": {
-    "defaultMessage": "Nivell de so",
+    "defaultMessage": "Sound level",
     "description": "Sound level simulator panel title"
   },
   "simulator-start-simulator": {
-    "defaultMessage": "Inicia el simulador",
+    "defaultMessage": "Start simulator",
     "description": "Aria label for the large play button on the simulator board"
   },
   "simulator-stop": {
-    "defaultMessage": "Atura el simulador",
+    "defaultMessage": "Stop simulator",
     "description": "Aria label for the stop simulator button"
   },
   "simulator-temperature": {
-    "defaultMessage": "Temperatura",
+    "defaultMessage": "Temperature",
     "description": "Temperature simulator panel title"
   },
   "simulator-title": {
-    "defaultMessage": "Simulador",
+    "defaultMessage": "Simulator",
     "description": "Simulator title"
   },
   "simulator-touch-logo": {
-    "defaultMessage": "Logotip tàctil",
+    "defaultMessage": "Touch logo",
     "description": "Name for the touch logo pin on the V2 Calliope mini board. Used in the simulator."
   },
   "simulator-unmute": {
-    "defaultMessage": "Deixar de silenciar",
+    "defaultMessage": "Unmute",
     "description": "Aria label for the unmute simulator button"
   },
   "software-versions": {
-    "defaultMessage": "Versions de programari",
+    "defaultMessage": "Software versions",
     "description": "Heading for a table of software versions in the about dialog"
   },
   "start-coding-action": {
-    "defaultMessage": "Comença a codificar",
+    "defaultMessage": "Start coding",
     "description": "Start coding button text"
   },
   "support": {
-    "defaultMessage": "Suport",
+    "defaultMessage": "Support",
     "description": "Support menu option text"
   },
   "terms-of-use": {
-    "defaultMessage": "Condicions d'ús",
+    "defaultMessage": "Terms of use",
     "description": "Terms of use menu option text"
   },
   "third-party-module-explanation": {
-    "defaultMessage": "Aquest fitxer és un mòdul de tercers i no està pensat per ser editat.",
+    "defaultMessage": "This file is a third-party module and is not intended to be edited.",
     "description": "Explanation shown instead of the code editor for third-party modules."
   },
   "third-party-module-how-to": {
-    "defaultMessage": "Permet editar mòduls de tercers a <link>Configuració</link>  per modificar aquest mòdul.",
+    "defaultMessage": "Allow editing third-party modules in <link>Settings</link> to modify this module.",
     "description": "Explanation of how to allow editing for third-party modules."
   },
   "timeout-error-description": {
-    "defaultMessage": "No es pot connectar a la Calliope mini",
+    "defaultMessage": "Unable to connect to the Calliope mini",
     "description": "Description for error messages relating to WebUSB timeout"
   },
   "timeout-error-title": {
-    "defaultMessage": "Temps de connexió esgotat",
+    "defaultMessage": "Connection timed out",
     "description": "Title for error messages relating to WebUSB timeout"
   },
   "toolkit-error-loading": {
-    "defaultMessage": "S'ha produït un error en carregar el conjunt d'eines.",
+    "defaultMessage": "An error occurred loading the toolkit.",
     "description": "Error shown if we failed to load toolkit content"
   },
   "toolkit-view-documentation": {
-    "defaultMessage": "Consulta la documentació de {name}",
+    "defaultMessage": "View {name} documentation",
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Arrossega el fitxer hexadecimal de la teva <strong>carpeta de descàrregues</strong> a la <strong>unitat MINI</strong>.",
+    "defaultMessage": "Drag the hex file from your <strong>Downloads folder</strong> to the <strong>MINI drive</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
-    "defaultMessage": "Pots <strong>obrir</strong> el fitxer hexadecimal més tard per continuar editant.",
+    "defaultMessage": "You can <strong>Open</strong> the hex file later to continue editing.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-title": {
-    "defaultMessage": "Transfereix el fitxer hexadecimal desat a la Calliope mini",
+    "defaultMessage": "Transfer saved hex file to Calliope mini",
     "description": "Title for the transfer hex dialog"
   },
   "try-again-action": {
-    "defaultMessage": "Torna-ho a provar",
+    "defaultMessage": "Try again",
     "description": "Try again button text"
   },
   "undo": {
-    "defaultMessage": "Desfer",
+    "defaultMessage": "Undo",
     "description": "Aria label for the undo button"
   },
   "unexpected-error-description": {
-    "defaultMessage": "Si us plau, torna-ho a provar o <link>plantejar una solicitud de suport</link> .",
+    "defaultMessage": "Please try again or <link>raise a support request</link>",
     "description": "Text shown for unexpected error scenarios"
   },
   "unexpected-error-title": {
-    "defaultMessage": "Si us plau, torna-ho a provar o <link>plantejar una solicitud de suport</link>.",
+    "defaultMessage": "Please try again or <link>raise a support request</link>",
     "description": "Text shown for unexpected error scenarios"
   },
   "untitled-project": {
-    "defaultMessage": "Projecte sense títol",
+    "defaultMessage": "Untitled project",
     "description": "Title for a new project"
   },
   "update-firmware-action": {
-    "defaultMessage": "Actualitza microprogramari",
+    "defaultMessage": "Update firmware",
     "description": "Update firmware button text"
   },
   "updated-change": {
-    "defaultMessage": "Fitxer actualitzat {changeName}",
+    "defaultMessage": "Updated file {changeName}",
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "visita calliope.cc (s'obre en una pestanya nova)",
+    "defaultMessage": "visit calliope.cc (opens in a new tab)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {
-    "defaultMessage": "Un altre procés està connectat a aquest dispositiu.",
+    "defaultMessage": "Another process is connected to this device.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-description-2": {
-    "defaultMessage": "Tanca qualsevol altra pestanya que pugui utilitzar WebUSB (per exemple, MakeCode, Python Editor) o desconnecta i torna a connectar la Calliope mini abans de tornar-ho a provar.",
+    "defaultMessage": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the Calliope mini before trying again.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-title": {
-    "defaultMessage": "No es pot sol·licitar la interfície",
+    "defaultMessage": "Unable to claim interface",
     "description": "Title of error for WebUsb connection"
   },
   "webusb-error-default-title": {
-    "defaultMessage": "Error de WebUSB",
+    "defaultMessage": "WebUSB error",
     "description": "Default title for error messages relating to WebUSB"
   },
   "webusb-error-reconnect-microbit-description": {
-    "defaultMessage": "Torna a connectar la teva Calliope mini i torna-ho a provar.",
+    "defaultMessage": "Please reconnect your Calliope mini and try again.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-update-req-description": {
-    "defaultMessage": "Has d'<link>actualitzar el microprogramari de la teva Calliope mini </link> per fer ús d'aquesta característica.",
+    "defaultMessage": "You need to <link>update your Calliope mini firmware</link> to make use of this feature.",
     "description": "WebUSB error telling user to update firmware"
   },
   "webusb-error-update-req-title": {
-    "defaultMessage": "Actualitza el microprogramari de la Calliope mini ",
+    "defaultMessage": "Please update the Calliope mini firmware",
     "description": "Error text telling user to update firmware"
   },
   "webusb-not-supported": {
-    "defaultMessage": "Malauradament, WebUSB no és compatible amb aquest navegador i el teu programa es desarà al teu ordinador. Segueix els passos de la pantalla següent per transferir-lo ala teva Calliope mini. Et recomanem Google Chrome o Microsoft Edge perquè et puguis connectar directament a la teva Calliope mini.",
+    "defaultMessage": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your Calliope mini. We recommend Google Chrome or Microsoft Edge so you can connect directly to your Calliope mini.",
     "description": "Explantion shown when user's browser doesn't support WebUSB"
   },
   "webusb-not-supported-title": {
-    "defaultMessage": "Aquest navegador no admet WebUSB",
+    "defaultMessage": "This browser does not support WebUSB",
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "Amb WebUSB pots programar la teva Calliope mini i connectar-te a la consola sèrie directament des de l'editor en línia.",
+    "defaultMessage": "With WebUSB you can program your Calliope mini and connect to the serial console directly from the online editor.",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {
-    "defaultMessage": "Mira la nostra breu guia sobre algunes de les funcions clau o obté el programa immediatament.",
+    "defaultMessage": "Watch our short guide to some of the key features, or get coding right away.",
     "description": "Text in the welcome dialogn"
   },
   "welcome-title": {
-    "defaultMessage": "Benvingut a l'Editor Python de la Calliope mini",
+    "defaultMessage": "Welcome to the Calliope mini Python Editor",
     "description": "Title for the welcome dialog"
   },
   "zoom-in-action": {
-    "defaultMessage": "Amplia",
+    "defaultMessage": "Zoom in",
     "description": "Text label for zoom in button"
   },
   "zoom-out-action": {
-    "defaultMessage": "Allunya",
+    "defaultMessage": "Zoom out",
     "description": "Text label for zoom out button"
   }
 }
