@@ -24,9 +24,10 @@ for language in $languages; do
     prefix="${1}/${language}"
 
     cp "${prefix}/ui.en.json" "crowdin/translated/ui.${lower_language}.json"
-    cp "${prefix}/errors.en.json" "../pyright/packages/pyright-internal/src/localization/simplified.nls.${lower_language}.json"
+#    cp "${prefix}/errors.en.json" "../pyright/packages/pyright-internal/src/localization/simplified.nls.${lower_language}.json"
     cp "${prefix}/api.en.json" "../micropython-calliope-stubs/crowdin/translated/api.${lower_language}.json"
 done
+
 npm run i18n:convert
 npm run i18n:compile
 
@@ -35,7 +36,7 @@ npm run i18n:compile
   ./scripts/build-translations.sh
 )
 
-NODE_OPTIONS=--openssl-legacy-provider ./bin/update-pyright.sh
+#NODE_OPTIONS=--openssl-legacy-provider ./bin/update-pyright.sh
 ./bin/update-typeshed.sh
 # We sometimes have newer English stubs than translations and don't want to
 # regress them as part of a translations update.

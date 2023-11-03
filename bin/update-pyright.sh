@@ -5,7 +5,7 @@
 # Assumes it is run from the root of the editor project and Pyright is a sibling checkout.
 #
 set -euxo pipefail
-(cd ../pyright/packages/browser-pyright && npm run build)
+(cd ../pyright/packages/browser-pyright && NODE_OPTIONS=--openssl-legacy-provider npm run webpack)
 rm public/workers/pyright-*.js*
 cp ../pyright/packages/browser-pyright/dist/* public/workers/
 source_file_with_dot_slash=$(cd public/workers && find . -name 'pyright-*.worker.js')
