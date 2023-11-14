@@ -2,29 +2,19 @@
   "about": [
     {
       "type": 0,
-      "value": "Acerca de nosotros"
+      "value": "Acerca de"
     }
   ],
   "about-comic": [
     {
       "type": 0,
-      "value": "Tira cómica de tres viñetas titulada \"MicroPython es genial\" por Mike Rowbit. Una serpiente dibujada presenta a Damien diciendo \"Este es Damien... ha creado MicroPython\". Dos serpientes hablan sobre MicroPython: la serpiente amarilla dice \"MicroPython está diseñado para ordenadores muy pequeños\". \"Como el BBC Calliope mini\", responde la serpiente morada. Continúa la serpiente amarilla: \"Pero Python se puede ejecutar en cualquier sitio\". La serpiente morada asiente diciendo \"Como en este 'rack' de servidores que ejecutan enormes paginas web\". Detrás de las serpientes se muestra un \"rack\" de servidores."
+      "value": "Cómic de tres partes titulado “MicroPython Rocks” de Mike Rowbit. Una serpiente de dibujos animados presenta a Damien y dice: \"Conoce a Damien... Él creó MicroPython\". Dos serpientes hablan sobre MicroPython. La serpiente amarilla dice: \"MicroPython está diseñado para funcionar en computadoras muy pequeñas\". \"Como tu Calliope mini\", responde la serpiente violeta\". La serpiente amarilla continúa: \"Pero Python puede ejecutarse en cualquier lugar\". La serpiente violeta está de acuerdo y dice: \"Como este bastidor de servidores que ejecutan sitios web enormes.\" El fondo detrás de las serpientes que se puede ver es un bastidor de servidores."
     }
   ],
   "about-microbit": [
     {
       "type": 0,
-      "value": "Hecho con amor por la "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "micro:bit Educational Foundation y colaboradores amélioré par Calliope et Lulububu pour le Calliope mini."
-        }
-      ],
-      "type": 8,
-      "value": "link"
+      "value": "Optimizado por Calliope y Lulubu para Calliope mini creado por Micro:bit Educational Foundation y sus colaboradores."
     }
   ],
   "about-micropython": [
@@ -44,7 +34,7 @@
     },
     {
       "type": 0,
-      "value": ", hecho por Damien George y una comunidad de desarrolladores de todo el mundo."
+      "value": " que está hecho por Damien George y una comunidad de desarrolladores de todo el mundo."
     }
   ],
   "about-read-less-micropython": [
@@ -56,7 +46,7 @@
   "about-read-more-micropython": [
     {
       "type": 0,
-      "value": "Leer más sobre MicroPython"
+      "value": "Leer más acerca de MicroPython"
     }
   ],
   "added-change": [
@@ -76,7 +66,7 @@
   "api-description": [
     {
       "type": 0,
-      "value": "Para uso y ejemplos, consulta "
+      "value": "Para el uso y los ejemplos, consulte "
     },
     {
       "children": [
@@ -148,7 +138,7 @@
   "back-action": [
     {
       "type": 0,
-      "value": "Volver"
+      "value": "Atrás"
     }
   ],
   "back-to-main": [
@@ -172,27 +162,35 @@
   "choose-main-add-file": [
     {
       "type": 0,
-      "value": "Añadir archivo "
+      "value": "Archivo "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " añadido"
     }
   ],
   "choose-main-add-module": [
     {
       "type": 0,
-      "value": "Añadir módulo "
+      "value": "Archivo "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " añadido"
     }
   ],
   "choose-main-replace-file": [
     {
       "type": 0,
-      "value": "Sustituir archivo "
+      "value": "Reemplazar archivo "
     },
     {
       "type": 1,
@@ -202,7 +200,7 @@
   "choose-main-replace-module": [
     {
       "type": 0,
-      "value": "Sustituir módulo "
+      "value": "Reemplazar módulo "
     },
     {
       "type": 1,
@@ -220,7 +218,7 @@
     },
     {
       "type": 0,
-      "value": " de "
+      "value": " desde "
     },
     {
       "type": 1,
@@ -240,7 +238,7 @@
   "choose-main-source-replace-file": [
     {
       "type": 0,
-      "value": "Sustituir archivo "
+      "value": "Reemplazar el archivo "
     },
     {
       "type": 1,
@@ -248,7 +246,7 @@
     },
     {
       "type": 0,
-      "value": " por "
+      "value": " con "
     },
     {
       "type": 1,
@@ -258,7 +256,7 @@
   "choose-main-source-replace-main-code": [
     {
       "type": 0,
-      "value": "Sustituir código principal por "
+      "value": "Reemplazar el código principal con "
     },
     {
       "type": 1,
@@ -274,7 +272,7 @@
   "close-action": [
     {
       "type": 0,
-      "value": "Cerrar"
+      "value": "Cerrado"
     }
   ],
   "code-editor": [
@@ -298,31 +296,31 @@
   "confirm-delete": [
     {
       "type": 0,
-      "value": "Confirmar eliminación"
+      "value": "Confirmar borrar"
     }
   ],
   "confirm-replace-body": [
     {
       "type": 0,
-      "value": "¿Sustituir todos los archivos por los del HEX?"
+      "value": "¿Reemplazar todos los archivos con los del hex?"
     }
   ],
   "confirm-replace-reset": [
     {
       "type": 0,
-      "value": "¿Sustituir todos los archivos por el código de inicio predeterminado?"
+      "value": "¿Reemplazar todos los archivos con el código de inicio predeterminado?"
     }
   ],
   "confirm-replace-title": [
     {
       "type": 0,
-      "value": "¿Sustituir proyecto?"
+      "value": "Confirmar proyecto de sustitución"
     }
   ],
   "confirm-replace-with-idea": [
     {
       "type": 0,
-      "value": "¿Sustituir todos los archivos por "
+      "value": "¿Reemplazar todos los archivos por "
     },
     {
       "type": 1,
@@ -336,13 +334,13 @@
   "confirm-save-action": [
     {
       "type": 0,
-      "value": "Confirmar y guardar"
+      "value": "Confirma y guarda"
     }
   ],
   "confirm-save-hint": [
     {
       "type": 0,
-      "value": "Cancela y pulsa Guardar para guardar una copia de tu proyecto."
+      "value": "Cancelar luego use Save para guardar una copia de su proyecto."
     }
   ],
   "connect-action": [
@@ -360,55 +358,55 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Diálogo de conexión WebUSB con entrada BBC Calliope mini con la etiqueta 1 y botón Conectar con la etiqueta 2"
+      "value": "Diálogo de conexión WebUSB con la entrada Calliope mini etiquetada 1 y el botón Conectar etiquetada 2"
     }
   ],
   "connect-help-message": [
     {
       "type": 0,
-      "value": "Siguiente ventana emergente:"
+      "value": "En el siguiente popup:"
     }
   ],
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Elige tu Calliope mini"
+      "value": "Elige tu Calíope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Selecciona Calliope mini"
+      "value": "Seleccione Calíope mini"
     }
   ],
   "connect-help-two": [
     {
       "type": 0,
-      "value": "Selecciona ‘Conectar’"
+      "value": "Selecciona \"Conectar\""
     }
   ],
   "connect-hover": [
     {
       "type": 0,
-      "value": "Conectar al Calliope mini a través de WebUSB"
+      "value": "Conectar a su Calliope mini sobre WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Conéctate al Calliope mini para ver la salida serie aquí"
+      "value": "Conéctate a tu Calliope mini para ver la salida de la serie aquí"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Solucionar problemas de conexión al Calliope mini"
+      "value": "Solucionar problemas al conectarse a su Calliope mini"
     }
   ],
   "content-load-error": [
     {
       "type": 0,
-      "value": "Algo salió mal. Por seguridad, descarga tu archivo HEX y actualiza la página para recargar."
+      "value": "Algo salió mal. Descarga tu archivo hexadecimal para mantenerlo seguro, y luego actualiza la página para recargar."
     }
   ],
   "copied": [
@@ -432,7 +430,7 @@
   "create-action": [
     {
       "type": 0,
-      "value": "Crea"
+      "value": "Crear"
     }
   ],
   "create-file-action": [
@@ -449,12 +447,12 @@
   ],
   "created-file": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Created "
     },
     {
-      "type": 0,
-      "value": " creado"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "data-protection": [
@@ -466,13 +464,13 @@
   "delete-action": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Delete"
     }
   ],
   "delete-file-action": [
     {
       "type": 0,
-      "value": "Eliminar "
+      "value": "Delete "
     },
     {
       "type": 1,
@@ -481,12 +479,12 @@
   ],
   "deleted-file": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Deleted "
     },
     {
-      "type": 0,
-      "value": " eliminado"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "disclaimer": [
@@ -498,31 +496,31 @@
   "disconnect-action": [
     {
       "type": 0,
-      "value": "Desconectar"
+      "value": "Disconnect"
     }
   ],
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Desconectarse del Calliope mini"
+      "value": "Disconnect from the Calliope mini"
     }
   ],
   "dont-show-again": [
     {
       "type": 0,
-      "value": "No volver a mostrar"
+      "value": "Don't show this again"
     }
   ],
   "drag-hover": [
     {
       "type": 0,
-      "value": "Arrastra y suelta"
+      "value": "Drag and drop"
     }
   ],
   "edit-file-action": [
     {
       "type": 0,
-      "value": "Editar "
+      "value": "Edit "
     },
     {
       "type": 1,
@@ -532,47 +530,47 @@
   "edit-name-project-hover": [
     {
       "type": 0,
-      "value": "Edita el nombre del proyecto"
+      "value": "Edit the name of your project"
     }
   ],
   "edit-project-name-action": [
     {
       "type": 0,
-      "value": "Editar nombre del proyecto"
+      "value": "Edit project name"
     }
   ],
   "failed-to-build-hex": [
     {
       "type": 0,
-      "value": "No se ha podido generar el archivo HEX"
+      "value": "Failed to build the hex file"
     }
   ],
   "feedback": [
     {
       "type": 0,
-      "value": "Comentarios"
+      "value": "Feedback"
     }
   ],
   "file-actions": [
     {
-      "type": 0,
-      "value": "Acciones de archivo "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " file actions"
     }
   ],
   "file-already-exists": [
     {
       "type": 0,
-      "value": "El archivo ya existe"
+      "value": "This file already exists"
     }
   ],
   "file-name-invalid-character": [
     {
       "type": 0,
-      "value": "El nombre contiene un carácter no válido: "
+      "value": "The name contains an invalid character: "
     },
     {
       "type": 1,
@@ -582,43 +580,43 @@
   "file-name-length": [
     {
       "type": 0,
-      "value": "El nombre es demasiado largo"
+      "value": "The name is too long"
     }
   ],
   "file-name-lowercase-only": [
     {
       "type": 0,
-      "value": "El nombre debe estar en minúsculas"
+      "value": "The name should be all lowercase"
     }
   ],
   "file-name-not-empty": [
     {
       "type": 0,
-      "value": "El nombre no puede estar en blanco"
+      "value": "The name cannot be empty"
     }
   ],
   "file-name-start-number": [
     {
       "type": 0,
-      "value": "El nombre no puede empezar por un número"
+      "value": "The name cannot start with a number"
     }
   ],
   "file-name-whitespace": [
     {
       "type": 0,
-      "value": "El nombre no puede incluir espacios"
+      "value": "The name cannot contain spaces"
     }
   ],
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "Debes "
+      "value": "You must "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "actualizar el firmware"
+          "value": "update your firmware"
         }
       ],
       "type": 8,
@@ -626,67 +624,67 @@
     },
     {
       "type": 0,
-      "value": " para poder conectar a este Calliope mini."
+      "value": " before you can connect to this Calliope mini."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "La conexión al Calliope mini ha fallado porque el firmware del Calliope mini es demasiado antiguo."
+      "value": "Connecting to the Calliope mini failed because the firmware on your Calliope mini is too old."
     }
   ],
   "firmware-update-title": [
     {
       "type": 0,
-      "value": "Es necesario actualizar el firmware"
+      "value": "Firmware update required"
     }
   ],
   "flash-action": [
     {
       "type": 0,
-      "value": "Flashear"
+      "value": "Flash"
     }
   ],
   "flash-hover": [
     {
       "type": 0,
-      "value": "Flash el proyecto directamente al Calliope mini"
+      "value": "Flash the project directly to the Calliope mini"
     }
   ],
   "flashing-code": [
     {
       "type": 0,
-      "value": "Enviando código (flasheando)"
+      "value": "Sending code (flashing)"
     }
   ],
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "El código se está enviando (flasheando) al Calliope mini. Esto puede llevar un tiempo la primera vez, pero después será más rápido."
+      "value": "Your code is being sent (flashed) to your Calliope mini. This can take a while the first time but it will be quicker after that."
     }
   ],
   "flashing-micropython": [
     {
       "type": 0,
-      "value": "Flashear MicroPython"
+      "value": "Flashing MicroPython"
     }
   ],
   "font-size": [
     {
       "type": 0,
-      "value": "Tamaño de fuente"
+      "value": "Font size"
     }
   ],
   "guide-link": [
     {
       "type": 0,
-      "value": "Para obtener más ayuda, consulta la "
+      "value": "For more support, see the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "guía del Editor de Python"
+          "value": "Python Editor guide"
         }
       ],
       "type": 8,
@@ -696,37 +694,37 @@
   "help": [
     {
       "type": 0,
-      "value": "Ayuda"
+      "value": "Help"
     }
   ],
   "help-support": [
     {
       "type": 0,
-      "value": "Ayuda y asistencia"
+      "value": "Help & support"
     }
   ],
   "help-translate": [
     {
       "type": 0,
-      "value": "Ayudar a traducir"
+      "value": "Help translate"
     }
   ],
   "highlight-code-structure": [
     {
       "type": 0,
-      "value": "Resaltar la estructura del código"
+      "value": "Highlight code structure"
     }
   ],
   "highlight-code-structure-full": [
     {
       "type": 0,
-      "value": "Completo"
+      "value": "Full"
     }
   ],
   "highlight-code-structure-none": [
     {
       "type": 0,
-      "value": "Nada"
+      "value": "None"
     }
   ],
   "highlight-code-structure-simple": [
@@ -744,7 +742,7 @@
   "ideas-tab-description": [
     {
       "type": 0,
-      "value": "Prueba estos proyectos y modifícalos para inspirarte"
+      "value": "Try out these projects, modify them and get inspired"
     }
   ],
   "imprint": [
@@ -756,31 +754,31 @@
   "insert-code-action": [
     {
       "type": 0,
-      "value": "Insertar código"
+      "value": "Insert code"
     }
   ],
   "language": [
     {
       "type": 0,
-      "value": "Idioma"
+      "value": "Language"
     }
   ],
   "less-action": [
     {
       "type": 0,
-      "value": "menos"
+      "value": "Less"
     }
   ],
   "load-error-makecode-info": [
     {
       "type": 0,
-      "value": "Este archivo HEX no se puede cargar en el Editor de Python. El Editor de Python no puede abrir archivos hexadecimales creados con Microsoft MakeCode."
+      "value": "This hex file cannot be loaded in the Python Editor. The Python Editor cannot open hex files created with Microsoft MakeCode."
     }
   ],
   "load-error-makecode-link": [
     {
       "type": 0,
-      "value": "Visita "
+      "value": "Please visit "
     },
     {
       "children": [
@@ -794,25 +792,25 @@
     },
     {
       "type": 0,
-      "value": " para usar este archivo HEX."
+      "value": " to use this hex file."
     }
   ],
   "load-error-mixed": [
     {
       "type": 0,
-      "value": "Un archivo HEX únicamente puede cargarse solo. Sustituirá a todos los archivos del proyecto."
+      "value": "A hex file can only be loaded on its own. It replaces all files in the project."
     }
   ],
   "load-error-mpy": [
     {
       "type": 0,
-      "value": "Esta versión del Editor de Python no permite actualmente añadir archivos .mpy."
+      "value": "This version of the Python Editor doesn't currently support adding .mpy files."
     }
   ],
   "load-error-title": [
     {
       "type": 0,
-      "value": "Error al cargar "
+      "value": "Cannot load "
     },
     {
       "offset": 0,
@@ -821,7 +819,7 @@
           "value": [
             {
               "type": 0,
-              "value": "archivo"
+              "value": "file"
             }
           ]
         },
@@ -829,7 +827,7 @@
           "value": [
             {
               "type": 0,
-              "value": "archivos"
+              "value": "files"
             }
           ]
         }
@@ -841,44 +839,48 @@
   ],
   "loaded-file-feedback": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Loaded "
     },
     {
-      "type": 0,
-      "value": " cargado"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "loading": [
     {
       "type": 0,
-      "value": "Cargando…"
+      "value": "Loading…"
     }
   ],
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "Placa Calliope mini con la cuadrícula LED de 5 por 5 que muestra un corazón"
+      "value": "Calliope mini board with the 5 by 5 LED grid showing a heart"
     }
   ],
   "micropython-documentation": [
     {
       "type": 0,
-      "value": "Documentación de MicroPython"
+      "value": "MicroPython documentation"
     }
   ],
   "micropython-history": [
     {
       "type": 0,
-      "value": "Descubre cómo llegó MicroPython al Calliope mini"
+      "value": "Learn how MicroPython on the Calliope mini came to be"
     }
   ],
   "micropython-source-code": [
     {
+      "type": 0,
+      "value": "MicroPython "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "Código fuente de MicroPython para el Calliope mini V1"
+          "value": "source code for the Calliope mini V1"
         }
       ],
       "type": 8,
@@ -886,7 +888,7 @@
     },
     {
       "type": 0,
-      "value": " y "
+      "value": " and "
     },
     {
       "children": [
@@ -902,13 +904,13 @@
   "more-action": [
     {
       "type": 0,
-      "value": "mas"
+      "value": "More"
     }
   ],
   "more-connect-options": [
     {
       "type": 0,
-      "value": "Más opciones de conexión"
+      "value": "More connect options"
     }
   ],
   "more-ideas": [
@@ -916,7 +918,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Más ideas"
+          "value": "More ideas"
         }
       ],
       "type": 8,
@@ -926,13 +928,13 @@
   "more-save-options": [
     {
       "type": 0,
-      "value": "Más opciones para guardar"
+      "value": "More save options"
     }
   ],
   "multiple-files-message-one": [
     {
       "type": 0,
-      "value": "Este proyecto contiene "
+      "value": "This project contains "
     },
     {
       "offset": 0,
@@ -945,7 +947,7 @@
             },
             {
               "type": 0,
-              "value": " archivos"
+              "value": " files"
             }
           ]
         }
@@ -956,7 +958,7 @@
     },
     {
       "type": 0,
-      "value": " pero solo se ha descargado "
+      "value": " but only "
     },
     {
       "children": [
@@ -970,19 +972,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " has been downloaded."
     }
   ],
   "multiple-files-message-two": [
     {
       "type": 0,
-      "value": "Utiliza el botón "
+      "value": "Use the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Guardar"
+          "value": "Save"
         }
       ],
       "type": 8,
@@ -990,13 +992,13 @@
     },
     {
       "type": 0,
-      "value": " para descargar el proyecto completo como un archivo HEX. Puedes "
+      "value": " button to download your whole project as a hex file. You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Abrir"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1004,13 +1006,13 @@
     },
     {
       "type": 0,
-      "value": " el archivo HEX para restaurar el proyecto. Si prefieres descargar archivos Python de forma individual, usa la pestaña "
+      "value": " the hex file to restore your project. If you prefer to download individual Python files, use the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Proyecto"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1018,37 +1020,37 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " tab."
     }
   ],
   "multiple-files-title": [
     {
       "type": 0,
-      "value": "Aviso: solo se ha descargado main.py"
+      "value": "Warning: Only main.py downloaded"
     }
   ],
   "name-project": [
     {
       "type": 0,
-      "value": "Pon un nombre al proyecto"
+      "value": "Name your project"
     }
   ],
   "name-text": [
     {
       "type": 0,
-      "value": "Nombre"
+      "value": "Name"
     }
   ],
   "name-used-when": [
     {
       "type": 0,
-      "value": "El nombre se usa al guardar un archivo HEX."
+      "value": "The name is used when you save a file."
     }
   ],
   "new-file-hint": [
     {
       "type": 0,
-      "value": "Se añadirá la extensión "
+      "value": "We'll add the "
     },
     {
       "children": [
@@ -1062,25 +1064,25 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " extension for you."
     }
   ],
   "next-action": [
     {
       "type": 0,
-      "value": "Siguiente"
+      "value": "Next"
     }
   ],
   "not-found-checklist-one": [
     {
       "type": 0,
-      "value": "¿Está el "
+      "value": "Is your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini conectado"
+          "value": "Calliope mini plugged in"
         }
       ],
       "type": 8,
@@ -1088,13 +1090,13 @@
     },
     {
       "type": 0,
-      "value": "? ¿Has "
+      "value": "? Did you "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "seguido estos pasos"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1108,7 +1110,7 @@
   "not-found-checklist-two": [
     {
       "type": 0,
-      "value": "Si tienes un "
+      "value": "If you have a "
     },
     {
       "children": [
@@ -1122,13 +1124,13 @@
     },
     {
       "type": 0,
-      "value": ", puede que necesites "
+      "value": " you may need to "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "actualizar el firmware"
+          "value": "update the firmware"
         }
       ],
       "type": 8,
@@ -1138,31 +1140,31 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "No has seleccionado un Calliope mini o ha habido un problema al conectar."
+      "value": "You didn’t select a Calliope mini, or there was a problem connecting to it."
     }
   ],
   "not-found-save-message": [
     {
       "type": 0,
-      "value": "Método alternativo: elige Guardar y sigue los pasos para transferir"
+      "value": "Alternative method: choose Save then follow steps to transfer"
     }
   ],
   "not-found-title": [
     {
       "type": 0,
-      "value": "No se ha encontrado ningún Calliope mini"
+      "value": "No Calliope mini found"
     }
   ],
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "Debes "
+      "value": "You must "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "actualizar el firmware"
+          "value": "update your firmware before"
         }
       ],
       "type": 8,
@@ -1170,55 +1172,55 @@
     },
     {
       "type": 0,
-      "value": " para poder conectar a este Calliope mini."
+      "value": " you can connect to this Calliope mini."
     }
   ],
   "open-action": [
     {
       "type": 0,
-      "value": "Abrir"
+      "value": "Open"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "Abrir…"
+      "value": "Open…"
     }
   ],
   "open-file-dropped": [
     {
       "type": 0,
-      "value": "Abrir archivo al soltarlo"
+      "value": "Open file when dropped"
     }
   ],
   "open-hover": [
     {
       "type": 0,
-      "value": "Abre un archivo HEX o Python o añade otros archivos"
+      "value": "Open a hex or Python file or add other files"
     }
   ],
   "options": [
     {
       "type": 0,
-      "value": "Opciones"
+      "value": "Options"
     }
   ],
   "parameter-help": [
     {
       "type": 0,
-      "value": "Ayuda con parámetros"
+      "value": "Parameter help"
     }
   ],
   "parameter-help-automatic": [
     {
       "type": 0,
-      "value": "Automático"
+      "value": "Automatic"
     }
   ],
   "parameter-help-manual": [
     {
       "type": 0,
-      "value": "("
+      "value": "Manual ("
     },
     {
       "type": 1,
@@ -1226,13 +1228,13 @@
     },
     {
       "type": 0,
-      "value": ") manual"
+      "value": ")"
     }
   ],
   "permanently-delete": [
     {
       "type": 0,
-      "value": "¿Eliminar "
+      "value": "Permanently delete "
     },
     {
       "type": 1,
@@ -1240,19 +1242,19 @@
     },
     {
       "type": 0,
-      "value": " de forma permanente?"
+      "value": "?"
     }
   ],
   "post-save-message-files": [
     {
       "type": 0,
-      "value": "Contiene todos los archivos de este proyecto (incluyendo cualquier archivo adicional, por ejemplo, para ejecutar accesorios, listados en la pestaña "
+      "value": "This contains all files in this project (including any additional files, e.g. to run accessories, listed in the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Proyecto"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1260,19 +1262,19 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": " tab)."
     }
   ],
   "post-save-message-one": [
     {
       "type": 0,
-      "value": "Encontrarás el archivo HEX en la carpeta "
+      "value": "You will find your hex file in this computer’s "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Descargas"
+          "value": "Downloads"
         }
       ],
       "type": 8,
@@ -1280,19 +1282,19 @@
     },
     {
       "type": 0,
-      "value": " de este ordenador."
+      "value": " folder."
     }
   ],
   "post-save-message-two": [
     {
       "type": 0,
-      "value": "Puedes moverlo para almacenarlo en otra carpeta y utilizar "
+      "value": "You can move it to another folder for storage and use "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Abrir"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1300,25 +1302,25 @@
     },
     {
       "type": 0,
-      "value": " para editarlo más tarde."
+      "value": " to continue editing later."
     }
   ],
   "post-save-title": [
     {
       "type": 0,
-      "value": "Proyecto guardado"
+      "value": "Project saved"
     }
   ],
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "Para ejecutar este archivo HEX en tu Calliope mini "
+      "value": "To run this hex file on your Calliope mini "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "sigue estos pasos"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1332,43 +1334,43 @@
   "project-actions": [
     {
       "type": 0,
-      "value": "Acciones del proyecto"
+      "value": "Project actions"
     }
   ],
   "project-header": [
     {
       "type": 0,
-      "value": "Cabecera del proyecto"
+      "value": "Project header"
     }
   ],
   "project-name": [
     {
       "type": 0,
-      "value": "Nombre del proyecto"
+      "value": "Project name"
     }
   ],
   "project-name-not-empty": [
     {
       "type": 0,
-      "value": "El nombre del proyecto no puede estar en blanco"
+      "value": "The project name cannot be empty"
     }
   ],
   "project-tab": [
     {
       "type": 0,
-      "value": "Proyecto"
+      "value": "Project"
     }
   ],
   "project-tab-description": [
     {
       "type": 0,
-      "value": "Ver, crear, añadir y editar los archivos del proyecto"
+      "value": "View, create, add and edit the files in your project"
     }
   ],
   "python-powered": [
     {
       "type": 0,
-      "value": "Funciona con Python"
+      "value": "Python powered"
     }
   ],
   "python-tab": [
@@ -1380,55 +1382,55 @@
   "quit-anyway": [
     {
       "type": 0,
-      "value": "Algunos de sus cambios no se han guardado. Salir de todos modos?"
+      "value": "Some of your changes have not been saved. Quit anyway?"
     }
   ],
   "read-less": [
     {
       "type": 0,
-      "value": "Mostrar menos"
+      "value": "Read less"
     }
   ],
   "read-more": [
     {
       "type": 0,
-      "value": "Leer más"
+      "value": "Read more"
     }
   ],
   "redo": [
     {
       "type": 0,
-      "value": "Rehacer"
+      "value": "Redo"
     }
   ],
   "reference-tab": [
     {
       "type": 0,
-      "value": "Referencia"
+      "value": "Reference"
     }
   ],
   "replace-action-label": [
     {
       "type": 0,
-      "value": "Sustituir"
+      "value": "Replace"
     }
   ],
   "reset-project-action": [
     {
       "type": 0,
-      "value": "Restablecer proyecto"
+      "value": "Reset project"
     }
   ],
   "reset-project-feedback": [
     {
       "type": 0,
-      "value": "Proyecto restablecido al código de inicio predeterminado"
+      "value": "Project reset to the default starter code"
     }
   ],
   "reset-project-hover": [
     {
       "type": 0,
-      "value": "Restablece el proyecto al código de inicio predeterminado, descartando tu trabajo"
+      "value": "Resets the project to the default starter code, discarding your work"
     }
   ],
   "results-count": [
@@ -1439,7 +1441,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Ningún resultado"
+              "value": "No results"
             }
           ]
         },
@@ -1450,7 +1452,7 @@
             },
             {
               "type": 0,
-              "value": " resultado"
+              "value": " result"
             }
           ]
         },
@@ -1461,7 +1463,7 @@
             },
             {
               "type": 0,
-              "value": " resultados"
+              "value": " results"
             }
           ]
         }
@@ -1474,13 +1476,13 @@
   "save-action": [
     {
       "type": 0,
-      "value": "Guardar"
+      "value": "Save"
     }
   ],
   "save-file-action": [
     {
       "type": 0,
-      "value": "Guardar "
+      "value": "Save "
     },
     {
       "type": 1,
@@ -1490,73 +1492,73 @@
   "save-hex-action": [
     {
       "type": 0,
-      "value": "Guardar proyecto HEX"
+      "value": "Save project hex"
     }
   ],
   "save-hover": [
     {
       "type": 0,
-      "value": "Guarda el archivo HEX del proyecto en el ordenador"
+      "value": "Save the project hex file to your computer"
     }
   ],
   "save-python-action": [
     {
       "type": 0,
-      "value": "Guardar script de Python"
+      "value": "Save Python script"
     }
   ],
   "search": [
     {
       "type": 0,
-      "value": "Buscar"
+      "value": "Search"
     }
   ],
   "send-action": [
     {
       "type": 0,
-      "value": "Enviar a Calliope mini"
+      "value": "Send to Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "Conectar a través de WebUSB y flashear código al Calliope mini"
+      "value": "Connect via WebUSB then flash code onto Calliope mini"
     }
   ],
   "serial-collapse": [
     {
       "type": 0,
-      "value": "Ocultar consola serie"
+      "value": "Hide serial"
     }
   ],
   "serial-ctrl-c-action": [
     {
       "type": 0,
-      "value": "Enviar Ctrl + C a REPL"
+      "value": "Send Ctrl+C for REPL"
     }
   ],
   "serial-ctrl-d-action": [
     {
       "type": 0,
-      "value": "Enviar Ctrl + D para restablecer"
+      "value": "Send Ctrl+D to reset"
     }
   ],
   "serial-expand": [
     {
       "type": 0,
-      "value": "Mostrar consola serie"
+      "value": "Show serial"
     }
   ],
   "serial-flashed": [
     {
       "type": 0,
-      "value": "Calliope mini flasheado"
+      "value": "Calliope mini flashed"
     }
   ],
   "serial-help-ctrl-c": [
     {
       "type": 0,
-      "value": "Utiliza el atajo de teclado "
+      "value": "Use the keyboard shortcut "
     },
     {
       "children": [
@@ -1584,13 +1586,13 @@
     },
     {
       "type": 0,
-      "value": " para interrumpir el programa. Después podrás escribir comandos de Python para que los ejecute MicroPython. Es una gran manera de experimentar con algo nuevo."
+      "value": " to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new."
     }
   ],
   "serial-help-ctrl-d": [
     {
       "type": 0,
-      "value": "Para reiniciar el programa, pulsa "
+      "value": "To start your program running again use "
     },
     {
       "children": [
@@ -1624,13 +1626,13 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "La terminal serie muestra errores y otros resultados del programa que se ejecuta en el Calliope mini. Por defecto, muestra el error más reciente del programa; expándelo para ver todos los resultados."
+      "value": "The serial terminal shows errors and other output from the program running on your Calliope mini. By default, it shows the most recent error from the program. Expand it to see all the output."
     }
   ],
   "serial-help-print": [
     {
       "type": 0,
-      "value": "El programa puede imprimir mensajes usando la función "
+      "value": "Your program can print messages using the "
     },
     {
       "children": [
@@ -1644,13 +1646,13 @@
     },
     {
       "type": 0,
-      "value": ". Prueba a añadir "
+      "value": " function. Try adding "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "print('Calliope mini es increíble')"
+          "value": "print('Calliope mini is awesome')"
         }
       ],
       "type": 8,
@@ -1658,79 +1660,79 @@
     },
     {
       "type": 0,
-      "value": " al programa."
+      "value": " to your program."
     }
   ],
   "serial-help-title": [
     {
       "type": 0,
-      "value": "Consola serie: sugerencias y consejos"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-hints-and-tips": [
     {
       "type": 0,
-      "value": "Consola serie: sugerencias y consejos"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-menu": [
     {
       "type": 0,
-      "value": "Menú consola serie"
+      "value": "Serial menu"
     }
   ],
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "Calliope mini listo para flashear"
+      "value": "Calliope mini ready to flash"
     }
   ],
   "serial-running": [
     {
       "type": 0,
-      "value": "Ejecutando…"
+      "value": "Running…"
     }
   ],
   "serial-terminal": [
     {
       "type": 0,
-      "value": "Terminal serie"
+      "value": "Serial terminal"
     }
   ],
   "setting-allow-editing-third-party": [
     {
       "type": 0,
-      "value": "Permitir la edición de módulos de terceros"
+      "value": "Allow editing third-party modules"
     }
   ],
   "setting-allow-editing-third-party-info": [
     {
       "type": 0,
-      "value": "Cambiar los módulos de terceros puede provocar que no funcionen como deberían."
+      "value": "Changing third-party modules may mean they don’t work as intended."
     }
   ],
   "settings": [
     {
       "type": 0,
-      "value": "Configuración"
+      "value": "Settings"
     }
   ],
   "show-api-documentation": [
     {
       "type": 0,
-      "value": "Mostrar documentación de la API"
+      "value": "Show API documentation"
     }
   ],
   "show-less": [
     {
       "type": 0,
-      "value": "Mostrar menos"
+      "value": "Show less"
     }
   ],
   "show-less-for": [
     {
       "type": 0,
-      "value": "Mostrar menos de "
+      "value": "Show less for "
     },
     {
       "type": 1,
@@ -1740,13 +1742,13 @@
   "show-more": [
     {
       "type": 0,
-      "value": "Mostrar más"
+      "value": "Show more"
     }
   ],
   "show-more-for": [
     {
       "type": 0,
-      "value": "Mostrar más de "
+      "value": "Show more for "
     },
     {
       "type": 1,
@@ -1756,49 +1758,49 @@
   "sidebar": [
     {
       "type": 0,
-      "value": "Barra lateral"
+      "value": "Sidebar"
     }
   ],
   "sidebar-collapse": [
     {
       "type": 0,
-      "value": "Ocultar la barra lateral"
+      "value": "Collapse sidebar"
     }
   ],
   "sidebar-expand": [
     {
       "type": 0,
-      "value": "Expandir la barra lateral"
+      "value": "Expand sidebar"
     }
   ],
   "simulator-accelerometer": [
     {
       "type": 0,
-      "value": "Acelerómetro"
+      "value": "Accelerometer"
     }
   ],
   "simulator-actions": [
     {
       "type": 0,
-      "value": "Acciones del simulador"
+      "value": "Simulator actions"
     }
   ],
   "simulator-button-a": [
     {
       "type": 0,
-      "value": "Botón A"
+      "value": "Button A"
     }
   ],
   "simulator-button-b": [
     {
       "type": 0,
-      "value": "Botón B"
+      "value": "Button B"
     }
   ],
   "simulator-button-hold-label": [
     {
       "type": 0,
-      "value": "Mantener pulsado botón "
+      "value": "Hold button "
     },
     {
       "type": 1,
@@ -1808,7 +1810,7 @@
   "simulator-button-press-label": [
     {
       "type": 0,
-      "value": "Pulsar botón "
+      "value": "Press button "
     },
     {
       "type": 1,
@@ -1818,53 +1820,57 @@
   "simulator-buttons": [
     {
       "type": 0,
-      "value": "Botones"
+      "value": "Buttons"
     }
   ],
   "simulator-collapse": [
     {
       "type": 0,
-      "value": "Contraer simulador"
+      "value": "Collapse simulator"
     }
   ],
   "simulator-collapse-module": [
     {
       "type": 0,
-      "value": "Contraer módulo "
+      "value": "Collapse "
     },
     {
       "type": 1,
       "value": "title"
+    },
+    {
+      "type": 0,
+      "value": " module"
     }
   ],
   "simulator-compass": [
     {
       "type": 0,
-      "value": "Brújula"
+      "value": "Compass"
     }
   ],
   "simulator-compass-heading-one": [
     {
       "type": 0,
-      "value": "Cabecera"
+      "value": "Heading"
     }
   ],
   "simulator-compass-heading-two": [
     {
       "type": 0,
-      "value": "Fuerza del campo magnético"
+      "value": "Magnetic field strength"
     }
   ],
   "simulator-data-logging-empty": [
     {
       "type": 0,
-      "value": "No hay entradas de registro."
+      "value": "No log entries."
     }
   ],
   "simulator-data-logging-full": [
     {
       "type": 0,
-      "value": "Registro lleno"
+      "value": "Log full"
     }
   ],
   "simulator-data-logging-rows": [
@@ -1875,7 +1881,7 @@
           "value": [
             {
               "type": 0,
-              "value": "No se han registrado filas"
+              "value": "No rows logged"
             }
           ]
         },
@@ -1886,7 +1892,7 @@
             },
             {
               "type": 0,
-              "value": " fila registrada"
+              "value": " row logged"
             }
           ]
         },
@@ -1897,7 +1903,7 @@
             },
             {
               "type": 0,
-              "value": " filas registradas"
+              "value": " rows logged"
             }
           ]
         }
@@ -1910,29 +1916,33 @@
   "simulator-data-logging-save-log": [
     {
       "type": 0,
-      "value": "Guardar registro"
+      "value": "Save log"
     }
   ],
   "simulator-data-logging-truncated": [
     {
       "type": 0,
-      "value": "No se muestran las filas antiguas"
+      "value": "Older rows not shown"
     }
   ],
   "simulator-expand": [
     {
       "type": 0,
-      "value": "Expandir simulador"
+      "value": "Expand simulator"
     }
   ],
   "simulator-expand-module": [
     {
       "type": 0,
-      "value": "Expandir módulo "
+      "value": "Expand "
     },
     {
       "type": 1,
       "value": "title"
+    },
+    {
+      "type": 0,
+      "value": " module"
     }
   ],
   "simulator-gesture-3g": [
@@ -1956,109 +1966,109 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "logo abajo"
+      "value": "down"
     }
   ],
   "simulator-gesture-face-down": [
     {
       "type": 0,
-      "value": "hacia abajo"
+      "value": "face down"
     }
   ],
   "simulator-gesture-face-up": [
     {
       "type": 0,
-      "value": "hacia arriba"
+      "value": "face up"
     }
   ],
   "simulator-gesture-freefall": [
     {
       "type": 0,
-      "value": "caída libre"
+      "value": "freefall"
     }
   ],
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "izquierda"
+      "value": "left"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "derecha"
+      "value": "right"
     }
   ],
   "simulator-gesture-select": [
     {
       "type": 0,
-      "value": "Seleccionar gesto"
+      "value": "Select gesture"
     }
   ],
   "simulator-gesture-send": [
     {
       "type": 0,
-      "value": "Enviar gesto"
+      "value": "Send gesture"
     }
   ],
   "simulator-gesture-shake": [
     {
       "type": 0,
-      "value": "agitar"
+      "value": "shake"
     }
   ],
   "simulator-gesture-up": [
     {
       "type": 0,
-      "value": "logo arriba"
+      "value": "up"
     }
   ],
   "simulator-hide": [
     {
       "type": 0,
-      "value": "Ocultar simulador"
+      "value": "Hide simulator"
     }
   ],
   "simulator-input-hold": [
     {
       "type": 0,
-      "value": "Mantener pulsado"
+      "value": "Hold"
     }
   ],
   "simulator-input-press": [
     {
       "type": 0,
-      "value": "Pulsar"
+      "value": "Press"
     }
   ],
   "simulator-light-level": [
     {
       "type": 0,
-      "value": "Nivel de luz"
+      "value": "Light level"
     }
   ],
   "simulator-log": [
     {
       "type": 0,
-      "value": "Registro de datos"
+      "value": "Data log"
     }
   ],
   "simulator-loud": [
     {
       "type": 0,
-      "value": "Alto"
+      "value": "Loud"
     }
   ],
   "simulator-mute": [
     {
       "type": 0,
-      "value": "Silenciar"
+      "value": "Mute"
     }
   ],
   "simulator-pin-hold-label": [
     {
       "type": 0,
-      "value": "Mantener pulsado pin "
+      "value": "Hold pin "
     },
     {
       "type": 1,
@@ -2068,7 +2078,7 @@
   "simulator-pin-press-label": [
     {
       "type": 0,
-      "value": "Pulsar pin "
+      "value": "Press pin "
     },
     {
       "type": 1,
@@ -2078,13 +2088,13 @@
   "simulator-pins": [
     {
       "type": 0,
-      "value": "Pines"
+      "value": "Pins"
     }
   ],
   "simulator-quiet": [
     {
       "type": 0,
-      "value": "Silencioso"
+      "value": "Quiet"
     }
   ],
   "simulator-radio": [
@@ -2102,7 +2112,7 @@
   "simulator-radio-group-notice": [
     {
       "type": 0,
-      "value": "Grupo de radio configurado a "
+      "value": "Radio group set to "
     },
     {
       "type": 1,
@@ -2112,31 +2122,31 @@
   "simulator-radio-message": [
     {
       "type": 0,
-      "value": "Mensaje de radio"
+      "value": "Radio message"
     }
   ],
   "simulator-radio-message-limit-notice": [
     {
       "type": 0,
-      "value": "No se muestran los mensajes antiguos"
+      "value": "Older messages not shown"
     }
   ],
   "simulator-radio-no-messages": [
     {
       "type": 0,
-      "value": "No hay mensajes para mostrar"
+      "value": "No messages to show"
     }
   ],
   "simulator-radio-off": [
     {
       "type": 0,
-      "value": "La radio está apagada"
+      "value": "The radio is off"
     }
   ],
   "simulator-radio-send": [
     {
       "type": 0,
-      "value": "Enviar mensaje"
+      "value": "Send message"
     }
   ],
   "simulator-radio-user": [
@@ -2148,103 +2158,103 @@
   "simulator-reference-link": [
     {
       "type": 0,
-      "value": "Enlace a la sección de referencia"
+      "value": "Link to Reference section"
     }
   ],
   "simulator-reset": [
     {
       "type": 0,
-      "value": "Reiniciar"
+      "value": "Reset"
     }
   ],
   "simulator-serial-terminal": [
     {
       "type": 0,
-      "value": "Terminal serie del simulador"
+      "value": "Simulator serial terminal"
     }
   ],
   "simulator-sound-level": [
     {
       "type": 0,
-      "value": "Nivel de sonido"
+      "value": "Sound level"
     }
   ],
   "simulator-start-simulator": [
     {
       "type": 0,
-      "value": "Iniciar simulador"
+      "value": "Start simulator"
     }
   ],
   "simulator-stop": [
     {
       "type": 0,
-      "value": "Detener simulador"
+      "value": "Stop simulator"
     }
   ],
   "simulator-temperature": [
     {
       "type": 0,
-      "value": "Temperatura"
+      "value": "Temperature"
     }
   ],
   "simulator-title": [
     {
       "type": 0,
-      "value": "Simulador"
+      "value": "Simulator"
     }
   ],
   "simulator-touch-logo": [
     {
       "type": 0,
-      "value": "Logotipo táctil"
+      "value": "Touch logo"
     }
   ],
   "simulator-unmute": [
     {
       "type": 0,
-      "value": "No silenciar"
+      "value": "Unmute"
     }
   ],
   "software-versions": [
     {
       "type": 0,
-      "value": "Versiones de software"
+      "value": "Software versions"
     }
   ],
   "start-coding-action": [
     {
       "type": 0,
-      "value": "Empezar a programar"
+      "value": "Start coding"
     }
   ],
   "support": [
     {
       "type": 0,
-      "value": "Ayuda Técnica"
+      "value": "Support"
     }
   ],
   "terms-of-use": [
     {
       "type": 0,
-      "value": "Términos de uso"
+      "value": "Terms of use"
     }
   ],
   "third-party-module-explanation": [
     {
       "type": 0,
-      "value": "Este archivo es un módulo de terceros y se supone que no se debería editar."
+      "value": "This file is a third-party module and is not intended to be edited."
     }
   ],
   "third-party-module-how-to": [
     {
       "type": 0,
-      "value": "Permite la edición de módulos de terceros en "
+      "value": "Allow editing third-party modules in "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Configuración"
+          "value": "Settings"
         }
       ],
       "type": 8,
@@ -2252,47 +2262,51 @@
     },
     {
       "type": 0,
-      "value": " para modificar este módulo."
+      "value": " to modify this module."
     }
   ],
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "No se puede conectar al Calliope mini"
+      "value": "Unable to connect to the Calliope mini"
     }
   ],
   "timeout-error-title": [
     {
       "type": 0,
-      "value": "La conexión ha expirado"
+      "value": "Connection timed out"
     }
   ],
   "toolkit-error-loading": [
     {
       "type": 0,
-      "value": "Se ha producido un error al cargar las herramientas."
+      "value": "An error occurred loading the toolkit."
     }
   ],
   "toolkit-view-documentation": [
     {
       "type": 0,
-      "value": "Ver documentación de "
+      "value": "View "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " documentation"
     }
   ],
   "transfer-hex-message-one": [
     {
       "type": 0,
-      "value": "Arrastra el archivo HEX desde la "
+      "value": "Drag the hex file from your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Carpeta de descargas"
+          "value": "Downloads folder"
         }
       ],
       "type": 8,
@@ -2300,13 +2314,13 @@
     },
     {
       "type": 0,
-      "value": " a la "
+      "value": " to the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Unidad MINI"
+          "value": "MINI drive"
         }
       ],
       "type": 8,
@@ -2320,13 +2334,13 @@
   "transfer-hex-message-two": [
     {
       "type": 0,
-      "value": "Puedes "
+      "value": "You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Abrir"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -2334,37 +2348,37 @@
     },
     {
       "type": 0,
-      "value": " el archivo HEX más tarde para editarlo."
+      "value": " the hex file later to continue editing."
     }
   ],
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "Transferir archivo HEX guardado a Calliope mini"
+      "value": "Transfer saved hex file to Calliope mini"
     }
   ],
   "try-again-action": [
     {
       "type": 0,
-      "value": "Inténtalo de nuevo"
+      "value": "Try again"
     }
   ],
   "undo": [
     {
       "type": 0,
-      "value": "Deshacer"
+      "value": "Undo"
     }
   ],
   "unexpected-error-description": [
     {
       "type": 0,
-      "value": "Inténtalo otra vez o "
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "solicita asistencia"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
@@ -2374,13 +2388,13 @@
   "unexpected-error-title": [
     {
       "type": 0,
-      "value": "Inténtalo otra vez o "
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "solicita asistencia"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
@@ -2390,75 +2404,71 @@
   "untitled-project": [
     {
       "type": 0,
-      "value": "Proyecto sin título"
+      "value": "Untitled project"
     }
   ],
   "update-firmware-action": [
     {
       "type": 0,
-      "value": "Actualizar firmware"
+      "value": "Update firmware"
     }
   ],
   "updated-change": [
     {
       "type": 0,
-      "value": "Archivo "
+      "value": "Updated file "
     },
     {
       "type": 1,
       "value": "changeName"
-    },
-    {
-      "type": 0,
-      "value": " actualizado"
     }
   ],
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "visitar microbit.org (abre en una nueva pestaña)"
+      "value": "visit calliope.cc (opens in a new tab)"
     }
   ],
   "webusb-error-clear-connect-description-1": [
     {
       "type": 0,
-      "value": "Otro proceso está conectado a este dispositivo."
+      "value": "Another process is connected to this device."
     }
   ],
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "Cierra cualquier otra pestaña que pueda estar usando WebUSB (por ejemplo, MakeCode or Editor de Python), o desconecta y vuelve a conectar el Calliope mini antes de volver a intentarlo."
+      "value": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the Calliope mini before trying again."
     }
   ],
   "webusb-error-clear-connect-title": [
     {
       "type": 0,
-      "value": "No se ha podido solicitar interfaz"
+      "value": "Unable to claim interface"
     }
   ],
   "webusb-error-default-title": [
     {
       "type": 0,
-      "value": "Error WebUSB"
+      "value": "WebUSB error"
     }
   ],
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "Por favor reconecta el Calliope mini e intentalo de nuevo."
+      "value": "Please reconnect your Calliope mini and try again."
     }
   ],
   "webusb-error-update-req-description": [
     {
       "type": 0,
-      "value": "Necesitas "
+      "value": "You need to "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "actualizar el firmware del Calliope mini"
+          "value": "update your Calliope mini firmware"
         }
       ],
       "type": 8,
@@ -2466,55 +2476,55 @@
     },
     {
       "type": 0,
-      "value": " para usar esta función."
+      "value": " to make use of this feature."
     }
   ],
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "Actualiza el firmware Calliope mini"
+      "value": "Please update the Calliope mini firmware"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "Desafortunadamente, este navegador no admite WebUSB, por lo que el programa se guardará en el ordenador. Sigue los pasos indicados en la siguiente pantalla para transferirlo al Calliope mini. Recomendamos Google Chrome o Microsoft Edge para poder conectarte directamente al Calliope mini."
+      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your Calliope mini. We recommend Google Chrome or Microsoft Edge so you can connect directly to your Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
     {
       "type": 0,
-      "value": "El navegador no es compatible con WebUSB"
+      "value": "This browser does not support WebUSB"
     }
   ],
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "Con WebUSB puedes programar el Calliope mini y conectarte a la consola serie directamente desde el editor en línea."
+      "value": "With WebUSB you can program your Calliope mini and connect to the serial console directly from the online editor."
     }
   ],
   "welcome-message": [
     {
       "type": 0,
-      "value": "Mira nuestra guía breve sobre algunas de las características más importantes o empieza ya a programar."
+      "value": "Watch our short guide to some of the key features, or get coding right away."
     }
   ],
   "welcome-title": [
     {
       "type": 0,
-      "value": "Bienvenido al Editor de Python de Calliope mini"
+      "value": "Welcome to the Calliope mini Python Editor"
     }
   ],
   "zoom-in-action": [
     {
       "type": 0,
-      "value": "Aumentar zoom"
+      "value": "Zoom in"
     }
   ],
   "zoom-out-action": [
     {
       "type": 0,
-      "value": "Disminuir zoom"
+      "value": "Zoom out"
     }
   ]
 }

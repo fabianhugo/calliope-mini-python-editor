@@ -2,35 +2,25 @@
   "about": [
     {
       "type": 0,
-      "value": "关于我们"
+      "value": "About"
     }
   ],
   "about-comic": [
     {
       "type": 0,
-      "value": "由 Mike Rowbit 创作的题为 “MicroPython Rocks” 的三幅漫画。漫画上一条卡通蛇介绍 Damien，说：“这是 Damien……他创造了 MicroPython。”两条蛇讨论着 MicroPython。黄色的蛇说：“MicroPython 是为在非常小的计算机上工作而设计的。” 紫色的蛇答道：“就像你的 BBC Calliope mini 一样。\" 黄色的蛇继续说道：“但是 Python 可以在任何地方运行。”紫色的蛇表示同意，并说：“就像在这个运行大型网站的服务器机架上一样”。蛇身后的背景展示了一个服务器机架。"
+      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC Calliope mini\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
     }
   ],
   "about-microbit": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": "micro:bit Educational Foundation and contributors"
-        }
-      ],
-      "type": 8,
-      "value": "link"
-    },
-    {
       "type": 0,
-      "value": " 用爱心制作"
+      "value": "Made with love by the Micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu."
     }
   ],
   "about-micropython": [
     {
       "type": 0,
-      "value": "编辑器依赖于由 Damien George 和世界各地的开发人员社区开发的 "
+      "value": "The editor depends on "
     },
     {
       "children": [
@@ -44,25 +34,25 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": " which is made by Damien George and a community of developers around the world."
     }
   ],
   "about-read-less-micropython": [
     {
       "type": 0,
-      "value": "阅读更少有关 MicroPython 的信息"
+      "value": "阅读更多关于 MicroPython"
     }
   ],
   "about-read-more-micropython": [
     {
       "type": 0,
-      "value": "阅读更多有关 MicroPython 的信息"
+      "value": "Read more about MicroPython"
     }
   ],
   "added-change": [
     {
       "type": 0,
-      "value": "已添加文件 "
+      "value": "Added file "
     },
     {
       "type": 1,
@@ -72,13 +62,13 @@
   "api-description": [
     {
       "type": 0,
-      "value": "关于用法和示例，请参阅 "
+      "value": "For usage and examples, see "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "参考"
+          "value": "Reference"
         }
       ],
       "type": 8,
@@ -95,6 +85,14 @@
     {
       "offset": 0,
       "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "base class"
+            }
+          ]
+        },
         "other": {
           "value": [
             {
@@ -112,7 +110,7 @@
   "apidocs-classes": [
     {
       "type": 0,
-      "value": "类"
+      "value": "Classes"
     }
   ],
   "apidocs-fields": [
@@ -124,43 +122,43 @@
   "apidocs-functions": [
     {
       "type": 0,
-      "value": "函数"
+      "value": "Functions"
     }
   ],
   "apidocs-methods": [
     {
       "type": 0,
-      "value": "方法"
+      "value": "Methods"
     }
   ],
   "back-action": [
     {
       "type": 0,
-      "value": "返回"
+      "value": "Back"
     }
   ],
   "back-to-main": [
     {
       "type": 0,
-      "value": "返回主代码"
+      "value": "back to the main code"
     }
   ],
   "cancel-action": [
     {
       "type": 0,
-      "value": "取消"
+      "value": "Cancel"
     }
   ],
   "change-files": [
     {
       "type": 0,
-      "value": "更改文件？"
+      "value": "Change files?"
     }
   ],
   "choose-main-add-file": [
     {
       "type": 0,
-      "value": "添加文件 "
+      "value": "Add file "
     },
     {
       "type": 1,
@@ -170,7 +168,7 @@
   "choose-main-add-module": [
     {
       "type": 0,
-      "value": "添加模块 "
+      "value": "Add module "
     },
     {
       "type": 1,
@@ -180,7 +178,7 @@
   "choose-main-replace-file": [
     {
       "type": 0,
-      "value": "替换文件 "
+      "value": "Replace file "
     },
     {
       "type": 1,
@@ -190,7 +188,7 @@
   "choose-main-replace-module": [
     {
       "type": 0,
-      "value": "替换模块 "
+      "value": "Replace module "
     },
     {
       "type": 1,
@@ -200,39 +198,35 @@
   "choose-main-source-add-file": [
     {
       "type": 0,
-      "value": "从 "
-    },
-    {
-      "type": 1,
-      "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " 添加文件 "
+      "value": "Add file "
     },
     {
       "type": 1,
       "value": "target"
+    },
+    {
+      "type": 0,
+      "value": " from "
+    },
+    {
+      "type": 1,
+      "value": "source"
     }
   ],
   "choose-main-source-add-main-code": [
     {
       "type": 0,
-      "value": "从 "
+      "value": "Add main code from "
     },
     {
       "type": 1,
       "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " 添加主代码"
     }
   ],
   "choose-main-source-replace-file": [
     {
       "type": 0,
-      "value": "将文件 "
+      "value": "Replace file "
     },
     {
       "type": 1,
@@ -240,7 +234,7 @@
     },
     {
       "type": 0,
-      "value": " 替换为 "
+      "value": " with "
     },
     {
       "type": 1,
@@ -250,75 +244,71 @@
   "choose-main-source-replace-main-code": [
     {
       "type": 0,
-      "value": "用 "
+      "value": "Replace main code with "
     },
     {
       "type": 1,
       "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " 替换主代码"
     }
   ],
   "clear": [
     {
       "type": 0,
-      "value": "清除"
+      "value": "Clear"
     }
   ],
   "close-action": [
     {
       "type": 0,
-      "value": "关闭"
+      "value": "Close"
     }
   ],
   "code-editor": [
     {
       "type": 0,
-      "value": "代码编辑器"
+      "value": "Code editor"
     }
   ],
   "code-example": [
     {
       "type": 0,
-      "value": "代码示例："
+      "value": "Code example:"
     }
   ],
   "confirm-action": [
     {
       "type": 0,
-      "value": "确认"
+      "value": "Confirm"
     }
   ],
   "confirm-delete": [
     {
       "type": 0,
-      "value": "确认删除"
+      "value": "Confirm delete"
     }
   ],
   "confirm-replace-body": [
     {
       "type": 0,
-      "value": "将所有文件替换成 hex 文件？"
+      "value": "Replace all files with those in the hex?"
     }
   ],
   "confirm-replace-reset": [
     {
       "type": 0,
-      "value": "用默认启动代码替换所有文件？"
+      "value": "Replace all files with the default starter code?"
     }
   ],
   "confirm-replace-title": [
     {
       "type": 0,
-      "value": "确认替换项目"
+      "value": "Confirm replace project"
     }
   ],
   "confirm-replace-with-idea": [
     {
       "type": 0,
-      "value": "用 "
+      "value": "Replace all files with "
     },
     {
       "type": 1,
@@ -326,127 +316,127 @@
     },
     {
       "type": 0,
-      "value": " 替换所有文件？"
+      "value": "?"
     }
   ],
   "confirm-save-action": [
     {
       "type": 0,
-      "value": "确认并保存"
+      "value": "Confirm and save"
     }
   ],
   "confirm-save-hint": [
     {
       "type": 0,
-      "value": "取消然后使用 Save （保存）来保留您的项目副本。"
+      "value": "Cancel then use Save to keep a copy of your project."
     }
   ],
   "connect-action": [
     {
       "type": 0,
-      "value": "连接"
+      "value": "Connect"
     }
   ],
   "connect-cable-title": [
     {
       "type": 0,
-      "value": "连接电缆"
+      "value": "Connect cable"
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "WebUSB 连接对话框，带有标记为 1 的 BBC Calliope mini 条目和标记为 2 的连接按钮"
+      "value": "WebUSB connection dialog with BBC Calliope mini entry labelled 1 and Connect button labelled 2"
     }
   ],
   "connect-help-message": [
     {
       "type": 0,
-      "value": "在下一个弹出窗口中："
+      "value": "In next popup:"
     }
   ],
   "connect-help-one": [
     {
       "type": 0,
-      "value": "选择您的 Calliope mini"
+      "value": "Choose your Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "选择 Calliope mini"
+      "value": "Select Calliope mini"
     }
   ],
   "connect-help-two": [
     {
       "type": 0,
-      "value": "选择 \"Connect\"（连接）"
+      "value": "Select ‘Connect’"
     }
   ],
   "connect-hover": [
     {
       "type": 0,
-      "value": "通过 WebUSB 连接到您的 Calliope mini"
+      "value": "Connect to your Calliope mini over WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "连接到您的 Calliope mini 以在此处查看串行输出"
+      "value": "Connect to your Calliope mini to see serial output here"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "通过与您的 Calliope mini 连接进行排错"
+      "value": "Troubleshoot problems with connecting to your Calliope mini"
     }
   ],
   "content-load-error": [
     {
       "type": 0,
-      "value": "出错了。下载您的 hex 文件以便安全保存，然后刷新页面来重新加载。"
+      "value": "Something went wrong. Download your hex file for safe keeping, then refresh the page to reload."
     }
   ],
   "copied": [
     {
       "type": 0,
-      "value": "已复制"
+      "value": "Copied"
     }
   ],
   "copy-action": [
     {
       "type": 0,
-      "value": "复制"
+      "value": "Copy"
     }
   ],
   "copy-code-action": [
     {
       "type": 0,
-      "value": "复制代码"
+      "value": "Copy code"
     }
   ],
   "create-action": [
     {
       "type": 0,
-      "value": "创作"
+      "value": "Create"
     }
   ],
   "create-file-action": [
     {
       "type": 0,
-      "value": "创建文件"
+      "value": "Create file"
     }
   ],
   "create-python": [
     {
       "type": 0,
-      "value": "在此项目中创建一份新的 Python 文件"
+      "value": "Create a new Python file in this project"
     }
   ],
   "created-file": [
     {
       "type": 0,
-      "value": "创建 "
+      "value": "Created "
     },
     {
       "type": 1,
@@ -462,13 +452,13 @@
   "delete-action": [
     {
       "type": 0,
-      "value": "删除"
+      "value": "Delete"
     }
   ],
   "delete-file-action": [
     {
       "type": 0,
-      "value": "删除 "
+      "value": "Delete "
     },
     {
       "type": 1,
@@ -478,7 +468,7 @@
   "deleted-file": [
     {
       "type": 0,
-      "value": "已删除 "
+      "value": "Deleted "
     },
     {
       "type": 1,
@@ -494,31 +484,31 @@
   "disconnect-action": [
     {
       "type": 0,
-      "value": "断开连接"
+      "value": "Disconnect"
     }
   ],
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "断开 Calliope mini 连接"
+      "value": "Disconnect from the Calliope mini"
     }
   ],
   "dont-show-again": [
     {
       "type": 0,
-      "value": "不再显示此内容"
+      "value": "Don't show this again"
     }
   ],
   "drag-hover": [
     {
       "type": 0,
-      "value": "拖放"
+      "value": "Drag and drop"
     }
   ],
   "edit-file-action": [
     {
       "type": 0,
-      "value": "编辑 "
+      "value": "Edit "
     },
     {
       "type": 1,
@@ -528,25 +518,25 @@
   "edit-name-project-hover": [
     {
       "type": 0,
-      "value": "编辑您项目的名称"
+      "value": "Edit the name of your project"
     }
   ],
   "edit-project-name-action": [
     {
       "type": 0,
-      "value": "编辑项目名称"
+      "value": "Edit project name"
     }
   ],
   "failed-to-build-hex": [
     {
       "type": 0,
-      "value": "无法创建 hex 文件"
+      "value": "Failed to build the hex file"
     }
   ],
   "feedback": [
     {
       "type": 0,
-      "value": "反馈"
+      "value": "Feedback"
     }
   ],
   "file-actions": [
@@ -556,19 +546,19 @@
     },
     {
       "type": 0,
-      "value": " 文件操作"
+      "value": " file actions"
     }
   ],
   "file-already-exists": [
     {
       "type": 0,
-      "value": "该文件已经存在"
+      "value": "This file already exists"
     }
   ],
   "file-name-invalid-character": [
     {
       "type": 0,
-      "value": "名称包含无效字符："
+      "value": "The name contains an invalid character: "
     },
     {
       "type": 1,
@@ -578,37 +568,37 @@
   "file-name-length": [
     {
       "type": 0,
-      "value": "名称太长"
+      "value": "The name is too long"
     }
   ],
   "file-name-lowercase-only": [
     {
       "type": 0,
-      "value": "名称应全部小写"
+      "value": "The name should be all lowercase"
     }
   ],
   "file-name-not-empty": [
     {
       "type": 0,
-      "value": "名称不能为空"
+      "value": "The name cannot be empty"
     }
   ],
   "file-name-start-number": [
     {
       "type": 0,
-      "value": "名称不能以数字开头"
+      "value": "The name cannot start with a number"
     }
   ],
   "file-name-whitespace": [
     {
       "type": 0,
-      "value": "名称不能包含空格"
+      "value": "The name cannot contain spaces"
     }
   ],
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "在连接 Calliope mini 之前，您必须 "
+      "value": "You must "
     },
     {
       "children": [
@@ -622,61 +612,61 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": " before you can connect to this Calliope mini."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "因为您的 Calliope mini 上的固件太老，所以导致 Calliope mini 连接失败。"
+      "value": "Connecting to the Calliope mini failed because the firmware on your Calliope mini is too old."
     }
   ],
   "firmware-update-title": [
     {
       "type": 0,
-      "value": "需要更新固件"
+      "value": "Firmware update required"
     }
   ],
   "flash-action": [
     {
       "type": 0,
-      "value": "烧录"
+      "value": "Flash"
     }
   ],
   "flash-hover": [
     {
       "type": 0,
-      "value": "直接下载项目到 Calliope mini"
+      "value": "Flash the project directly to the Calliope mini"
     }
   ],
   "flashing-code": [
     {
       "type": 0,
-      "value": "发送代码（刷入）"
+      "value": "Sending code (flashing)"
     }
   ],
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "您的代码正被发送（刷）到您的 Calliope mini。第一次可能需要一段时间，但之后会更快。"
+      "value": "Your code is being sent (flashed) to your Calliope mini. This can take a while the first time but it will be quicker after that."
     }
   ],
   "flashing-micropython": [
     {
       "type": 0,
-      "value": "刷写 MicroPython"
+      "value": "Flashing MicroPython"
     }
   ],
   "font-size": [
     {
       "type": 0,
-      "value": "字体大小"
+      "value": "Font size"
     }
   ],
   "guide-link": [
     {
       "type": 0,
-      "value": "如需更多支持，请参阅 "
+      "value": "For more support, see the "
     },
     {
       "children": [
@@ -692,55 +682,55 @@
   "help": [
     {
       "type": 0,
-      "value": "帮助"
+      "value": "Help"
     }
   ],
   "help-support": [
     {
       "type": 0,
-      "value": "帮助与支持"
+      "value": "Help & support"
     }
   ],
   "help-translate": [
     {
       "type": 0,
-      "value": "帮助翻译"
+      "value": "Help translate"
     }
   ],
   "highlight-code-structure": [
     {
       "type": 0,
-      "value": "突出显示代码结构"
+      "value": "Highlight code structure"
     }
   ],
   "highlight-code-structure-full": [
     {
       "type": 0,
-      "value": "完整"
+      "value": "Full"
     }
   ],
   "highlight-code-structure-none": [
     {
       "type": 0,
-      "value": "无"
+      "value": "None"
     }
   ],
   "highlight-code-structure-simple": [
     {
       "type": 0,
-      "value": "简单"
+      "value": "Simple"
     }
   ],
   "ideas-tab": [
     {
       "type": 0,
-      "value": "创意"
+      "value": "Ideas"
     }
   ],
   "ideas-tab-description": [
     {
       "type": 0,
-      "value": "尝试这些项目，修改它们并获得灵感"
+      "value": "Try out these projects, modify them and get inspired"
     }
   ],
   "imprint": [
@@ -752,37 +742,37 @@
   "insert-code-action": [
     {
       "type": 0,
-      "value": "插入代码"
+      "value": "Insert code"
     }
   ],
   "language": [
     {
       "type": 0,
-      "value": "语言"
+      "value": "Language"
     }
   ],
   "less-action": [
     {
       "type": 0,
-      "value": "更少"
+      "value": "Less"
     }
   ],
   "load-error-makecode-info": [
     {
       "type": 0,
-      "value": "此 hex 文件无法在 Python 编辑器中加载。 Python 编辑器无法打开使用 Microsoft MakeCode 创建的 hex 文件。"
+      "value": "This hex file cannot be loaded in the Python Editor. The Python Editor cannot open hex files created with Microsoft MakeCode."
     }
   ],
   "load-error-makecode-link": [
     {
       "type": 0,
-      "value": "要使用该 hex 文件，请访问 "
+      "value": "Please visit "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.calliope.cc"
+          "value": "https://makecode.calliope.cc/"
         }
       ],
       "type": 8,
@@ -790,25 +780,25 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": " to use this hex file."
     }
   ],
   "load-error-mixed": [
     {
       "type": 0,
-      "value": "hex 文件只能单独加载。它会取代项目中的所有文件。"
+      "value": "A hex file can only be loaded on its own. It replaces all files in the project."
     }
   ],
   "load-error-mpy": [
     {
       "type": 0,
-      "value": "这个版本的 Python Editor 不支持添加 .mpy 文件。"
+      "value": "This version of the Python Editor doesn't currently support adding .mpy files."
     }
   ],
   "load-error-title": [
     {
       "type": 0,
-      "value": "无法加载 "
+      "value": "Cannot load "
     },
     {
       "offset": 0,
@@ -838,7 +828,7 @@
   "loaded-file-feedback": [
     {
       "type": 0,
-      "value": "已加载 "
+      "value": "Loaded "
     },
     {
       "type": 1,
@@ -848,25 +838,25 @@
   "loading": [
     {
       "type": 0,
-      "value": "正在加载…"
+      "value": "Loading…"
     }
   ],
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "用 5 x 5 LED 网格显示一颗心的 Calliope mini 主板"
+      "value": "Calliope mini board with the 5 by 5 LED grid showing a heart"
     }
   ],
   "micropython-documentation": [
     {
       "type": 0,
-      "value": "MicroPython 文档"
+      "value": "MicroPython documentation"
     }
   ],
   "micropython-history": [
     {
       "type": 0,
-      "value": "了解 Calliope mini 上的 MicroPython 是如何诞生的"
+      "value": "Learn how MicroPython on the Calliope mini came to be"
     }
   ],
   "micropython-source-code": [
@@ -878,7 +868,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini V1"
+          "value": "source code for the Calliope mini V1"
         }
       ],
       "type": 8,
@@ -886,7 +876,7 @@
     },
     {
       "type": 0,
-      "value": " 和 "
+      "value": " and "
     },
     {
       "children": [
@@ -897,22 +887,18 @@
       ],
       "type": 8,
       "value": "linkV2"
-    },
-    {
-      "type": 0,
-      "value": " 的源代码"
     }
   ],
   "more-action": [
     {
       "type": 0,
-      "value": "更多"
+      "value": "More"
     }
   ],
   "more-connect-options": [
     {
       "type": 0,
-      "value": "更多连接选项"
+      "value": "More connect options"
     }
   ],
   "more-ideas": [
@@ -930,13 +916,13 @@
   "more-save-options": [
     {
       "type": 0,
-      "value": "更多保存选项"
+      "value": "More save options"
     }
   ],
   "multiple-files-message-one": [
     {
       "type": 0,
-      "value": "此项目包含 "
+      "value": "This project contains "
     },
     {
       "offset": 0,
@@ -949,7 +935,7 @@
             },
             {
               "type": 0,
-              "value": " 文件"
+              "value": " files"
             }
           ]
         }
@@ -960,7 +946,7 @@
     },
     {
       "type": 0,
-      "value": " 但只有 "
+      "value": " but only "
     },
     {
       "children": [
@@ -974,13 +960,13 @@
     },
     {
       "type": 0,
-      "value": " 已下载。"
+      "value": " has been downloaded."
     }
   ],
   "multiple-files-message-two": [
     {
       "type": 0,
-      "value": "使用 "
+      "value": "Use the "
     },
     {
       "children": [
@@ -994,7 +980,7 @@
     },
     {
       "type": 0,
-      "value": "（保存） 按钮将整个项目下载为一个 hex 文件。您可以 "
+      "value": " button to download your whole project as a hex file. You can "
     },
     {
       "children": [
@@ -1008,7 +994,7 @@
     },
     {
       "type": 0,
-      "value": "（打开） 此hex 文件来恢复您的项目。如果您希望下载单个 Python 文件，请使用 "
+      "value": " the hex file to restore your project. If you prefer to download individual Python files, use the "
     },
     {
       "children": [
@@ -1022,37 +1008,37 @@
     },
     {
       "type": 0,
-      "value": "（项目） 选项卡。"
+      "value": " tab."
     }
   ],
   "multiple-files-title": [
     {
       "type": 0,
-      "value": "警告：只下载了 main.py"
+      "value": "Warning: Only main.py downloaded"
     }
   ],
   "name-project": [
     {
       "type": 0,
-      "value": "为您的项目命名"
+      "value": "Name your project"
     }
   ],
   "name-text": [
     {
       "type": 0,
-      "value": "姓名"
+      "value": "Name"
     }
   ],
   "name-used-when": [
     {
       "type": 0,
-      "value": "保存 hex 文件时使用该名称。"
+      "value": "The name is used when you save a file."
     }
   ],
   "new-file-hint": [
     {
       "type": 0,
-      "value": "我们将为您添加 "
+      "value": "We'll add the "
     },
     {
       "children": [
@@ -1066,25 +1052,25 @@
     },
     {
       "type": 0,
-      "value": " 扩展名。"
+      "value": " extension for you."
     }
   ],
   "next-action": [
     {
       "type": 0,
-      "value": "下一个"
+      "value": "Next"
     }
   ],
   "not-found-checklist-one": [
     {
       "type": 0,
-      "value": "您的 "
+      "value": "Is your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini 是否已插入"
+          "value": "Calliope mini plugged in"
         }
       ],
       "type": 8,
@@ -1092,7 +1078,7 @@
     },
     {
       "type": 0,
-      "value": "？您是否 "
+      "value": "? Did you "
     },
     {
       "children": [
@@ -1106,13 +1092,13 @@
     },
     {
       "type": 0,
-      "value": "？"
+      "value": "?"
     }
   ],
   "not-found-checklist-two": [
     {
       "type": 0,
-      "value": "如果您持有的是 "
+      "value": "If you have a "
     },
     {
       "children": [
@@ -1126,7 +1112,7 @@
     },
     {
       "type": 0,
-      "value": "，您可能需要  "
+      "value": " you may need to "
     },
     {
       "children": [
@@ -1142,25 +1128,25 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "您没有选择 Calliope mini，或者与它的连接存在问题。"
+      "value": "You didn’t select a Calliope mini, or there was a problem connecting to it."
     }
   ],
   "not-found-save-message": [
     {
       "type": 0,
-      "value": "替代方法：选择 Save （保存），然后按照步骤传输"
+      "value": "Alternative method: choose Save then follow steps to transfer"
     }
   ],
   "not-found-title": [
     {
       "type": 0,
-      "value": "未找到 Calliope mini"
+      "value": "No Calliope mini found"
     }
   ],
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "您必须 "
+      "value": "You must "
     },
     {
       "children": [
@@ -1174,55 +1160,55 @@
     },
     {
       "type": 0,
-      "value": " 才能连接到此 Calliope mini。"
+      "value": " you can connect to this Calliope mini."
     }
   ],
   "open-action": [
     {
       "type": 0,
-      "value": "打开"
+      "value": "Open"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "打开…"
+      "value": "Open…"
     }
   ],
   "open-file-dropped": [
     {
       "type": 0,
-      "value": "放下时打开文件"
+      "value": "Open file when dropped"
     }
   ],
   "open-hover": [
     {
       "type": 0,
-      "value": "打开一 份 hex 或 Python 文件，或添加其他文件"
+      "value": "Open a hex or Python file or add other files"
     }
   ],
   "options": [
     {
       "type": 0,
-      "value": "选项"
+      "value": "Options"
     }
   ],
   "parameter-help": [
     {
       "type": 0,
-      "value": "参数帮助"
+      "value": "Parameter help"
     }
   ],
   "parameter-help-automatic": [
     {
       "type": 0,
-      "value": "自动"
+      "value": "Automatic"
     }
   ],
   "parameter-help-manual": [
     {
       "type": 0,
-      "value": "手动("
+      "value": "Manual ("
     },
     {
       "type": 1,
@@ -1236,7 +1222,7 @@
   "permanently-delete": [
     {
       "type": 0,
-      "value": "永久删除 "
+      "value": "Permanently delete "
     },
     {
       "type": 1,
@@ -1244,19 +1230,19 @@
     },
     {
       "type": 0,
-      "value": " 吗？"
+      "value": "?"
     }
   ],
   "post-save-message-files": [
     {
       "type": 0,
-      "value": "这包含此项目中的所有文件（包括任何附加文件，例如运行附件，列在 "
+      "value": "This contains all files in this project (including any additional files, e.g. to run accessories, listed in the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "项目"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1264,19 +1250,19 @@
     },
     {
       "type": 0,
-      "value": " 选项卡中）。"
+      "value": " tab)."
     }
   ],
   "post-save-message-one": [
     {
       "type": 0,
-      "value": "\n您将在这台计算机的 "
+      "value": "You will find your hex file in this computer’s "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Downloads (下载)"
+          "value": "Downloads"
         }
       ],
       "type": 8,
@@ -1284,19 +1270,19 @@
     },
     {
       "type": 0,
-      "value": " 文件夹中找到您的 hex 文件。"
+      "value": " folder."
     }
   ],
   "post-save-message-two": [
     {
       "type": 0,
-      "value": "您可以将其移至另一个文件夹进行保存，稍后使用"
+      "value": "You can move it to another folder for storage and use "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Open （打开）"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1304,19 +1290,19 @@
     },
     {
       "type": 0,
-      "value": "继续编辑。"
+      "value": " to continue editing later."
     }
   ],
   "post-save-title": [
     {
       "type": 0,
-      "value": "项目已保存"
+      "value": "Project saved"
     }
   ],
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "要在您的 Calliope mini 上运行此 hex 文件，"
+      "value": "To run this hex file on your Calliope mini "
     },
     {
       "children": [
@@ -1330,49 +1316,49 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "project-actions": [
     {
       "type": 0,
-      "value": "项目行动"
+      "value": "Project actions"
     }
   ],
   "project-header": [
     {
       "type": 0,
-      "value": "项目标题"
+      "value": "Project header"
     }
   ],
   "project-name": [
     {
       "type": 0,
-      "value": "项目名称"
+      "value": "Project name"
     }
   ],
   "project-name-not-empty": [
     {
       "type": 0,
-      "value": "项目名称不能为空"
+      "value": "The project name cannot be empty"
     }
   ],
   "project-tab": [
     {
       "type": 0,
-      "value": "项目"
+      "value": "Project"
     }
   ],
   "project-tab-description": [
     {
       "type": 0,
-      "value": "查看、创建、添加和编辑您项目中的文件"
+      "value": "View, create, add and edit the files in your project"
     }
   ],
   "python-powered": [
     {
       "type": 0,
-      "value": "Python 驱动"
+      "value": "Python powered"
     }
   ],
   "python-tab": [
@@ -1384,55 +1370,55 @@
   "quit-anyway": [
     {
       "type": 0,
-      "value": "某些更改尚未保存。仍然退出吗?"
+      "value": "Some of your changes have not been saved. Quit anyway?"
     }
   ],
   "read-less": [
     {
       "type": 0,
-      "value": "了解简略信息"
+      "value": "Read less"
     }
   ],
   "read-more": [
     {
       "type": 0,
-      "value": "了解更多"
+      "value": "Read more"
     }
   ],
   "redo": [
     {
       "type": 0,
-      "value": "重做"
+      "value": "Redo"
     }
   ],
   "reference-tab": [
     {
       "type": 0,
-      "value": "参考"
+      "value": "Reference"
     }
   ],
   "replace-action-label": [
     {
       "type": 0,
-      "value": "替换"
+      "value": "Replace"
     }
   ],
   "reset-project-action": [
     {
       "type": 0,
-      "value": "重置项目"
+      "value": "Reset project"
     }
   ],
   "reset-project-feedback": [
     {
       "type": 0,
-      "value": "项目重置为默认启动代码"
+      "value": "Project reset to the default starter code"
     }
   ],
   "reset-project-hover": [
     {
       "type": 0,
-      "value": "将项目重置为默认启动代码，放弃您的工作"
+      "value": "Resets the project to the default starter code, discarding your work"
     }
   ],
   "results-count": [
@@ -1444,6 +1430,17 @@
             {
               "type": 0,
               "value": "No results"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " result"
             }
           ]
         },
@@ -1467,13 +1464,13 @@
   "save-action": [
     {
       "type": 0,
-      "value": "保存"
+      "value": "Save"
     }
   ],
   "save-file-action": [
     {
       "type": 0,
-      "value": "保存 "
+      "value": "Save "
     },
     {
       "type": 1,
@@ -1483,73 +1480,73 @@
   "save-hex-action": [
     {
       "type": 0,
-      "value": "保存项目 hex"
+      "value": "Save project hex"
     }
   ],
   "save-hover": [
     {
       "type": 0,
-      "value": "将项目的 hex 文件保存到您的计算机"
+      "value": "Save the project hex file to your computer"
     }
   ],
   "save-python-action": [
     {
       "type": 0,
-      "value": "保存 Python 脚本"
+      "value": "Save Python script"
     }
   ],
   "search": [
     {
       "type": 0,
-      "value": "搜索​​​​"
+      "value": "Search"
     }
   ],
   "send-action": [
     {
       "type": 0,
-      "value": "发送至 Calliope mini"
+      "value": "Send to Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "通过 WebUSB 连接，然后将代码刷到 Calliope mini"
+      "value": "Connect via WebUSB then flash code onto Calliope mini"
     }
   ],
   "serial-collapse": [
     {
       "type": 0,
-      "value": "隐藏串口"
+      "value": "Hide serial"
     }
   ],
   "serial-ctrl-c-action": [
     {
       "type": 0,
-      "value": "发送 Ctrl+C 到 REPL"
+      "value": "Send Ctrl+C for REPL"
     }
   ],
   "serial-ctrl-d-action": [
     {
       "type": 0,
-      "value": "发送 Ctrl+D 来重置"
+      "value": "Send Ctrl+D to reset"
     }
   ],
   "serial-expand": [
     {
       "type": 0,
-      "value": "显示串口"
+      "value": "Show serial"
     }
   ],
   "serial-flashed": [
     {
       "type": 0,
-      "value": "Calliope mini 刷入"
+      "value": "Calliope mini flashed"
     }
   ],
   "serial-help-ctrl-c": [
     {
       "type": 0,
-      "value": "使用键盘快捷键 "
+      "value": "Use the keyboard shortcut "
     },
     {
       "children": [
@@ -1577,13 +1574,13 @@
     },
     {
       "type": 0,
-      "value": " 来中断您的程序。然后，您可以输入 Python 命令让 MicroPython 运行。这是尝试新事物的好办法。"
+      "value": " to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new."
     }
   ],
   "serial-help-ctrl-d": [
     {
       "type": 0,
-      "value": "若要重新运行程序，请使用 "
+      "value": "To start your program running again use "
     },
     {
       "children": [
@@ -1611,19 +1608,19 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "串行终端显示在您的 Calliope mini 上运行的程序的错误和其他输出。默认情况下，它显示程序的最新错误。展开它以查看所有输出。"
+      "value": "The serial terminal shows errors and other output from the program running on your Calliope mini. By default, it shows the most recent error from the program. Expand it to see all the output."
     }
   ],
   "serial-help-print": [
     {
       "type": 0,
-      "value": "您的程序可以使用 "
+      "value": "Your program can print messages using the "
     },
     {
       "children": [
@@ -1637,7 +1634,7 @@
     },
     {
       "type": 0,
-      "value": " 函数打印消息。尝试将 "
+      "value": " function. Try adding "
     },
     {
       "children": [
@@ -1651,155 +1648,147 @@
     },
     {
       "type": 0,
-      "value": " 添加到您的程序中。"
+      "value": " to your program."
     }
   ],
   "serial-help-title": [
     {
       "type": 0,
-      "value": "串口提示和技巧"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-hints-and-tips": [
     {
       "type": 0,
-      "value": "串口提示和技巧"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-menu": [
     {
       "type": 0,
-      "value": "串口菜单"
+      "value": "Serial menu"
     }
   ],
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "Calliope mini 刷入就绪"
+      "value": "Calliope mini ready to flash"
     }
   ],
   "serial-running": [
     {
       "type": 0,
-      "value": "正在运行..."
+      "value": "Running…"
     }
   ],
   "serial-terminal": [
     {
       "type": 0,
-      "value": "串行终端"
+      "value": "Serial terminal"
     }
   ],
   "setting-allow-editing-third-party": [
     {
       "type": 0,
-      "value": "允许编辑第三方模块"
+      "value": "Allow editing third-party modules"
     }
   ],
   "setting-allow-editing-third-party-info": [
     {
       "type": 0,
-      "value": "更改第三方模块可能意味着它们无法按预期工作。"
+      "value": "Changing third-party modules may mean they don’t work as intended."
     }
   ],
   "settings": [
     {
       "type": 0,
-      "value": "设置"
+      "value": "Settings"
     }
   ],
   "show-api-documentation": [
     {
       "type": 0,
-      "value": "显示 API 文档"
+      "value": "Show API documentation"
     }
   ],
   "show-less": [
     {
       "type": 0,
-      "value": "显示更少"
+      "value": "Show less"
     }
   ],
   "show-less-for": [
     {
       "type": 0,
-      "value": "显示的 "
+      "value": "Show less for "
     },
     {
       "type": 1,
       "value": "item"
-    },
-    {
-      "type": 0,
-      "value": " 更少信息"
     }
   ],
   "show-more": [
     {
       "type": 0,
-      "value": "显示更多"
+      "value": "Show more"
     }
   ],
   "show-more-for": [
     {
       "type": 0,
-      "value": "\n显示 "
+      "value": "Show more for "
     },
     {
       "type": 1,
       "value": "item"
-    },
-    {
-      "type": 0,
-      "value": " 的更多信息"
     }
   ],
   "sidebar": [
     {
       "type": 0,
-      "value": "侧边栏"
+      "value": "Sidebar"
     }
   ],
   "sidebar-collapse": [
     {
       "type": 0,
-      "value": "收起侧边栏"
+      "value": "Collapse sidebar"
     }
   ],
   "sidebar-expand": [
     {
       "type": 0,
-      "value": "展开侧边栏"
+      "value": "Expand sidebar"
     }
   ],
   "simulator-accelerometer": [
     {
       "type": 0,
-      "value": "加速度传感器"
+      "value": "Accelerometer"
     }
   ],
   "simulator-actions": [
     {
       "type": 0,
-      "value": "模拟器操作"
+      "value": "Simulator actions"
     }
   ],
   "simulator-button-a": [
     {
       "type": 0,
-      "value": "按钮 A"
+      "value": "Button A"
     }
   ],
   "simulator-button-b": [
     {
       "type": 0,
-      "value": "按钮 B"
+      "value": "Button B"
     }
   ],
   "simulator-button-hold-label": [
     {
       "type": 0,
-      "value": "按住按钮 "
+      "value": "Hold button "
     },
     {
       "type": 1,
@@ -1809,7 +1798,7 @@
   "simulator-button-press-label": [
     {
       "type": 0,
-      "value": "按下按钮 "
+      "value": "Press button "
     },
     {
       "type": 1,
@@ -1819,19 +1808,19 @@
   "simulator-buttons": [
     {
       "type": 0,
-      "value": "按钮"
+      "value": "Buttons"
     }
   ],
   "simulator-collapse": [
     {
       "type": 0,
-      "value": "折叠模拟器"
+      "value": "Collapse simulator"
     }
   ],
   "simulator-collapse-module": [
     {
       "type": 0,
-      "value": "折叠 "
+      "value": "Collapse "
     },
     {
       "type": 1,
@@ -1839,37 +1828,37 @@
     },
     {
       "type": 0,
-      "value": " 模块"
+      "value": " module"
     }
   ],
   "simulator-compass": [
     {
       "type": 0,
-      "value": "指南针"
+      "value": "Compass"
     }
   ],
   "simulator-compass-heading-one": [
     {
       "type": 0,
-      "value": "朝向"
+      "value": "Heading"
     }
   ],
   "simulator-compass-heading-two": [
     {
       "type": 0,
-      "value": "磁场强度"
+      "value": "Magnetic field strength"
     }
   ],
   "simulator-data-logging-empty": [
     {
       "type": 0,
-      "value": "无日志条目。"
+      "value": "No log entries."
     }
   ],
   "simulator-data-logging-full": [
     {
       "type": 0,
-      "value": "完整日志"
+      "value": "Log full"
     }
   ],
   "simulator-data-logging-rows": [
@@ -1880,7 +1869,7 @@
           "value": [
             {
               "type": 0,
-              "value": "没有行记录"
+              "value": "No rows logged"
             }
           ]
         },
@@ -1891,7 +1880,7 @@
             },
             {
               "type": 0,
-              "value": "行记录"
+              "value": " row logged"
             }
           ]
         },
@@ -1902,7 +1891,7 @@
             },
             {
               "type": 0,
-              "value": "行记录"
+              "value": " rows logged"
             }
           ]
         }
@@ -1915,25 +1904,25 @@
   "simulator-data-logging-save-log": [
     {
       "type": 0,
-      "value": "保存日志"
+      "value": "Save log"
     }
   ],
   "simulator-data-logging-truncated": [
     {
       "type": 0,
-      "value": "不显示较旧的行"
+      "value": "Older rows not shown"
     }
   ],
   "simulator-expand": [
     {
       "type": 0,
-      "value": "展开模拟器"
+      "value": "Expand simulator"
     }
   ],
   "simulator-expand-module": [
     {
       "type": 0,
-      "value": "展开 "
+      "value": "Expand "
     },
     {
       "type": 1,
@@ -1941,7 +1930,7 @@
     },
     {
       "type": 0,
-      "value": " 模块"
+      "value": " module"
     }
   ],
   "simulator-gesture-3g": [
@@ -1965,109 +1954,109 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "标志朝下"
+      "value": "down"
     }
   ],
   "simulator-gesture-face-down": [
     {
       "type": 0,
-      "value": "正面朝下"
+      "value": "face down"
     }
   ],
   "simulator-gesture-face-up": [
     {
       "type": 0,
-      "value": "正面朝上"
+      "value": "face up"
     }
   ],
   "simulator-gesture-freefall": [
     {
       "type": 0,
-      "value": "自由落体"
+      "value": "freefall"
     }
   ],
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "左"
+      "value": "left"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "右"
+      "value": "right"
     }
   ],
   "simulator-gesture-select": [
     {
       "type": 0,
-      "value": "选择手势"
+      "value": "Select gesture"
     }
   ],
   "simulator-gesture-send": [
     {
       "type": 0,
-      "value": "发送手势"
+      "value": "Send gesture"
     }
   ],
   "simulator-gesture-shake": [
     {
       "type": 0,
-      "value": "摇晃"
+      "value": "shake"
     }
   ],
   "simulator-gesture-up": [
     {
       "type": 0,
-      "value": "标志朝上"
+      "value": "up"
     }
   ],
   "simulator-hide": [
     {
       "type": 0,
-      "value": "隐藏模拟器"
+      "value": "Hide simulator"
     }
   ],
   "simulator-input-hold": [
     {
       "type": 0,
-      "value": "长按"
+      "value": "Hold"
     }
   ],
   "simulator-input-press": [
     {
       "type": 0,
-      "value": "按下"
+      "value": "Press"
     }
   ],
   "simulator-light-level": [
     {
       "type": 0,
-      "value": "亮度"
+      "value": "Light level"
     }
   ],
   "simulator-log": [
     {
       "type": 0,
-      "value": "数据日志"
+      "value": "Data log"
     }
   ],
   "simulator-loud": [
     {
       "type": 0,
-      "value": "大声"
+      "value": "Loud"
     }
   ],
   "simulator-mute": [
     {
       "type": 0,
-      "value": "静音"
+      "value": "Mute"
     }
   ],
   "simulator-pin-hold-label": [
     {
       "type": 0,
-      "value": "按住引脚 "
+      "value": "Hold pin "
     },
     {
       "type": 1,
@@ -2077,7 +2066,7 @@
   "simulator-pin-press-label": [
     {
       "type": 0,
-      "value": "按下引脚 "
+      "value": "Press pin "
     },
     {
       "type": 1,
@@ -2087,31 +2076,31 @@
   "simulator-pins": [
     {
       "type": 0,
-      "value": "引脚"
+      "value": "Pins"
     }
   ],
   "simulator-quiet": [
     {
       "type": 0,
-      "value": "安静"
+      "value": "Quiet"
     }
   ],
   "simulator-radio": [
     {
       "type": 0,
-      "value": "无线电"
+      "value": "Radio"
     }
   ],
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "Calliope mini 已发送："
+      "value": "Calliope mini sent:"
     }
   ],
   "simulator-radio-group-notice": [
     {
       "type": 0,
-      "value": "无线电组设置为 "
+      "value": "Radio group set to "
     },
     {
       "type": 1,
@@ -2121,133 +2110,133 @@
   "simulator-radio-message": [
     {
       "type": 0,
-      "value": "无线电消息"
+      "value": "Radio message"
     }
   ],
   "simulator-radio-message-limit-notice": [
     {
       "type": 0,
-      "value": "不显示较旧的消息"
+      "value": "Older messages not shown"
     }
   ],
   "simulator-radio-no-messages": [
     {
       "type": 0,
-      "value": "无消息显示"
+      "value": "No messages to show"
     }
   ],
   "simulator-radio-off": [
     {
       "type": 0,
-      "value": "无线电已关闭"
+      "value": "The radio is off"
     }
   ],
   "simulator-radio-send": [
     {
       "type": 0,
-      "value": "发送消息"
+      "value": "Send message"
     }
   ],
   "simulator-radio-user": [
     {
       "type": 0,
-      "value": "您已发送："
+      "value": "You sent:"
     }
   ],
   "simulator-reference-link": [
     {
       "type": 0,
-      "value": "链接到 Reference （参考）部分"
+      "value": "Link to Reference section"
     }
   ],
   "simulator-reset": [
     {
       "type": 0,
-      "value": "复位"
+      "value": "Reset"
     }
   ],
   "simulator-serial-terminal": [
     {
       "type": 0,
-      "value": "模拟器串行终端"
+      "value": "Simulator serial terminal"
     }
   ],
   "simulator-sound-level": [
     {
       "type": 0,
-      "value": "声级"
+      "value": "Sound level"
     }
   ],
   "simulator-start-simulator": [
     {
       "type": 0,
-      "value": "启动模拟器"
+      "value": "Start simulator"
     }
   ],
   "simulator-stop": [
     {
       "type": 0,
-      "value": "停止模拟器"
+      "value": "Stop simulator"
     }
   ],
   "simulator-temperature": [
     {
       "type": 0,
-      "value": "温度"
+      "value": "Temperature"
     }
   ],
   "simulator-title": [
     {
       "type": 0,
-      "value": "模拟器"
+      "value": "Simulator"
     }
   ],
   "simulator-touch-logo": [
     {
       "type": 0,
-      "value": "触摸标志"
+      "value": "Touch logo"
     }
   ],
   "simulator-unmute": [
     {
       "type": 0,
-      "value": "取消静音"
+      "value": "Unmute"
     }
   ],
   "software-versions": [
     {
       "type": 0,
-      "value": "软件版本"
+      "value": "Software versions"
     }
   ],
   "start-coding-action": [
     {
       "type": 0,
-      "value": "开始编程"
+      "value": "Start coding"
     }
   ],
   "support": [
     {
       "type": 0,
-      "value": "帮助"
+      "value": "Support"
     }
   ],
   "terms-of-use": [
     {
       "type": 0,
-      "value": "使用条款"
+      "value": "Terms of use"
     }
   ],
   "third-party-module-explanation": [
     {
       "type": 0,
-      "value": "此文件是第三方模块，不可编辑。"
+      "value": "This file is a third-party module and is not intended to be edited."
     }
   ],
   "third-party-module-how-to": [
     {
       "type": 0,
-      "value": "为了修改此模块，允许在 "
+      "value": "Allow editing third-party modules in "
     },
     {
       "children": [
@@ -2261,31 +2250,31 @@
     },
     {
       "type": 0,
-      "value": " 中编辑第三方模块。"
+      "value": " to modify this module."
     }
   ],
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "不能连接到 Calliope mini"
+      "value": "Unable to connect to the Calliope mini"
     }
   ],
   "timeout-error-title": [
     {
       "type": 0,
-      "value": "连接超时"
+      "value": "Connection timed out"
     }
   ],
   "toolkit-error-loading": [
     {
       "type": 0,
-      "value": "加载工具包时出错。"
+      "value": "An error occurred loading the toolkit."
     }
   ],
   "toolkit-view-documentation": [
     {
       "type": 0,
-      "value": "查看 "
+      "value": "View "
     },
     {
       "type": 1,
@@ -2293,19 +2282,19 @@
     },
     {
       "type": 0,
-      "value": " 文档"
+      "value": " documentation"
     }
   ],
   "transfer-hex-message-one": [
     {
       "type": 0,
-      "value": "将 hex 文件从 "
+      "value": "Drag the hex file from your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Downloads (下载) 文件夹"
+          "value": "Downloads folder"
         }
       ],
       "type": 8,
@@ -2313,13 +2302,13 @@
     },
     {
       "type": 0,
-      "value": " 拖到 "
+      "value": " to the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "MINI 驱动器"
+          "value": "MINI drive"
         }
       ],
       "type": 8,
@@ -2327,19 +2316,19 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "transfer-hex-message-two": [
     {
       "type": 0,
-      "value": "您可以稍后"
+      "value": "You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "打开"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -2347,31 +2336,31 @@
     },
     {
       "type": 0,
-      "value": " hex 文件以继续编辑。"
+      "value": " the hex file later to continue editing."
     }
   ],
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "将保存的 hex 文件传输到 Calliope mini"
+      "value": "Transfer saved hex file to Calliope mini"
     }
   ],
   "try-again-action": [
     {
       "type": 0,
-      "value": "重试"
+      "value": "Try again"
     }
   ],
   "undo": [
     {
       "type": 0,
-      "value": "撤销"
+      "value": "Undo"
     }
   ],
   "unexpected-error-description": [
     {
       "type": 0,
-      "value": "请重试或 "
+      "value": "Please try again or "
     },
     {
       "children": [
@@ -2387,7 +2376,7 @@
   "unexpected-error-title": [
     {
       "type": 0,
-      "value": "请重试或 "
+      "value": "Please try again or "
     },
     {
       "children": [
@@ -2403,19 +2392,19 @@
   "untitled-project": [
     {
       "type": 0,
-      "value": "未命名的项目"
+      "value": "Untitled project"
     }
   ],
   "update-firmware-action": [
     {
       "type": 0,
-      "value": "升级固件"
+      "value": "Update firmware"
     }
   ],
   "updated-change": [
     {
       "type": 0,
-      "value": "已更新文件 "
+      "value": "Updated file "
     },
     {
       "type": 1,
@@ -2425,43 +2414,43 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "访问 calliope.cc (在新标签页中打开)"
+      "value": "visit calliope.cc (opens in a new tab)"
     }
   ],
   "webusb-error-clear-connect-description-1": [
     {
       "type": 0,
-      "value": "另一个进程已连接到此设备。"
+      "value": "Another process is connected to this device."
     }
   ],
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "关闭任何其他可能正在使用 WebUSB 的标签页(如 MakeCode、Python 编辑器)，或者在重试之前拔下并重新插入 Calliope mini。"
+      "value": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the Calliope mini before trying again."
     }
   ],
   "webusb-error-clear-connect-title": [
     {
       "type": 0,
-      "value": "无法声明接口"
+      "value": "Unable to claim interface"
     }
   ],
   "webusb-error-default-title": [
     {
       "type": 0,
-      "value": "WebUSB 错误"
+      "value": "WebUSB error"
     }
   ],
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "请重新连接 Calliope mini 然后再次尝试。"
+      "value": "Please reconnect your Calliope mini and try again."
     }
   ],
   "webusb-error-update-req-description": [
     {
       "type": 0,
-      "value": "您需要  "
+      "value": "You need to "
     },
     {
       "children": [
@@ -2475,55 +2464,55 @@
     },
     {
       "type": 0,
-      "value": " 才能使用此功能。"
+      "value": " to make use of this feature."
     }
   ],
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "请更新 Calliope mini 固件"
+      "value": "Please update the Calliope mini firmware"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "很遗憾，此浏览器不支持 WebUSB，您的程序将被保存到您的计算机上。请按照下一个屏幕上的步骤将其传输到您的 Calliope mini。我们建议您使用 Google Chrome 或 Microsoft Edge 浏览器，以便您可以直接连接到您的 Calliope mini。"
+      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your Calliope mini. We recommend Google Chrome or Microsoft Edge so you can connect directly to your Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
     {
       "type": 0,
-      "value": "此浏览器不支持 WebUSB"
+      "value": "This browser does not support WebUSB"
     }
   ],
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "使用 WebUSB，您可以对 Calliope mini 进行编程并直接从在线编辑器连接到串行控制台。"
+      "value": "With WebUSB you can program your Calliope mini and connect to the serial console directly from the online editor."
     }
   ],
   "welcome-message": [
     {
       "type": 0,
-      "value": "观看我们对一些关键功能的简短指南，或立即开始编程。"
+      "value": "Watch our short guide to some of the key features, or get coding right away."
     }
   ],
   "welcome-title": [
     {
       "type": 0,
-      "value": "欢迎使用 Calliope mini Python 编辑器"
+      "value": "Welcome to the Calliope mini Python Editor"
     }
   ],
   "zoom-in-action": [
     {
       "type": 0,
-      "value": "放大"
+      "value": "Zoom in"
     }
   ],
   "zoom-out-action": [
     {
       "type": 0,
-      "value": "缩小"
+      "value": "Zoom out"
     }
   ]
 }

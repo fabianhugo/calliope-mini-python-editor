@@ -2,35 +2,25 @@
   "about": [
     {
       "type": 0,
-      "value": "Quant a"
+      "value": "About"
     }
   ],
   "about-comic": [
     {
       "type": 0,
-      "value": "Còmic de tres panells titulat \"MicroPython Rocks\" de Mike Rowbit. Una serp de dibuixos animats presenta a Damien, dient \"Et presento Damien... Va crear MicroPython\". Dues serps parlen de MicroPython. La serp groga diu \"MicroPython està dissenyat per funcionar en ordinadors molt petits\". \"Com la teva BBC Calliope mini\" respon la serp morada.\" La serp groga continua \"Però Python pot executar-se a qualsevol lloc\". La serp morada hi està d'acord, dient \"Com en aquest bastidor de servidors que fan funcionar llocs de web enormes\". El fons darrere de les serps mostra un bastidor de servidors."
+      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC Calliope mini\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
     }
   ],
   "about-microbit": [
     {
       "type": 0,
-      "value": "Fet amb amor per la "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Calliope mini Educational Foundation i els col·laboradors mejorado por Calliope y Lulububu para el Calliope mini."
-        }
-      ],
-      "type": 8,
-      "value": "link"
+      "value": "Made with love by the Micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu."
     }
   ],
   "about-micropython": [
     {
       "type": 0,
-      "value": "L'editor depèn de "
+      "value": "The editor depends on "
     },
     {
       "children": [
@@ -44,25 +34,25 @@
     },
     {
       "type": 0,
-      "value": ", fet per Damien George i una comunitat de desenvolupadors d'arreu del món."
+      "value": " which is made by Damien George and a community of developers around the world."
     }
   ],
   "about-read-less-micropython": [
     {
       "type": 0,
-      "value": "Llegeix menys sobre MicroPython"
+      "value": "Read less about MicroPython"
     }
   ],
   "about-read-more-micropython": [
     {
       "type": 0,
-      "value": "Llegeix més sobre MicroPython"
+      "value": "Read more about MicroPython"
     }
   ],
   "added-change": [
     {
       "type": 0,
-      "value": "S'ha afegit el fitxer "
+      "value": "Added file "
     },
     {
       "type": 1,
@@ -72,13 +62,13 @@
   "api-description": [
     {
       "type": 0,
-      "value": "Per a l'ús i els exemples, consulta "
+      "value": "For usage and examples, see "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Referència"
+          "value": "Reference"
         }
       ],
       "type": 8,
@@ -99,7 +89,7 @@
           "value": [
             {
               "type": 0,
-              "value": "classe base"
+              "value": "base class"
             }
           ]
         },
@@ -107,7 +97,7 @@
           "value": [
             {
               "type": 0,
-              "value": "classes base: "
+              "value": "base classes: "
             }
           ]
         }
@@ -126,49 +116,49 @@
   "apidocs-fields": [
     {
       "type": 0,
-      "value": "Camps"
+      "value": "Fields"
     }
   ],
   "apidocs-functions": [
     {
       "type": 0,
-      "value": "Funcions"
+      "value": "Functions"
     }
   ],
   "apidocs-methods": [
     {
       "type": 0,
-      "value": "Mètodes"
+      "value": "Methods"
     }
   ],
   "back-action": [
     {
       "type": 0,
-      "value": "Enrera"
+      "value": "Back"
     }
   ],
   "back-to-main": [
     {
       "type": 0,
-      "value": "tornar al codi principal"
+      "value": "back to the main code"
     }
   ],
   "cancel-action": [
     {
       "type": 0,
-      "value": "Cancel·lar"
+      "value": "Cancel"
     }
   ],
   "change-files": [
     {
       "type": 0,
-      "value": "Canviar fitxers?"
+      "value": "Change files?"
     }
   ],
   "choose-main-add-file": [
     {
       "type": 0,
-      "value": "Afegeix el fitxer "
+      "value": "Add file "
     },
     {
       "type": 1,
@@ -178,7 +168,7 @@
   "choose-main-add-module": [
     {
       "type": 0,
-      "value": "Afegeix el mòdul "
+      "value": "Add module "
     },
     {
       "type": 1,
@@ -188,7 +178,7 @@
   "choose-main-replace-file": [
     {
       "type": 0,
-      "value": "Substitueix el fitxer "
+      "value": "Replace file "
     },
     {
       "type": 1,
@@ -198,7 +188,7 @@
   "choose-main-replace-module": [
     {
       "type": 0,
-      "value": "Substitueix el mòdul "
+      "value": "Replace module "
     },
     {
       "type": 1,
@@ -208,7 +198,7 @@
   "choose-main-source-add-file": [
     {
       "type": 0,
-      "value": "Afegeix el fitxer "
+      "value": "Add file "
     },
     {
       "type": 1,
@@ -216,21 +206,17 @@
     },
     {
       "type": 0,
-      "value": " des de "
+      "value": " from "
     },
     {
       "type": 1,
       "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " "
     }
   ],
   "choose-main-source-add-main-code": [
     {
       "type": 0,
-      "value": "Afegeix el programa principal de "
+      "value": "Add main code from "
     },
     {
       "type": 1,
@@ -240,7 +226,7 @@
   "choose-main-source-replace-file": [
     {
       "type": 0,
-      "value": "Substitueix el fitxer "
+      "value": "Replace file "
     },
     {
       "type": 1,
@@ -248,7 +234,7 @@
     },
     {
       "type": 0,
-      "value": " per "
+      "value": " with "
     },
     {
       "type": 1,
@@ -258,7 +244,7 @@
   "choose-main-source-replace-main-code": [
     {
       "type": 0,
-      "value": "Substitueix el programa principal per "
+      "value": "Replace main code with "
     },
     {
       "type": 1,
@@ -268,61 +254,61 @@
   "clear": [
     {
       "type": 0,
-      "value": "Esborra"
+      "value": "Clear"
     }
   ],
   "close-action": [
     {
       "type": 0,
-      "value": "Tanca "
+      "value": "Close"
     }
   ],
   "code-editor": [
     {
       "type": 0,
-      "value": "Editor de codi"
+      "value": "Code editor"
     }
   ],
   "code-example": [
     {
       "type": 0,
-      "value": "Exemple de codi:"
+      "value": "Code example:"
     }
   ],
   "confirm-action": [
     {
       "type": 0,
-      "value": "Confirma"
+      "value": "Confirm"
     }
   ],
   "confirm-delete": [
     {
       "type": 0,
-      "value": "Confirma la supressió"
+      "value": "Confirm delete"
     }
   ],
   "confirm-replace-body": [
     {
       "type": 0,
-      "value": "Substitueix tots els fitxers amb els de l'hexadecimal?"
+      "value": "Replace all files with those in the hex?"
     }
   ],
   "confirm-replace-reset": [
     {
       "type": 0,
-      "value": "Vols substituir tots els fitxers pel programa d'inici per defecte?"
+      "value": "Replace all files with the default starter code?"
     }
   ],
   "confirm-replace-title": [
     {
       "type": 0,
-      "value": "Confirma la substitució del projecte"
+      "value": "Confirm replace project"
     }
   ],
   "confirm-replace-with-idea": [
     {
       "type": 0,
-      "value": "Vols substituir tots els fitxers per "
+      "value": "Replace all files with "
     },
     {
       "type": 1,
@@ -336,121 +322,121 @@
   "confirm-save-action": [
     {
       "type": 0,
-      "value": "Confirma i desa"
+      "value": "Confirm and save"
     }
   ],
   "confirm-save-hint": [
     {
       "type": 0,
-      "value": "Cancel·la i després utilitza Desa per conservar una còpia del teu projecte."
+      "value": "Cancel then use Save to keep a copy of your project."
     }
   ],
   "connect-action": [
     {
       "type": 0,
-      "value": "Connecta"
+      "value": "Connect"
     }
   ],
   "connect-cable-title": [
     {
       "type": 0,
-      "value": "Connecta el cable"
+      "value": "Connect cable"
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Diàleg de connexió WebUSB amb l'entrada de Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2"
+      "value": "WebUSB connection dialog with BBC Calliope mini entry labelled 1 and Connect button labelled 2"
     }
   ],
   "connect-help-message": [
     {
       "type": 0,
-      "value": "A la següent finestra emergent:"
+      "value": "In next popup:"
     }
   ],
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Tria la teva Calliope mini"
+      "value": "Choose your Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Selecciona la Calliope mini"
+      "value": "Select Calliope mini"
     }
   ],
   "connect-help-two": [
     {
       "type": 0,
-      "value": "Selecciona 'Connecta'"
+      "value": "Select ‘Connect’"
     }
   ],
   "connect-hover": [
     {
       "type": 0,
-      "value": "Connecta't a la teva Calliope mini mitjançant WebUSB"
+      "value": "Connect to your Calliope mini over WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Connecta't a la teva Calliope mini per veure la sortida en sèrie aquí"
+      "value": "Connect to your Calliope mini to see serial output here"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Soluciona problemes de connexió a la teva Calliope mini"
+      "value": "Troubleshoot problems with connecting to your Calliope mini"
     }
   ],
   "content-load-error": [
     {
       "type": 0,
-      "value": "Alguna cosa ha anat malament. Baixa el teu fitxer hexadecimal per mantenir-lo segur i, a continuació, actualitza la pàgina per tornar-la a carregar."
+      "value": "Something went wrong. Download your hex file for safe keeping, then refresh the page to reload."
     }
   ],
   "copied": [
     {
       "type": 0,
-      "value": "Copiat"
+      "value": "Copied"
     }
   ],
   "copy-action": [
     {
       "type": 0,
-      "value": "Copia"
+      "value": "Copy"
     }
   ],
   "copy-code-action": [
     {
       "type": 0,
-      "value": "Copia el programa"
+      "value": "Copy code"
     }
   ],
   "create-action": [
     {
       "type": 0,
-      "value": "Crea"
+      "value": "Create"
     }
   ],
   "create-file-action": [
     {
       "type": 0,
-      "value": "Crea un fitxer"
+      "value": "Create file"
     }
   ],
   "create-python": [
     {
       "type": 0,
-      "value": "Crea un nou fitxer Python en aquest projecte"
+      "value": "Create a new Python file in this project"
     }
   ],
   "created-file": [
     {
       "type": 0,
-      "value": "S'ha creat "
+      "value": "Created "
     },
     {
       "type": 1,
@@ -466,13 +452,13 @@
   "delete-action": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Delete"
     }
   ],
   "delete-file-action": [
     {
       "type": 0,
-      "value": "Suprimeix "
+      "value": "Delete "
     },
     {
       "type": 1,
@@ -482,7 +468,7 @@
   "deleted-file": [
     {
       "type": 0,
-      "value": "S'ha suprimit "
+      "value": "Deleted "
     },
     {
       "type": 1,
@@ -498,31 +484,31 @@
   "disconnect-action": [
     {
       "type": 0,
-      "value": "Desconnecta"
+      "value": "Disconnect"
     }
   ],
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Desconnecta't de la Calliope mini"
+      "value": "Disconnect from the Calliope mini"
     }
   ],
   "dont-show-again": [
     {
       "type": 0,
-      "value": "No tornis a mostrar això"
+      "value": "Don't show this again"
     }
   ],
   "drag-hover": [
     {
       "type": 0,
-      "value": "Arrossegar i deixar anar"
+      "value": "Drag and drop"
     }
   ],
   "edit-file-action": [
     {
       "type": 0,
-      "value": "Edita "
+      "value": "Edit "
     },
     {
       "type": 1,
@@ -532,47 +518,47 @@
   "edit-name-project-hover": [
     {
       "type": 0,
-      "value": "Edita el nom del teu projecte"
+      "value": "Edit the name of your project"
     }
   ],
   "edit-project-name-action": [
     {
       "type": 0,
-      "value": "Edita el nom del projecte"
+      "value": "Edit project name"
     }
   ],
   "failed-to-build-hex": [
     {
       "type": 0,
-      "value": "No s'ha pogut crear el fitxer hexadecimal"
+      "value": "Failed to build the hex file"
     }
   ],
   "feedback": [
     {
       "type": 0,
-      "value": "Comentaris"
+      "value": "Feedback"
     }
   ],
   "file-actions": [
     {
-      "type": 0,
-      "value": "Accions del fitxer "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " file actions"
     }
   ],
   "file-already-exists": [
     {
       "type": 0,
-      "value": "Aquest fitxer ja existeix"
+      "value": "This file already exists"
     }
   ],
   "file-name-invalid-character": [
     {
       "type": 0,
-      "value": "El nom conté un caràcter no vàlid: "
+      "value": "The name contains an invalid character: "
     },
     {
       "type": 1,
@@ -582,97 +568,111 @@
   "file-name-length": [
     {
       "type": 0,
-      "value": "El nom és massa llarg"
+      "value": "The name is too long"
     }
   ],
   "file-name-lowercase-only": [
     {
       "type": 0,
-      "value": "El nom ha de ser tot en minúscula"
+      "value": "The name should be all lowercase"
     }
   ],
   "file-name-not-empty": [
     {
       "type": 0,
-      "value": "El nom no pot estar buit"
+      "value": "The name cannot be empty"
     }
   ],
   "file-name-start-number": [
     {
       "type": 0,
-      "value": "El nom no pot començar amb un nombre"
+      "value": "The name cannot start with a number"
     }
   ],
   "file-name-whitespace": [
     {
       "type": 0,
-      "value": "El nom no pot contenir espais"
+      "value": "The name cannot contain spaces"
     }
   ],
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "Has d<link>actualitzar el teu microprogramari</link> abans de poder connectar amb aquesta Calliope mini."
-    }
-  ],
-  "firmware-update-message": [
-    {
-      "type": 0,
-      "value": "La connexió a la Calliope mini ha fallat perquè el microprogramari de la teva Calliope mini és massa antic."
-    }
-  ],
-  "firmware-update-title": [
-    {
-      "type": 0,
-      "value": "Cal actualitzar el firmware"
-    }
-  ],
-  "flash-action": [
-    {
-      "type": 0,
-      "value": "Transferir"
-    }
-  ],
-  "flash-hover": [
-    {
-      "type": 0,
-      "value": "Transfereix el projecte directament a la Calliope mini"
-    }
-  ],
-  "flashing-code": [
-    {
-      "type": 0,
-      "value": "S'està enviant el programa (transferint)"
-    }
-  ],
-  "flashing-full-flash-detail": [
-    {
-      "type": 0,
-      "value": "El teu programa s'està enviant (transferint) a la teva Calliope mini. Això pot trigar una mica la primera vegada, però després serà més ràpid."
-    }
-  ],
-  "flashing-micropython": [
-    {
-      "type": 0,
-      "value": "Transferint MicroPython "
-    }
-  ],
-  "font-size": [
-    {
-      "type": 0,
-      "value": "Mida de la font"
-    }
-  ],
-  "guide-link": [
-    {
-      "type": 0,
-      "value": "Per obtenir més suport, consulta la "
+      "value": "You must "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "guia de l'Editor de Python"
+          "value": "update your firmware"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " before you can connect to this Calliope mini."
+    }
+  ],
+  "firmware-update-message": [
+    {
+      "type": 0,
+      "value": "Connecting to the Calliope mini failed because the firmware on your Calliope mini is too old."
+    }
+  ],
+  "firmware-update-title": [
+    {
+      "type": 0,
+      "value": "Firmware update required"
+    }
+  ],
+  "flash-action": [
+    {
+      "type": 0,
+      "value": "Flash"
+    }
+  ],
+  "flash-hover": [
+    {
+      "type": 0,
+      "value": "Flash the project directly to the Calliope mini"
+    }
+  ],
+  "flashing-code": [
+    {
+      "type": 0,
+      "value": "Sending code (flashing)"
+    }
+  ],
+  "flashing-full-flash-detail": [
+    {
+      "type": 0,
+      "value": "Your code is being sent (flashed) to your Calliope mini. This can take a while the first time but it will be quicker after that."
+    }
+  ],
+  "flashing-micropython": [
+    {
+      "type": 0,
+      "value": "Flashing MicroPython"
+    }
+  ],
+  "font-size": [
+    {
+      "type": 0,
+      "value": "Font size"
+    }
+  ],
+  "guide-link": [
+    {
+      "type": 0,
+      "value": "For more support, see the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Python Editor guide"
         }
       ],
       "type": 8,
@@ -682,55 +682,55 @@
   "help": [
     {
       "type": 0,
-      "value": "Ajuda"
+      "value": "Help"
     }
   ],
   "help-support": [
     {
       "type": 0,
-      "value": "Ajuda i suport"
+      "value": "Help & support"
     }
   ],
   "help-translate": [
     {
       "type": 0,
-      "value": "Ajuda a traduir"
+      "value": "Help translate"
     }
   ],
   "highlight-code-structure": [
     {
       "type": 0,
-      "value": "Ressaltar l'estructura del programa"
+      "value": "Highlight code structure"
     }
   ],
   "highlight-code-structure-full": [
     {
       "type": 0,
-      "value": "Ple"
+      "value": "Full"
     }
   ],
   "highlight-code-structure-none": [
     {
       "type": 0,
-      "value": "Cap"
+      "value": "None"
     }
   ],
   "highlight-code-structure-simple": [
     {
       "type": 0,
-      "value": "Senzill"
+      "value": "Simple"
     }
   ],
   "ideas-tab": [
     {
       "type": 0,
-      "value": "Idees"
+      "value": "Ideas"
     }
   ],
   "ideas-tab-description": [
     {
       "type": 0,
-      "value": "Prova aquests projectes, modifica'ls i inspira't"
+      "value": "Try out these projects, modify them and get inspired"
     }
   ],
   "imprint": [
@@ -742,31 +742,31 @@
   "insert-code-action": [
     {
       "type": 0,
-      "value": "Insereix codi"
+      "value": "Insert code"
     }
   ],
   "language": [
     {
       "type": 0,
-      "value": "Idioma"
+      "value": "Language"
     }
   ],
   "less-action": [
     {
       "type": 0,
-      "value": "Menys"
+      "value": "Less"
     }
   ],
   "load-error-makecode-info": [
     {
       "type": 0,
-      "value": "Aquest fitxer hexadecimal no es pot carregar a l'Editor de Python. L'Editor Python no pot obrir fitxers hexadecimals creats amb Microsoft MakeCode."
+      "value": "This hex file cannot be loaded in the Python Editor. The Python Editor cannot open hex files created with Microsoft MakeCode."
     }
   ],
   "load-error-makecode-link": [
     {
       "type": 0,
-      "value": "Visita "
+      "value": "Please visit "
     },
     {
       "children": [
@@ -780,25 +780,25 @@
     },
     {
       "type": 0,
-      "value": " per utilitzar aquest fitxer hexadecimal."
+      "value": " to use this hex file."
     }
   ],
   "load-error-mixed": [
     {
       "type": 0,
-      "value": "Un fitxer hexadecimal només es pot carregar sol. Substitueix tots els fitxers del projecte."
+      "value": "A hex file can only be loaded on its own. It replaces all files in the project."
     }
   ],
   "load-error-mpy": [
     {
       "type": 0,
-      "value": "Aquesta versió de l'Editor de Python actualment no admet l'addició de fitxers .mpy."
+      "value": "This version of the Python Editor doesn't currently support adding .mpy files."
     }
   ],
   "load-error-title": [
     {
       "type": 0,
-      "value": "No es pot carregar "
+      "value": "Cannot load "
     },
     {
       "offset": 0,
@@ -828,7 +828,7 @@
   "loaded-file-feedback": [
     {
       "type": 0,
-      "value": "S'ha carregat "
+      "value": "Loaded "
     },
     {
       "type": 1,
@@ -838,25 +838,25 @@
   "loading": [
     {
       "type": 0,
-      "value": "S'està carregant…"
+      "value": "Loading…"
     }
   ],
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "placa Calliope mini amb la graella LED de 5 per 5 que mostra un cor"
+      "value": "Calliope mini board with the 5 by 5 LED grid showing a heart"
     }
   ],
   "micropython-documentation": [
     {
       "type": 0,
-      "value": "Documentació de MicroPython"
+      "value": "MicroPython documentation"
     }
   ],
   "micropython-history": [
     {
       "type": 0,
-      "value": "Descobreix com va néixer MicroPython a la Calliope mini"
+      "value": "Learn how MicroPython on the Calliope mini came to be"
     }
   ],
   "micropython-source-code": [
@@ -868,7 +868,7 @@
       "children": [
         {
           "type": 0,
-          "value": "codi font per a la Calliope mini V1"
+          "value": "source code for the Calliope mini V1"
         }
       ],
       "type": 8,
@@ -876,7 +876,7 @@
     },
     {
       "type": 0,
-      "value": " i "
+      "value": " and "
     },
     {
       "children": [
@@ -892,13 +892,13 @@
   "more-action": [
     {
       "type": 0,
-      "value": "Més"
+      "value": "More"
     }
   ],
   "more-connect-options": [
     {
       "type": 0,
-      "value": "Més opcions de connexió"
+      "value": "More connect options"
     }
   ],
   "more-ideas": [
@@ -906,7 +906,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Més idees"
+          "value": "More ideas"
         }
       ],
       "type": 8,
@@ -916,13 +916,13 @@
   "more-save-options": [
     {
       "type": 0,
-      "value": "Més opcions de desar"
+      "value": "More save options"
     }
   ],
   "multiple-files-message-one": [
     {
       "type": 0,
-      "value": "Aquest projecte conté els fitxers "
+      "value": "This project contains "
     },
     {
       "offset": 0,
@@ -935,7 +935,7 @@
             },
             {
               "type": 0,
-              "value": " fitxers"
+              "value": " files"
             }
           ]
         }
@@ -946,7 +946,7 @@
     },
     {
       "type": 0,
-      "value": ", però només s'ha baixat "
+      "value": " but only "
     },
     {
       "children": [
@@ -960,19 +960,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " has been downloaded."
     }
   ],
   "multiple-files-message-two": [
     {
       "type": 0,
-      "value": "Fes servir el botó "
+      "value": "Use the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Desa"
+          "value": "Save"
         }
       ],
       "type": 8,
@@ -980,13 +980,13 @@
     },
     {
       "type": 0,
-      "value": " per baixar tot el projecte com a fitxer hexadecimal. Pots "
+      "value": " button to download your whole project as a hex file. You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "obrir"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -994,13 +994,13 @@
     },
     {
       "type": 0,
-      "value": " el fitxer hexadecimal per restaurar el teu projecte. Si prefereixes baixar fitxers Python individuals, fes servir la pestanya "
+      "value": " the hex file to restore your project. If you prefer to download individual Python files, use the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Projecte"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1008,37 +1008,37 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " tab."
     }
   ],
   "multiple-files-title": [
     {
       "type": 0,
-      "value": "Avís: només s'ha descarregat main.py"
+      "value": "Warning: Only main.py downloaded"
     }
   ],
   "name-project": [
     {
       "type": 0,
-      "value": "Anomena el teu projecte"
+      "value": "Name your project"
     }
   ],
   "name-text": [
     {
       "type": 0,
-      "value": "Nom"
+      "value": "Name"
     }
   ],
   "name-used-when": [
     {
       "type": 0,
-      "value": "El nom s'utilitza quan deses un fitxer hexadecimal."
+      "value": "The name is used when you save a file."
     }
   ],
   "new-file-hint": [
     {
       "type": 0,
-      "value": "T'afegirem l'extensió "
+      "value": "We'll add the "
     },
     {
       "children": [
@@ -1052,25 +1052,25 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " extension for you."
     }
   ],
   "next-action": [
     {
       "type": 0,
-      "value": "Següent"
+      "value": "Next"
     }
   ],
   "not-found-checklist-one": [
     {
       "type": 0,
-      "value": "La teva "
+      "value": "Is your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini està connectada"
+          "value": "Calliope mini plugged in"
         }
       ],
       "type": 8,
@@ -1078,13 +1078,13 @@
     },
     {
       "type": 0,
-      "value": "? Has  "
+      "value": "? Did you "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "seguit aquests passos"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1098,7 +1098,7 @@
   "not-found-checklist-two": [
     {
       "type": 0,
-      "value": "Si tens una "
+      "value": "If you have a "
     },
     {
       "children": [
@@ -1112,73 +1112,97 @@
     },
     {
       "type": 0,
-      "value": ", potser hauries d<link>actualitzar el microprogramari</link>"
+      "value": " you may need to "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "update the firmware"
+        }
+      ],
+      "type": 8,
+      "value": "link"
     }
   ],
   "not-found-message": [
     {
       "type": 0,
-      "value": "No has seleccionat cap Calliope mini o hi ha hagut un problema en connectar-s'hi."
+      "value": "You didn’t select a Calliope mini, or there was a problem connecting to it."
     }
   ],
   "not-found-save-message": [
     {
       "type": 0,
-      "value": "Mètode alternatiu: selecciona Desa i segueix els passos per transferir"
+      "value": "Alternative method: choose Save then follow steps to transfer"
     }
   ],
   "not-found-title": [
     {
       "type": 0,
-      "value": "No s'ha trobat cap Calliope mini"
+      "value": "No Calliope mini found"
     }
   ],
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "Has d<link>actualitzar el teu microprogramari</link> abans de poder connectar amb aquesta Calliope mini."
+      "value": "You must "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "update your firmware before"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " you can connect to this Calliope mini."
     }
   ],
   "open-action": [
     {
       "type": 0,
-      "value": "Obert"
+      "value": "Open"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "Obert"
+      "value": "Open…"
     }
   ],
   "open-file-dropped": [
     {
       "type": 0,
-      "value": "Obre el fitxer quan es deixa anar"
+      "value": "Open file when dropped"
     }
   ],
   "open-hover": [
     {
       "type": 0,
-      "value": "Obre un fitxer hexadecimal o Python o afegeix altres fitxers"
+      "value": "Open a hex or Python file or add other files"
     }
   ],
   "options": [
     {
       "type": 0,
-      "value": "Opcions"
+      "value": "Options"
     }
   ],
   "parameter-help": [
     {
       "type": 0,
-      "value": "Ajuda dels paràmetres"
+      "value": "Parameter help"
     }
   ],
   "parameter-help-automatic": [
     {
       "type": 0,
-      "value": "Automàtic"
+      "value": "Automatic"
     }
   ],
   "parameter-help-manual": [
@@ -1198,7 +1222,7 @@
   "permanently-delete": [
     {
       "type": 0,
-      "value": "Suprimir "
+      "value": "Permanently delete "
     },
     {
       "type": 1,
@@ -1206,19 +1230,19 @@
     },
     {
       "type": 0,
-      "value": " permanentment?"
+      "value": "?"
     }
   ],
   "post-save-message-files": [
     {
       "type": 0,
-      "value": "Conté tots els fitxers d'aquest projecte (inclosos els fitxers addicionals, per exemple, per executar accessoris, que s'enumeren a la pestanya "
+      "value": "This contains all files in this project (including any additional files, e.g. to run accessories, listed in the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Projecte"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1226,19 +1250,19 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": " tab)."
     }
   ],
   "post-save-message-one": [
     {
       "type": 0,
-      "value": "Trobaràs el teu fitxer hexadecimal a la carpeta "
+      "value": "You will find your hex file in this computer’s "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Baixades"
+          "value": "Downloads"
         }
       ],
       "type": 8,
@@ -1246,19 +1270,19 @@
     },
     {
       "type": 0,
-      "value": " d'aquest ordinador."
+      "value": " folder."
     }
   ],
   "post-save-message-two": [
     {
       "type": 0,
-      "value": "Pots moure'l a una altra carpeta per emmagatzemar-lo i fer servir  "
+      "value": "You can move it to another folder for storage and use "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Obre"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1266,25 +1290,25 @@
     },
     {
       "type": 0,
-      "value": " per continuar editant-lo més tard."
+      "value": " to continue editing later."
     }
   ],
   "post-save-title": [
     {
       "type": 0,
-      "value": "Projecte desat"
+      "value": "Project saved"
     }
   ],
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "Per executar aquest fitxer hexadecimal a la teva Calliope mini "
+      "value": "To run this hex file on your Calliope mini "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "segueix aquests passos"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1298,43 +1322,43 @@
   "project-actions": [
     {
       "type": 0,
-      "value": "Accions del projecte"
+      "value": "Project actions"
     }
   ],
   "project-header": [
     {
       "type": 0,
-      "value": "Capçalera del projecte"
+      "value": "Project header"
     }
   ],
   "project-name": [
     {
       "type": 0,
-      "value": "Nom del projecte"
+      "value": "Project name"
     }
   ],
   "project-name-not-empty": [
     {
       "type": 0,
-      "value": "El nom del projecte no pot estar buit"
+      "value": "The project name cannot be empty"
     }
   ],
   "project-tab": [
     {
       "type": 0,
-      "value": "Projecte"
+      "value": "Project"
     }
   ],
   "project-tab-description": [
     {
       "type": 0,
-      "value": "Visualitza, crea, afegeix i edita els fitxers del teu projecte"
+      "value": "View, create, add and edit the files in your project"
     }
   ],
   "python-powered": [
     {
       "type": 0,
-      "value": "Fet amb Python"
+      "value": "Python powered"
     }
   ],
   "python-tab": [
@@ -1346,55 +1370,55 @@
   "quit-anyway": [
     {
       "type": 0,
-      "value": "Alguns dels teus canvis no s'han desat. Sortir de totes maneres?"
+      "value": "Some of your changes have not been saved. Quit anyway?"
     }
   ],
   "read-less": [
     {
       "type": 0,
-      "value": "Llegir menys"
+      "value": "Read less"
     }
   ],
   "read-more": [
     {
       "type": 0,
-      "value": "Més informació"
+      "value": "Read more"
     }
   ],
   "redo": [
     {
       "type": 0,
-      "value": "Refer"
+      "value": "Redo"
     }
   ],
   "reference-tab": [
     {
       "type": 0,
-      "value": "Referència"
+      "value": "Reference"
     }
   ],
   "replace-action-label": [
     {
       "type": 0,
-      "value": "Substitueix"
+      "value": "Replace"
     }
   ],
   "reset-project-action": [
     {
       "type": 0,
-      "value": "Restableix el projecte"
+      "value": "Reset project"
     }
   ],
   "reset-project-feedback": [
     {
       "type": 0,
-      "value": "Restableix el projecte al programa d'inici predeterminat"
+      "value": "Project reset to the default starter code"
     }
   ],
   "reset-project-hover": [
     {
       "type": 0,
-      "value": "Restableix el projecte al programa inicial predeterminat, descartant el teu treball"
+      "value": "Resets the project to the default starter code, discarding your work"
     }
   ],
   "results-count": [
@@ -1405,7 +1429,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Sense resultats"
+              "value": "No results"
             }
           ]
         },
@@ -1416,7 +1440,7 @@
             },
             {
               "type": 0,
-              "value": " resultat"
+              "value": " result"
             }
           ]
         },
@@ -1427,7 +1451,7 @@
             },
             {
               "type": 0,
-              "value": " resultats"
+              "value": " results"
             }
           ]
         }
@@ -1440,13 +1464,13 @@
   "save-action": [
     {
       "type": 0,
-      "value": "Desa"
+      "value": "Save"
     }
   ],
   "save-file-action": [
     {
       "type": 0,
-      "value": "Desa "
+      "value": "Save "
     },
     {
       "type": 1,
@@ -1456,73 +1480,73 @@
   "save-hex-action": [
     {
       "type": 0,
-      "value": "Desa el projecte hexadecimal"
+      "value": "Save project hex"
     }
   ],
   "save-hover": [
     {
       "type": 0,
-      "value": "Desa el fitxer hexadecimal del projecte al teu ordinador"
+      "value": "Save the project hex file to your computer"
     }
   ],
   "save-python-action": [
     {
       "type": 0,
-      "value": "Desa l'script de Python"
+      "value": "Save Python script"
     }
   ],
   "search": [
     {
       "type": 0,
-      "value": "Cerca"
+      "value": "Search"
     }
   ],
   "send-action": [
     {
       "type": 0,
-      "value": "Envia a la Calliope mini"
+      "value": "Send to Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "Connecta't mitjançant WebUSB i després transfereix el programa a la Calliope mini"
+      "value": "Connect via WebUSB then flash code onto Calliope mini"
     }
   ],
   "serial-collapse": [
     {
       "type": 0,
-      "value": "Amaga el terminal sèrie"
+      "value": "Hide serial"
     }
   ],
   "serial-ctrl-c-action": [
     {
       "type": 0,
-      "value": "Envia Ctrl+C per REPL"
+      "value": "Send Ctrl+C for REPL"
     }
   ],
   "serial-ctrl-d-action": [
     {
       "type": 0,
-      "value": "Envia Ctrl+D per restablir"
+      "value": "Send Ctrl+D to reset"
     }
   ],
   "serial-expand": [
     {
       "type": 0,
-      "value": "Mostra la consola sèrie"
+      "value": "Show serial"
     }
   ],
   "serial-flashed": [
     {
       "type": 0,
-      "value": "Calliope mini transferit"
+      "value": "Calliope mini flashed"
     }
   ],
   "serial-help-ctrl-c": [
     {
       "type": 0,
-      "value": "Utilitza la drecera de teclat "
+      "value": "Use the keyboard shortcut "
     },
     {
       "children": [
@@ -1550,13 +1574,13 @@
     },
     {
       "type": 0,
-      "value": " per interrompre el teu programa. A continuació, pots escriure ordres de Python perquè s'executi MicroPython. És una bona manera d'experimentar amb alguna cosa nova."
+      "value": " to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new."
     }
   ],
   "serial-help-ctrl-d": [
     {
       "type": 0,
-      "value": "Per tornar a iniciar el programa, fes servir "
+      "value": "To start your program running again use "
     },
     {
       "children": [
@@ -1590,13 +1614,13 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "El terminal sèrie mostra errors i altres sortides del programa que s'executa a la teva Calliope mini. Per defecte, mostra l'error més recent del programa. Amplia'l per veure tota la sortida."
+      "value": "The serial terminal shows errors and other output from the program running on your Calliope mini. By default, it shows the most recent error from the program. Expand it to see all the output."
     }
   ],
   "serial-help-print": [
     {
       "type": 0,
-      "value": "El teu programa pot imprimir missatges mitjançant la funció "
+      "value": "Your program can print messages using the "
     },
     {
       "children": [
@@ -1610,13 +1634,13 @@
     },
     {
       "type": 0,
-      "value": ". Prova d'afegir "
+      "value": " function. Try adding "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "print('la Calliope mini es genial')"
+          "value": "print('Calliope mini is awesome')"
         }
       ],
       "type": 8,
@@ -1624,79 +1648,79 @@
     },
     {
       "type": 0,
-      "value": " al teu programa."
+      "value": " to your program."
     }
   ],
   "serial-help-title": [
     {
       "type": 0,
-      "value": "Suggeriments i consells sobre la comunicació en sèrie"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-hints-and-tips": [
     {
       "type": 0,
-      "value": "Suggeriments i consells sobre la comunicació en sèrie"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-menu": [
     {
       "type": 0,
-      "value": "Menú del terminal sèrie"
+      "value": "Serial menu"
     }
   ],
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "Calliope mini llesta per transferir"
+      "value": "Calliope mini ready to flash"
     }
   ],
   "serial-running": [
     {
       "type": 0,
-      "value": "Executant..."
+      "value": "Running…"
     }
   ],
   "serial-terminal": [
     {
       "type": 0,
-      "value": "Terminal sèrie"
+      "value": "Serial terminal"
     }
   ],
   "setting-allow-editing-third-party": [
     {
       "type": 0,
-      "value": "Permet editar mòduls de tercers"
+      "value": "Allow editing third-party modules"
     }
   ],
   "setting-allow-editing-third-party-info": [
     {
       "type": 0,
-      "value": "Canviar mòduls de tercers pot significar que no funcionin com s'havia previst."
+      "value": "Changing third-party modules may mean they don’t work as intended."
     }
   ],
   "settings": [
     {
       "type": 0,
-      "value": "Configuració"
+      "value": "Settings"
     }
   ],
   "show-api-documentation": [
     {
       "type": 0,
-      "value": "Mostra la documentació de l'API"
+      "value": "Show API documentation"
     }
   ],
   "show-less": [
     {
       "type": 0,
-      "value": "Mostra menys"
+      "value": "Show less"
     }
   ],
   "show-less-for": [
     {
       "type": 0,
-      "value": "Mostra menys per a "
+      "value": "Show less for "
     },
     {
       "type": 1,
@@ -1706,13 +1730,13 @@
   "show-more": [
     {
       "type": 0,
-      "value": "Mostra més"
+      "value": "Show more"
     }
   ],
   "show-more-for": [
     {
       "type": 0,
-      "value": "Mostra més per a "
+      "value": "Show more for "
     },
     {
       "type": 1,
@@ -1722,49 +1746,49 @@
   "sidebar": [
     {
       "type": 0,
-      "value": "Barra lateral"
+      "value": "Sidebar"
     }
   ],
   "sidebar-collapse": [
     {
       "type": 0,
-      "value": "Replega la barra lateral"
+      "value": "Collapse sidebar"
     }
   ],
   "sidebar-expand": [
     {
       "type": 0,
-      "value": "Amplia la barra lateral"
+      "value": "Expand sidebar"
     }
   ],
   "simulator-accelerometer": [
     {
       "type": 0,
-      "value": "Acceleròmetre"
+      "value": "Accelerometer"
     }
   ],
   "simulator-actions": [
     {
       "type": 0,
-      "value": "Accions del simulador"
+      "value": "Simulator actions"
     }
   ],
   "simulator-button-a": [
     {
       "type": 0,
-      "value": "Botó A"
+      "value": "Button A"
     }
   ],
   "simulator-button-b": [
     {
       "type": 0,
-      "value": "Botó B"
+      "value": "Button B"
     }
   ],
   "simulator-button-hold-label": [
     {
       "type": 0,
-      "value": "Manté premut el botó "
+      "value": "Hold button "
     },
     {
       "type": 1,
@@ -1774,7 +1798,7 @@
   "simulator-button-press-label": [
     {
       "type": 0,
-      "value": "Prem el botó "
+      "value": "Press button "
     },
     {
       "type": 1,
@@ -1784,53 +1808,57 @@
   "simulator-buttons": [
     {
       "type": 0,
-      "value": "Botons"
+      "value": "Buttons"
     }
   ],
   "simulator-collapse": [
     {
       "type": 0,
-      "value": "Replega el simulador"
+      "value": "Collapse simulator"
     }
   ],
   "simulator-collapse-module": [
     {
       "type": 0,
-      "value": "Replega el mòdul "
+      "value": "Collapse "
     },
     {
       "type": 1,
       "value": "title"
+    },
+    {
+      "type": 0,
+      "value": " module"
     }
   ],
   "simulator-compass": [
     {
       "type": 0,
-      "value": "Brúixola"
+      "value": "Compass"
     }
   ],
   "simulator-compass-heading-one": [
     {
       "type": 0,
-      "value": "Orientació"
+      "value": "Heading"
     }
   ],
   "simulator-compass-heading-two": [
     {
       "type": 0,
-      "value": "Intensitat del camp magnètic"
+      "value": "Magnetic field strength"
     }
   ],
   "simulator-data-logging-empty": [
     {
       "type": 0,
-      "value": "Sense entrades al registre."
+      "value": "No log entries."
     }
   ],
   "simulator-data-logging-full": [
     {
       "type": 0,
-      "value": "Registre ple"
+      "value": "Log full"
     }
   ],
   "simulator-data-logging-rows": [
@@ -1841,7 +1869,7 @@
           "value": [
             {
               "type": 0,
-              "value": "No hi ha files registrades"
+              "value": "No rows logged"
             }
           ]
         },
@@ -1852,7 +1880,7 @@
             },
             {
               "type": 0,
-              "value": " fila registrada"
+              "value": " row logged"
             }
           ]
         },
@@ -1863,7 +1891,7 @@
             },
             {
               "type": 0,
-              "value": " files registrades"
+              "value": " rows logged"
             }
           ]
         }
@@ -1876,25 +1904,25 @@
   "simulator-data-logging-save-log": [
     {
       "type": 0,
-      "value": "Guarda el registre"
+      "value": "Save log"
     }
   ],
   "simulator-data-logging-truncated": [
     {
       "type": 0,
-      "value": "Les files més antigues no es mostren"
+      "value": "Older rows not shown"
     }
   ],
   "simulator-expand": [
     {
       "type": 0,
-      "value": "Ampliar el simulador"
+      "value": "Expand simulator"
     }
   ],
   "simulator-expand-module": [
     {
       "type": 0,
-      "value": "Desplega el mòdul "
+      "value": "Expand "
     },
     {
       "type": 1,
@@ -1902,7 +1930,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": " module"
     }
   ],
   "simulator-gesture-3g": [
@@ -1926,109 +1954,109 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "cap avall"
+      "value": "down"
     }
   ],
   "simulator-gesture-face-down": [
     {
       "type": 0,
-      "value": "cara avall "
+      "value": "face down"
     }
   ],
   "simulator-gesture-face-up": [
     {
       "type": 0,
-      "value": "cara amunt"
+      "value": "face up"
     }
   ],
   "simulator-gesture-freefall": [
     {
       "type": 0,
-      "value": "caiguda lliure"
+      "value": "freefall"
     }
   ],
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "esquerra"
+      "value": "left"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "dreta"
+      "value": "right"
     }
   ],
   "simulator-gesture-select": [
     {
       "type": 0,
-      "value": "Tria el gest"
+      "value": "Select gesture"
     }
   ],
   "simulator-gesture-send": [
     {
       "type": 0,
-      "value": "Envia el gest"
+      "value": "Send gesture"
     }
   ],
   "simulator-gesture-shake": [
     {
       "type": 0,
-      "value": "sacseja"
+      "value": "shake"
     }
   ],
   "simulator-gesture-up": [
     {
       "type": 0,
-      "value": "amunt"
+      "value": "up"
     }
   ],
   "simulator-hide": [
     {
       "type": 0,
-      "value": "Amaga el simulador"
+      "value": "Hide simulator"
     }
   ],
   "simulator-input-hold": [
     {
       "type": 0,
-      "value": "Manté"
+      "value": "Hold"
     }
   ],
   "simulator-input-press": [
     {
       "type": 0,
-      "value": "Prem"
+      "value": "Press"
     }
   ],
   "simulator-light-level": [
     {
       "type": 0,
-      "value": "Nivell de llum"
+      "value": "Light level"
     }
   ],
   "simulator-log": [
     {
       "type": 0,
-      "value": "Registre de dades"
+      "value": "Data log"
     }
   ],
   "simulator-loud": [
     {
       "type": 0,
-      "value": "So fort"
+      "value": "Loud"
     }
   ],
   "simulator-mute": [
     {
       "type": 0,
-      "value": "Silencia"
+      "value": "Mute"
     }
   ],
   "simulator-pin-hold-label": [
     {
       "type": 0,
-      "value": "Manté premut el pin "
+      "value": "Hold pin "
     },
     {
       "type": 1,
@@ -2038,7 +2066,7 @@
   "simulator-pin-press-label": [
     {
       "type": 0,
-      "value": "Prem el pin "
+      "value": "Press pin "
     },
     {
       "type": 1,
@@ -2054,25 +2082,25 @@
   "simulator-quiet": [
     {
       "type": 0,
-      "value": "So fluix"
+      "value": "Quiet"
     }
   ],
   "simulator-radio": [
     {
       "type": 0,
-      "value": "Ràdio"
+      "value": "Radio"
     }
   ],
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "Calliope mini ha enviat:"
+      "value": "Calliope mini sent:"
     }
   ],
   "simulator-radio-group-notice": [
     {
       "type": 0,
-      "value": "Grup de ràdio establert a  "
+      "value": "Radio group set to "
     },
     {
       "type": 1,
@@ -2082,139 +2110,139 @@
   "simulator-radio-message": [
     {
       "type": 0,
-      "value": "Missatge de ràdio"
+      "value": "Radio message"
     }
   ],
   "simulator-radio-message-limit-notice": [
     {
       "type": 0,
-      "value": "Els missatges més antigs no es mostren"
+      "value": "Older messages not shown"
     }
   ],
   "simulator-radio-no-messages": [
     {
       "type": 0,
-      "value": "Cap missatge a mostrar"
+      "value": "No messages to show"
     }
   ],
   "simulator-radio-off": [
     {
       "type": 0,
-      "value": "La ràdio està tancada"
+      "value": "The radio is off"
     }
   ],
   "simulator-radio-send": [
     {
       "type": 0,
-      "value": "Envia missatge"
+      "value": "Send message"
     }
   ],
   "simulator-radio-user": [
     {
       "type": 0,
-      "value": "Has enviat:"
+      "value": "You sent:"
     }
   ],
   "simulator-reference-link": [
     {
       "type": 0,
-      "value": "Enllaç a la secció de Referència"
+      "value": "Link to Reference section"
     }
   ],
   "simulator-reset": [
     {
       "type": 0,
-      "value": "Reiniciar"
+      "value": "Reset"
     }
   ],
   "simulator-serial-terminal": [
     {
       "type": 0,
-      "value": "Terminal sèrie del simulador"
+      "value": "Simulator serial terminal"
     }
   ],
   "simulator-sound-level": [
     {
       "type": 0,
-      "value": "Nivell de so"
+      "value": "Sound level"
     }
   ],
   "simulator-start-simulator": [
     {
       "type": 0,
-      "value": "Inicia el simulador"
+      "value": "Start simulator"
     }
   ],
   "simulator-stop": [
     {
       "type": 0,
-      "value": "Atura el simulador"
+      "value": "Stop simulator"
     }
   ],
   "simulator-temperature": [
     {
       "type": 0,
-      "value": "Temperatura"
+      "value": "Temperature"
     }
   ],
   "simulator-title": [
     {
       "type": 0,
-      "value": "Simulador"
+      "value": "Simulator"
     }
   ],
   "simulator-touch-logo": [
     {
       "type": 0,
-      "value": "Logotip tàctil"
+      "value": "Touch logo"
     }
   ],
   "simulator-unmute": [
     {
       "type": 0,
-      "value": "Deixar de silenciar"
+      "value": "Unmute"
     }
   ],
   "software-versions": [
     {
       "type": 0,
-      "value": "Versions de programari"
+      "value": "Software versions"
     }
   ],
   "start-coding-action": [
     {
       "type": 0,
-      "value": "Comença a codificar"
+      "value": "Start coding"
     }
   ],
   "support": [
     {
       "type": 0,
-      "value": "Suport"
+      "value": "Support"
     }
   ],
   "terms-of-use": [
     {
       "type": 0,
-      "value": "Condicions d'ús"
+      "value": "Terms of use"
     }
   ],
   "third-party-module-explanation": [
     {
       "type": 0,
-      "value": "Aquest fitxer és un mòdul de tercers i no està pensat per ser editat."
+      "value": "This file is a third-party module and is not intended to be edited."
     }
   ],
   "third-party-module-how-to": [
     {
       "type": 0,
-      "value": "Permet editar mòduls de tercers a "
+      "value": "Allow editing third-party modules in "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Configuració"
+          "value": "Settings"
         }
       ],
       "type": 8,
@@ -2222,47 +2250,51 @@
     },
     {
       "type": 0,
-      "value": "  per modificar aquest mòdul."
+      "value": " to modify this module."
     }
   ],
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "No es pot connectar a la Calliope mini"
+      "value": "Unable to connect to the Calliope mini"
     }
   ],
   "timeout-error-title": [
     {
       "type": 0,
-      "value": "Temps de connexió esgotat"
+      "value": "Connection timed out"
     }
   ],
   "toolkit-error-loading": [
     {
       "type": 0,
-      "value": "S'ha produït un error en carregar el conjunt d'eines."
+      "value": "An error occurred loading the toolkit."
     }
   ],
   "toolkit-view-documentation": [
     {
       "type": 0,
-      "value": "Consulta la documentació de "
+      "value": "View "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " documentation"
     }
   ],
   "transfer-hex-message-one": [
     {
       "type": 0,
-      "value": "Arrossega el fitxer hexadecimal de la teva "
+      "value": "Drag the hex file from your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "carpeta de descàrregues"
+          "value": "Downloads folder"
         }
       ],
       "type": 8,
@@ -2270,13 +2302,13 @@
     },
     {
       "type": 0,
-      "value": " a la "
+      "value": " to the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "unitat MINI"
+          "value": "MINI drive"
         }
       ],
       "type": 8,
@@ -2290,13 +2322,13 @@
   "transfer-hex-message-two": [
     {
       "type": 0,
-      "value": "Pots "
+      "value": "You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "obrir"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -2304,83 +2336,75 @@
     },
     {
       "type": 0,
-      "value": " el fitxer hexadecimal més tard per continuar editant."
+      "value": " the hex file later to continue editing."
     }
   ],
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "Transfereix el fitxer hexadecimal desat a la Calliope mini"
+      "value": "Transfer saved hex file to Calliope mini"
     }
   ],
   "try-again-action": [
     {
       "type": 0,
-      "value": "Torna-ho a provar"
+      "value": "Try again"
     }
   ],
   "undo": [
     {
       "type": 0,
-      "value": "Desfer"
+      "value": "Undo"
     }
   ],
   "unexpected-error-description": [
     {
       "type": 0,
-      "value": "Si us plau, torna-ho a provar o "
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "plantejar una solicitud de suport"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": " ."
     }
   ],
   "unexpected-error-title": [
     {
       "type": 0,
-      "value": "Si us plau, torna-ho a provar o "
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "plantejar una solicitud de suport"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "untitled-project": [
     {
       "type": 0,
-      "value": "Projecte sense títol"
+      "value": "Untitled project"
     }
   ],
   "update-firmware-action": [
     {
       "type": 0,
-      "value": "Actualitza microprogramari"
+      "value": "Update firmware"
     }
   ],
   "updated-change": [
     {
       "type": 0,
-      "value": "Fitxer actualitzat "
+      "value": "Updated file "
     },
     {
       "type": 1,
@@ -2390,91 +2414,105 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "visita calliope.cc (s'obre en una pestanya nova)"
+      "value": "visit calliope.cc (opens in a new tab)"
     }
   ],
   "webusb-error-clear-connect-description-1": [
     {
       "type": 0,
-      "value": "Un altre procés està connectat a aquest dispositiu."
+      "value": "Another process is connected to this device."
     }
   ],
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "Tanca qualsevol altra pestanya que pugui utilitzar WebUSB (per exemple, MakeCode, Python Editor) o desconnecta i torna a connectar la Calliope mini abans de tornar-ho a provar."
+      "value": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the Calliope mini before trying again."
     }
   ],
   "webusb-error-clear-connect-title": [
     {
       "type": 0,
-      "value": "No es pot sol·licitar la interfície"
+      "value": "Unable to claim interface"
     }
   ],
   "webusb-error-default-title": [
     {
       "type": 0,
-      "value": "Error de WebUSB"
+      "value": "WebUSB error"
     }
   ],
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "Torna a connectar la teva Calliope mini i torna-ho a provar."
+      "value": "Please reconnect your Calliope mini and try again."
     }
   ],
   "webusb-error-update-req-description": [
     {
       "type": 0,
-      "value": "Has d<link>actualitzar el microprogramari de la teva Calliope mini </link> per fer ús daquesta característica."
+      "value": "You need to "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "update your Calliope mini firmware"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " to make use of this feature."
     }
   ],
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "Actualitza el microprogramari de la Calliope mini "
+      "value": "Please update the Calliope mini firmware"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "Malauradament, WebUSB no és compatible amb aquest navegador i el teu programa es desarà al teu ordinador. Segueix els passos de la pantalla següent per transferir-lo ala teva Calliope mini. Et recomanem Google Chrome o Microsoft Edge perquè et puguis connectar directament a la teva Calliope mini."
+      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your Calliope mini. We recommend Google Chrome or Microsoft Edge so you can connect directly to your Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
     {
       "type": 0,
-      "value": "Aquest navegador no admet WebUSB"
+      "value": "This browser does not support WebUSB"
     }
   ],
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "Amb WebUSB pots programar la teva Calliope mini i connectar-te a la consola sèrie directament des de l'editor en línia."
+      "value": "With WebUSB you can program your Calliope mini and connect to the serial console directly from the online editor."
     }
   ],
   "welcome-message": [
     {
       "type": 0,
-      "value": "Mira la nostra breu guia sobre algunes de les funcions clau o obté el programa immediatament."
+      "value": "Watch our short guide to some of the key features, or get coding right away."
     }
   ],
   "welcome-title": [
     {
       "type": 0,
-      "value": "Benvingut a l'Editor Python de la Calliope mini"
+      "value": "Welcome to the Calliope mini Python Editor"
     }
   ],
   "zoom-in-action": [
     {
       "type": 0,
-      "value": "Amplia"
+      "value": "Zoom in"
     }
   ],
   "zoom-out-action": [
     {
       "type": 0,
-      "value": "Allunya"
+      "value": "Zoom out"
     }
   ]
 }

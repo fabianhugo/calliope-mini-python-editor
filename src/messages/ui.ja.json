@@ -2,35 +2,25 @@
   "about": [
     {
       "type": 0,
-      "value": "Calliope miniについて"
+      "value": "About"
     }
   ],
   "about-comic": [
     {
       "type": 0,
-      "value": "Mike Rowbitによる「MicroPython Rocks」（MicroPython最高！）という3コマ漫画。漫画のヘビが「Damienを紹介します... 彼はMicroPythonを作成しました」と言ってDamienを紹介します。2匹のヘビがMicroPythonについて話します。黄色のヘビが「MicroPythonは非常に小さなコンピュータで動作するように設計されています」と言います。紫のヘビが「あなたのBBC Calliope miniのようにね」と応じます。黄色のヘビが「けれどもPythonはどこでも動作します」と続けます。 紫のヘビは同意して「巨大なウェブサイトを動かすこのラックのサーバーのようにね」と言います。ヘビたちの背後にはサーバーラックが見えます。"
+      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC Calliope mini\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
     }
   ],
   "about-microbit": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": "micro:bit Educational Foundationと貢献者"
-        }
-      ],
-      "type": 8,
-      "value": "link"
-    },
-    {
       "type": 0,
-      "value": "により愛を込めて作られました"
+      "value": "Made with love by the Micro:bit Educational Foundation and contributors, enhanced for the Calliope mini by Calliope and Lulububu."
     }
   ],
   "about-micropython": [
     {
       "type": 0,
-      "value": "このエディタは、Damien Georgeと世界中の開発者コミュニティによって作られた"
+      "value": "The editor depends on "
     },
     {
       "children": [
@@ -44,39 +34,35 @@
     },
     {
       "type": 0,
-      "value": "に依存しています。"
+      "value": " which is made by Damien George and a community of developers around the world."
     }
   ],
   "about-read-less-micropython": [
     {
       "type": 0,
-      "value": "MicroPythonについての詳細を非表示にする"
+      "value": "MicroPythonについて読まない"
     }
   ],
   "about-read-more-micropython": [
     {
       "type": 0,
-      "value": "MicroPythonについてもっと読む"
+      "value": "Read more about MicroPython"
     }
   ],
   "added-change": [
     {
       "type": 0,
-      "value": "ファイル "
+      "value": "Added file "
     },
     {
       "type": 1,
       "value": "changeName"
-    },
-    {
-      "type": 0,
-      "value": " を追加しました"
     }
   ],
   "api-description": [
     {
       "type": 0,
-      "value": "使用方法と例については、"
+      "value": "使用方法と例については、 "
     },
     {
       "children": [
@@ -90,7 +76,7 @@
     },
     {
       "type": 0,
-      "value": "を参照してください"
+      "value": " を参照してください。"
     }
   ],
   "api-tab": [
@@ -103,6 +89,14 @@
     {
       "offset": 0,
       "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "base class"
+            }
+          ]
+        },
         "other": {
           "value": [
             {
@@ -132,103 +126,83 @@
   "apidocs-functions": [
     {
       "type": 0,
-      "value": "関数"
+      "value": "Functions"
     }
   ],
   "apidocs-methods": [
     {
       "type": 0,
-      "value": "メソッド"
+      "value": "Methods"
     }
   ],
   "back-action": [
     {
       "type": 0,
-      "value": "戻る"
+      "value": "Back"
     }
   ],
   "back-to-main": [
     {
       "type": 0,
-      "value": "メインコードに戻る"
+      "value": "back to the main code"
     }
   ],
   "cancel-action": [
     {
       "type": 0,
-      "value": "キャンセル"
+      "value": "Cancel"
     }
   ],
   "change-files": [
     {
       "type": 0,
-      "value": "ファイルを変更しますか？"
+      "value": "Change files?"
     }
   ],
   "choose-main-add-file": [
     {
       "type": 0,
-      "value": "ファイル "
+      "value": "Add file "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " を追加"
     }
   ],
   "choose-main-add-module": [
     {
       "type": 0,
-      "value": "モジュール "
+      "value": "Add module "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " を追加"
     }
   ],
   "choose-main-replace-file": [
     {
       "type": 0,
-      "value": "ファイル "
+      "value": "Replace file "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " を置き換え"
     }
   ],
   "choose-main-replace-module": [
     {
       "type": 0,
-      "value": "モジュール "
+      "value": "Replace module "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " を置き換え"
     }
   ],
   "choose-main-source-add-file": [
     {
-      "type": 1,
-      "value": "source"
-    },
-    {
       "type": 0,
-      "value": " からファイル "
+      "value": "Add file "
     },
     {
       "type": 1,
@@ -236,23 +210,27 @@
     },
     {
       "type": 0,
-      "value": " を追加"
+      "value": " from "
+    },
+    {
+      "type": 1,
+      "value": "source"
     }
   ],
   "choose-main-source-add-main-code": [
     {
-      "type": 1,
-      "value": "source"
+      "type": 0,
+      "value": "Add main code from "
     },
     {
-      "type": 0,
-      "value": " からメインコードを追加"
+      "type": 1,
+      "value": "source"
     }
   ],
   "choose-main-source-replace-file": [
     {
       "type": 0,
-      "value": "ファイル "
+      "value": "Replace file "
     },
     {
       "type": 1,
@@ -260,89 +238,81 @@
     },
     {
       "type": 0,
-      "value": " を "
+      "value": " with "
     },
     {
       "type": 1,
       "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " に置き換え"
     }
   ],
   "choose-main-source-replace-main-code": [
     {
       "type": 0,
-      "value": "メインコードを "
+      "value": "Replace main code with "
     },
     {
       "type": 1,
       "value": "source"
-    },
-    {
-      "type": 0,
-      "value": " に置き換え"
     }
   ],
   "clear": [
     {
       "type": 0,
-      "value": "クリア"
+      "value": "Clear"
     }
   ],
   "close-action": [
     {
       "type": 0,
-      "value": "閉じる"
+      "value": "Close"
     }
   ],
   "code-editor": [
     {
       "type": 0,
-      "value": "コードエディター"
+      "value": "Code editor"
     }
   ],
   "code-example": [
     {
       "type": 0,
-      "value": "コード例:"
+      "value": "Code example:"
     }
   ],
   "confirm-action": [
     {
       "type": 0,
-      "value": "確認"
+      "value": "Confirm"
     }
   ],
   "confirm-delete": [
     {
       "type": 0,
-      "value": "削除の確認"
+      "value": "Confirm delete"
     }
   ],
   "confirm-replace-body": [
     {
       "type": 0,
-      "value": "すべてのファイルを hex に置き換えますか？"
+      "value": "Replace all files with those in the hex?"
     }
   ],
   "confirm-replace-reset": [
     {
       "type": 0,
-      "value": "すべてのファイルをデフォルトのスターターコードに置き換えますか？"
+      "value": "Replace all files with the default starter code?"
     }
   ],
   "confirm-replace-title": [
     {
       "type": 0,
-      "value": "プロジェクトの置き換えを確認"
+      "value": "Confirm replace project"
     }
   ],
   "confirm-replace-with-idea": [
     {
       "type": 0,
-      "value": "すべてのファイルを "
+      "value": "Replace all files with "
     },
     {
       "type": 1,
@@ -350,131 +320,131 @@
     },
     {
       "type": 0,
-      "value": " に置き換えますか？"
+      "value": "?"
     }
   ],
   "confirm-save-action": [
     {
       "type": 0,
-      "value": "確認して保存"
+      "value": "Confirm and save"
     }
   ],
   "confirm-save-hint": [
     {
       "type": 0,
-      "value": "キャンセルして、保存を使ってプロジェクトのコピーを保持します。"
+      "value": "Cancel then use Save to keep a copy of your project."
     }
   ],
   "connect-action": [
     {
       "type": 0,
-      "value": "接続"
+      "value": "Connect"
     }
   ],
   "connect-cable-title": [
     {
       "type": 0,
-      "value": "ケーブルを接続"
+      "value": "Connect cable"
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "「1」のラベルが付いたBBC Calliope miniエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ"
+      "value": "WebUSB connection dialog with BBC Calliope mini entry labelled 1 and Connect button labelled 2"
     }
   ],
   "connect-help-message": [
     {
       "type": 0,
-      "value": "次のポップアップ:"
+      "value": "In next popup:"
     }
   ],
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Calliope miniを選ぶ"
+      "value": "Choose your Calliope mini"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Calliope miniを選択"
+      "value": "Select Calliope mini"
     }
   ],
   "connect-help-two": [
     {
       "type": 0,
-      "value": "「接続」を選択"
+      "value": "Select ‘Connect’"
     }
   ],
   "connect-hover": [
     {
       "type": 0,
-      "value": "WebUSB経由でCalliope miniに接続"
+      "value": "Connect to your Calliope mini over WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Calliope miniに接続してシリアル出力をここに表示"
+      "value": "Connect to your Calliope mini to see serial output here"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Calliope mini接続時に発生する問題のトラブルシューティング"
+      "value": "Troubleshoot problems with connecting to your Calliope mini"
     }
   ],
   "content-load-error": [
     {
       "type": 0,
-      "value": "問題が発生しました。hex ファイルをダウンロードして、ページをリロードしてください。"
+      "value": "Something went wrong. Download your hex file for safe keeping, then refresh the page to reload."
     }
   ],
   "copied": [
     {
       "type": 0,
-      "value": "コピーしました"
+      "value": "Copied"
     }
   ],
   "copy-action": [
     {
       "type": 0,
-      "value": "コピー"
+      "value": "Copy"
     }
   ],
   "copy-code-action": [
     {
       "type": 0,
-      "value": "コードをコピー"
+      "value": "Copy code"
     }
   ],
   "create-action": [
     {
       "type": 0,
-      "value": "作る"
+      "value": "Create"
     }
   ],
   "create-file-action": [
     {
       "type": 0,
-      "value": "ファイルを作成"
+      "value": "Create file"
     }
   ],
   "create-python": [
     {
       "type": 0,
-      "value": "このプロジェクトに新しいPythonファイルを作成"
+      "value": "Create a new Python file in this project"
     }
   ],
   "created-file": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Created "
     },
     {
-      "type": 0,
-      "value": " を作成しました"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "data-protection": [
@@ -486,27 +456,27 @@
   "delete-action": [
     {
       "type": 0,
-      "value": "削除"
+      "value": "Delete"
     }
   ],
   "delete-file-action": [
     {
-      "type": 1,
-      "value": "name"
+      "type": 0,
+      "value": "Delete "
     },
     {
-      "type": 0,
-      "value": " を削除"
+      "type": 1,
+      "value": "name"
     }
   ],
   "deleted-file": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Deleted "
     },
     {
-      "type": 0,
-      "value": " を削除しました"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "disclaimer": [
@@ -518,59 +488,59 @@
   "disconnect-action": [
     {
       "type": 0,
-      "value": "切断"
+      "value": "Disconnect"
     }
   ],
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Calliope miniを切断"
+      "value": "Disconnect from the Calliope mini"
     }
   ],
   "dont-show-again": [
     {
       "type": 0,
-      "value": "今後表示しない"
+      "value": "Don't show this again"
     }
   ],
   "drag-hover": [
     {
       "type": 0,
-      "value": "ドラッグ＆ドロップ"
+      "value": "Drag and drop"
     }
   ],
   "edit-file-action": [
     {
-      "type": 1,
-      "value": "name"
+      "type": 0,
+      "value": "Edit "
     },
     {
-      "type": 0,
-      "value": " を編集"
+      "type": 1,
+      "value": "name"
     }
   ],
   "edit-name-project-hover": [
     {
       "type": 0,
-      "value": "プロジェクトの名前を編集"
+      "value": "Edit the name of your project"
     }
   ],
   "edit-project-name-action": [
     {
       "type": 0,
-      "value": "プロジェクト名を編集"
+      "value": "Edit project name"
     }
   ],
   "failed-to-build-hex": [
     {
       "type": 0,
-      "value": "hex ファイルのビルドに失敗しました"
+      "value": "Failed to build the hex file"
     }
   ],
   "feedback": [
     {
       "type": 0,
-      "value": "フィードバック"
+      "value": "Feedback"
     }
   ],
   "file-actions": [
@@ -580,19 +550,19 @@
     },
     {
       "type": 0,
-      "value": " ファイルのアクション"
+      "value": " file actions"
     }
   ],
   "file-already-exists": [
     {
       "type": 0,
-      "value": "ファイルは既に存在します"
+      "value": "This file already exists"
     }
   ],
   "file-name-invalid-character": [
     {
       "type": 0,
-      "value": "名前に無効な文字が含まれています: "
+      "value": "The name contains an invalid character: "
     },
     {
       "type": 1,
@@ -602,43 +572,43 @@
   "file-name-length": [
     {
       "type": 0,
-      "value": "名前が長すぎます"
+      "value": "The name is too long"
     }
   ],
   "file-name-lowercase-only": [
     {
       "type": 0,
-      "value": "名前はすべて小文字にする必要があります"
+      "value": "The name should be all lowercase"
     }
   ],
   "file-name-not-empty": [
     {
       "type": 0,
-      "value": "名前は空にできません"
+      "value": "The name cannot be empty"
     }
   ],
   "file-name-start-number": [
     {
       "type": 0,
-      "value": "名前を数字で始めることはできません"
+      "value": "The name cannot start with a number"
     }
   ],
   "file-name-whitespace": [
     {
       "type": 0,
-      "value": "名前にスペースを含めることはできません"
+      "value": "The name cannot contain spaces"
     }
   ],
   "firmware-update-link": [
     {
       "type": 0,
-      "value": "このCalliope miniに接続するには、"
+      "value": "You must "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ファームウェアを更新する"
+          "value": "update your firmware"
         }
       ],
       "type": 8,
@@ -646,129 +616,125 @@
     },
     {
       "type": 0,
-      "value": "必要があります。"
+      "value": " before you can connect to this Calliope mini."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "Calliope miniのファームウェアが古すぎるため、Calliope miniへの接続に失敗しました。"
+      "value": "Connecting to the Calliope mini failed because the firmware on your Calliope mini is too old."
     }
   ],
   "firmware-update-title": [
     {
       "type": 0,
-      "value": "ファームウェアの更新が必要です"
+      "value": "Firmware update required"
     }
   ],
   "flash-action": [
     {
       "type": 0,
-      "value": "書き込み"
+      "value": "Flash"
     }
   ],
   "flash-hover": [
     {
       "type": 0,
-      "value": "プロジェクトをCalliope miniに直接書き込む"
+      "value": "Flash the project directly to the Calliope mini"
     }
   ],
   "flashing-code": [
     {
       "type": 0,
-      "value": "プログラムを送信中（書き込み中）"
+      "value": "Sending code (flashing)"
     }
   ],
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "プログラムがCalliope miniに送信（書き込み）されています。最初はしばらく時間がかかることがありますが、その後は速くなります。"
+      "value": "Your code is being sent (flashed) to your Calliope mini. This can take a while the first time but it will be quicker after that."
     }
   ],
   "flashing-micropython": [
     {
       "type": 0,
-      "value": "MicroPython の書込み"
+      "value": "Flashing MicroPython"
     }
   ],
   "font-size": [
     {
       "type": 0,
-      "value": "フォントサイズ"
+      "value": "Font size"
     }
   ],
   "guide-link": [
     {
       "type": 0,
-      "value": "サポートについては、"
+      "value": "For more support, see the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Pythonエディターガイド"
+          "value": "Python Editor guide"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "を参照してください"
     }
   ],
   "help": [
     {
       "type": 0,
-      "value": "ヘルプ"
+      "value": "Help"
     }
   ],
   "help-support": [
     {
       "type": 0,
-      "value": "ヘルプとサポート"
+      "value": "Help & support"
     }
   ],
   "help-translate": [
     {
       "type": 0,
-      "value": "翻訳を手伝う"
+      "value": "Help translate"
     }
   ],
   "highlight-code-structure": [
     {
       "type": 0,
-      "value": "コード構造を強調表示"
+      "value": "Highlight code structure"
     }
   ],
   "highlight-code-structure-full": [
     {
       "type": 0,
-      "value": "全て"
+      "value": "Full"
     }
   ],
   "highlight-code-structure-none": [
     {
       "type": 0,
-      "value": "なし"
+      "value": "None"
     }
   ],
   "highlight-code-structure-simple": [
     {
       "type": 0,
-      "value": "簡易"
+      "value": "Simple"
     }
   ],
   "ideas-tab": [
     {
       "type": 0,
-      "value": "アイデア"
+      "value": "Ideas"
     }
   ],
   "ideas-tab-description": [
     {
       "type": 0,
-      "value": "これらのプロジェクトを試し、修正し、インスピレーションを得ることができます。"
+      "value": "Try out these projects, modify them and get inspired"
     }
   ],
   "imprint": [
@@ -780,31 +746,31 @@
   "insert-code-action": [
     {
       "type": 0,
-      "value": "コードを挿入"
+      "value": "Insert code"
     }
   ],
   "language": [
     {
       "type": 0,
-      "value": "言語"
+      "value": "Language"
     }
   ],
   "less-action": [
     {
       "type": 0,
-      "value": "減らす"
+      "value": "Less"
     }
   ],
   "load-error-makecode-info": [
     {
       "type": 0,
-      "value": "このhexファイルはPythonエディターで読み込むことができません。PythonエディターはMicrosoft MakeCodeで作成したhexファイルを開くことができません。"
+      "value": "This hex file cannot be loaded in the Python Editor. The Python Editor cannot open hex files created with Microsoft MakeCode."
     }
   ],
   "load-error-makecode-link": [
     {
       "type": 0,
-      "value": "この hex ファイルを使用するには、"
+      "value": "Please visit "
     },
     {
       "children": [
@@ -818,30 +784,42 @@
     },
     {
       "type": 0,
-      "value": "を参照してください。"
+      "value": " to use this hex file."
     }
   ],
   "load-error-mixed": [
     {
       "type": 0,
-      "value": "hex ファイルはそのまま読み込むことだけが可能で、プロジェクト内のすべてのファイルを置き換えます。"
+      "value": "A hex file can only be loaded on its own. It replaces all files in the project."
     }
   ],
   "load-error-mpy": [
     {
       "type": 0,
-      "value": "このバージョンのPythonエディターは現在.mpyファイルの追加をサポートしていません。"
+      "value": "This version of the Python Editor doesn't currently support adding .mpy files."
     }
   ],
   "load-error-title": [
     {
+      "type": 0,
+      "value": "Cannot load "
+    },
+    {
       "offset": 0,
       "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "file"
+            }
+          ]
+        },
         "other": {
           "value": [
             {
               "type": 0,
-              "value": "ファイル"
+              "value": "files"
             }
           ]
         }
@@ -849,44 +827,40 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "fileCount"
-    },
-    {
-      "type": 0,
-      "value": "を読み込むことができません"
     }
   ],
   "loaded-file-feedback": [
     {
-      "type": 1,
-      "value": "filename"
+      "type": 0,
+      "value": "Loaded "
     },
     {
-      "type": 0,
-      "value": " を読み込みました"
+      "type": 1,
+      "value": "filename"
     }
   ],
   "loading": [
     {
       "type": 0,
-      "value": "読み込み中…"
+      "value": "Loading…"
     }
   ],
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "5×5のLEDグリッドにハートを表示するCalliope miniボード"
+      "value": "Calliope mini board with the 5 by 5 LED grid showing a heart"
     }
   ],
   "micropython-documentation": [
     {
       "type": 0,
-      "value": "MicroPythonドキュメント"
+      "value": "MicroPython documentation"
     }
   ],
   "micropython-history": [
     {
       "type": 0,
-      "value": "Calliope mini上のMicroPythonがどのように生まれたかを学ぶ"
+      "value": "Learn how MicroPython on the Calliope mini came to be"
     }
   ],
   "micropython-source-code": [
@@ -898,7 +872,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini V1"
+          "value": "source code for the Calliope mini V1"
         }
       ],
       "type": 8,
@@ -906,13 +880,13 @@
     },
     {
       "type": 0,
-      "value": "と"
+      "value": " and "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini V2のソースコード"
+          "value": "Calliope mini V2"
         }
       ],
       "type": 8,
@@ -922,13 +896,13 @@
   "more-action": [
     {
       "type": 0,
-      "value": "増やす"
+      "value": "More"
     }
   ],
   "more-connect-options": [
     {
       "type": 0,
-      "value": "その他の接続オプション"
+      "value": "More connect options"
     }
   ],
   "more-ideas": [
@@ -936,7 +910,7 @@
       "children": [
         {
           "type": 0,
-          "value": "他のアイデア"
+          "value": "More ideas"
         }
       ],
       "type": 8,
@@ -946,13 +920,13 @@
   "more-save-options": [
     {
       "type": 0,
-      "value": "その他の保存オプション"
+      "value": "More save options"
     }
   ],
   "multiple-files-message-one": [
     {
       "type": 0,
-      "value": "このプロジェクトには "
+      "value": "This project contains "
     },
     {
       "offset": 0,
@@ -965,7 +939,7 @@
             },
             {
               "type": 0,
-              "value": " 個のファイル"
+              "value": " files"
             }
           ]
         }
@@ -976,7 +950,7 @@
     },
     {
       "type": 0,
-      "value": "が含まれますが、"
+      "value": " but only "
     },
     {
       "children": [
@@ -990,15 +964,19 @@
     },
     {
       "type": 0,
-      "value": "のみがダウンロードされています。"
+      "value": " has been downloaded."
     }
   ],
   "multiple-files-message-two": [
     {
+      "type": 0,
+      "value": "Use the "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "保存"
+          "value": "Save"
         }
       ],
       "type": 8,
@@ -1006,13 +984,13 @@
     },
     {
       "type": 0,
-      "value": "ボタンを使ってプロジェクト全体をhexファイルにダウンロードします。そのhexファイルを"
+      "value": " button to download your whole project as a hex file. You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "開く"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1020,13 +998,13 @@
     },
     {
       "type": 0,
-      "value": "とプロジェクトを復元することができます。Pythonファイルを個別にダウンロードしたいなら、"
+      "value": " the hex file to restore your project. If you prefer to download individual Python files, use the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "プロジェクト"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1034,34 +1012,38 @@
     },
     {
       "type": 0,
-      "value": "タブを使用します。"
+      "value": " tab."
     }
   ],
   "multiple-files-title": [
     {
       "type": 0,
-      "value": "注意: main.pyのみダウンロードされました"
+      "value": "Warning: Only main.py downloaded"
     }
   ],
   "name-project": [
     {
       "type": 0,
-      "value": "プロジェクトに名前を付ける"
+      "value": "Name your project"
     }
   ],
   "name-text": [
     {
       "type": 0,
-      "value": "名前"
+      "value": "Name"
     }
   ],
   "name-used-when": [
     {
       "type": 0,
-      "value": "この名前は hex ファイルを保存するときに使用されます。"
+      "value": "The name is used when you save a file."
     }
   ],
   "new-file-hint": [
+    {
+      "type": 0,
+      "value": "We'll add the "
+    },
     {
       "children": [
         {
@@ -1074,21 +1056,25 @@
     },
     {
       "type": 0,
-      "value": "拡張子を追加します。"
+      "value": " extension for you."
     }
   ],
   "next-action": [
     {
       "type": 0,
-      "value": "次"
+      "value": "Next"
     }
   ],
   "not-found-checklist-one": [
     {
+      "type": 0,
+      "value": "Is your "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "Calliope miniは接続"
+          "value": "Calliope mini plugged in"
         }
       ],
       "type": 8,
@@ -1096,13 +1082,13 @@
     },
     {
       "type": 0,
-      "value": "されていますか？"
+      "value": "? Did you "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "以下の手順"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1110,10 +1096,14 @@
     },
     {
       "type": 0,
-      "value": "に従いましたか？"
+      "value": "?"
     }
   ],
   "not-found-checklist-two": [
+    {
+      "type": 0,
+      "value": "If you have a "
+    },
     {
       "children": [
         {
@@ -1126,51 +1116,47 @@
     },
     {
       "type": 0,
-      "value": "をお持ちの場合は、"
+      "value": " you may need to "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ファームウェアを更新"
+          "value": "update the firmware"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "する必要があります。"
     }
   ],
   "not-found-message": [
     {
       "type": 0,
-      "value": "Calliope miniを選択していないか、接続中に問題が発生しました。"
+      "value": "You didn’t select a Calliope mini, or there was a problem connecting to it."
     }
   ],
   "not-found-save-message": [
     {
       "type": 0,
-      "value": "代替方法: 保存を選択し、転送する手順に従ってください"
+      "value": "Alternative method: choose Save then follow steps to transfer"
     }
   ],
   "not-found-title": [
     {
       "type": 0,
-      "value": "Calliope miniが見つかりません"
+      "value": "No Calliope mini found"
     }
   ],
   "not-found-update-link": [
     {
       "type": 0,
-      "value": "このCalliope miniに接続するには、"
+      "value": "You must "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ファームウェアを更新"
+          "value": "update your firmware before"
         }
       ],
       "type": 8,
@@ -1178,55 +1164,55 @@
     },
     {
       "type": 0,
-      "value": "する必要があります。"
+      "value": " you can connect to this Calliope mini."
     }
   ],
   "open-action": [
     {
       "type": 0,
-      "value": "開く"
+      "value": "Open"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "開く…"
+      "value": "Open…"
     }
   ],
   "open-file-dropped": [
     {
       "type": 0,
-      "value": "ドロップ時にファイルを開く"
+      "value": "Open file when dropped"
     }
   ],
   "open-hover": [
     {
       "type": 0,
-      "value": "hex ファイルまたは Python ファイルを開くか、他のファイルを追加する"
+      "value": "Open a hex or Python file or add other files"
     }
   ],
   "options": [
     {
       "type": 0,
-      "value": "オプション"
+      "value": "Options"
     }
   ],
   "parameter-help": [
     {
       "type": 0,
-      "value": "パラメータのヘルプ"
+      "value": "Parameter help"
     }
   ],
   "parameter-help-automatic": [
     {
       "type": 0,
-      "value": "自動"
+      "value": "Automatic"
     }
   ],
   "parameter-help-manual": [
     {
       "type": 0,
-      "value": "マニュアル（"
+      "value": "Manual ("
     },
     {
       "type": 1,
@@ -1234,29 +1220,33 @@
     },
     {
       "type": 0,
-      "value": "）"
+      "value": ")"
     }
   ],
   "permanently-delete": [
+    {
+      "type": 0,
+      "value": "Permanently delete "
+    },
     {
       "type": 1,
       "value": "filename"
     },
     {
       "type": 0,
-      "value": " を完全に削除しますか？"
+      "value": "?"
     }
   ],
   "post-save-message-files": [
     {
       "type": 0,
-      "value": "これには、このプロジェクト内のすべてのファイル（例えば、"
+      "value": "This contains all files in this project (including any additional files, e.g. to run accessories, listed in the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "プロジェクト"
+          "value": "Project"
         }
       ],
       "type": 8,
@@ -1264,19 +1254,19 @@
     },
     {
       "type": 0,
-      "value": "タブにリストされているアクセサリを実行するための追加ファイルを含む）が含まれています。"
+      "value": " tab)."
     }
   ],
   "post-save-message-one": [
     {
       "type": 0,
-      "value": "このコンピューターの"
+      "value": "You will find your hex file in this computer’s "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ダウンロード"
+          "value": "Downloads"
         }
       ],
       "type": 8,
@@ -1284,19 +1274,19 @@
     },
     {
       "type": 0,
-      "value": "フォルダに hex ファイルがあります。"
+      "value": " folder."
     }
   ],
   "post-save-message-two": [
     {
       "type": 0,
-      "value": "保管用の別フォルダに移動して、後で"
+      "value": "You can move it to another folder for storage and use "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "開く"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -1304,25 +1294,25 @@
     },
     {
       "type": 0,
-      "value": "を使用して編集を続けることができます。"
+      "value": " to continue editing later."
     }
   ],
   "post-save-title": [
     {
       "type": 0,
-      "value": "プロジェクトを保存しました"
+      "value": "Project saved"
     }
   ],
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "Calliope mini上のhex ファイルを実行するには"
+      "value": "To run this hex file on your Calliope mini "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "この手順に従います"
+          "value": "follow these steps"
         }
       ],
       "type": 8,
@@ -1330,49 +1320,49 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "project-actions": [
     {
       "type": 0,
-      "value": "プロジェクトアクション"
+      "value": "Project actions"
     }
   ],
   "project-header": [
     {
       "type": 0,
-      "value": "プロジェクトヘッダー"
+      "value": "Project header"
     }
   ],
   "project-name": [
     {
       "type": 0,
-      "value": "プロジェクト名"
+      "value": "Project name"
     }
   ],
   "project-name-not-empty": [
     {
       "type": 0,
-      "value": "プロジェクト名は空にできません"
+      "value": "The project name cannot be empty"
     }
   ],
   "project-tab": [
     {
       "type": 0,
-      "value": "プロジェクト"
+      "value": "Project"
     }
   ],
   "project-tab-description": [
     {
       "type": 0,
-      "value": "プロジェクト内のファイルの表示、作成、追加、編集"
+      "value": "View, create, add and edit the files in your project"
     }
   ],
   "python-powered": [
     {
       "type": 0,
-      "value": "Python搭載"
+      "value": "Python powered"
     }
   ],
   "python-tab": [
@@ -1384,55 +1374,55 @@
   "quit-anyway": [
     {
       "type": 0,
-      "value": "変更が保存されていません。終了しますか？"
+      "value": "Some of your changes have not been saved. Quit anyway?"
     }
   ],
   "read-less": [
     {
       "type": 0,
-      "value": "折りたたむ"
+      "value": "Read less"
     }
   ],
   "read-more": [
     {
       "type": 0,
-      "value": "もっと読む"
+      "value": "Read more"
     }
   ],
   "redo": [
     {
       "type": 0,
-      "value": "繰り返し"
+      "value": "Redo"
     }
   ],
   "reference-tab": [
     {
       "type": 0,
-      "value": "リファレンス"
+      "value": "Reference"
     }
   ],
   "replace-action-label": [
     {
       "type": 0,
-      "value": "置換"
+      "value": "Replace"
     }
   ],
   "reset-project-action": [
     {
       "type": 0,
-      "value": "プロジェクトをリセット"
+      "value": "Reset project"
     }
   ],
   "reset-project-feedback": [
     {
       "type": 0,
-      "value": "プロジェクトがデフォルトのスターターコードにリセットされました"
+      "value": "Project reset to the default starter code"
     }
   ],
   "reset-project-hover": [
     {
       "type": 0,
-      "value": "プロジェクトをデフォルトのスターターコードにリセットし、作業を破棄します"
+      "value": "Resets the project to the default starter code, discarding your work"
     }
   ],
   "results-count": [
@@ -1443,7 +1433,18 @@
           "value": [
             {
               "type": 0,
-              "value": "結果なし"
+              "value": "No results"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " result"
             }
           ]
         },
@@ -1454,7 +1455,7 @@
             },
             {
               "type": 0,
-              "value": "件の結果"
+              "value": " results"
             }
           ]
         }
@@ -1467,89 +1468,89 @@
   "save-action": [
     {
       "type": 0,
-      "value": "保存"
+      "value": "Save"
     }
   ],
   "save-file-action": [
     {
-      "type": 1,
-      "value": "name"
+      "type": 0,
+      "value": "Save "
     },
     {
-      "type": 0,
-      "value": " を保存"
+      "type": 1,
+      "value": "name"
     }
   ],
   "save-hex-action": [
     {
       "type": 0,
-      "value": "プロジェクトの hex を保存"
+      "value": "Save project hex"
     }
   ],
   "save-hover": [
     {
       "type": 0,
-      "value": "プロジェクトの hex ファイルをコンピュータに保存"
+      "value": "Save the project hex file to your computer"
     }
   ],
   "save-python-action": [
     {
       "type": 0,
-      "value": "Pythonスクリプトを保存"
+      "value": "Save Python script"
     }
   ],
   "search": [
     {
       "type": 0,
-      "value": "検索"
+      "value": "Search"
     }
   ],
   "send-action": [
     {
       "type": 0,
-      "value": "Calliope miniに送る"
+      "value": "Send to Calliope mini"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "WebUSBで接続してプログラムをCalliope miniに書き込む"
+      "value": "Connect via WebUSB then flash code onto Calliope mini"
     }
   ],
   "serial-collapse": [
     {
       "type": 0,
-      "value": "シリアルを隠す"
+      "value": "Hide serial"
     }
   ],
   "serial-ctrl-c-action": [
     {
       "type": 0,
-      "value": "REPL に Ctrl+C を送信"
+      "value": "Send Ctrl+C for REPL"
     }
   ],
   "serial-ctrl-d-action": [
     {
       "type": 0,
-      "value": "Ctrl+D を送信してリセット"
+      "value": "Send Ctrl+D to reset"
     }
   ],
   "serial-expand": [
     {
       "type": 0,
-      "value": "シリアルを表示"
+      "value": "Show serial"
     }
   ],
   "serial-flashed": [
     {
       "type": 0,
-      "value": "Calliope miniに書き込みました"
+      "value": "Calliope mini flashed"
     }
   ],
   "serial-help-ctrl-c": [
     {
       "type": 0,
-      "value": "キーボードショートカット "
+      "value": "Use the keyboard shortcut "
     },
     {
       "children": [
@@ -1577,13 +1578,13 @@
     },
     {
       "type": 0,
-      "value": " を使用してプログラムを中断します。すると、MicroPythonが実行するPythonコマンドを入力することができます。これは何か新しいことを試してみるのに最適な方法です。"
+      "value": " to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new."
     }
   ],
   "serial-help-ctrl-d": [
     {
       "type": 0,
-      "value": "プログラムを再起動するには、"
+      "value": "To start your program running again use "
     },
     {
       "children": [
@@ -1611,19 +1612,19 @@
     },
     {
       "type": 0,
-      "value": " を使用します。"
+      "value": "."
     }
   ],
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "シリアルターミナルはCalliope mini上で実行されているプログラムからのエラーやその他の出力を表示します。デフォルトでは、プログラムからの最新のエラーが表示されます。展開するとすべての出力を見ることができます。"
+      "value": "The serial terminal shows errors and other output from the program running on your Calliope mini. By default, it shows the most recent error from the program. Expand it to see all the output."
     }
   ],
   "serial-help-print": [
     {
       "type": 0,
-      "value": "プログラムで "
+      "value": "Your program can print messages using the "
     },
     {
       "children": [
@@ -1637,13 +1638,13 @@
     },
     {
       "type": 0,
-      "value": " 関数を使うとメッセージを出力できます。プログラムに "
+      "value": " function. Try adding "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "print('Calliope miniは素晴らしい')"
+          "value": "print('Calliope mini is awesome')"
         }
       ],
       "type": 8,
@@ -1651,213 +1652,217 @@
     },
     {
       "type": 0,
-      "value": " を追加してみてください。"
+      "value": " to your program."
     }
   ],
   "serial-help-title": [
     {
       "type": 0,
-      "value": "シリアルのヒントと秘訣"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-hints-and-tips": [
     {
       "type": 0,
-      "value": "シリアルのヒントと秘訣"
+      "value": "Serial hints and tips"
     }
   ],
   "serial-menu": [
     {
       "type": 0,
-      "value": "シリアルメニュー"
+      "value": "Serial menu"
     }
   ],
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "Calliope miniの書き込み準備ができました"
+      "value": "Calliope mini ready to flash"
     }
   ],
   "serial-running": [
     {
       "type": 0,
-      "value": "実行中…"
+      "value": "Running…"
     }
   ],
   "serial-terminal": [
     {
       "type": 0,
-      "value": "シリアルターミナル"
+      "value": "Serial terminal"
     }
   ],
   "setting-allow-editing-third-party": [
     {
       "type": 0,
-      "value": "サードパーティ製モジュールの編集を許可"
+      "value": "Allow editing third-party modules"
     }
   ],
   "setting-allow-editing-third-party-info": [
     {
       "type": 0,
-      "value": "サードパーティ製モジュールを変更すると、意図した通りに動作しない可能性があります。"
+      "value": "Changing third-party modules may mean they don’t work as intended."
     }
   ],
   "settings": [
     {
       "type": 0,
-      "value": "設定"
+      "value": "Settings"
     }
   ],
   "show-api-documentation": [
     {
       "type": 0,
-      "value": "APIドキュメントを表示"
+      "value": "Show API documentation"
     }
   ],
   "show-less": [
     {
       "type": 0,
-      "value": "表示を減らす"
+      "value": "Show less"
     }
   ],
   "show-less-for": [
     {
-      "type": 1,
-      "value": "item"
+      "type": 0,
+      "value": "Show less for "
     },
     {
-      "type": 0,
-      "value": " の表示を減らす"
+      "type": 1,
+      "value": "item"
     }
   ],
   "show-more": [
     {
       "type": 0,
-      "value": "詳細を表示"
+      "value": "Show more"
     }
   ],
   "show-more-for": [
     {
-      "type": 1,
-      "value": "item"
+      "type": 0,
+      "value": "Show more for "
     },
     {
-      "type": 0,
-      "value": " の詳細を表示"
+      "type": 1,
+      "value": "item"
     }
   ],
   "sidebar": [
     {
       "type": 0,
-      "value": "サイドバー"
+      "value": "Sidebar"
     }
   ],
   "sidebar-collapse": [
     {
       "type": 0,
-      "value": "サイドバーを隠す"
+      "value": "Collapse sidebar"
     }
   ],
   "sidebar-expand": [
     {
       "type": 0,
-      "value": "サイドバーを表示"
+      "value": "Expand sidebar"
     }
   ],
   "simulator-accelerometer": [
     {
       "type": 0,
-      "value": "加速度センサー"
+      "value": "Accelerometer"
     }
   ],
   "simulator-actions": [
     {
       "type": 0,
-      "value": "シミュレーターアクション"
+      "value": "Simulator actions"
     }
   ],
   "simulator-button-a": [
     {
       "type": 0,
-      "value": "Aボタン"
+      "value": "Button A"
     }
   ],
   "simulator-button-b": [
     {
       "type": 0,
-      "value": "Bボタン"
+      "value": "Button B"
     }
   ],
   "simulator-button-hold-label": [
     {
-      "type": 1,
-      "value": "button"
+      "type": 0,
+      "value": "Hold button "
     },
     {
-      "type": 0,
-      "value": " ボタンを長押し"
+      "type": 1,
+      "value": "button"
     }
   ],
   "simulator-button-press-label": [
     {
-      "type": 1,
-      "value": "button"
+      "type": 0,
+      "value": "Press button "
     },
     {
-      "type": 0,
-      "value": " ボタンを押す"
+      "type": 1,
+      "value": "button"
     }
   ],
   "simulator-buttons": [
     {
       "type": 0,
-      "value": "ボタン"
+      "value": "Buttons"
     }
   ],
   "simulator-collapse": [
     {
       "type": 0,
-      "value": "シミュレーターを隠す"
+      "value": "Collapse simulator"
     }
   ],
   "simulator-collapse-module": [
+    {
+      "type": 0,
+      "value": "Collapse "
+    },
     {
       "type": 1,
       "value": "title"
     },
     {
       "type": 0,
-      "value": " モジュールを隠す"
+      "value": " module"
     }
   ],
   "simulator-compass": [
     {
       "type": 0,
-      "value": "コンパス"
+      "value": "Compass"
     }
   ],
   "simulator-compass-heading-one": [
     {
       "type": 0,
-      "value": "方角"
+      "value": "Heading"
     }
   ],
   "simulator-compass-heading-two": [
     {
       "type": 0,
-      "value": "磁場強度"
+      "value": "Magnetic field strength"
     }
   ],
   "simulator-data-logging-empty": [
     {
       "type": 0,
-      "value": "ログはありません。"
+      "value": "No log entries."
     }
   ],
   "simulator-data-logging-full": [
     {
       "type": 0,
-      "value": "ログ満杯"
+      "value": "Log full"
     }
   ],
   "simulator-data-logging-rows": [
@@ -1868,7 +1873,18 @@
           "value": [
             {
               "type": 0,
-              "value": "ログに記録された行がありません"
+              "value": "No rows logged"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " row logged"
             }
           ]
         },
@@ -1879,7 +1895,7 @@
             },
             {
               "type": 0,
-              "value": "行がログに記録されています"
+              "value": " rows logged"
             }
           ]
         }
@@ -1892,29 +1908,33 @@
   "simulator-data-logging-save-log": [
     {
       "type": 0,
-      "value": "ログを保存"
+      "value": "Save log"
     }
   ],
   "simulator-data-logging-truncated": [
     {
       "type": 0,
-      "value": "古い行は表示されていません"
+      "value": "Older rows not shown"
     }
   ],
   "simulator-expand": [
     {
       "type": 0,
-      "value": "シミュレーターを展開"
+      "value": "Expand simulator"
     }
   ],
   "simulator-expand-module": [
+    {
+      "type": 0,
+      "value": "Expand "
+    },
     {
       "type": 1,
       "value": "title"
     },
     {
       "type": 0,
-      "value": " モジュールを展開"
+      "value": " module"
     }
   ],
   "simulator-gesture-3g": [
@@ -1938,307 +1958,295 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "ロゴが下になった"
+      "value": "down"
     }
   ],
   "simulator-gesture-face-down": [
     {
       "type": 0,
-      "value": "画面が下になった"
+      "value": "face down"
     }
   ],
   "simulator-gesture-face-up": [
     {
       "type": 0,
-      "value": "画面が上になった"
+      "value": "face up"
     }
   ],
   "simulator-gesture-freefall": [
     {
       "type": 0,
-      "value": "落とした"
+      "value": "freefall"
     }
   ],
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "左に傾けた"
+      "value": "left"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "右に傾けた"
+      "value": "right"
     }
   ],
   "simulator-gesture-select": [
     {
       "type": 0,
-      "value": "ジェスチャーを選択"
+      "value": "Select gesture"
     }
   ],
   "simulator-gesture-send": [
     {
       "type": 0,
-      "value": "ジェスチャーを送信"
+      "value": "Send gesture"
     }
   ],
   "simulator-gesture-shake": [
     {
       "type": 0,
-      "value": "ゆさぶられた"
+      "value": "shake"
     }
   ],
   "simulator-gesture-up": [
     {
       "type": 0,
-      "value": "ロゴが上になった"
+      "value": "up"
     }
   ],
   "simulator-hide": [
     {
       "type": 0,
-      "value": "シミュレーターを隠す"
+      "value": "Hide simulator"
     }
   ],
   "simulator-input-hold": [
     {
       "type": 0,
-      "value": "長押し"
+      "value": "Hold"
     }
   ],
   "simulator-input-press": [
     {
       "type": 0,
-      "value": "押す"
+      "value": "Press"
     }
   ],
   "simulator-light-level": [
     {
       "type": 0,
-      "value": "照度レベル"
+      "value": "Light level"
     }
   ],
   "simulator-log": [
     {
       "type": 0,
-      "value": "データログ"
+      "value": "Data log"
     }
   ],
   "simulator-loud": [
     {
       "type": 0,
-      "value": "大音量"
+      "value": "Loud"
     }
   ],
   "simulator-mute": [
     {
       "type": 0,
-      "value": "ミュート"
+      "value": "Mute"
     }
   ],
   "simulator-pin-hold-label": [
     {
       "type": 0,
-      "value": "端子 "
+      "value": "Hold pin "
     },
     {
       "type": 1,
       "value": "pin"
-    },
-    {
-      "type": 0,
-      "value": " を長押し"
     }
   ],
   "simulator-pin-press-label": [
     {
       "type": 0,
-      "value": "端子 "
+      "value": "Press pin "
     },
     {
       "type": 1,
       "value": "pin"
-    },
-    {
-      "type": 0,
-      "value": " を押す"
     }
   ],
   "simulator-pins": [
     {
       "type": 0,
-      "value": "端子"
+      "value": "Pins"
     }
   ],
   "simulator-quiet": [
     {
       "type": 0,
-      "value": "小音量"
+      "value": "Quiet"
     }
   ],
   "simulator-radio": [
     {
       "type": 0,
-      "value": "無線"
+      "value": "Radio"
     }
   ],
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "Calliope miniの送信:"
+      "value": "Calliope mini sent:"
     }
   ],
   "simulator-radio-group-notice": [
     {
       "type": 0,
-      "value": "無線グループを "
+      "value": "Radio group set to "
     },
     {
       "type": 1,
       "value": "groupNumber"
-    },
-    {
-      "type": 0,
-      "value": " に設定"
     }
   ],
   "simulator-radio-message": [
     {
       "type": 0,
-      "value": "無線メッセージ"
+      "value": "Radio message"
     }
   ],
   "simulator-radio-message-limit-notice": [
     {
       "type": 0,
-      "value": "古いメッセージは表示されていません"
+      "value": "Older messages not shown"
     }
   ],
   "simulator-radio-no-messages": [
     {
       "type": 0,
-      "value": "表示するメッセージはありません"
+      "value": "No messages to show"
     }
   ],
   "simulator-radio-off": [
     {
       "type": 0,
-      "value": "無線は無効になっています"
+      "value": "The radio is off"
     }
   ],
   "simulator-radio-send": [
     {
       "type": 0,
-      "value": "メッセージを送信"
+      "value": "Send message"
     }
   ],
   "simulator-radio-user": [
     {
       "type": 0,
-      "value": "あなたの送信:"
+      "value": "You sent:"
     }
   ],
   "simulator-reference-link": [
     {
       "type": 0,
-      "value": "参照セクションへのリンク"
+      "value": "Link to Reference section"
     }
   ],
   "simulator-reset": [
     {
       "type": 0,
-      "value": "リセット"
+      "value": "Reset"
     }
   ],
   "simulator-serial-terminal": [
     {
       "type": 0,
-      "value": "シミュレーターシリアルターミナル"
+      "value": "Simulator serial terminal"
     }
   ],
   "simulator-sound-level": [
     {
       "type": 0,
-      "value": "サウンドレベル"
+      "value": "Sound level"
     }
   ],
   "simulator-start-simulator": [
     {
       "type": 0,
-      "value": "シミュレーターを開始"
+      "value": "Start simulator"
     }
   ],
   "simulator-stop": [
     {
       "type": 0,
-      "value": "シミュレーターを停止"
+      "value": "Stop simulator"
     }
   ],
   "simulator-temperature": [
     {
       "type": 0,
-      "value": "温度"
+      "value": "Temperature"
     }
   ],
   "simulator-title": [
     {
       "type": 0,
-      "value": "シミュレーター"
+      "value": "Simulator"
     }
   ],
   "simulator-touch-logo": [
     {
       "type": 0,
-      "value": "タッチロゴ"
+      "value": "Touch logo"
     }
   ],
   "simulator-unmute": [
     {
       "type": 0,
-      "value": "ミュート解除"
+      "value": "Unmute"
     }
   ],
   "software-versions": [
     {
       "type": 0,
-      "value": "ソフトウェアのバージョン"
+      "value": "Software versions"
     }
   ],
   "start-coding-action": [
     {
       "type": 0,
-      "value": "プログラミングを開始"
+      "value": "Start coding"
     }
   ],
   "support": [
     {
       "type": 0,
-      "value": "サポート"
+      "value": "Support"
     }
   ],
   "terms-of-use": [
     {
       "type": 0,
-      "value": "利用規約"
+      "value": "Terms of use"
     }
   ],
   "third-party-module-explanation": [
     {
       "type": 0,
-      "value": "このファイルはサードパーティ製モジュールであり、編集するものではありません。"
+      "value": "This file is a third-party module and is not intended to be edited."
     }
   ],
   "third-party-module-how-to": [
     {
       "type": 0,
-      "value": "このモジュールを変更するには、"
+      "value": "Allow editing third-party modules in "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "設定"
+          "value": "Settings"
         }
       ],
       "type": 8,
@@ -2246,47 +2254,51 @@
     },
     {
       "type": 0,
-      "value": "でサードパーティ製モジュールの編集を許可します。"
+      "value": " to modify this module."
     }
   ],
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "Calliope miniに接続できません"
+      "value": "Unable to connect to the Calliope mini"
     }
   ],
   "timeout-error-title": [
     {
       "type": 0,
-      "value": "接続がタイムアウトしました"
+      "value": "Connection timed out"
     }
   ],
   "toolkit-error-loading": [
     {
       "type": 0,
-      "value": "ツールキットの読み込み中にエラーが発生しました。"
+      "value": "An error occurred loading the toolkit."
     }
   ],
   "toolkit-view-documentation": [
+    {
+      "type": 0,
+      "value": "View "
+    },
     {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": "ドキュメントを表示"
+      "value": " documentation"
     }
   ],
   "transfer-hex-message-one": [
     {
       "type": 0,
-      "value": "hex ファイルを"
+      "value": "Drag the hex file from your "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ダウンロードフォルダ"
+          "value": "Downloads folder"
         }
       ],
       "type": 8,
@@ -2294,13 +2306,13 @@
     },
     {
       "type": 0,
-      "value": "から"
+      "value": " to the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "MINIドライブ"
+          "value": "MINI drive"
         }
       ],
       "type": 8,
@@ -2308,19 +2320,19 @@
     },
     {
       "type": 0,
-      "value": "へドラッグします。"
+      "value": "."
     }
   ],
   "transfer-hex-message-two": [
     {
       "type": 0,
-      "value": "後で hex ファイルを"
+      "value": "You can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "開く"
+          "value": "Open"
         }
       ],
       "type": 8,
@@ -2328,139 +2340,127 @@
     },
     {
       "type": 0,
-      "value": "と編集を続けることができます。"
+      "value": " the hex file later to continue editing."
     }
   ],
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "保存された hex ファイルをCalliope miniに転送する"
+      "value": "Transfer saved hex file to Calliope mini"
     }
   ],
   "try-again-action": [
     {
       "type": 0,
-      "value": "もう一度やり直す"
+      "value": "Try again"
     }
   ],
   "undo": [
     {
       "type": 0,
-      "value": "元に戻す"
+      "value": "Undo"
     }
   ],
   "unexpected-error-description": [
     {
       "type": 0,
-      "value": "もう一度やり直すか、"
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "サポートリクエストを提出"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "してください"
     }
   ],
   "unexpected-error-title": [
     {
       "type": 0,
-      "value": "もう一度やり直すか、"
+      "value": "Please try again or "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "サポートリクエストを提出"
+          "value": "raise a support request"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "してください"
     }
   ],
   "untitled-project": [
     {
       "type": 0,
-      "value": "無題プロジェクト"
+      "value": "Untitled project"
     }
   ],
   "update-firmware-action": [
     {
       "type": 0,
-      "value": "ファームウェアを更新"
+      "value": "Update firmware"
     }
   ],
   "updated-change": [
     {
       "type": 0,
-      "value": "ファイル "
+      "value": "Updated file "
     },
     {
       "type": 1,
       "value": "changeName"
-    },
-    {
-      "type": 0,
-      "value": " を更新しました"
     }
   ],
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "microbit.orgにアクセスします（新しいタブで開きます）"
+      "value": "visit calliope.cc (opens in a new tab)"
     }
   ],
   "webusb-error-clear-connect-description-1": [
     {
       "type": 0,
-      "value": "別のプロセスがこのデバイスに接続されています。"
+      "value": "Another process is connected to this device."
     }
   ],
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "WebUSBを使用している他のタブ（MakeCode、Pythonエディターなど）を閉じるか、Calliope miniを抜き差ししてやり直してください。"
+      "value": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the Calliope mini before trying again."
     }
   ],
   "webusb-error-clear-connect-title": [
     {
       "type": 0,
-      "value": "インタフェースを要求できません"
+      "value": "Unable to claim interface"
     }
   ],
   "webusb-error-default-title": [
     {
       "type": 0,
-      "value": "WebUSBエラー"
+      "value": "WebUSB error"
     }
   ],
   "webusb-error-reconnect-microbit-description": [
     {
       "type": 0,
-      "value": "Calliope miniを再接続して、やり直してください。"
+      "value": "Please reconnect your Calliope mini and try again."
     }
   ],
   "webusb-error-update-req-description": [
     {
       "type": 0,
-      "value": "この機能を利用するには、"
+      "value": "You need to "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope miniファームウェアを更新"
+          "value": "update your Calliope mini firmware"
         }
       ],
       "type": 8,
@@ -2468,55 +2468,55 @@
     },
     {
       "type": 0,
-      "value": "する必要があります。"
+      "value": " to make use of this feature."
     }
   ],
   "webusb-error-update-req-title": [
     {
       "type": 0,
-      "value": "Calliope mini のファームウェアを更新してください。"
+      "value": "Please update the Calliope mini firmware"
     }
   ],
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "残念ながら、WebUSBはこのブラウザではサポートされていないので、代わりにプログラムをコンピュータに保存します。 次の画面の手順に従ってCalliope miniに転送してください。Calliope miniと直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。"
+      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your Calliope mini. We recommend Google Chrome or Microsoft Edge so you can connect directly to your Calliope mini."
     }
   ],
   "webusb-not-supported-title": [
     {
       "type": 0,
-      "value": "このブラウザはWebUSBに対応していません"
+      "value": "This browser does not support WebUSB"
     }
   ],
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "WebUSBを使用すると、オンラインエディターから直接Calliope miniをプログラムしたり、シリアルコンソールに接続できます。"
+      "value": "With WebUSB you can program your Calliope mini and connect to the serial console directly from the online editor."
     }
   ],
   "welcome-message": [
     {
       "type": 0,
-      "value": "主要な機能のいくつかについての短いガイドを見るか、すぐにプログラミングを始めることができます。"
+      "value": "Watch our short guide to some of the key features, or get coding right away."
     }
   ],
   "welcome-title": [
     {
       "type": 0,
-      "value": "Calliope mini Pythonエディターへようこそ"
+      "value": "Welcome to the Calliope mini Python Editor"
     }
   ],
   "zoom-in-action": [
     {
       "type": 0,
-      "value": "拡大"
+      "value": "Zoom in"
     }
   ],
   "zoom-out-action": [
     {
       "type": 0,
-      "value": "縮小"
+      "value": "Zoom out"
     }
   ]
 }
