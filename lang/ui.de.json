@@ -8,7 +8,7 @@
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und Mitwirkenden.",
+    "defaultMessage": "Optimiert von Calliope und Lulubu für den Calliope mini, erstellt von der Micro:bit Educational Foundation und ihren Mitwirkenden.",
     "description": "Text in about dialog"
   },
   "about-micropython": {
