@@ -348,10 +348,10 @@ const getDragPasteData = (fullName: string, kind: string): PasteContext => {
   if (!parts[parts.length - 1].match(/^[A-Z0-9_]+$/)) {
     parts = parts.map((p) => classToInstanceMap[p] ?? p);
   }
-  const isMicrobit = parts[0] === "microbit";
-  const nameAsWeImportIt = isMicrobit ? parts.slice(1) : parts;
+  const isCalliopeMini = parts[0] === "calliopemini";
+  const nameAsWeImportIt = isCalliopeMini ? parts.slice(1) : parts;
   const code = nameAsWeImportIt.join(".") + (kind === "function" ? "()" : "");
-  const requiredImport = isMicrobit
+  const requiredImport = isCalliopeMini
     ? `from calliopemini import *`
     : `import ${parts[0]}`;
   const full = `${requiredImport}\n${code}`;
