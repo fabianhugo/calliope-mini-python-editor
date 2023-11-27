@@ -62,7 +62,7 @@ describe("ApiNode", () => {
 
 describe("getDragContext", () => {
   it("creates the correct dragContext with a micro:bit function", () => {
-    const context = getDragContext("microbit.display.clear", "function");
+    const context = getDragContext("calliopemini.display.clear", "function");
     expect(context.type).toEqual("call");
     expect(context.code).toEqual("from calliopemini import *\ndisplay.clear()");
   });
@@ -74,11 +74,11 @@ describe("getDragContext", () => {
   });
 
   it("creates the correct dragContext with a micro:bit variable", () => {
-    const context = getDragContext("microbit.Sound.GIGGLE", "variable");
+    const context = getDragContext("calliopemini.Sound.GIGGLE", "variable");
     expect(context.type).toEqual("example");
     expect(context.code).toEqual("from calliopemini import *\nSound.GIGGLE");
 
-    const altContext = getDragContext("microbit.Image.HEART", "variable");
+    const altContext = getDragContext("calliopemini.Image.HEART", "variable");
     expect(altContext.type).toEqual("example");
     expect(altContext.code).toEqual("from calliopemini import *\nImage.HEART");
   });
@@ -90,7 +90,7 @@ describe("getDragContext", () => {
   });
 
   it("creates the correct dragContext with a micro:bit class", () => {
-    const context = getDragContext("microbit.MicroBitTouchPin", "class");
+    const context = getDragContext("calliopemini.MicroBitTouchPin", "class");
     expect(context.type).toEqual("example");
     expect(context.code).toEqual(`from calliopemini import *\npin0`);
   });
