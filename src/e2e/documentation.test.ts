@@ -43,6 +43,7 @@ describe("documentaion", () => {
       "Select image:",
       "silly" // "Image.SILLY"
     );
+    await app.waitForTimeout(500);
     await app.toggleCodeActionButton("Images: built-in");
     await app.copyCode();
     await app.pasteToolkitCode();

@@ -664,6 +664,11 @@ export class App {
     });
   }
 
+  async waitForTimeout(timeout: number): Promise<void> {
+    const page = await this.page;
+    await page.waitForTimeout(timeout);
+  }
+
   async copyCode(): Promise<void> {
     const document = await this.document();
     const copyCodeButton = await document.findByRole("button", {
