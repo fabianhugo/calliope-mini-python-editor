@@ -60,7 +60,7 @@ describe("documentaion", () => {
 
     // There's some weird trailing whitespace in this snippet that needs fixing in the content.
     const expected =
-      "from calliopemini import *\n\n\ndisplay.scroll('score')    \ndisplay.scroll(23)\n#1\n#2\n#3\n";
+      "from calliopemini import *\n\n\ndisplay.scroll('Number:')    \ndisplay.scroll(42)\n#1\n#2\n#3\n";
 
     await app.findVisibleEditorContents(expected);
   });
