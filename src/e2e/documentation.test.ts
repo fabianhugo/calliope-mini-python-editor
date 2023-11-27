@@ -83,7 +83,7 @@ describe("documentaion", () => {
   });
 
   it("Select an idea", async () => {
-    const ideaName = "Emotion badge";
+    const ideaName = "Show emotions";
     await app.switchTab("Ideas");
     await app.selectDocumentationIdea(ideaName);
     await app.findDocumentationTopLevelHeading(ideaName);
