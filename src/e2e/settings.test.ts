@@ -16,11 +16,11 @@ describe("settings", () => {
 
   it("sets language via URL", async () => {
     app.setOptions({
-      language: "fr",
+      language: "de",
     });
     await app.reset();
     // French via the URL
-    await app.findProjectName("Projet sans titre");
+    await app.findProjectName("Unbenanntes Projekt");
 
     await app.switchLanguage("en");
     await app.reset();
@@ -30,8 +30,8 @@ describe("settings", () => {
 
   it("switches language", async () => {
     // NOTE: the app methods generally won't still work after changing language.
-    await app.switchLanguage("fr");
-    await app.findProjectName("Projet sans titre");
+    await app.switchLanguage("de");
+    await app.findProjectName("Unbenanntes Projekt");
     await app.switchLanguage("en");
     await app.findProjectName("Untitled project");
   });

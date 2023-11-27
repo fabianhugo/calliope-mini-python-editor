@@ -675,10 +675,9 @@ export class App {
   async pasteToolkitCode(): Promise<void> {
     await this.focusEditorContent();
     const keyboard = (await this.page).keyboard;
-    const meta = process.platform === "darwin" ? "Meta" : "Control";
-    await keyboard.down(meta);
-    await keyboard.press("v");
-    await keyboard.up(meta);
+    await keyboard.down("Shift");
+    await keyboard.press("Insert");
+    await keyboard.up("Shift");
   }
 
   async selectToolkitDropDownOption(
