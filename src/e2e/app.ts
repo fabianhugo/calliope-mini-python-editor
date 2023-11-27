@@ -675,9 +675,16 @@ export class App {
   async pasteToolkitCode(): Promise<void> {
     await this.focusEditorContent();
     const keyboard = (await this.page).keyboard;
-    await keyboard.down("Shift");
-    await keyboard.press("Insert");
-    await keyboard.up("Shift");
+
+    if (process.platform === "darwin") {
+      await keyboard.down("Shift");
+      await keyboard.press("Insert");
+      await keyboard.up("Shift");
+    } else {
+      await keyboard.down("Control");
+      await keyboard.press("v");
+      await keyboard.up("Control");
+    }
   }
 
   async selectToolkitDropDownOption(
