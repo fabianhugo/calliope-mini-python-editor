@@ -68,7 +68,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Reference"
+          "value": "Toolkit"
         }
       ],
       "type": 8,
@@ -1394,7 +1394,7 @@
   "reference-tab": [
     {
       "type": 0,
-      "value": "Reference"
+      "value": "Toolkit"
     }
   ],
   "replace-action-label": [

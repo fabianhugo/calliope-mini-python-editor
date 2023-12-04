@@ -68,7 +68,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Referenz"
+          "value": "Bibliothek"
         }
       ],
       "type": 8,
@@ -1414,7 +1414,7 @@
   "reference-tab": [
     {
       "type": 0,
-      "value": "Referenz"
+      "value": "Bibliothek"
     }
   ],
   "replace-action-label": [
