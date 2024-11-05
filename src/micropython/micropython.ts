@@ -14,15 +14,15 @@ export const microPythonConfig = {
       name: "MicroPython (Calliope mini V1-V2)",
       url: microPythonCalliopeV1V2HexUrl,
       boardId: microbitBoardId.V1, // 39168 | 0x9900
-      version: "1.9.2",
+      version: "1.1.1",
       web: "https://github.com/calliope-edu/micropython-calliope-mini/tree/minidal",
     },
     {
       name: "MicroPython (Calliope mini V3)",
       url: microPythonCalliopeV3HexUrl,
       boardId: microbitBoardId.V2, // 39171 | 0x9903
-      version: "2.1.1",
-      web: "https://github.com/calliope-edu/micropython-calliope-mini-v3/tree/v2.1.1-cmini3",
+      version: "2.1.2b",
+      web: "https://github.com/calliope-edu/micropython-calliope-mini-v3/tree/oct24-mini3",
     },
   ],
   // We've previously used this field to allow flags to affect

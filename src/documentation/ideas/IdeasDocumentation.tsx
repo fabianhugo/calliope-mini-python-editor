@@ -150,7 +150,7 @@ const ActiveLevel = ({
             link: (chunks: ReactNode) => (
               <Link
                 color="brand.500"
-                href="https://calliope.cc/schulen/unterrichtsmaterial?schulstufe=sek1"
+                href="https://calliope.cc/schulen/unterrichtsmaterial?editor=python"
                 target="_blank"
                 rel="noopener"
               >
